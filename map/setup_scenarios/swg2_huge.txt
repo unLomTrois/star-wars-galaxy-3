@@ -2438,6 +2438,7 @@ static_galaxy_scenario = {
 	add_hyperlane = { from = "2125" to = "2126" }
 	add_hyperlane = { from = "2126" to = "2127" }
 	add_hyperlane = { from = "2127" to = "2128" }
+	add_hyperlane = { from = "2127" to = "2123" }
 	add_hyperlane = { from = "2128" to = "2130" }
 	add_hyperlane = { from = "2130" to = "2129" }
 	add_hyperlane = { from = "2130" to = "2136" }
@@ -2603,6 +2604,7 @@ static_galaxy_scenario = {
 	add_hyperlane = { from = "139" to = "2241" }
 	add_hyperlane = { from = "2241" to = "2242" }
 	add_hyperlane = { from = "2242" to = "2243" }
+	add_hyperlane = { from = "2242" to = "134" }
 	add_hyperlane = { from = "2243" to = "2244" }
 	add_hyperlane = { from = "2244" to = "2245" }
 	add_hyperlane = { from = "2245" to = "2246" }
@@ -2674,6 +2676,7 @@ static_galaxy_scenario = {
 	add_hyperlane = { from = "2284" to = "2287" }
 	add_hyperlane = { from = "2284" to = "2285" }
 	add_hyperlane = { from = "2287" to = "2102" }
+	add_hyperlane = { from = "2287" to = "2103" }
 	add_hyperlane = { from = "2285" to = "2286" }
 	add_hyperlane = { from = "2286" to = "127" }
 	add_hyperlane = { from = "2288" to = "2107" }
@@ -2682,6 +2685,7 @@ static_galaxy_scenario = {
 	add_hyperlane = { from = "2290" to = "2170" }
 	add_hyperlane = { from = "2290" to = "2292" }
 	add_hyperlane = { from = "2292" to = "2291" }
+	add_hyperlane = { from = "2291" to = "2288" }
 	add_hyperlane = { from = "2292" to = "2293" }
 	add_hyperlane = { from = "2293" to = "2295" }
 	add_hyperlane = { from = "2295" to = "2294" }
@@ -2704,8 +2708,10 @@ static_galaxy_scenario = {
 	add_hyperlane = { from = "2307" to = "2180" }
 	add_hyperlane = { from = "2307" to = "2305" }
 	add_hyperlane = { from = "2305" to = "2306" }
+	add_hyperlane = { from = "2306" to = "2311" }
 	add_hyperlane = { from = "2303" to = "131" }
 	add_hyperlane = { from = "2303" to = "2304" }
+	add_hyperlane = { from = "2310" to = "2323" }
 	add_hyperlane = { from = "2312" to = "2311" }
 	add_hyperlane = { from = "2312" to = "2230" }
 	add_hyperlane = { from = "2312" to = "2313" }
@@ -2727,9 +2733,11 @@ static_galaxy_scenario = {
 	add_hyperlane = { from = "2318" to = "2185" }
 	add_hyperlane = { from = "2301" to = "2171" }
 	add_hyperlane = { from = "2301" to = "2302" }
+	add_hyperlane = { from = "2301" to = "2292" }
 	add_hyperlane = { from = "2302" to = "2172" }
 	add_hyperlane = { from = "2179" to = "2326" }
 	add_hyperlane = { from = "2326" to = "2327" }
+	add_hyperlane = { from = "2327" to = "2358" }
 
 
 
