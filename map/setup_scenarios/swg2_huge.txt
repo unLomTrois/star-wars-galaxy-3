@@ -465,29 +465,29 @@ static_galaxy_scenario = {
 	system = { id = "423" name = "Ronyards" position = { x = -115 y = 105 } }
 	system = { id = "424" name = "Chardaan" position = { x = -116 y = 129 } }
 	system = { id = "425" name = "Babbadod" position = { x = -117 y = 133 } }
-	system = { id = "426" name = "Shibirc" position = { x = -117 y = 148 } }
+	system = { id = "426" name = "Shibric" position = { x = -117 y = 148 } }
 	system = { id = "427" name = "Baroli" position = { x = -116 y = 169 } }
-	system = { id = "428" name = "Gacerian" position = { x = -116 y = 178 } }
-	system = { id = "429" name = "Ragith" position = { x = -115 y = 184 } }
-	system = { id = "430" name = "Majoor" position = { x = -115 y = 192 } }
-	system = { id = "431" name = "Ramordia" position = { x = -114 y = 198 } }
-	system = { id = "432" name = "Arrgaw" position = { x = -111 y = 223 } }
-	system = { id = "433" name = "Pax" position = { x = -110 y = 231 } }
-	system = { id = "434" name = "ZeHeth" position = { x = -106 y = 254 } }
-	system = { id = "435" name = "Malastare" position = { x = -104 y = 262 } }
-	system = { id = "436" name = "Chryya" position = { x = -98 y = 295 } }
-	system = { id = "437" name = "Darkknell" position = { x = -94 y = 307 } }
-	system = { id = "438" name = "Cmaoli Di" position = { x = -91 y = 316 } }
-	system = { id = "439" name = "Uvena" position = { x = -86 y = 335 } }
-	system = { id = "440" name = "Eriadu" position = { x = -77 y = 345 } }
-	system = { id = "441" name = "Averam" position = { x = -72 y = 353 } }
-	system = { id = "442" name = "Shumavar" position = { x = -44 y = 392 } }
-	system = { id = "443" name = "Atravis" position = { x = -35 y = 403 } }
-	system = { id = "444" name = "Tosste" position = { x = -16 y = 425 } }
-	system = { id = "445" name = "Rutan" position = { x = -5 y = 438 } }
-	system = { id = "446" name = "Fwatna" position = { x = 14 y = 456 } }
-	system = { id = "447" name = "Terminus" position = { x = 35 y = 477 } }
-	system = { id = "448" name = "Imynusoph" position = { x = 53 y = 482 } }
+	system = { id = "428" name = "Gacerian" position = { x = -116 y = 186 } }
+	system = { id = "429" name = "Ragith" position = { x = -115 y = 192 } }
+	system = { id = "430" name = "Majoor" position = { x = -115 y = 201 } }
+	system = { id = "431" name = "Ramordia" position = { x = -114 y = 207 } }
+	system = { id = "432" name = "Arrgaw" position = { x = -111 y = 232 } }
+	system = { id = "433" name = "Pax" position = { x = -110 y = 240 } }
+	system = { id = "434" name = "ZeHeth" position = { x = -106 y = 263 } }
+	system = { id = "435" name = "Malastare" position = { x = -104 y = 271 } }
+	system = { id = "436" name = "Chryya" position = { x = -98 y = 294 } }
+	system = { id = "437" name = "Darkknell" position = { x = -94 y = 306 } }
+	system = { id = "438" name = "Cmaoli Di" position = { x = -91 y = 315 } }
+	system = { id = "439" name = "Uvena" position = { x = -86 y = 334 } }
+	system = { id = "440" name = "Eriadu" position = { x = -77 y = 344 } }
+	system = { id = "441" name = "Averam" position = { x = -72 y = 352 } }
+	system = { id = "442" name = "Shumavar" position = { x = -44 y = 391 } }
+	system = { id = "443" name = "Atravis" position = { x = -35 y = 402 } }
+	system = { id = "444" name = "Tosste" position = { x = -16 y = 424 } }
+	system = { id = "445" name = "Rutan" position = { x = -5 y = 437 } }
+	system = { id = "446" name = "Fwatna" position = { x = 14 y = 455 } }
+	system = { id = "447" name = "Terminus" position = { x = 35 y = 476 } }
+	system = { id = "448" name = "Imynusoph" position = { x = 53 y = 481 } }
 	# Free ids up to 500
 
 	add_hyperlane = { from = "8" to = "400" }
