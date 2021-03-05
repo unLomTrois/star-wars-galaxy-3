@@ -4635,7 +4635,6 @@ static_galaxy_scenario = {
 
 
 
-
 	### Upper Western Reaches
 	system = { id = "3510" name = "Cilpar" position = { x = 0 y = 114 } }
 	system = { id = "3511" name = "Laakteen Depot" position = { x = -1 y = 119 } }
