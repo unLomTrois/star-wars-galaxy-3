@@ -4635,6 +4635,7 @@ static_galaxy_scenario = {
 
 
 
+
 	### Upper Western Reaches
 	system = { id = "3510" name = "Cilpar" position = { x = 0 y = 114 } }
 	system = { id = "3511" name = "Laakteen Depot" position = { x = -1 y = 119 } }
@@ -4770,7 +4771,7 @@ static_galaxy_scenario = {
 	add_hyperlane = { from = "3561" to = "3562" }
 
 
-	
+
 
 
 	# system = { id = "1570000" name = "Mrlsst" position = { x = -14 y = 115 } }
