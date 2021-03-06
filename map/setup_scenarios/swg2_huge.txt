@@ -4772,6 +4772,243 @@ static_galaxy_scenario = {
 
 
 
+	### Nothoiin Corridor & Koda Spur
+	system = { id = "3590" name = "Dolla" position = { x = -12 y = 351 } }
+	system = { id = "3591" name = "Bavva" position = { x = 30 y = 350 } }
+	system = { id = "3592" name = "Saila Na" position = { x = 33 y = 350 } }
+	system = { id = "3593" name = "Nothoiin" position = { x = 35 y = 351 } }
+	system = { id = "3594" name = "Council" position = { x = 39 y = 350 } }
+	system = { id = "3595" name = "Mijos" position = { x = 46 y = 347 } }
+	system = { id = "3596" name = "Yarith One" position = { x = 47 y = 349 } }
+	system = { id = "3597" name = "Yarith Two" position = { x = 49 y = 351 } }
+	system = { id = "3598" name = "Lutrillia" position = { x = 52 y = 351 } }
+	system = { id = "3599" name = "Yarith Three" position = { x = 54 y = 351 } }
+	system = { id = "3600" name = "Cuthbern" position = { x = 67 y = 349 } }
+	system = { id = "3601" name = "Remitik" position = { x = 84 y = 340 } }
+	system = { id = "3602" name = "Ryoone" position = { x = 115 y = 327 } }
+	system = { id = "3603" name = "Koda Station" position = { x = 137 y = 334 } }
+	# Free ids up to 3620
+
+	add_hyperlane = { from = "3590" to = "440" }
+	add_hyperlane = { from = "3590" to = "3591" }
+	add_hyperlane = { from = "3591" to = "3592" }
+	add_hyperlane = { from = "3592" to = "3593" }
+	add_hyperlane = { from = "3593" to = "3594" }
+	add_hyperlane = { from = "3594" to = "240" }
+	add_hyperlane = { from = "240" to = "3595" }
+	add_hyperlane = { from = "3595" to = "3596" }
+	add_hyperlane = { from = "3596" to = "3597" }
+	add_hyperlane = { from = "3597" to = "3598" }
+	add_hyperlane = { from = "3598" to = "3599" }
+	add_hyperlane = { from = "3599" to = "3600" }
+	add_hyperlane = { from = "3600" to = "3601" }
+	add_hyperlane = { from = "3601" to = "3602" }
+	add_hyperlane = { from = "3602" to = "3603" }
+
+
+
+
+	### Juvex & Senex Sector
+	system = { id = "3620" name = "Q'mara" position = { x = -4 y = 337 } }
+	system = { id = "3621" name = "Velga" position = { x = -5 y = 336 } }
+	system = { id = "3622" name = "Pieldi" position = { x = -3 y = 335 } }
+	system = { id = "3623" name = "Dramassia" position = { x = -2 y = 336 } }
+	system = { id = "3624" name = "Umthyg" position = { x = 1 y = 336 } }
+	system = { id = "3625" name = "Farstone" position = { x = 1 y = 337 } }
+	system = { id = "3626" name = "Dasoor" position = { x = 4 y = 336 } }
+	system = { id = "3627" name = "Pirralor" position = { x = -2 y = 333 } }
+	system = { id = "3628" name = "K'ath" position = { x = 0 y = 333 } }
+	system = { id = "3629" name = "Talhovi" position = { x = 1 y = 332 } }
+	system = { id = "3630" name = "Thull's Vault" position = { x = 1 y = 333 } }
+	system = { id = "3631" name = "Arporatal-Lanin" position = { x = 1 y = 334 } }
+	system = { id = "3632" name = "Little Talhovi" position = { x = 1 y = 330 } }
+	system = { id = "3633" name = "Resti Kel" position = { x = -4 y = 330 } }
+	system = { id = "3634" name = "Malador" position = { x = -5 y = 329 } }
+	system = { id = "3635" name = "Carsanza" position = { x = -2 y = 329 } }
+	system = { id = "3636" name = "Zyluria" position = { x = -1 y = 330 } }
+	system = { id = "3637" name = "Valorsi" position = { x = -1 y = 328 } }
+	system = { id = "3638" name = "Zaria" position = { x = -6 y = 328 } }
+	system = { id = "3639" name = "Anstares" position = { x = -7 y = 326 } }
+	system = { id = "3640" name = "Deminol" position = { x = -8 y = 325 } }
+	system = { id = "3641" name = "Ossiathora" position = { x = -7 y = 324 } }
+	system = { id = "3642" name = "Kassido" position = { x = -5 y = 323 } }
+	system = { id = "3643" name = "Yhifar" position = { x = -3 y = 323 } }
+	system = { id = "3644" name = "Kardura" position = { x = -2 y = 324 } }
+	system = { id = "3645" name = "Dioll" position = { x = -1 y = 326 } }
+	system = { id = "3646" name = "Thermon" position = { x = -2 y = 327 } }
+	system = { id = "3647" name = "Selenius" position = { x = -5 y = 318 } }
+	system = { id = "3648" name = "Argul" position = { x = -8 y = 317 } }
+	system = { id = "3649" name = "Ogem" position = { x = -4 y = 315 } }
+	system = { id = "3650" name = "Tarsa" position = { x = 0 y = 317 } }
+	system = { id = "3651" name = "Manforgon" position = { x = -7 y = 321 } }
+	system = { id = "3652" name = "Mussubir" position = { x = -9 y = 320 } }
+	system = { id = "3653" name = "Cyimarra" position = { x = -12 y = 320 } }
+	system = { id = "3654" name = "Skartis" position = { x = -12 y = 322 } }
+	system = { id = "3655" name = "Loovria" position = { x = -7 y = 334 } }
+	system = { id = "3656" name = "Tinallis" position = { x = -9 y = 332 } }
+	system = { id = "3657" name = "Vulcar" position = { x = -7 y = 331 } }
+	system = { id = "3658" name = "Tyluun" position = { x = -6 y = 331 } }
+	system = { id = "3659" name = "Kimm Aurek" position = { x = -10 y = 331 } }
+	system = { id = "3660" name = "Juvex" position = { x = -11 y = 330 } }
+	system = { id = "3661" name = "Kalgo" position = { x = -12 y = 330 } }
+	system = { id = "3662" name = "Denebia" position = { x = -15 y = 331 } }
+	system = { id = "3663" name = "Anturus" position = { x = -17 y = 331 } }
+	system = { id = "3664" name = "Karfeddion" position = { x = -19 y = 332 } }
+	system = { id = "3665" name = "Atron" position = { x = -18 y = 333 } }
+	system = { id = "3666" name = "Port Evokk" position = { x = -18 y = 334 } }
+	system = { id = "3667" name = "Tekurr'k" position = { x = -17 y = 335 } }
+	system = { id = "3668" name = "Doreen" position = { x = -12 y = 332 } }
+	system = { id = "3669" name = "Usnia" position = { x = -12 y = 333 } }
+	system = { id = "3670" name = "Varadan" position = { x = -12 y = 335 } }
+	system = { id = "3671" name = "Kamur" position = { x = -12 y = 336 } }
+	system = { id = "3672" name = "Tranthellix" position = { x = -13 y = 334 } }
+	system = { id = "3673" name = "Osmani" position = { x = -14 y = 334 } }
+	system = { id = "3674" name = "Shoon" position = { x = -15 y = 334 } }
+	system = { id = "3675" name = "Antiquity" position = { x = -16 y = 335 } }
+	system = { id = "3676" name = "Bator Bai" position = { x = -13 y = 332 } }
+	system = { id = "3677" name = "Suliana" position = { x = -15 y = 333 } }
+	system = { id = "3678" name = "Jalarren" position = { x = -16 y = 333 } }
+	system = { id = "3679" name = "Voorsbain" position = { x = -16 y = 332 } }
+	system = { id = "3680" name = "Yetoom Na Uun" position = { x = -15 y = 337 } }
+	system = { id = "3681" name = "Boro-borosa" position = { x = -19 y = 335 } }
+	system = { id = "3682" name = "Serat" position = { x = -20 y = 334 } }
+	system = { id = "3683" name = "Hovan 99" position = { x = -21 y = 335 } }
+	system = { id = "3684" name = "Belsavis" position = { x = -20 y = 338 } initializer = belsavis_system_initializer }
+	system = { id = "3685" name = "Ossel" position = { x = -22 y = 338 } }
+	system = { id = "3686" name = "Garnib" position = { x = -24 y = 337 } }
+	system = { id = "3687" name = "Fengrine" position = { x = -21 y = 330 } }
+	system = { id = "3688" name = "Neelanon" position = { x = -22 y = 327 } }
+	system = { id = "3689" name = "Crovna" position = { x = -23 y = 328 } }
+	system = { id = "3690" name = "Asmeru" position = { x = -24 y = 328 } }
+	system = { id = "3691" name = "Angratha" position = { x = -24 y = 330 } }
+	system = { id = "3692" name = "Hestria" position = { x = -24 y = 332 } }
+	system = { id = "3693" name = "Simoom" position = { x = -22 y = 333 } }
+	system = { id = "3694" name = "Kedorzha" position = { x = -24 y = 334 } }
+	system = { id = "3695" name = "Tibrin" position = { x = -35 y = 336 } }
+	system = { id = "3696" name = "Senex" position = { x = -22 y = 325 } }
+	system = { id = "3697" name = "Rindao" position = { x = -22 y = 323 } }
+	system = { id = "3698" name = "Parada" position = { x = -23 y = 321 } }
+	system = { id = "3699" name = "Knores" position = { x = -21 y = 325 } }
+	system = { id = "3700" name = "Nars" position = { x = -20 y = 328 } }
+	system = { id = "3701" name = "Adoris" position = { x = -18 y = 326 } }
+	system = { id = "3702" name = "Hutlar" position = { x = -18 y = 329 } }
+	system = { id = "3703" name = "Nepoy" position = { x = -17 y = 327 } }
+	system = { id = "3704" name = "Caltinia" position = { x = -16 y = 325 } }
+	system = { id = "3705" name = "Rulaar" position = { x = -14 y = 325 } }
+	system = { id = "3706" name = "Aquella" position = { x = -14 y = 326 } }
+	system = { id = "3707" name = "Paramatan" position = { x = -13 y = 323 } }
+	system = { id = "3708" name = "Nantama" position = { x = -12 y = 325 } }
+	system = { id = "3709" name = "Presteen" position = { x = -15 y = 322 } }
+	system = { id = "3710" name = "Veron" position = { x = -15 y = 320 } }
+	system = { id = "3711" name = "New Cylimba" position = { x = -15 y = 318 } }
+	# Free ids up to 3730
+
+	add_hyperlane = { from = "3620" to = "3590" }
+	add_hyperlane = { from = "3620" to = "3621" }
+	add_hyperlane = { from = "3621" to = "3622" }
+	add_hyperlane = { from = "3621" to = "3655" }
+	add_hyperlane = { from = "3622" to = "3623" }
+	add_hyperlane = { from = "3622" to = "3627" }
+	add_hyperlane = { from = "3623" to = "3624" }
+	add_hyperlane = { from = "3624" to = "3625" }
+	add_hyperlane = { from = "3624" to = "3626" }
+	add_hyperlane = { from = "3627" to = "3628" }
+	add_hyperlane = { from = "3627" to = "3633" }
+	add_hyperlane = { from = "3628" to = "3629" }
+	add_hyperlane = { from = "3629" to = "3630" }
+	add_hyperlane = { from = "3629" to = "3632" }
+	add_hyperlane = { from = "3630" to = "3631" }
+	add_hyperlane = { from = "3633" to = "3634" }
+	add_hyperlane = { from = "3634" to = "3635" }
+	add_hyperlane = { from = "3634" to = "3638" }
+	add_hyperlane = { from = "3634" to = "3646" }
+	add_hyperlane = { from = "3635" to = "3636" }
+	add_hyperlane = { from = "3635" to = "3637" }
+	add_hyperlane = { from = "3638" to = "3639" }
+	add_hyperlane = { from = "3639" to = "3640" }
+	add_hyperlane = { from = "3640" to = "3641" }
+	add_hyperlane = { from = "3641" to = "3642" }
+	add_hyperlane = { from = "3642" to = "3643" }
+	add_hyperlane = { from = "3642" to = "3647" }
+	add_hyperlane = { from = "3642" to = "3651" }
+	add_hyperlane = { from = "3643" to = "3644" }
+	add_hyperlane = { from = "3644" to = "3645" }
+	add_hyperlane = { from = "3645" to = "3646" }
+	add_hyperlane = { from = "3647" to = "3648" }
+	add_hyperlane = { from = "3647" to = "3649" }
+	add_hyperlane = { from = "3649" to = "3650" }
+	add_hyperlane = { from = "3651" to = "3652" }
+	add_hyperlane = { from = "3652" to = "3653" }
+	add_hyperlane = { from = "3653" to = "3654" }
+	add_hyperlane = { from = "3653" to = "3710" }
+	add_hyperlane = { from = "3655" to = "3656" }
+	add_hyperlane = { from = "3656" to = "3657" }
+	add_hyperlane = { from = "3656" to = "3659" }
+	add_hyperlane = { from = "3657" to = "3658" }
+	add_hyperlane = { from = "3659" to = "3660" }
+	add_hyperlane = { from = "3660" to = "3661" }
+	add_hyperlane = { from = "3661" to = "3662" }
+	add_hyperlane = { from = "3661" to = "3668" }
+	add_hyperlane = { from = "3661" to = "3676" }
+	add_hyperlane = { from = "3662" to = "3663" }
+	add_hyperlane = { from = "3662" to = "3677" }
+	add_hyperlane = { from = "3663" to = "3664" }
+	add_hyperlane = { from = "3663" to = "3679" }
+	add_hyperlane = { from = "3664" to = "3665" }
+	add_hyperlane = { from = "3664" to = "3687" }
+	add_hyperlane = { from = "3664" to = "3702" }
+	add_hyperlane = { from = "3665" to = "3666" }
+	add_hyperlane = { from = "3665" to = "3681" }
+	add_hyperlane = { from = "3666" to = "3667" }
+	add_hyperlane = { from = "3666" to = "3678" }
+	add_hyperlane = { from = "3667" to = "3675" }
+	add_hyperlane = { from = "3667" to = "3680" }
+	add_hyperlane = { from = "3667" to = "3684" }
+	add_hyperlane = { from = "3668" to = "3669" }
+	add_hyperlane = { from = "3669" to = "3670" }
+	add_hyperlane = { from = "3669" to = "3672" }
+	add_hyperlane = { from = "3670" to = "3671" }
+	add_hyperlane = { from = "3672" to = "3673" }
+	add_hyperlane = { from = "3673" to = "3674" }
+	add_hyperlane = { from = "3674" to = "3675" }
+	add_hyperlane = { from = "3674" to = "3677" }
+	add_hyperlane = { from = "3676" to = "3677" }
+	add_hyperlane = { from = "3677" to = "3678" }
+	add_hyperlane = { from = "3677" to = "3679" }
+	add_hyperlane = { from = "3680" to = "3590" }
+	add_hyperlane = { from = "3681" to = "3682" }
+	add_hyperlane = { from = "3682" to = "3683" }
+	add_hyperlane = { from = "3684" to = "3685" }
+	add_hyperlane = { from = "3685" to = "3686" }
+	add_hyperlane = { from = "3686" to = "3695" }
+	add_hyperlane = { from = "3687" to = "3688" }
+	add_hyperlane = { from = "3688" to = "3689" }
+	add_hyperlane = { from = "3688" to = "3696" }
+	add_hyperlane = { from = "3689" to = "3690" }
+	add_hyperlane = { from = "3689" to = "3691" }
+	add_hyperlane = { from = "3690" to = "3695" }
+	add_hyperlane = { from = "3691" to = "3692" }
+	add_hyperlane = { from = "3692" to = "3693" }
+	add_hyperlane = { from = "3692" to = "3694" }
+	add_hyperlane = { from = "3696" to = "3697" }
+	add_hyperlane = { from = "3696" to = "3699" }
+	add_hyperlane = { from = "3697" to = "3698" }
+	add_hyperlane = { from = "3699" to = "3700" }
+	add_hyperlane = { from = "3699" to = "3701" }
+	add_hyperlane = { from = "3701" to = "3704" }
+	add_hyperlane = { from = "3702" to = "3703" }
+	add_hyperlane = { from = "3703" to = "3704" }
+	add_hyperlane = { from = "3704" to = "3705" }
+	add_hyperlane = { from = "3704" to = "3709" }
+	add_hyperlane = { from = "3705" to = "3706" }
+	add_hyperlane = { from = "3705" to = "3707" }
+	add_hyperlane = { from = "3705" to = "3708" }
+	add_hyperlane = { from = "3709" to = "3710" }
+	add_hyperlane = { from = "3710" to = "3711" }
+
+	
+
+
 
 	# system = { id = "1570000" name = "Mrlsst" position = { x = -14 y = 115 } }
 	# system = { id = "1830000" name = "Devaron" position = { x = -61 y = 114 } }
@@ -4798,18 +5035,10 @@ static_galaxy_scenario = {
 	# system = { id = "8520000" name = "Miztoc" position = { x = 8 y = 288 } }
 	# system = { id = "8540000" name = "Cyphar" position = { x = -4 y = 297 } }
 	# system = { id = "8550000" name = "Feenix" position = { x = 2 y = 293 } }
-	# system = { id = "8560000" name = "Ogem" position = { x = -3 y = 310 } }
-	# system = { id = "8570000" name = "Tarsa" position = { x = 1 y = 312 } }
-	# system = { id = "8580000" name = "Selenius" position = { x = -5 y = 313 } }
-	# system = { id = "8590000" name = "New Cylimba" position = { x = -15 y = 312 } }
-	# system = { id = "8600000" name = "Zyluria" position = { x = -2 y = 324 } }
-	# system = { id = "8610000" name = "Tinallis" position = { x = -9 y = 327 } }
-	# system = { id = "8620000" name = "Juvex" position = { x = -11 y = 325 } }
 	# system = { id = "8630000" name = "Eiattu" position = { x = -44 y = 301 } }
 	# system = { id = "8650000" name = "Indupar" position = { x = -72 y = 288 } }
 	# system = { id = "8670000" name = "StarForge Nebula" position = { x = -54 y = 297 } }
 	# system = { id = "8680000" name = "Rindao" position = { x = -22 y = 318 } }
-	# system = { id = "8690000" name = "Parada" position = { x = -23 y = 315 } }
 	# system = { id = "8910000" name = "Gilatter" position = { x = 112 y = -211 } }
 	# system = { id = "8930000" name = "Rago" position = { x = 131 y = -195 } }
 	# system = { id = "8940000" name = "Sinton" position = { x = 121 y = -205 } }
@@ -4829,10 +5058,8 @@ static_galaxy_scenario = {
 	# system = { id = "10320000" name = "Murgo" position = { x = 133 y = -184 } }
 	# system = { id = "10330000" name = "The Red Twins" position = { x = 128 y = -213 } }
 	# system = { id = "10350000" name = "Utegetu Nebula" position = { x = 148 y = -162 } }
-	# system = { id = "20850000" name = "Neelanon" position = { x = -22 y = 322 } }
 	# system = { id = "22280000" name = "Jedha" position = { x = -299 y = -11 } }
 	# system = { id = "22300000" name = "Sarkhai" position = { x = -253 y = 162 } }
-	# system = { id = "30000" name = "Bavva" position = { x = 35 y = 343 } }
 	# system = { id = "2100000" name = "Virgillia" position = { x = 127 y = 359 } }
 	# system = { id = "2110000" name = "Lipsec" position = { x = 141 y = 356 } }
 	# system = { id = "2120000" name = "Sump" position = { x = 106 y = 368 } }
@@ -4847,10 +5074,7 @@ static_galaxy_scenario = {
 	# system = { id = "2270000" name = "Subterrel" position = { x = -7 y = 469 } }
 	# system = { id = "2370000" name = "Peritor" position = { x = -83 y = 463 } }
 	# system = { id = "2480000" name = "Mustafar" position = { x = -8 y = 415 } initializer = mustafar_system_initializer }
-	# system = { id = "2500000" name = "Koda Station" position = { x = 142 y = 328 } }
 	# system = { id = "2530000" name = "Bortras" position = { x = -73 y = 328 } }
-	# system = { id = "2540000" name = "Belsavis" position = { x = -20 y = 332 } initializer = belsavis_system_initializer }
-	# system = { id = "2550000" name = "Garnib" position = { x = -25 y = 331 } }
 	# system = { id = "2570000" name = "Bespin" position = { x = 49 y = 346 } initializer = bespin_system_initializer }
 	# system = { id = "2580000" name = "Hoth" position = { x = 49 y = 355 } initializer = hoth_system_initializer }
 	# system = { id = "2620000" name = "Bettel" position = { x = 38 y = 367 } }
@@ -4862,7 +5086,6 @@ static_galaxy_scenario = {
 	# system = { id = "3050000" name = "Utaruun" position = { x = -319 y = 258 } }
 	# system = { id = "5010000" name = "Malestrom Nebula" position = { x = 7 y = -309 } }
 	# system = { id = "5770000" name = "Drackmar" position = { x = -169 y = -253 } }
-	# system = { id = "20000000" name = "Dolla" position = { x = -13 y = 345 } }
 	# system = { id = "20270000" name = "Ileenium" position = { x = -171 y = 317 } }
 	# system = { id = "20350000" name = "Elrood" position = { x = -79 y = 424 } }
 	# system = { id = "20530000" name = "Oon" position = { x = -471 y = -198 } }
