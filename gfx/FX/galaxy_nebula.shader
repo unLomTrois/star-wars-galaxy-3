@@ -112,14 +112,14 @@ PixelShader =
 		float4 main( VS_OUTPUT v ) : PDX_COLOR
 		{
 			float4 vDiffuse = tex2D( NebulaTexture, v.vUV );
-			vDiffuse.a = saturate( vDiffuse.a * 6.0f );
+			vDiffuse.a = saturate( vDiffuse.a * 7.0f );
 			float4 vColor = tex2D( ColorTexture, v.vUV  );
 
 			float vTI = CalcTerraIncognitaValue( v.vPos.xy, TerraIncognitaTexture );
 
 			float4 vBorderColor = tex2Dproj( Border, v.vScreenCoord );
 
-			vBorderColor.a = saturate( vBorderColor.a * 0.1f ); // 0.5
+			vBorderColor.a = saturate( vBorderColor.a * 0.5f ); // 0.5
 			vColor.rgb = lerp( vColor.rgb, vBorderColor.rgb * 0.1f,  vBorderColor.a ); // was 2.0 - doesn't make borders brighter above nebulas
 
 			float4 vTIColor = ApplyTerraIncognitaValue( vColor, TI_GRAY_BRIGHTNESS, vTI );
