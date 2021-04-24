@@ -948,7 +948,7 @@ static_galaxy_scenario = {
 	system = { id = "950" name = "Rendili" position = { x = -81 y = 0 } }
 	system = { id = "951" name = "Seyugi" position = { x = -93 y = -10 } }
 	system = { id = "952" name = "Samaria" position = { x = -84 y = 15 } }
-	system = { id = "953" name = "Recopia" position = { x = -89 y = 24 } }
+	system = { id = "953" name = "Loedorvia" position = { x = 44 y = 51 } }
 	system = { id = "954" name = "Phemis" position = { x = -82 y = 24 } }
 	system = { id = "955" name = "Goorla" position = { x = -75 y = 22 } }
 	system = { id = "956" name = "Aurea" position = { x = -76 y = 27 } }
@@ -985,7 +985,6 @@ static_galaxy_scenario = {
 	system = { id = "987" name = "Inysh" position = { x = 60 y = 78 } }
 	system = { id = "988" name = "Questal" position = { x = 59 y = 67 } }
 	system = { id = "989" name = "Osssorck Nebulae" position = { x = 51 y = 63 } }
-	system = { id = "990" name = "Loedorvia" position = { x = 44 y = 51 } }
 	# Free ids up to 1050
 
 	add_hyperlane = { from = "754" to = "913" }
@@ -1066,7 +1065,6 @@ static_galaxy_scenario = {
 	add_hyperlane = { from = "951" to = "410" }
 	add_hyperlane = { from = "952" to = "413" }
 	add_hyperlane = { from = "952" to = "110" }
-	add_hyperlane = { from = "954" to = "953" }
 	add_hyperlane = { from = "954" to = "112" }
 	add_hyperlane = { from = "955" to = "110" }
 	add_hyperlane = { from = "955" to = "111" }
@@ -1110,7 +1108,7 @@ static_galaxy_scenario = {
 	add_hyperlane = { from = "980" to = "659" }
 	add_hyperlane = { from = "981" to = "978" }
 	add_hyperlane = { from = "981" to = "985" }
-	add_hyperlane = { from = "985" to = "990" }
+	add_hyperlane = { from = "985" to = "953" }
 	add_hyperlane = { from = "985" to = "989" }
 	add_hyperlane = { from = "985" to = "986" }
 	add_hyperlane = { from = "985" to = "984" }
@@ -1191,8 +1189,8 @@ static_galaxy_scenario = {
 	system = { id = "1099" name = "Mrisst" position = { x = 31 y = -109 } }
 	system = { id = "1100" name = "Alabash" position = { x = 37 y = -107 } }
 	system = { id = "1101" name = "Sif-Uwana" position = { x = 34 y = -125 } }
-	system = { id = "1103" name = "Reecee" position = { x = 67 y = -122 } }
 	system = { id = "1102" name = "Batorine" position = { x = 65 y = -114 } }
+	system = { id = "1103" name = "Reecee" position = { x = 67 y = -122 } }
 	system = { id = "1104" name = "Thrantin OM81-A" position = { x = 73 y = -94 } }
 	system = { id = "1105" name = "Selvaris" position = { x = 105 y = -102 } }
 	system = { id = "1106" name = "Arat Fraca" position = { x = -86 y = 62 } }
@@ -2664,6 +2662,7 @@ static_galaxy_scenario = {
 	system = { id = "2325" name = "Secundus Ando" position = { x = -265 y = 226 } }
 	system = { id = "2326" name = "Argovia" position = { x = -350 y = 166 } }
 	system = { id = "2327" name = "Kolanda (Station)" position = { x = -379 y = 151 } }
+	system = { id = "2328" name = "Scarif" position = { x = -368 y = 202 } }
 	# Free ids up to 2350
 
 	add_hyperlane = { from = "126" to = "2280" }
@@ -2737,6 +2736,8 @@ static_galaxy_scenario = {
 	add_hyperlane = { from = "2179" to = "2326" }
 	add_hyperlane = { from = "2326" to = "2327" }
 	add_hyperlane = { from = "2327" to = "2358" }
+	add_hyperlane = { from = "2328" to = "2184" }
+	add_hyperlane = { from = "2328" to = "2185" }
 
 
 
@@ -3173,9 +3174,9 @@ static_galaxy_scenario = {
 	system = { id = "2633" name = "Malagarr" position = { x = -500 y = -150 } }
 	system = { id = "2634" name = "Skeebo" position = { x = -460 y = -157 } }
 	system = { id = "2635" name = "Baummu" position = { x = -458 y = -159 } }
+	system = { id = "2636" name = "Gand" position = { x = -434 y = -158 } }
 	system = { id = "2637" name = "Maldra" position = { x = -463 y = -165 } }
 	system = { id = "2638" name = "Targonn" position = { x = -479 y = -175 } }
-	system = { id = "2636" name = "Gand" position = { x = -434 y = -158 } }
 	system = { id = "2639" name = "OHS1782-03" position = { x = -405 y = -184 } }
 	system = { id = "2640" name = "Jubilar" position = { x = -406 y = -179 } }
 	system = { id = "2641" name = "Toong'l" position = { x = -440 y = -182 } }
@@ -3415,8 +3416,8 @@ static_galaxy_scenario = {
 	system = { id = "2785" name = "Vactooine" position = { x = -332 y = 279 } }
 	system = { id = "2786" name = "Tarnoonga" position = { x = -334 y = 281 } }
 	system = { id = "2787" name = "Cirus" position = { x = -336 y = 286 } }
-	system = { id = "2789" name = "Siskeen" position = { x = -346 y = 281 } }
 	system = { id = "2788" name = "Melnea's World" position = { x = -335 y = 271 } }
+	system = { id = "2789" name = "Siskeen" position = { x = -346 y = 281 } }
 	system = { id = "2790" name = "Dagu" position = { x = -389 y = 265 } }
 	system = { id = "2791" name = "Excarga" position = { x = -414 y = 259 } }
 	system = { id = "2792" name = "Rannon" position = { x = -406 y = 286 } }
@@ -5037,7 +5038,7 @@ static_galaxy_scenario = {
 	system = { id = "3757" name = "Yarith Five" position = { x = 55 y = 348 } }
 	system = { id = "3758" name = "Yarith Six" position = { x = 57 y = 342 } }
 	system = { id = "3759" name = "Yarith Seven" position = { x = 55 y = 337 } }
-	system = { id = "3760" name = "Malor-77" position = { x = 50 y = 318 } }
+	system = { id = "3760" name = "Lorta" position = { x = 50 y = 318 } }
 	system = { id = "3761" name = "Quaensan Prime" position = { x = 49 y = 309 } }
 	system = { id = "3762" name = "Elbara" position = { x = 57 y = 296 } }
 	system = { id = "3763" name = "Hirsi" position = { x = 61 y = 293 } }
@@ -5060,7 +5061,7 @@ static_galaxy_scenario = {
 	system = { id = "3780" name = "Vassek" position = { x = 101 y = 317 } }
 	system = { id = "3781" name = "Kalzeron" position = { x = 110 y = 312 } }
 	system = { id = "3782" name = "Bri'ahl" position = { x = 119 y = 316 } }
-	system = { id = "3783" name = "Lanteeb" position = { x = 125 y = 304 } }
+	system = { id = "3783" name = "Malor-77" position = { x = 125 y = 304 } }
 	system = { id = "3784" name = "Bastooine" position = { x = 110 y = 298 } }
 	system = { id = "3785" name = "Kaellin" position = { x = 114 y = 290 } }
 	system = { id = "3786" name = "Corbett Cluster" position = { x = 116 y = 285 } }
