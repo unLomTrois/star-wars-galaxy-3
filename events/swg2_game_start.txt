@@ -1,0 +1,119 @@
+namespace = swg2_game_start
+
+event = {
+	id = swg2_game_start.1
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		every_country = {
+			country_event = { id = swg2_game_start.2 }
+			if = {
+				limit = { is_ai = yes is_country_type = default }
+				fire_on_action = {
+					on_action = on_game_start_country
+				}
+				fire_on_action = {
+					on_action = empire_init_add_technologies
+				}
+				capital_scope = {
+					fire_on_action = {
+						on_action = empire_init_capital_planet
+					}
+				}
+				fire_on_action = {
+					on_action = empire_init_create_ships
+				}
+			}
+			else_if = {
+				limit = { is_ai = no }
+				fire_on_action = {
+					on_action = on_game_start_country
+				}
+				fire_on_action = {
+					on_action = empire_init_add_technologies
+				}
+				capital_scope = {
+					fire_on_action = {
+						on_action = empire_init_capital_planet
+					}
+				}
+				fire_on_action = {
+					on_action = empire_init_create_ships
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = swg2_game_start.2
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		if = {
+			limit = { has_origin = origin_remnants }
+			capital_scope = {
+				change_pc = pc_relic
+			}
+		}
+		else_if = {
+			limit = { has_origin = origin_life_seeded }
+			capital_scope = {
+				change_pc = pc_gaia
+			}
+		}
+		else_if = {
+			limit = { has_origin = origin_machine }
+			capital_scope = {
+				change_pc = pc_machine
+			}
+		}
+		else_if = {
+			limit = { has_origin = origin_post_apocalyptic }
+			capital_scope = {
+				change_pc = pc_nuked
+			}
+		}
+		else_if = {
+			limit = { capital_scope = { is_ideal_planet_class = { who = PREV status = no } } }	
+			if = {
+				limit = { ideal_planet_class = pc_continental }
+				capital_scope = { change_pc = pc_continental }
+			}
+			else_if = {
+				limit = { ideal_planet_class = pc_ocean }
+				capital_scope = { change_pc = pc_ocean }
+			}
+			else_if = {
+				limit = { ideal_planet_class = pc_tropical }
+				capital_scope = { change_pc = pc_tropical }
+			}
+			else_if = {
+				limit = { ideal_planet_class = pc_arid }
+				capital_scope = { change_pc = pc_arid }
+			}
+			else_if = {
+				limit = { ideal_planet_class = pc_desert }
+				capital_scope = { change_pc = pc_desert }
+			}
+			else_if = {
+				limit = { ideal_planet_class = pc_savannah }
+				capital_scope = { change_pc = pc_savannah }
+			}
+			else_if = {
+				limit = { ideal_planet_class = pc_arctic }
+				capital_scope = { change_pc = pc_arctic }
+			}
+			else_if = {
+				limit = { ideal_planet_class = pc_alpine }
+				capital_scope = { change_pc = pc_alpine }
+			}
+			else_if = {
+				limit = { ideal_planet_class = pc_tundra }
+				capital_scope = { change_pc = pc_tundra }
+			}
+		}
+	}
+}

@@ -3,4 +3,4 @@ tags={
 	"Galaxy Generation"
 }
 name="Star Wars Galaxy 2"
-supported_version="2.8.1"
+supported_version="3.0.2"
