@@ -1,15 +1,17 @@
 namespace = swg2_game_start
 
-event = {
+# Refire the on_actions that didnt fire
+country_event = {
 	id = swg2_game_start.1
 	hide_window = yes
 	is_triggered_only = yes
+	fire_only_once = yes
 
 	immediate = {
 		every_country = {
-			country_event = { id = swg2_game_start.2 }
+			limit = { is_country_type = default }
 			if = {
-				limit = { is_ai = yes is_country_type = default }
+				limit = { is_ai = yes NOT = { has_country_flag = lost_colony_parent } }
 				fire_on_action = {
 					on_action = on_game_start_country
 				}
@@ -19,6 +21,9 @@ event = {
 				capital_scope = {
 					fire_on_action = {
 						on_action = empire_init_capital_planet
+						scopes = {
+							from = owner_main_species
+						}
 					}
 				}
 				fire_on_action = {
@@ -36,84 +41,736 @@ event = {
 				capital_scope = {
 					fire_on_action = {
 						on_action = empire_init_capital_planet
+						scopes = {
+							from = owner_main_species
+						}
 					}
 				}
-				fire_on_action = {
-					on_action = empire_init_create_ships
-				}
 			}
+			country_event = { id = swg2_game_start.3 days = 1 }
 		}
 	}
 }
 
+# Change the planet class
 country_event = {
 	id = swg2_game_start.2
 	hide_window = yes
 	is_triggered_only = yes
 
 	immediate = {
-		if = {
-			limit = { has_origin = origin_remnants }
-			capital_scope = {
-				change_pc = pc_relic
-			}
-		}
-		else_if = {
-			limit = { has_origin = origin_life_seeded }
-			capital_scope = {
-				change_pc = pc_gaia
-			}
-		}
-		else_if = {
-			limit = { has_origin = origin_machine }
-			capital_scope = {
-				change_pc = pc_machine
-			}
-		}
-		else_if = {
-			limit = { has_origin = origin_post_apocalyptic }
-			capital_scope = {
-				change_pc = pc_nuked
-			}
-		}
-		else_if = {
-			limit = { capital_scope = { is_ideal_planet_class = { who = PREV status = no } } }	
+		every_country = {
+			limit = { is_country_type = default }
 			if = {
-				limit = { ideal_planet_class = pc_continental }
-				capital_scope = { change_pc = pc_continental }
+				limit = { is_machine_empire = yes }
+				capital_scope = {
+					change_pc = rl_habitable_normal
+				}
 			}
-			else_if = {
-				limit = { ideal_planet_class = pc_ocean }
-				capital_scope = { change_pc = pc_ocean }
+			if = {
+				limit = { has_origin = origin_remnants }
+				capital_scope = {
+					change_pc = pc_relic
+				}
 			}
-			else_if = {
-				limit = { ideal_planet_class = pc_tropical }
-				capital_scope = { change_pc = pc_tropical }
+			switch = {
+				trigger = has_origin
+				origin_life_seeded = {
+					capital_scope = {
+						change_pc = pc_gaia
+					}
+					modify_species = {
+						species = owner_main_species
+						ideal_planet_class = pc_gaia
+					}
+				}
+				origin_machine = {
+					capital_scope = {
+						change_pc = pc_machine
+					}
+				}
+				origin_post_apocalyptic = {
+					capital_scope = {
+						change_pc = pc_nuked
+					}
+				}
+				origin_tree_of_life = {
+					capital_scope = {
+						remove_modifier = no_lifetree
+					}
+				}
+				# origin_pd_storm = {
+				# 	capital_scope = {
+				# 		change_pc = pc_storm
+				# 	}
+				# }
+				# origin_pd_coral = {
+				# 	capital_scope = {
+				# 		change_pc = pc_coral
+				# 	}
+				# }
+				# origin_pd_tree_of_life = {
+				# 	capital_scope = {
+				# 		change_pc = pc_megaflora
+				# 	}
+				# }
+				origin_pd_hive = {
+					capital_scope = {
+						change_pc = pc_hive
+					}
+				}
 			}
-			else_if = {
-				limit = { ideal_planet_class = pc_arid }
-				capital_scope = { change_pc = pc_arid }
-			}
-			else_if = {
-				limit = { ideal_planet_class = pc_desert }
-				capital_scope = { change_pc = pc_desert }
-			}
-			else_if = {
-				limit = { ideal_planet_class = pc_savannah }
-				capital_scope = { change_pc = pc_savannah }
-			}
-			else_if = {
-				limit = { ideal_planet_class = pc_arctic }
-				capital_scope = { change_pc = pc_arctic }
-			}
-			else_if = {
-				limit = { ideal_planet_class = pc_alpine }
-				capital_scope = { change_pc = pc_alpine }
-			}
-			else_if = {
-				limit = { ideal_planet_class = pc_tundra }
-				capital_scope = { change_pc = pc_tundra }
+			if = {
+				limit = { capital_scope = { is_ideal_planet_class = { who = PREV status = no } } }
+				switch = {
+					trigger = ideal_planet_class
+					pc_continental = { capital_scope = { change_pc = pc_continental } }
+					pc_ocean = { capital_scope = { change_pc = pc_ocean } }
+					pc_tropical = { capital_scope = { change_pc = pc_tropical } }
+					pc_desert = { capital_scope = { change_pc = pc_desert } }
+					pc_arid = { capital_scope = { change_pc = pc_arid } }
+					pc_savannah = { capital_scope = { change_pc = pc_savannah } }
+					pc_arctic = { capital_scope = { change_pc = pc_arctic } }
+					pc_alpine = { capital_scope = { change_pc = pc_alpine } }
+					pc_tundra = { capital_scope = { change_pc = pc_tundra } }
+					pc_retinal = { capital_scope = { change_pc = pc_retinal } }
+					pc_cascadian = { capital_scope = { change_pc = pc_cascadian } }
+					pc_desertislands = { capital_scope = { change_pc = pc_desertislands } }
+					pc_sandsea = { capital_scope = { change_pc = pc_sandsea } } # Dune
+					pc_mesa = { capital_scope = { change_pc = pc_mesa } }
+					pc_steppe = { capital_scope = { change_pc = pc_steppe } }
+					pc_frozen_desert = { capital_scope = { change_pc = pc_frozen_desert } } # Frigid
+					pc_highland = { capital_scope = { change_pc = pc_highland } }
+					pc_swamp = { capital_scope = { change_pc = pc_swamp } } # Bog
+					pc_lake = { capital_scope = { change_pc = pc_lake } }
+					pc_wetswamp = { capital_scope = { change_pc = pc_wetswamp } } # Swamp
+					pc_mangrove = { capital_scope = { change_pc = pc_mangrove } }
+					pc_outback = { capital_scope = { change_pc = pc_outback } }
+					pc_hadesert = { capital_scope = { change_pc = pc_hadesert } } # Atacama
+					pc_prairie = { capital_scope = { change_pc = pc_prairie } }
+					pc_glacial = { capital_scope = { change_pc = pc_glacial } }
+					pc_boreal = { capital_scope = { change_pc = pc_boreal } }
+					pc_mushroom = { capital_scope = { change_pc = pc_mushroom } }
+					pc_forest = { capital_scope = { change_pc = pc_forest } }
+					pc_subarctic = { capital_scope = { change_pc = pc_subarctic } }
+					pc_hajungle = { capital_scope = { change_pc = pc_hajungle } }
+					pc_oasis = { capital_scope = { change_pc = pc_oasis } }
+					pc_med = { capital_scope = { change_pc = pc_med } }
+					pc_veld = { capital_scope = { change_pc = pc_veld } }
+					pc_antarctic = { capital_scope = { change_pc = pc_antarctic } }
+					pc_snow = { capital_scope = { change_pc = pc_snow } }
+					pc_mud = { capital_scope = { change_pc = pc_mud } }
+					pc_tepid = { capital_scope = { change_pc = pc_tepid } }
+					pc_semiarid = { capital_scope = { change_pc = pc_semiarid } }
+					pc_aeolian = { capital_scope = { change_pc = pc_aeolian } }
+					pc_duneforest = { capital_scope = { change_pc = pc_duneforest } }
+					pc_superhabitable = { capital_scope = { change_pc = pc_superhabitable } }
+					pc_karst = { capital_scope = { change_pc = pc_karst } }
+					pc_geothermal = { capital_scope = { change_pc = pc_geothermal } }
+					pc_salt = { capital_scope = { change_pc = pc_salt } }
+					pc_coral = { capital_scope = { change_pc = pc_coral } }
+					pc_tidallylocked = { capital_scope = { change_pc = pc_tidallylocked } }
+					pc_storm = { capital_scope = { change_pc = pc_storm } }
+					pc_glacio = { capital_scope = { change_pc = pc_glacio } } # Glaciovolcanic
+					pc_rogue = { capital_scope = { change_pc = pc_rogue } }
+					pc_megaflora = { capital_scope = { change_pc = pc_megaflora } }
+					pc_aquatic = { capital_scope = { change_pc = pc_aquatic } }
+					pc_biolumen = { capital_scope = { change_pc = pc_biolumen } }
+					pc_aquifer = { capital_scope = { change_pc = pc_aquifer } }
+					pc_primal = { capital_scope = { change_pc = pc_primal } }
+					pc_supercon = { capital_scope = { change_pc = pc_supercon } }
+					pc_eyeball = { capital_scope = { change_pc = pc_eyeball }}
+					pc_lanthanide = { capital_scope = { change_pc = pc_lanthanide } }
+					pc_lichen = { capital_scope = { change_pc = pc_lichen } }
+					pc_hive = { capital_scope = { change_pc = pc_hive } }
+					pc_machine = { capital_scope = { change_pc = pc_machine } }
+				}
 			}
 		}
+	}
+}
+
+# Remove the start traits
+country_event = {
+	id = swg2_game_start.3
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		every_owned_pop = {
+			if = {
+				limit = { pop_has_trait = swg2_trait_alderaan }
+				modify_species = {
+					species = this
+					remove_trait = swg2_trait_alderaan
+				}
+			}
+			else_if = {
+				limit = { pop_has_trait = swg2_trait_bothawui }
+				modify_species = {
+					species = this
+					remove_trait = swg2_trait_bothawui
+				}
+			}
+			else_if = {
+				limit = { pop_has_trait = swg2_trait_cantonica }
+				modify_species = {
+					species = this
+					remove_trait = swg2_trait_cantonica
+				}
+			}
+			else_if = {
+				limit = { pop_has_trait = swg2_trait_cato_neimoidia }
+				modify_species = {
+					species = this
+					remove_trait = swg2_trait_cato_neimoidia
+				}
+			}
+			else_if = {
+				limit = { pop_has_trait = swg2_trait_corellia }
+				modify_species = {
+					species = this
+					remove_trait = swg2_trait_corellia
+				}
+			}
+			else_if = {
+				limit = { pop_has_trait = swg2_trait_coruscant }
+				modify_species = {
+					species = this
+					remove_trait = swg2_trait_coruscant
+				}
+			}
+			else_if = {
+				limit = { pop_has_trait = swg2_trait_csilla }
+				modify_species = {
+					species = this
+					remove_trait = swg2_trait_csilla
+				}
+			}
+			else_if = {
+				limit = { pop_has_trait = swg2_trait_dagobah }
+				modify_species = {
+					species = this
+					remove_trait = swg2_trait_dagobah
+				}
+			}
+			else_if = {
+				limit = { pop_has_trait = swg2_trait_dathomir }
+				modify_species = {
+					species = this
+					remove_trait = swg2_trait_dathomir
+				}
+			}
+			else_if = {
+				limit = { pop_has_trait = swg2_trait_desevro }
+				modify_species = {
+					species = this
+					remove_trait = swg2_trait_desevro
+				}
+			}
+			else_if = {
+				limit = { pop_has_trait = swg2_trait_dromund_kaas }
+				modify_species = {
+					species = this
+					remove_trait = swg2_trait_dromund_kaas
+				}
+			}
+			else_if = {
+				limit = { pop_has_trait = swg2_trait_duro }
+				modify_species = {
+					species = this
+					remove_trait = swg2_trait_duro
+				}
+			}
+			else_if = {
+				limit = { pop_has_trait = swg2_trait_endor }
+				modify_species = {
+					species = this
+					remove_trait = swg2_trait_endor
+				}
+			}
+			else_if = {
+				limit = { pop_has_trait = swg2_trait_felucia }
+				modify_species = {
+					species = this
+					remove_trait = swg2_trait_felucia
+				}
+			}
+			else_if = {
+				limit = { pop_has_trait = swg2_trait_fondor }
+				modify_species = {
+					species = this
+					remove_trait = swg2_trait_fondor
+				}
+			}
+			else_if = {
+				limit = { pop_has_trait = swg2_trait_geonosis }
+				modify_species = {
+					species = this
+					remove_trait = swg2_trait_geonosis
+				}
+			}
+			else_if = {
+				limit = { pop_has_trait = swg2_trait_hapes }
+				modify_species = {
+					species = this
+					remove_trait = swg2_trait_hapes
+				}
+			}
+			else_if = {
+				limit = { pop_has_trait = swg2_trait_hoth }
+				modify_species = {
+					species = this
+					remove_trait = swg2_trait_hoth
+				}
+			}
+			else_if = {
+				limit = { pop_has_trait = swg2_trait_jakku }
+				modify_species = {
+					species = this
+					remove_trait = swg2_trait_jakku
+				}
+			}
+			else_if = {
+				limit = { pop_has_trait = swg2_trait_juvex }
+				modify_species = {
+					species = this
+					remove_trait = swg2_trait_juvex
+				}
+			}
+			else_if = {
+				limit = { pop_has_trait = swg2_trait_kamino }
+				modify_species = {
+					species = this
+					remove_trait = swg2_trait_kamino
+				}
+			}
+			else_if = {
+				limit = { pop_has_trait = swg2_trait_kashyyyk }
+				modify_species = {
+					species = this
+					remove_trait = swg2_trait_kashyyyk
+				}
+			}
+			else_if = {
+				limit = { pop_has_trait = swg2_trait_kessel }
+				modify_species = {
+					species = this
+					remove_trait = swg2_trait_kessel
+				}
+			}
+			else_if = {
+				limit = { pop_has_trait = swg2_trait_korriban }
+				modify_species = {
+					species = this
+					remove_trait = swg2_trait_korriban
+				}
+			}
+			else_if = {
+				limit = { pop_has_trait = swg2_trait_kuat }
+				modify_species = {
+					species = this
+					remove_trait = swg2_trait_kuat
+				}
+			}
+			else_if = {
+				limit = { pop_has_trait = swg2_trait_malachor_v }
+				modify_species = {
+					species = this
+					remove_trait = swg2_trait_malachor_v
+				}
+			}
+			else_if = {
+				limit = { pop_has_trait = swg2_trait_manaan }
+				modify_species = {
+					species = this
+					remove_trait = swg2_trait_manaan
+				}
+			}
+			else_if = {
+				limit = { pop_has_trait = swg2_trait_mandalore }
+				modify_species = {
+					species = this
+					remove_trait = swg2_trait_mandalore
+				}
+			}
+			else_if = {
+				limit = { pop_has_trait = swg2_trait_mon_calamari }
+				modify_species = {
+					species = this
+					remove_trait = swg2_trait_mon_calamari
+				}
+			}
+			else_if = {
+				limit = { pop_has_trait = swg2_trait_mustafar }
+				modify_species = {
+					species = this
+					remove_trait = swg2_trait_mustafar
+				}
+			}
+			else_if = {
+				limit = { pop_has_trait = swg2_trait_muunilinst }
+				modify_species = {
+					species = this
+					remove_trait = swg2_trait_muunilinst
+				}
+			}
+			else_if = {
+				limit = { pop_has_trait = swg2_trait_mygeeto }
+				modify_species = {
+					species = this
+					remove_trait = swg2_trait_mygeeto
+				}
+			}
+			else_if = {
+				limit = { pop_has_trait = swg2_trait_naboo }
+				modify_species = {
+					species = this
+					remove_trait = swg2_trait_naboo
+				}
+			}
+			else_if = {
+				limit = { pop_has_trait = swg2_trait_nal_hutta }
+				modify_species = {
+					species = this
+					remove_trait = swg2_trait_nal_hutta
+				}
+			}
+			else_if = {
+				limit = { pop_has_trait = swg2_trait_ryloth }
+				modify_species = {
+					species = this
+					remove_trait = swg2_trait_ryloth
+				}
+			}
+			else_if = {
+				limit = { pop_has_trait = swg2_trait_saleucami }
+				modify_species = {
+					species = this
+					remove_trait = swg2_trait_saleucami
+				}
+			}
+			else_if = {
+				limit = { pop_has_trait = swg2_trait_taris }
+				modify_species = {
+					species = this
+					remove_trait = swg2_trait_taris
+				}
+			}
+			else_if = {
+				limit = { pop_has_trait = swg2_trait_tatooine }
+				modify_species = {
+					species = this
+					remove_trait = swg2_trait_tatooine
+				}
+			}
+			else_if = {
+				limit = { pop_has_trait = swg2_trait_tython }
+				modify_species = {
+					species = this
+					remove_trait = swg2_trait_tython
+				}
+			}
+			else_if = {
+				limit = { pop_has_trait = swg2_trait_varl }
+				modify_species = {
+					species = this
+					remove_trait = swg2_trait_varl
+				}
+			}
+			else_if = {
+				limit = { pop_has_trait = swg2_trait_yavin_4 }
+				modify_species = {
+					species = this
+					remove_trait = swg2_trait_yavin_4
+				}
+			}
+			else_if = {
+				limit = { pop_has_trait = swg2_trait_zakuul }
+				modify_species = {
+					species = this
+					remove_trait = swg2_trait_zakuul
+				}
+			}
+		}
+	}
+}
+
+# Fix Random System Names
+event = {
+	id = swg2_game_start.4
+	hide_window = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	immediate = {
+		event_target:random_planet_alderaan = {
+			set_name = "Alderaan"
+			solar_system = {
+				set_name = "Alderaan"
+			}
+		}
+		event_target:random_planet_bothawui = {
+			set_name = "Bothawui"
+			solar_system = {
+				set_name = "Both"
+			}
+		}
+		event_target:random_planet_cantonica = {
+			set_name = "Cantonica"
+			solar_system = {
+				set_name = "Cantonica"
+			}
+		}
+		event_target:random_planet_cato_neimoidia = {
+			set_name = "Cato Neimoidia"
+			solar_system = {
+				set_name = "Cato Neimoidia"
+			}
+		}
+		event_target:random_planet_corellia = {
+			set_name = "Corellia"
+			solar_system = {
+				set_name = "Corellian"
+			}
+		}
+		event_target:random_planet_coruscant = {
+			set_name = "Coruscant"
+			solar_system = {
+				set_name = "Coruscant"
+			}
+		}
+		event_target:random_planet_csilla = {
+			set_name = "Csilla"
+			solar_system = {
+				set_name = "Csilla"
+			}
+		}
+		event_target:random_planet_dagobah = {
+			set_name = "Dagobah"
+			solar_system = {
+				set_name = "Dagobah"
+			}
+		}
+		event_target:random_planet_dathomir = {
+			set_name = "Dathomir"
+			solar_system = {
+				set_name = "Dathomir"
+			}
+		}
+		event_target:random_planet_desevro = {
+			set_name = "Desevro"
+			solar_system = {
+				set_name = "Desev"
+			}
+		}
+		event_target:random_planet_dromund_kaas = {
+			set_name = "Dromund Kaas"
+			solar_system = {
+				set_name = "Dromund"
+			}
+		}
+		event_target:random_planet_duro = {
+			set_name = "Duro"
+			solar_system = {
+				set_name = "Duro"
+			}
+		}
+		event_target:random_planet_endor = {
+			set_name = "Endor"
+			solar_system = {
+				set_name = "Endor"
+			}
+		}
+		event_target:random_planet_felucia = {
+			set_name = "Felucia"
+			solar_system = {
+				set_name = "Felucia"
+			}
+		}
+		event_target:random_planet_fondor = {
+			set_name = "Fondor"
+			solar_system = {
+				set_name = "Fondor"
+			}
+		}
+		event_target:random_planet_geonosis = {
+			set_name = "Geonosis"
+			solar_system = {
+				set_name = "Geonosis"
+			}
+		}
+		event_target:random_planet_hapes = {
+			set_name = "Hapes"
+			solar_system = {
+				set_name = "Hapes"
+			}
+		}
+		event_target:random_planet_hoth = {
+			set_name = "Hoth"
+			solar_system = {
+				set_name = "Hoth"
+			}
+		}
+		event_target:random_planet_jakku = {
+			set_name = "Jakku"
+			solar_system = {
+				set_name = "Jakku"
+			}
+		}
+		event_target:random_planet_juvex = {
+			set_name = "Juvex"
+			solar_system = {
+				set_name = "Juvex"
+			}
+		}
+		event_target:random_planet_kamino = {
+			set_name = "Kamino"
+			solar_system = {
+				set_name = "Kamino"
+			}
+		}
+		event_target:random_planet_kashyyyk = {
+			set_name = "Kashyyyk"
+			solar_system = {
+				set_name = "Kashyyyk"
+			}
+		}
+		event_target:random_planet_kessel = {
+			set_name = "Kessel"
+			solar_system = {
+				set_name = "Kessel"
+			}
+		}
+		event_target:random_planet_korriban = {
+			set_name = "Korriban"
+			solar_system = {
+				set_name = "Horuset"
+			}
+		}
+		event_target:random_planet_kuat = {
+			set_name = "Kuat"
+			solar_system = {
+				set_name = "Kuat"
+			}
+		}
+		event_target:random_planet_malachor_v = {
+			set_name = "Malachor V"
+			solar_system = {
+				set_name = "Malachor"
+			}
+		}
+		event_target:random_planet_manaan = {
+			set_name = "Manaan"
+			solar_system = {
+				set_name = "Pyrshak"
+			}
+		}
+		event_target:random_planet_mandalore = {
+			set_name = "Mandalore"
+			solar_system = {
+				set_name = "Mandalore"
+			}
+		}
+		event_target:random_planet_dac = {
+			set_name = "Dac"
+			solar_system = {
+				set_name = "Calamari"
+			}
+		}
+		event_target:random_planet_mustafar = {
+			set_name = "Mustafar"
+			solar_system = {
+				set_name = "Mustafar"
+			}
+		}
+		event_target:random_planet_muunilinst = {
+			set_name = "Muunilinst"
+			solar_system = {
+				set_name = "Muunilinst"
+			}
+		}
+		event_target:random_planet_mygeeto = {
+			set_name = "Mygeeto"
+			solar_system = {
+				set_name = "Mygeeto"
+			}
+		}
+		event_target:random_planet_naboo = {
+			set_name = "Naboo"
+			solar_system = {
+				set_name = "Naboo"
+			}
+		}
+		event_target:random_planet_nal_hutta = {
+			set_name = "Nal Hutta"
+			solar_system = {
+				set_name = "Y'Toub"
+			}
+		}
+		event_target:random_planet_ryloth = {
+			set_name = "Ryloth"
+			solar_system = {
+				set_name = "Ryloth"
+			}
+		}
+		event_target:random_planet_saleucami = {
+			set_name = "Saleucami"
+			solar_system = {
+				set_name = "Saleucami"
+			}
+		}
+		event_target:random_planet_taris = {
+			set_name = "Taris"
+			solar_system = {
+				set_name = "Taris"
+			}
+		}
+		event_target:random_planet_tatooine = {
+			set_name = "Tatooine"
+			solar_system = {
+				set_name = "Tatoo"
+			}
+		}
+		event_target:random_planet_tython = {
+			set_name = "Tython"
+			solar_system = {
+				set_name = "Tython"
+			}
+		}
+		event_target:random_planet_varl = {
+			set_name = "Varl"
+			solar_system = {
+				set_name = "Ardos"
+			}
+		}
+		event_target:random_planet_yavin_4 = {
+			set_name = "Yavin 4"
+			solar_system = {
+				set_name = "Yavin"
+			}
+		}
+		event_target:random_planet_zakuul = {
+			set_name = "Zakuul"
+			solar_system = {
+				set_name = "Zakuul"
+			}
+		}
+	}
+}
+
+# PD Fix
+country_event = {
+	id = swg2_game_start.5
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		has_origin = origin_pd_hive
+		capital_scope = { has_modifier = pd_infestingplanet }
+	}
+
+	immediate = {
+		capital_scope = { remove_modifier = pd_infestingplanet }
 	}
 }

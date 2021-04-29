@@ -18,7 +18,7 @@ marauder_1_1 = {
 	usage_odds = {
 		base = 0
 		modifier = {
-			add = 2000000
+			add = 10
 			host_has_dlc = "Apocalypse"
 			num_marauder_empires_to_spawn > 0
 			is_in_cluster = resource_cluster_1
@@ -1081,7 +1081,7 @@ marauder_2_1 = {
 	usage_odds = {
 		base = 0
 		modifier = {
-			add = 2000000
+			add = 10
 			host_has_dlc = "Apocalypse"
 			num_marauder_empires_to_spawn > 1
 			is_in_cluster = resource_cluster_2
@@ -2082,7 +2082,7 @@ marauder_3_1 = {
 	usage_odds = {
 		base = 0
 		modifier = {
-			add = 2000000
+			add = 10
 			host_has_dlc = "Apocalypse"
 			num_marauder_empires_to_spawn > 2
 			is_in_cluster = resource_cluster_3

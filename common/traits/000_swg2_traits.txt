@@ -1,0 +1,2310 @@
+# Alderaan
+swg2_trait_alderaan = {
+	cost = 0
+	initial = yes
+	sapient = yes
+	randomized = yes
+	modification = no
+	allowed_archetypes = { BIOLOGICAL LITHOID MACHINE }
+	sorting_priority = 0
+	opposites = {
+		swg2_trait_bothawui 
+		swg2_trait_cantonica 
+		swg2_trait_cato_neimoidia 
+		swg2_trait_corellia 
+		swg2_trait_coruscant 
+		swg2_trait_csilla 
+		swg2_trait_dagobah 
+		swg2_trait_dathomir
+		swg2_trait_desevro
+		swg2_trait_dromund_kaas
+		swg2_trait_duro
+		swg2_trait_endor
+		swg2_trait_felucia
+		swg2_trait_fondor
+		swg2_trait_geonosis
+		swg2_trait_hapes
+		swg2_trait_hoth
+		swg2_trait_jakku
+		swg2_trait_juvex
+		swg2_trait_kamino
+		swg2_trait_kashyyyk
+		swg2_trait_kessel
+		swg2_trait_korriban
+		swg2_trait_kuat
+		swg2_trait_malachor_v
+		swg2_trait_mandalore
+		swg2_trait_mon_calamari
+		swg2_trait_mustafar
+		swg2_trait_muunilinst
+		swg2_trait_mygeeto
+		swg2_trait_naboo
+		swg2_trait_nal_hutta
+		swg2_trait_manaan
+		swg2_trait_ryloth
+		swg2_trait_saleucami
+		swg2_trait_taris
+		swg2_trait_tatooine
+		swg2_trait_tython
+		swg2_trait_varl
+		swg2_trait_yavin_4
+		swg2_trait_zakuul
+	}
+	icon = "gfx/interface/icons/traits/trait_choose_start.dds"
+}
+
+# Bothawui
+swg2_trait_bothawui = {
+	cost = 0
+	initial = yes
+	sapient = yes
+	randomized = yes
+	modification = no
+	allowed_archetypes = { BIOLOGICAL LITHOID MACHINE }
+	sorting_priority = 0
+	opposites = { 
+		swg2_trait_alderaan
+		swg2_trait_cantonica 
+		swg2_trait_cato_neimoidia 
+		swg2_trait_corellia 
+		swg2_trait_coruscant 
+		swg2_trait_csilla 
+		swg2_trait_dagobah 
+		swg2_trait_dathomir
+		swg2_trait_desevro
+		swg2_trait_dromund_kaas
+		swg2_trait_duro
+		swg2_trait_endor
+		swg2_trait_felucia
+		swg2_trait_fondor
+		swg2_trait_geonosis
+		swg2_trait_hapes
+		swg2_trait_hoth
+		swg2_trait_jakku
+		swg2_trait_juvex
+		swg2_trait_kamino
+		swg2_trait_kashyyyk
+		swg2_trait_kessel
+		swg2_trait_korriban
+		swg2_trait_kuat
+		swg2_trait_malachor_v
+		swg2_trait_mandalore
+		swg2_trait_mon_calamari
+		swg2_trait_mustafar
+		swg2_trait_muunilinst
+		swg2_trait_mygeeto
+		swg2_trait_naboo
+		swg2_trait_nal_hutta
+		swg2_trait_manaan
+		swg2_trait_ryloth
+		swg2_trait_saleucami
+		swg2_trait_taris
+		swg2_trait_tatooine
+		swg2_trait_tython
+		swg2_trait_varl
+		swg2_trait_yavin_4
+		swg2_trait_zakuul
+	}
+	icon = "gfx/interface/icons/traits/trait_choose_start.dds"
+}
+
+# Cantonica
+swg2_trait_cantonica = {
+	cost = 0
+	initial = yes
+	sapient = yes
+	randomized = yes
+	modification = no
+	allowed_archetypes = { BIOLOGICAL LITHOID MACHINE }
+	sorting_priority = 0
+	opposites = { 
+		swg2_trait_alderaan
+		swg2_trait_bothawui 
+		swg2_trait_cato_neimoidia 
+		swg2_trait_corellia 
+		swg2_trait_coruscant 
+		swg2_trait_csilla 
+		swg2_trait_dagobah 
+		swg2_trait_dathomir
+		swg2_trait_desevro
+		swg2_trait_dromund_kaas
+		swg2_trait_duro
+		swg2_trait_endor
+		swg2_trait_felucia
+		swg2_trait_fondor
+		swg2_trait_geonosis
+		swg2_trait_hapes
+		swg2_trait_hoth
+		swg2_trait_jakku
+		swg2_trait_juvex
+		swg2_trait_kamino
+		swg2_trait_kashyyyk
+		swg2_trait_kessel
+		swg2_trait_korriban
+		swg2_trait_kuat
+		swg2_trait_malachor_v
+		swg2_trait_mandalore
+		swg2_trait_mon_calamari
+		swg2_trait_mustafar
+		swg2_trait_muunilinst
+		swg2_trait_mygeeto
+		swg2_trait_naboo
+		swg2_trait_nal_hutta
+		swg2_trait_manaan
+		swg2_trait_ryloth
+		swg2_trait_saleucami
+		swg2_trait_taris
+		swg2_trait_tatooine
+		swg2_trait_tython
+		swg2_trait_varl
+		swg2_trait_yavin_4
+		swg2_trait_zakuul
+	}
+	icon = "gfx/interface/icons/traits/trait_choose_start.dds"
+}
+
+# Cato Neimoidia
+swg2_trait_cato_neimoidia = {
+	cost = 0
+	initial = yes
+	sapient = yes
+	randomized = yes
+	modification = no
+	allowed_archetypes = { BIOLOGICAL LITHOID MACHINE }
+	sorting_priority = 0
+	opposites = { 
+		swg2_trait_alderaan
+		swg2_trait_bothawui 
+		swg2_trait_cantonica 
+		swg2_trait_corellia 
+		swg2_trait_coruscant 
+		swg2_trait_csilla 
+		swg2_trait_dagobah 
+		swg2_trait_dathomir
+		swg2_trait_desevro
+		swg2_trait_dromund_kaas
+		swg2_trait_duro
+		swg2_trait_endor
+		swg2_trait_felucia
+		swg2_trait_fondor
+		swg2_trait_geonosis
+		swg2_trait_hapes
+		swg2_trait_hoth
+		swg2_trait_jakku
+		swg2_trait_juvex
+		swg2_trait_kamino
+		swg2_trait_kashyyyk
+		swg2_trait_kessel
+		swg2_trait_korriban
+		swg2_trait_kuat
+		swg2_trait_malachor_v
+		swg2_trait_mandalore
+		swg2_trait_mon_calamari
+		swg2_trait_mustafar
+		swg2_trait_muunilinst
+		swg2_trait_mygeeto
+		swg2_trait_naboo
+		swg2_trait_nal_hutta
+		swg2_trait_manaan
+		swg2_trait_ryloth
+		swg2_trait_saleucami
+		swg2_trait_taris
+		swg2_trait_tatooine
+		swg2_trait_tython
+		swg2_trait_varl
+		swg2_trait_yavin_4
+		swg2_trait_zakuul
+	}
+	icon = "gfx/interface/icons/traits/trait_choose_start.dds"
+}
+
+# Corellia
+swg2_trait_corellia = {
+	cost = 0
+	initial = yes
+	sapient = yes
+	randomized = yes
+	modification = no
+	allowed_archetypes = { BIOLOGICAL LITHOID MACHINE }
+	sorting_priority = 0
+	opposites = { 
+		swg2_trait_alderaan
+		swg2_trait_bothawui 
+		swg2_trait_cantonica 
+		swg2_trait_cato_neimoidia 
+		swg2_trait_coruscant 
+		swg2_trait_csilla 
+		swg2_trait_dagobah 
+		swg2_trait_dathomir
+		swg2_trait_desevro
+		swg2_trait_dromund_kaas
+		swg2_trait_duro
+		swg2_trait_endor
+		swg2_trait_felucia
+		swg2_trait_fondor
+		swg2_trait_geonosis
+		swg2_trait_hapes
+		swg2_trait_hoth
+		swg2_trait_jakku
+		swg2_trait_juvex
+		swg2_trait_kamino
+		swg2_trait_kashyyyk
+		swg2_trait_kessel
+		swg2_trait_korriban
+		swg2_trait_kuat
+		swg2_trait_malachor_v
+		swg2_trait_mandalore
+		swg2_trait_mon_calamari
+		swg2_trait_mustafar
+		swg2_trait_muunilinst
+		swg2_trait_mygeeto
+		swg2_trait_naboo
+		swg2_trait_nal_hutta
+		swg2_trait_manaan
+		swg2_trait_ryloth
+		swg2_trait_saleucami
+		swg2_trait_taris
+		swg2_trait_tatooine
+		swg2_trait_tython
+		swg2_trait_varl
+		swg2_trait_yavin_4
+		swg2_trait_zakuul
+	}
+	icon = "gfx/interface/icons/traits/trait_choose_start.dds"
+}
+
+# Coruscant
+swg2_trait_coruscant = {
+	cost = 0
+	initial = yes
+	sapient = yes
+	randomized = yes
+	modification = no
+	allowed_archetypes = { BIOLOGICAL LITHOID MACHINE }
+	sorting_priority = 0
+	opposites = { 
+		swg2_trait_alderaan
+		swg2_trait_bothawui 
+		swg2_trait_cantonica 
+		swg2_trait_cato_neimoidia 
+		swg2_trait_corellia 
+		swg2_trait_csilla 
+		swg2_trait_dagobah 
+		swg2_trait_dathomir
+		swg2_trait_desevro
+		swg2_trait_dromund_kaas
+		swg2_trait_duro
+		swg2_trait_endor
+		swg2_trait_felucia
+		swg2_trait_fondor
+		swg2_trait_geonosis
+		swg2_trait_hapes
+		swg2_trait_hoth
+		swg2_trait_jakku
+		swg2_trait_juvex
+		swg2_trait_kamino
+		swg2_trait_kashyyyk
+		swg2_trait_kessel
+		swg2_trait_korriban
+		swg2_trait_kuat
+		swg2_trait_malachor_v
+		swg2_trait_mandalore
+		swg2_trait_mon_calamari
+		swg2_trait_mustafar
+		swg2_trait_muunilinst
+		swg2_trait_mygeeto
+		swg2_trait_naboo
+		swg2_trait_nal_hutta
+		swg2_trait_manaan
+		swg2_trait_ryloth
+		swg2_trait_saleucami
+		swg2_trait_taris
+		swg2_trait_tatooine
+		swg2_trait_tython
+		swg2_trait_varl
+		swg2_trait_yavin_4
+		swg2_trait_zakuul
+	}
+	icon = "gfx/interface/icons/traits/trait_choose_start.dds"
+}
+
+# Csilla
+swg2_trait_csilla = {
+	cost = 0
+	initial = yes
+	sapient = yes
+	randomized = yes
+	modification = no
+	allowed_archetypes = { BIOLOGICAL LITHOID MACHINE }
+	sorting_priority = 0
+	opposites = { 
+		swg2_trait_alderaan
+		swg2_trait_bothawui 
+		swg2_trait_cantonica 
+		swg2_trait_cato_neimoidia 
+		swg2_trait_corellia 
+		swg2_trait_coruscant 
+		swg2_trait_dagobah 
+		swg2_trait_dathomir
+		swg2_trait_desevro
+		swg2_trait_dromund_kaas
+		swg2_trait_duro
+		swg2_trait_endor
+		swg2_trait_felucia
+		swg2_trait_fondor
+		swg2_trait_geonosis
+		swg2_trait_hapes
+		swg2_trait_hoth
+		swg2_trait_jakku
+		swg2_trait_juvex
+		swg2_trait_kamino
+		swg2_trait_kashyyyk
+		swg2_trait_kessel
+		swg2_trait_korriban
+		swg2_trait_kuat
+		swg2_trait_malachor_v
+		swg2_trait_mandalore
+		swg2_trait_mon_calamari
+		swg2_trait_mustafar
+		swg2_trait_muunilinst
+		swg2_trait_mygeeto
+		swg2_trait_naboo
+		swg2_trait_nal_hutta
+		swg2_trait_manaan
+		swg2_trait_ryloth
+		swg2_trait_saleucami
+		swg2_trait_taris
+		swg2_trait_tatooine
+		swg2_trait_tython
+		swg2_trait_varl
+		swg2_trait_yavin_4
+		swg2_trait_zakuul
+	}
+	icon = "gfx/interface/icons/traits/trait_choose_start.dds"
+}
+
+# Dagobah
+swg2_trait_dagobah = {
+	cost = 0
+	initial = yes
+	sapient = yes
+	randomized = yes
+	modification = no
+	allowed_archetypes = { BIOLOGICAL LITHOID MACHINE }
+	sorting_priority = 0
+	opposites = { 
+		swg2_trait_alderaan
+		swg2_trait_bothawui 
+		swg2_trait_cantonica 
+		swg2_trait_cato_neimoidia 
+		swg2_trait_corellia 
+		swg2_trait_coruscant 
+		swg2_trait_csilla 
+		swg2_trait_dathomir
+		swg2_trait_desevro
+		swg2_trait_dromund_kaas
+		swg2_trait_duro
+		swg2_trait_endor
+		swg2_trait_felucia
+		swg2_trait_fondor
+		swg2_trait_geonosis
+		swg2_trait_hapes
+		swg2_trait_hoth
+		swg2_trait_jakku
+		swg2_trait_juvex
+		swg2_trait_kamino
+		swg2_trait_kashyyyk
+		swg2_trait_kessel
+		swg2_trait_korriban
+		swg2_trait_kuat
+		swg2_trait_malachor_v
+		swg2_trait_mandalore
+		swg2_trait_mon_calamari
+		swg2_trait_mustafar
+		swg2_trait_muunilinst
+		swg2_trait_mygeeto
+		swg2_trait_naboo
+		swg2_trait_nal_hutta
+		swg2_trait_manaan
+		swg2_trait_ryloth
+		swg2_trait_saleucami
+		swg2_trait_taris
+		swg2_trait_tatooine
+		swg2_trait_tython
+		swg2_trait_varl
+		swg2_trait_yavin_4
+		swg2_trait_zakuul
+	}
+	icon = "gfx/interface/icons/traits/trait_choose_start.dds"
+}
+
+# Dathomir
+swg2_trait_dathomir = {
+	cost = 0
+	initial = yes
+	sapient = yes
+	randomized = yes
+	modification = no
+	allowed_archetypes = { BIOLOGICAL LITHOID MACHINE }
+	sorting_priority = 0
+	opposites = { 
+		swg2_trait_alderaan
+		swg2_trait_bothawui 
+		swg2_trait_cantonica 
+		swg2_trait_cato_neimoidia 
+		swg2_trait_corellia 
+		swg2_trait_coruscant 
+		swg2_trait_csilla 
+		swg2_trait_dagobah 
+		swg2_trait_desevro
+		swg2_trait_dromund_kaas
+		swg2_trait_duro
+		swg2_trait_endor
+		swg2_trait_felucia
+		swg2_trait_fondor
+		swg2_trait_geonosis
+		swg2_trait_hapes
+		swg2_trait_hoth
+		swg2_trait_jakku
+		swg2_trait_juvex
+		swg2_trait_kamino
+		swg2_trait_kashyyyk
+		swg2_trait_kessel
+		swg2_trait_korriban
+		swg2_trait_kuat
+		swg2_trait_malachor_v
+		swg2_trait_mandalore
+		swg2_trait_mon_calamari
+		swg2_trait_mustafar
+		swg2_trait_muunilinst
+		swg2_trait_mygeeto
+		swg2_trait_naboo
+		swg2_trait_nal_hutta
+		swg2_trait_manaan
+		swg2_trait_ryloth
+		swg2_trait_saleucami
+		swg2_trait_taris
+		swg2_trait_tatooine
+		swg2_trait_tython
+		swg2_trait_varl
+		swg2_trait_yavin_4
+		swg2_trait_zakuul
+	}
+	icon = "gfx/interface/icons/traits/trait_choose_start.dds"
+}
+
+# Desevro
+swg2_trait_desevro = {
+	cost = 0
+	initial = yes
+	sapient = yes
+	randomized = yes
+	modification = no
+	allowed_archetypes = { BIOLOGICAL LITHOID MACHINE }
+	sorting_priority = 0
+	opposites = { 
+		swg2_trait_alderaan
+		swg2_trait_bothawui 
+		swg2_trait_cantonica 
+		swg2_trait_cato_neimoidia 
+		swg2_trait_corellia 
+		swg2_trait_coruscant 
+		swg2_trait_csilla 
+		swg2_trait_dagobah 
+		swg2_trait_dathomir
+		swg2_trait_dromund_kaas
+		swg2_trait_duro
+		swg2_trait_endor
+		swg2_trait_felucia
+		swg2_trait_fondor
+		swg2_trait_geonosis
+		swg2_trait_hapes
+		swg2_trait_hoth
+		swg2_trait_jakku
+		swg2_trait_juvex
+		swg2_trait_kamino
+		swg2_trait_kashyyyk
+		swg2_trait_kessel
+		swg2_trait_korriban
+		swg2_trait_kuat
+		swg2_trait_malachor_v
+		swg2_trait_mandalore
+		swg2_trait_mon_calamari
+		swg2_trait_mustafar
+		swg2_trait_muunilinst
+		swg2_trait_mygeeto
+		swg2_trait_naboo
+		swg2_trait_nal_hutta
+		swg2_trait_manaan
+		swg2_trait_ryloth
+		swg2_trait_saleucami
+		swg2_trait_taris
+		swg2_trait_tatooine
+		swg2_trait_tython
+		swg2_trait_varl
+		swg2_trait_yavin_4
+		swg2_trait_zakuul
+	}
+	icon = "gfx/interface/icons/traits/trait_choose_start.dds"
+}
+
+# Dromund Kaas
+swg2_trait_dromund_kaas = {
+	cost = 0
+	initial = yes
+	sapient = yes
+	randomized = yes
+	modification = no
+	allowed_archetypes = { BIOLOGICAL LITHOID MACHINE }
+	sorting_priority = 0
+	opposites = { 
+		swg2_trait_alderaan
+		swg2_trait_bothawui 
+		swg2_trait_cantonica 
+		swg2_trait_cato_neimoidia 
+		swg2_trait_corellia 
+		swg2_trait_coruscant 
+		swg2_trait_csilla 
+		swg2_trait_dagobah 
+		swg2_trait_dathomir
+		swg2_trait_desevro
+		swg2_trait_duro
+		swg2_trait_endor
+		swg2_trait_felucia
+		swg2_trait_fondor
+		swg2_trait_geonosis
+		swg2_trait_hapes
+		swg2_trait_hoth
+		swg2_trait_jakku
+		swg2_trait_juvex
+		swg2_trait_kamino
+		swg2_trait_kashyyyk
+		swg2_trait_kessel
+		swg2_trait_korriban
+		swg2_trait_kuat
+		swg2_trait_malachor_v
+		swg2_trait_mandalore
+		swg2_trait_mon_calamari
+		swg2_trait_mustafar
+		swg2_trait_muunilinst
+		swg2_trait_mygeeto
+		swg2_trait_naboo
+		swg2_trait_nal_hutta
+		swg2_trait_manaan
+		swg2_trait_ryloth
+		swg2_trait_saleucami
+		swg2_trait_taris
+		swg2_trait_tatooine
+		swg2_trait_tython
+		swg2_trait_varl
+		swg2_trait_yavin_4
+		swg2_trait_zakuul
+	}
+	icon = "gfx/interface/icons/traits/trait_choose_start.dds"
+}
+
+# Duro
+swg2_trait_duro = {
+	cost = 0
+	initial = yes
+	sapient = yes
+	randomized = yes
+	modification = no
+	allowed_archetypes = { BIOLOGICAL LITHOID MACHINE }
+	sorting_priority = 0
+	opposites = { 
+		swg2_trait_alderaan
+		swg2_trait_bothawui 
+		swg2_trait_cantonica 
+		swg2_trait_cato_neimoidia 
+		swg2_trait_corellia 
+		swg2_trait_coruscant 
+		swg2_trait_csilla 
+		swg2_trait_dagobah 
+		swg2_trait_dathomir
+		swg2_trait_desevro
+		swg2_trait_dromund_kaas
+		swg2_trait_endor
+		swg2_trait_felucia
+		swg2_trait_fondor
+		swg2_trait_geonosis
+		swg2_trait_hapes
+		swg2_trait_hoth
+		swg2_trait_jakku
+		swg2_trait_juvex
+		swg2_trait_kamino
+		swg2_trait_kashyyyk
+		swg2_trait_kessel
+		swg2_trait_korriban
+		swg2_trait_kuat
+		swg2_trait_malachor_v
+		swg2_trait_mandalore
+		swg2_trait_mon_calamari
+		swg2_trait_mustafar
+		swg2_trait_muunilinst
+		swg2_trait_mygeeto
+		swg2_trait_naboo
+		swg2_trait_nal_hutta
+		swg2_trait_manaan
+		swg2_trait_ryloth
+		swg2_trait_saleucami
+		swg2_trait_taris
+		swg2_trait_tatooine
+		swg2_trait_tython
+		swg2_trait_varl
+		swg2_trait_yavin_4
+		swg2_trait_zakuul
+	}
+	icon = "gfx/interface/icons/traits/trait_choose_start.dds"
+}
+
+# Endor
+swg2_trait_endor = {
+	cost = 0
+	initial = yes
+	sapient = yes
+	randomized = yes
+	modification = no
+	allowed_archetypes = { BIOLOGICAL LITHOID MACHINE }
+	sorting_priority = 0
+	opposites = { 
+		swg2_trait_alderaan
+		swg2_trait_bothawui 
+		swg2_trait_cantonica 
+		swg2_trait_cato_neimoidia 
+		swg2_trait_corellia 
+		swg2_trait_coruscant 
+		swg2_trait_csilla 
+		swg2_trait_dagobah 
+		swg2_trait_dathomir
+		swg2_trait_desevro
+		swg2_trait_dromund_kaas
+		swg2_trait_duro
+		swg2_trait_felucia
+		swg2_trait_fondor
+		swg2_trait_geonosis
+		swg2_trait_hapes
+		swg2_trait_hoth
+		swg2_trait_jakku
+		swg2_trait_juvex
+		swg2_trait_kamino
+		swg2_trait_kashyyyk
+		swg2_trait_kessel
+		swg2_trait_korriban
+		swg2_trait_kuat
+		swg2_trait_malachor_v
+		swg2_trait_mandalore
+		swg2_trait_mon_calamari
+		swg2_trait_mustafar
+		swg2_trait_muunilinst
+		swg2_trait_mygeeto
+		swg2_trait_naboo
+		swg2_trait_nal_hutta
+		swg2_trait_manaan
+		swg2_trait_ryloth
+		swg2_trait_saleucami
+		swg2_trait_taris
+		swg2_trait_tatooine
+		swg2_trait_tython
+		swg2_trait_varl
+		swg2_trait_yavin_4
+		swg2_trait_zakuul
+	}
+	icon = "gfx/interface/icons/traits/trait_choose_start.dds"
+}
+
+# Felucia
+swg2_trait_felucia = {
+	cost = 0
+	initial = yes
+	sapient = yes
+	randomized = yes
+	modification = no
+	allowed_archetypes = { BIOLOGICAL LITHOID MACHINE }
+	sorting_priority = 0
+	opposites = { 
+		swg2_trait_alderaan
+		swg2_trait_bothawui 
+		swg2_trait_cantonica 
+		swg2_trait_cato_neimoidia 
+		swg2_trait_corellia 
+		swg2_trait_coruscant 
+		swg2_trait_csilla 
+		swg2_trait_dagobah 
+		swg2_trait_dathomir
+		swg2_trait_desevro
+		swg2_trait_dromund_kaas
+		swg2_trait_duro
+		swg2_trait_endor
+		swg2_trait_fondor
+		swg2_trait_geonosis
+		swg2_trait_hapes
+		swg2_trait_hoth
+		swg2_trait_jakku
+		swg2_trait_juvex
+		swg2_trait_kamino
+		swg2_trait_kashyyyk
+		swg2_trait_kessel
+		swg2_trait_korriban
+		swg2_trait_kuat
+		swg2_trait_malachor_v
+		swg2_trait_mandalore
+		swg2_trait_mon_calamari
+		swg2_trait_mustafar
+		swg2_trait_muunilinst
+		swg2_trait_mygeeto
+		swg2_trait_naboo
+		swg2_trait_nal_hutta
+		swg2_trait_manaan
+		swg2_trait_ryloth
+		swg2_trait_saleucami
+		swg2_trait_taris
+		swg2_trait_tatooine
+		swg2_trait_tython
+		swg2_trait_varl
+		swg2_trait_yavin_4
+		swg2_trait_zakuul
+	}
+	icon = "gfx/interface/icons/traits/trait_choose_start.dds"
+}
+
+# Fondor
+swg2_trait_fondor = {
+	cost = 0
+	initial = yes
+	sapient = yes
+	randomized = yes
+	modification = no
+	allowed_archetypes = { BIOLOGICAL LITHOID MACHINE }
+	sorting_priority = 0
+	opposites = { 
+		swg2_trait_alderaan
+		swg2_trait_bothawui 
+		swg2_trait_cantonica 
+		swg2_trait_cato_neimoidia 
+		swg2_trait_corellia 
+		swg2_trait_coruscant 
+		swg2_trait_csilla 
+		swg2_trait_dagobah 
+		swg2_trait_dathomir
+		swg2_trait_desevro
+		swg2_trait_dromund_kaas
+		swg2_trait_duro
+		swg2_trait_endor
+		swg2_trait_felucia
+		swg2_trait_geonosis
+		swg2_trait_hapes
+		swg2_trait_hoth
+		swg2_trait_jakku
+		swg2_trait_juvex
+		swg2_trait_kamino
+		swg2_trait_kashyyyk
+		swg2_trait_kessel
+		swg2_trait_korriban
+		swg2_trait_kuat
+		swg2_trait_malachor_v
+		swg2_trait_mandalore
+		swg2_trait_mon_calamari
+		swg2_trait_mustafar
+		swg2_trait_muunilinst
+		swg2_trait_mygeeto
+		swg2_trait_naboo
+		swg2_trait_nal_hutta
+		swg2_trait_manaan
+		swg2_trait_ryloth
+		swg2_trait_saleucami
+		swg2_trait_taris
+		swg2_trait_tatooine
+		swg2_trait_tython
+		swg2_trait_varl
+		swg2_trait_yavin_4
+		swg2_trait_zakuul
+	}
+	icon = "gfx/interface/icons/traits/trait_choose_start.dds"
+}
+
+
+# Geonosis
+swg2_trait_geonosis = {
+	cost = 0
+	initial = yes
+	sapient = yes
+	randomized = yes
+	modification = no
+	allowed_archetypes = { BIOLOGICAL LITHOID MACHINE }
+	sorting_priority = 0
+	opposites = { 
+		swg2_trait_alderaan
+		swg2_trait_bothawui 
+		swg2_trait_cantonica 
+		swg2_trait_cato_neimoidia 
+		swg2_trait_corellia 
+		swg2_trait_coruscant 
+		swg2_trait_csilla 
+		swg2_trait_dagobah 
+		swg2_trait_dathomir
+		swg2_trait_desevro
+		swg2_trait_dromund_kaas
+		swg2_trait_duro
+		swg2_trait_endor
+		swg2_trait_felucia
+		swg2_trait_fondor
+		swg2_trait_hapes
+		swg2_trait_hoth
+		swg2_trait_jakku
+		swg2_trait_juvex
+		swg2_trait_kamino
+		swg2_trait_kashyyyk
+		swg2_trait_kessel
+		swg2_trait_korriban
+		swg2_trait_kuat
+		swg2_trait_malachor_v
+		swg2_trait_mandalore
+		swg2_trait_mon_calamari
+		swg2_trait_mustafar
+		swg2_trait_muunilinst
+		swg2_trait_mygeeto
+		swg2_trait_naboo
+		swg2_trait_nal_hutta
+		swg2_trait_manaan
+		swg2_trait_ryloth
+		swg2_trait_saleucami
+		swg2_trait_taris
+		swg2_trait_tatooine
+		swg2_trait_tython
+		swg2_trait_varl
+		swg2_trait_yavin_4
+		swg2_trait_zakuul
+	}
+	icon = "gfx/interface/icons/traits/trait_choose_start.dds"
+}
+
+# Hapes
+swg2_trait_hapes = {
+	cost = 0
+	initial = yes
+	sapient = yes
+	randomized = yes
+	modification = no
+	allowed_archetypes = { BIOLOGICAL LITHOID MACHINE }
+	sorting_priority = 0
+	opposites = { 
+		swg2_trait_alderaan
+		swg2_trait_bothawui 
+		swg2_trait_cantonica 
+		swg2_trait_cato_neimoidia 
+		swg2_trait_corellia 
+		swg2_trait_coruscant 
+		swg2_trait_csilla 
+		swg2_trait_dagobah 
+		swg2_trait_dathomir
+		swg2_trait_desevro
+		swg2_trait_dromund_kaas
+		swg2_trait_duro
+		swg2_trait_endor
+		swg2_trait_felucia
+		swg2_trait_fondor
+		swg2_trait_geonosis
+		swg2_trait_hoth
+		swg2_trait_jakku
+		swg2_trait_juvex
+		swg2_trait_kamino
+		swg2_trait_kashyyyk
+		swg2_trait_kessel
+		swg2_trait_korriban
+		swg2_trait_kuat
+		swg2_trait_malachor_v
+		swg2_trait_mandalore
+		swg2_trait_mon_calamari
+		swg2_trait_mustafar
+		swg2_trait_muunilinst
+		swg2_trait_mygeeto
+		swg2_trait_naboo
+		swg2_trait_nal_hutta
+		swg2_trait_manaan
+		swg2_trait_ryloth
+		swg2_trait_saleucami
+		swg2_trait_taris
+		swg2_trait_tatooine
+		swg2_trait_tython
+		swg2_trait_varl
+		swg2_trait_yavin_4
+		swg2_trait_zakuul
+	}
+	icon = "gfx/interface/icons/traits/trait_choose_start.dds"
+}
+
+# Hoth
+swg2_trait_hoth = {
+	cost = 0
+	initial = yes
+	sapient = yes
+	randomized = yes
+	modification = no
+	allowed_archetypes = { BIOLOGICAL LITHOID MACHINE }
+	sorting_priority = 0
+	opposites = { 
+		swg2_trait_alderaan
+		swg2_trait_bothawui 
+		swg2_trait_cantonica 
+		swg2_trait_cato_neimoidia 
+		swg2_trait_corellia 
+		swg2_trait_coruscant 
+		swg2_trait_csilla 
+		swg2_trait_dagobah 
+		swg2_trait_dathomir
+		swg2_trait_desevro
+		swg2_trait_dromund_kaas
+		swg2_trait_duro
+		swg2_trait_endor
+		swg2_trait_felucia
+		swg2_trait_fondor
+		swg2_trait_geonosis
+		swg2_trait_hapes
+		swg2_trait_jakku
+		swg2_trait_juvex
+		swg2_trait_kamino
+		swg2_trait_kashyyyk
+		swg2_trait_kessel
+		swg2_trait_korriban
+		swg2_trait_kuat
+		swg2_trait_malachor_v
+		swg2_trait_mandalore
+		swg2_trait_mon_calamari
+		swg2_trait_mustafar
+		swg2_trait_muunilinst
+		swg2_trait_mygeeto
+		swg2_trait_naboo
+		swg2_trait_nal_hutta
+		swg2_trait_manaan
+		swg2_trait_ryloth
+		swg2_trait_saleucami
+		swg2_trait_taris
+		swg2_trait_tatooine
+		swg2_trait_tython
+		swg2_trait_varl
+		swg2_trait_yavin_4
+		swg2_trait_zakuul
+	}
+	icon = "gfx/interface/icons/traits/trait_choose_start.dds"
+}
+
+# Jakku
+swg2_trait_jakku = {
+	cost = 0
+	initial = yes
+	sapient = yes
+	randomized = yes
+	modification = no
+	allowed_archetypes = { BIOLOGICAL LITHOID MACHINE }
+	sorting_priority = 0
+	opposites = { 
+		swg2_trait_alderaan
+		swg2_trait_bothawui 
+		swg2_trait_cantonica 
+		swg2_trait_cato_neimoidia 
+		swg2_trait_corellia 
+		swg2_trait_coruscant 
+		swg2_trait_csilla 
+		swg2_trait_dagobah 
+		swg2_trait_dathomir
+		swg2_trait_desevro
+		swg2_trait_dromund_kaas
+		swg2_trait_duro
+		swg2_trait_endor
+		swg2_trait_felucia
+		swg2_trait_fondor
+		swg2_trait_geonosis
+		swg2_trait_hapes
+		swg2_trait_hoth
+		swg2_trait_juvex
+		swg2_trait_kamino
+		swg2_trait_kashyyyk
+		swg2_trait_kessel
+		swg2_trait_korriban
+		swg2_trait_kuat
+		swg2_trait_malachor_v
+		swg2_trait_mandalore
+		swg2_trait_mon_calamari
+		swg2_trait_mustafar
+		swg2_trait_muunilinst
+		swg2_trait_mygeeto
+		swg2_trait_naboo
+		swg2_trait_nal_hutta
+		swg2_trait_manaan
+		swg2_trait_ryloth
+		swg2_trait_saleucami
+		swg2_trait_taris
+		swg2_trait_tatooine
+		swg2_trait_tython
+		swg2_trait_varl
+		swg2_trait_yavin_4
+		swg2_trait_zakuul
+	}
+	icon = "gfx/interface/icons/traits/trait_choose_start.dds"
+}
+
+# Juvex
+swg2_trait_juvex = {
+	cost = 0
+	initial = yes
+	sapient = yes
+	randomized = yes
+	modification = no
+	allowed_archetypes = { BIOLOGICAL LITHOID MACHINE }
+	sorting_priority = 0
+	opposites = { 
+		swg2_trait_alderaan
+		swg2_trait_bothawui 
+		swg2_trait_cantonica 
+		swg2_trait_cato_neimoidia 
+		swg2_trait_corellia 
+		swg2_trait_coruscant 
+		swg2_trait_csilla 
+		swg2_trait_dagobah 
+		swg2_trait_dathomir
+		swg2_trait_desevro
+		swg2_trait_dromund_kaas
+		swg2_trait_duro
+		swg2_trait_endor
+		swg2_trait_felucia
+		swg2_trait_fondor
+		swg2_trait_geonosis
+		swg2_trait_hapes
+		swg2_trait_hoth
+		swg2_trait_jakku
+		swg2_trait_kamino
+		swg2_trait_kashyyyk
+		swg2_trait_kessel
+		swg2_trait_korriban
+		swg2_trait_kuat
+		swg2_trait_malachor_v
+		swg2_trait_mandalore
+		swg2_trait_mon_calamari
+		swg2_trait_mustafar
+		swg2_trait_muunilinst
+		swg2_trait_mygeeto
+		swg2_trait_naboo
+		swg2_trait_nal_hutta
+		swg2_trait_manaan
+		swg2_trait_ryloth
+		swg2_trait_saleucami
+		swg2_trait_taris
+		swg2_trait_tatooine
+		swg2_trait_tython
+		swg2_trait_varl
+		swg2_trait_yavin_4
+		swg2_trait_zakuul
+	}
+	icon = "gfx/interface/icons/traits/trait_choose_start.dds"
+}
+
+# Kamino
+swg2_trait_kamino = {
+	cost = 0
+	initial = yes
+	sapient = yes
+	randomized = yes
+	modification = no
+	allowed_archetypes = { BIOLOGICAL LITHOID MACHINE }
+	sorting_priority = 0
+	opposites = { 
+		swg2_trait_alderaan
+		swg2_trait_bothawui 
+		swg2_trait_cantonica 
+		swg2_trait_cato_neimoidia 
+		swg2_trait_corellia 
+		swg2_trait_coruscant 
+		swg2_trait_csilla 
+		swg2_trait_dagobah 
+		swg2_trait_dathomir
+		swg2_trait_desevro
+		swg2_trait_dromund_kaas
+		swg2_trait_duro
+		swg2_trait_endor
+		swg2_trait_felucia
+		swg2_trait_fondor
+		swg2_trait_geonosis
+		swg2_trait_hapes
+		swg2_trait_hoth
+		swg2_trait_jakku
+		swg2_trait_juvex
+		swg2_trait_kashyyyk
+		swg2_trait_kessel
+		swg2_trait_korriban
+		swg2_trait_kuat
+		swg2_trait_malachor_v
+		swg2_trait_mandalore
+		swg2_trait_mon_calamari
+		swg2_trait_mustafar
+		swg2_trait_muunilinst
+		swg2_trait_mygeeto
+		swg2_trait_naboo
+		swg2_trait_nal_hutta
+		swg2_trait_manaan
+		swg2_trait_ryloth
+		swg2_trait_saleucami
+		swg2_trait_taris
+		swg2_trait_tatooine
+		swg2_trait_tython
+		swg2_trait_varl
+		swg2_trait_yavin_4
+		swg2_trait_zakuul
+	}
+	icon = "gfx/interface/icons/traits/trait_choose_start.dds"
+}
+
+# Kashyyyk
+swg2_trait_kashyyyk = {
+	cost = 0
+	initial = yes
+	sapient = yes
+	randomized = yes
+	modification = no
+	allowed_archetypes = { BIOLOGICAL LITHOID MACHINE }
+	sorting_priority = 0
+	opposites = { 
+		swg2_trait_alderaan
+		swg2_trait_bothawui 
+		swg2_trait_cantonica 
+		swg2_trait_cato_neimoidia 
+		swg2_trait_corellia 
+		swg2_trait_coruscant 
+		swg2_trait_csilla 
+		swg2_trait_dagobah 
+		swg2_trait_dathomir
+		swg2_trait_desevro
+		swg2_trait_dromund_kaas
+		swg2_trait_duro
+		swg2_trait_endor
+		swg2_trait_felucia
+		swg2_trait_fondor
+		swg2_trait_geonosis
+		swg2_trait_hapes
+		swg2_trait_hoth
+		swg2_trait_jakku
+		swg2_trait_juvex
+		swg2_trait_kamino
+		swg2_trait_kessel
+		swg2_trait_korriban
+		swg2_trait_kuat
+		swg2_trait_malachor_v
+		swg2_trait_mandalore
+		swg2_trait_mon_calamari
+		swg2_trait_mustafar
+		swg2_trait_muunilinst
+		swg2_trait_mygeeto
+		swg2_trait_naboo
+		swg2_trait_nal_hutta
+		swg2_trait_manaan
+		swg2_trait_ryloth
+		swg2_trait_saleucami
+		swg2_trait_taris
+		swg2_trait_tatooine
+		swg2_trait_tython
+		swg2_trait_varl
+		swg2_trait_yavin_4
+		swg2_trait_zakuul
+	}
+	icon = "gfx/interface/icons/traits/trait_choose_start.dds"
+}
+
+# Kessel
+swg2_trait_kessel = {
+	cost = 0
+	initial = yes
+	sapient = yes
+	randomized = yes
+	modification = no
+	allowed_archetypes = { BIOLOGICAL LITHOID MACHINE }
+	sorting_priority = 0
+	opposites = { 
+		swg2_trait_alderaan
+		swg2_trait_bothawui 
+		swg2_trait_cantonica 
+		swg2_trait_cato_neimoidia 
+		swg2_trait_corellia 
+		swg2_trait_coruscant 
+		swg2_trait_csilla 
+		swg2_trait_dagobah 
+		swg2_trait_dathomir
+		swg2_trait_desevro
+		swg2_trait_dromund_kaas
+		swg2_trait_duro
+		swg2_trait_endor
+		swg2_trait_felucia
+		swg2_trait_fondor
+		swg2_trait_geonosis
+		swg2_trait_hapes
+		swg2_trait_hoth
+		swg2_trait_jakku
+		swg2_trait_juvex
+		swg2_trait_kamino
+		swg2_trait_kashyyyk
+		swg2_trait_korriban
+		swg2_trait_kuat
+		swg2_trait_malachor_v
+		swg2_trait_mandalore
+		swg2_trait_mon_calamari
+		swg2_trait_mustafar
+		swg2_trait_muunilinst
+		swg2_trait_mygeeto
+		swg2_trait_naboo
+		swg2_trait_nal_hutta
+		swg2_trait_manaan
+		swg2_trait_ryloth
+		swg2_trait_saleucami
+		swg2_trait_taris
+		swg2_trait_tatooine
+		swg2_trait_tython
+		swg2_trait_varl
+		swg2_trait_yavin_4
+		swg2_trait_zakuul
+	}
+	icon = "gfx/interface/icons/traits/trait_choose_start.dds"
+}
+
+# Korriban
+swg2_trait_korriban = {
+	cost = 0
+	initial = yes
+	sapient = yes
+	randomized = yes
+	modification = no
+	allowed_archetypes = { BIOLOGICAL LITHOID MACHINE }
+	sorting_priority = 0
+	opposites = { 
+		swg2_trait_alderaan
+		swg2_trait_bothawui 
+		swg2_trait_cantonica 
+		swg2_trait_cato_neimoidia 
+		swg2_trait_corellia 
+		swg2_trait_coruscant 
+		swg2_trait_csilla 
+		swg2_trait_dagobah 
+		swg2_trait_dathomir
+		swg2_trait_desevro
+		swg2_trait_dromund_kaas
+		swg2_trait_duro
+		swg2_trait_endor
+		swg2_trait_felucia
+		swg2_trait_fondor
+		swg2_trait_geonosis
+		swg2_trait_hapes
+		swg2_trait_hoth
+		swg2_trait_jakku
+		swg2_trait_juvex
+		swg2_trait_kamino
+		swg2_trait_kashyyyk
+		swg2_trait_kessel
+		swg2_trait_kuat
+		swg2_trait_malachor_v
+		swg2_trait_mandalore
+		swg2_trait_mon_calamari
+		swg2_trait_mustafar
+		swg2_trait_muunilinst
+		swg2_trait_mygeeto
+		swg2_trait_naboo
+		swg2_trait_nal_hutta
+		swg2_trait_manaan
+		swg2_trait_ryloth
+		swg2_trait_saleucami
+		swg2_trait_taris
+		swg2_trait_tatooine
+		swg2_trait_tython
+		swg2_trait_varl
+		swg2_trait_yavin_4
+		swg2_trait_zakuul
+	}
+	icon = "gfx/interface/icons/traits/trait_choose_start.dds"
+}
+
+# Kuat
+swg2_trait_kuat = {
+	cost = 0
+	initial = yes
+	sapient = yes
+	randomized = yes
+	modification = no
+	allowed_archetypes = { BIOLOGICAL LITHOID MACHINE }
+	sorting_priority = 0
+	opposites = { 
+		swg2_trait_alderaan
+		swg2_trait_bothawui 
+		swg2_trait_cantonica 
+		swg2_trait_cato_neimoidia 
+		swg2_trait_corellia 
+		swg2_trait_coruscant 
+		swg2_trait_csilla 
+		swg2_trait_dagobah 
+		swg2_trait_dathomir
+		swg2_trait_desevro
+		swg2_trait_dromund_kaas
+		swg2_trait_duro
+		swg2_trait_endor
+		swg2_trait_felucia
+		swg2_trait_fondor
+		swg2_trait_geonosis
+		swg2_trait_hapes
+		swg2_trait_hoth
+		swg2_trait_jakku
+		swg2_trait_juvex
+		swg2_trait_kamino
+		swg2_trait_kashyyyk
+		swg2_trait_kessel
+		swg2_trait_korriban
+		swg2_trait_malachor_v
+		swg2_trait_mandalore
+		swg2_trait_mon_calamari
+		swg2_trait_mustafar
+		swg2_trait_muunilinst
+		swg2_trait_mygeeto
+		swg2_trait_naboo
+		swg2_trait_nal_hutta
+		swg2_trait_manaan
+		swg2_trait_ryloth
+		swg2_trait_saleucami
+		swg2_trait_taris
+		swg2_trait_tatooine
+		swg2_trait_tython
+		swg2_trait_varl
+		swg2_trait_yavin_4
+		swg2_trait_zakuul
+	}
+	icon = "gfx/interface/icons/traits/trait_choose_start.dds"
+}
+
+# Malachor
+swg2_trait_malachor_v = {
+	cost = 0
+	initial = yes
+	sapient = yes
+	randomized = yes
+	modification = no
+	allowed_archetypes = { BIOLOGICAL LITHOID MACHINE }
+	sorting_priority = 0
+	opposites = { 
+		swg2_trait_alderaan
+		swg2_trait_bothawui 
+		swg2_trait_cantonica 
+		swg2_trait_cato_neimoidia 
+		swg2_trait_corellia 
+		swg2_trait_coruscant 
+		swg2_trait_csilla 
+		swg2_trait_dagobah 
+		swg2_trait_dathomir
+		swg2_trait_desevro
+		swg2_trait_dromund_kaas
+		swg2_trait_duro
+		swg2_trait_endor
+		swg2_trait_felucia
+		swg2_trait_fondor
+		swg2_trait_geonosis
+		swg2_trait_hapes
+		swg2_trait_hoth
+		swg2_trait_jakku
+		swg2_trait_juvex
+		swg2_trait_kamino
+		swg2_trait_kashyyyk
+		swg2_trait_kessel
+		swg2_trait_korriban
+		swg2_trait_kuat
+		swg2_trait_mandalore
+		swg2_trait_mon_calamari
+		swg2_trait_mustafar
+		swg2_trait_muunilinst
+		swg2_trait_mygeeto
+		swg2_trait_naboo
+		swg2_trait_nal_hutta
+		swg2_trait_manaan
+		swg2_trait_ryloth
+		swg2_trait_saleucami
+		swg2_trait_taris
+		swg2_trait_tatooine
+		swg2_trait_tython
+		swg2_trait_varl
+		swg2_trait_yavin_4
+		swg2_trait_zakuul
+	}
+	icon = "gfx/interface/icons/traits/trait_choose_start.dds"
+}
+
+# Manaan
+swg2_trait_manaan = {
+	cost = 0
+	initial = yes
+	sapient = yes
+	randomized = yes
+	modification = no
+	allowed_archetypes = { BIOLOGICAL LITHOID MACHINE }
+	sorting_priority = 0
+	opposites = { 
+		swg2_trait_alderaan
+		swg2_trait_bothawui 
+		swg2_trait_cantonica 
+		swg2_trait_cato_neimoidia 
+		swg2_trait_corellia 
+		swg2_trait_coruscant 
+		swg2_trait_csilla 
+		swg2_trait_dagobah 
+		swg2_trait_dathomir
+		swg2_trait_desevro
+		swg2_trait_dromund_kaas
+		swg2_trait_duro
+		swg2_trait_endor
+		swg2_trait_felucia
+		swg2_trait_fondor
+		swg2_trait_geonosis
+		swg2_trait_hapes
+		swg2_trait_hoth
+		swg2_trait_jakku
+		swg2_trait_juvex
+		swg2_trait_kamino
+		swg2_trait_kashyyyk
+		swg2_trait_kessel
+		swg2_trait_korriban
+		swg2_trait_kuat
+		swg2_trait_malachor_v
+		swg2_trait_mandalore
+		swg2_trait_mon_calamari
+		swg2_trait_mustafar
+		swg2_trait_muunilinst
+		swg2_trait_mygeeto
+		swg2_trait_naboo
+		swg2_trait_nal_hutta
+		swg2_trait_ryloth
+		swg2_trait_saleucami
+		swg2_trait_taris
+		swg2_trait_tatooine
+		swg2_trait_tython
+		swg2_trait_varl
+		swg2_trait_yavin_4
+		swg2_trait_zakuul
+	}
+	icon = "gfx/interface/icons/traits/trait_choose_start.dds"
+}
+
+# Mandalore
+swg2_trait_mandalore = {
+	cost = 0
+	initial = yes
+	sapient = yes
+	randomized = yes
+	modification = no
+	allowed_archetypes = { BIOLOGICAL LITHOID MACHINE }
+	sorting_priority = 0
+	opposites = { 
+		swg2_trait_alderaan
+		swg2_trait_bothawui 
+		swg2_trait_cantonica 
+		swg2_trait_cato_neimoidia 
+		swg2_trait_corellia 
+		swg2_trait_coruscant 
+		swg2_trait_csilla 
+		swg2_trait_dagobah 
+		swg2_trait_dathomir
+		swg2_trait_desevro
+		swg2_trait_dromund_kaas
+		swg2_trait_duro
+		swg2_trait_endor
+		swg2_trait_felucia
+		swg2_trait_fondor
+		swg2_trait_geonosis
+		swg2_trait_hapes
+		swg2_trait_hoth
+		swg2_trait_jakku
+		swg2_trait_juvex
+		swg2_trait_kamino
+		swg2_trait_kashyyyk
+		swg2_trait_kessel
+		swg2_trait_korriban
+		swg2_trait_kuat
+		swg2_trait_malachor_v
+		swg2_trait_mon_calamari
+		swg2_trait_mustafar
+		swg2_trait_muunilinst
+		swg2_trait_mygeeto
+		swg2_trait_naboo
+		swg2_trait_nal_hutta
+		swg2_trait_manaan
+		swg2_trait_ryloth
+		swg2_trait_saleucami
+		swg2_trait_taris
+		swg2_trait_tatooine
+		swg2_trait_tython
+		swg2_trait_varl
+		swg2_trait_yavin_4
+		swg2_trait_zakuul
+	}
+	icon = "gfx/interface/icons/traits/trait_choose_start.dds"
+}
+
+# Mon Calamari
+swg2_trait_mon_calamari = {
+	cost = 0
+	initial = yes
+	sapient = yes
+	randomized = yes
+	modification = no
+	allowed_archetypes = { BIOLOGICAL LITHOID MACHINE }
+	sorting_priority = 0
+	opposites = { 
+		swg2_trait_alderaan
+		swg2_trait_bothawui 
+		swg2_trait_cantonica 
+		swg2_trait_cato_neimoidia 
+		swg2_trait_corellia 
+		swg2_trait_coruscant 
+		swg2_trait_csilla 
+		swg2_trait_dagobah 
+		swg2_trait_dathomir
+		swg2_trait_desevro
+		swg2_trait_dromund_kaas
+		swg2_trait_duro
+		swg2_trait_endor
+		swg2_trait_felucia
+		swg2_trait_fondor
+		swg2_trait_geonosis
+		swg2_trait_hapes
+		swg2_trait_hoth
+		swg2_trait_jakku
+		swg2_trait_juvex
+		swg2_trait_kamino
+		swg2_trait_kashyyyk
+		swg2_trait_kessel
+		swg2_trait_korriban
+		swg2_trait_kuat
+		swg2_trait_malachor_v
+		swg2_trait_mandalore
+		swg2_trait_mustafar
+		swg2_trait_muunilinst
+		swg2_trait_mygeeto
+		swg2_trait_naboo
+		swg2_trait_nal_hutta
+		swg2_trait_manaan
+		swg2_trait_ryloth
+		swg2_trait_saleucami
+		swg2_trait_taris
+		swg2_trait_tatooine
+		swg2_trait_tython
+		swg2_trait_varl
+		swg2_trait_yavin_4
+		swg2_trait_zakuul
+	}
+	icon = "gfx/interface/icons/traits/trait_choose_start.dds"
+}
+
+# Mustafar
+swg2_trait_mustafar = {
+	cost = 0
+	initial = yes
+	sapient = yes
+	randomized = yes
+	modification = no
+	allowed_archetypes = { BIOLOGICAL LITHOID MACHINE }
+	sorting_priority = 0
+	opposites = { 
+		swg2_trait_alderaan
+		swg2_trait_bothawui 
+		swg2_trait_cantonica 
+		swg2_trait_cato_neimoidia 
+		swg2_trait_corellia 
+		swg2_trait_coruscant 
+		swg2_trait_csilla 
+		swg2_trait_dagobah 
+		swg2_trait_dathomir
+		swg2_trait_desevro
+		swg2_trait_dromund_kaas
+		swg2_trait_duro
+		swg2_trait_endor
+		swg2_trait_felucia
+		swg2_trait_fondor
+		swg2_trait_geonosis
+		swg2_trait_hapes
+		swg2_trait_hoth
+		swg2_trait_jakku
+		swg2_trait_juvex
+		swg2_trait_kamino
+		swg2_trait_kashyyyk
+		swg2_trait_kessel
+		swg2_trait_korriban
+		swg2_trait_kuat
+		swg2_trait_malachor_v
+		swg2_trait_mandalore
+		swg2_trait_mon_calamari
+		swg2_trait_muunilinst
+		swg2_trait_mygeeto
+		swg2_trait_naboo
+		swg2_trait_nal_hutta
+		swg2_trait_manaan
+		swg2_trait_ryloth
+		swg2_trait_saleucami
+		swg2_trait_taris
+		swg2_trait_tatooine
+		swg2_trait_tython
+		swg2_trait_varl
+		swg2_trait_yavin_4
+		swg2_trait_zakuul
+	}
+	icon = "gfx/interface/icons/traits/trait_choose_start.dds"
+}
+
+# Muunilinst
+swg2_trait_muunilinst = {
+	cost = 0
+	initial = yes
+	sapient = yes
+	randomized = yes
+	modification = no
+	allowed_archetypes = { BIOLOGICAL LITHOID MACHINE }
+	sorting_priority = 0
+	opposites = { 
+		swg2_trait_alderaan
+		swg2_trait_bothawui 
+		swg2_trait_cantonica 
+		swg2_trait_cato_neimoidia 
+		swg2_trait_corellia 
+		swg2_trait_coruscant 
+		swg2_trait_csilla 
+		swg2_trait_dagobah 
+		swg2_trait_dathomir
+		swg2_trait_desevro
+		swg2_trait_dromund_kaas
+		swg2_trait_duro
+		swg2_trait_endor
+		swg2_trait_felucia
+		swg2_trait_fondor
+		swg2_trait_geonosis
+		swg2_trait_hapes
+		swg2_trait_hoth
+		swg2_trait_jakku
+		swg2_trait_juvex
+		swg2_trait_kamino
+		swg2_trait_kashyyyk
+		swg2_trait_kessel
+		swg2_trait_korriban
+		swg2_trait_kuat
+		swg2_trait_malachor_v
+		swg2_trait_mandalore
+		swg2_trait_mon_calamari
+		swg2_trait_mustafar
+		swg2_trait_mygeeto
+		swg2_trait_naboo
+		swg2_trait_nal_hutta
+		swg2_trait_manaan
+		swg2_trait_ryloth
+		swg2_trait_saleucami
+		swg2_trait_taris
+		swg2_trait_tatooine
+		swg2_trait_tython
+		swg2_trait_varl
+		swg2_trait_yavin_4
+		swg2_trait_zakuul
+	}
+	icon = "gfx/interface/icons/traits/trait_choose_start.dds"
+}
+
+# Mygeeto
+swg2_trait_mygeeto = {
+	cost = 0
+	initial = yes
+	sapient = yes
+	randomized = yes
+	modification = no
+	allowed_archetypes = { BIOLOGICAL LITHOID MACHINE }
+	sorting_priority = 0
+	opposites = { 
+		swg2_trait_alderaan
+		swg2_trait_bothawui 
+		swg2_trait_cantonica 
+		swg2_trait_cato_neimoidia 
+		swg2_trait_corellia 
+		swg2_trait_coruscant 
+		swg2_trait_csilla 
+		swg2_trait_dagobah 
+		swg2_trait_dathomir
+		swg2_trait_desevro
+		swg2_trait_dromund_kaas
+		swg2_trait_duro
+		swg2_trait_endor
+		swg2_trait_felucia
+		swg2_trait_fondor
+		swg2_trait_geonosis
+		swg2_trait_hapes
+		swg2_trait_hoth
+		swg2_trait_jakku
+		swg2_trait_juvex
+		swg2_trait_kamino
+		swg2_trait_kashyyyk
+		swg2_trait_kessel
+		swg2_trait_korriban
+		swg2_trait_kuat
+		swg2_trait_malachor_v
+		swg2_trait_mandalore
+		swg2_trait_mon_calamari
+		swg2_trait_mustafar
+		swg2_trait_muunilinst
+		swg2_trait_naboo
+		swg2_trait_nal_hutta
+		swg2_trait_manaan
+		swg2_trait_ryloth
+		swg2_trait_saleucami
+		swg2_trait_taris
+		swg2_trait_tatooine
+		swg2_trait_tython
+		swg2_trait_varl
+		swg2_trait_yavin_4
+		swg2_trait_zakuul
+	}
+	icon = "gfx/interface/icons/traits/trait_choose_start.dds"
+}
+
+# Naboo
+swg2_trait_naboo = {
+	cost = 0
+	initial = yes
+	sapient = yes
+	randomized = yes
+	modification = no
+	allowed_archetypes = { BIOLOGICAL LITHOID MACHINE }
+	sorting_priority = 0
+	opposites = { 
+		swg2_trait_alderaan
+		swg2_trait_bothawui 
+		swg2_trait_cantonica 
+		swg2_trait_cato_neimoidia 
+		swg2_trait_corellia 
+		swg2_trait_coruscant 
+		swg2_trait_csilla 
+		swg2_trait_dagobah 
+		swg2_trait_dathomir
+		swg2_trait_desevro
+		swg2_trait_dromund_kaas
+		swg2_trait_duro
+		swg2_trait_endor
+		swg2_trait_felucia
+		swg2_trait_fondor
+		swg2_trait_geonosis
+		swg2_trait_hapes
+		swg2_trait_hoth
+		swg2_trait_jakku
+		swg2_trait_juvex
+		swg2_trait_kamino
+		swg2_trait_kashyyyk
+		swg2_trait_kessel
+		swg2_trait_korriban
+		swg2_trait_kuat
+		swg2_trait_malachor_v
+		swg2_trait_mandalore
+		swg2_trait_mon_calamari
+		swg2_trait_mustafar
+		swg2_trait_muunilinst
+		swg2_trait_mygeeto
+		swg2_trait_nal_hutta
+		swg2_trait_manaan
+		swg2_trait_ryloth
+		swg2_trait_saleucami
+		swg2_trait_taris
+		swg2_trait_tatooine
+		swg2_trait_tython
+		swg2_trait_varl
+		swg2_trait_yavin_4
+		swg2_trait_zakuul
+	}
+	icon = "gfx/interface/icons/traits/trait_choose_start.dds"
+}
+
+# Nal Hutta
+swg2_trait_nal_hutta = {
+	cost = 0
+	initial = yes
+	sapient = yes
+	randomized = yes
+	modification = no
+	allowed_archetypes = { BIOLOGICAL LITHOID MACHINE }
+	sorting_priority = 0
+	opposites = { 
+		swg2_trait_alderaan
+		swg2_trait_bothawui 
+		swg2_trait_cantonica 
+		swg2_trait_cato_neimoidia 
+		swg2_trait_corellia 
+		swg2_trait_coruscant 
+		swg2_trait_csilla 
+		swg2_trait_dagobah 
+		swg2_trait_dathomir
+		swg2_trait_desevro
+		swg2_trait_dromund_kaas
+		swg2_trait_duro
+		swg2_trait_endor
+		swg2_trait_felucia
+		swg2_trait_fondor
+		swg2_trait_geonosis
+		swg2_trait_hapes
+		swg2_trait_hoth
+		swg2_trait_jakku
+		swg2_trait_juvex
+		swg2_trait_kamino
+		swg2_trait_kashyyyk
+		swg2_trait_kessel
+		swg2_trait_korriban
+		swg2_trait_kuat
+		swg2_trait_malachor_v
+		swg2_trait_mandalore
+		swg2_trait_mon_calamari
+		swg2_trait_mustafar
+		swg2_trait_muunilinst
+		swg2_trait_mygeeto
+		swg2_trait_naboo
+		swg2_trait_manaan
+		swg2_trait_ryloth
+		swg2_trait_saleucami
+		swg2_trait_taris
+		swg2_trait_tatooine
+		swg2_trait_tython
+		swg2_trait_varl
+		swg2_trait_yavin_4
+		swg2_trait_zakuul
+	}
+	icon = "gfx/interface/icons/traits/trait_choose_start.dds"
+}
+
+# Ryloth
+swg2_trait_ryloth = {
+	cost = 0
+	initial = yes
+	sapient = yes
+	randomized = yes
+	modification = no
+	allowed_archetypes = { BIOLOGICAL LITHOID MACHINE }
+	sorting_priority = 0
+	opposites = { 
+		swg2_trait_alderaan
+		swg2_trait_bothawui 
+		swg2_trait_cantonica 
+		swg2_trait_cato_neimoidia 
+		swg2_trait_corellia 
+		swg2_trait_coruscant 
+		swg2_trait_csilla 
+		swg2_trait_dagobah 
+		swg2_trait_dathomir
+		swg2_trait_desevro
+		swg2_trait_dromund_kaas
+		swg2_trait_duro
+		swg2_trait_endor
+		swg2_trait_felucia
+		swg2_trait_fondor
+		swg2_trait_geonosis
+		swg2_trait_hapes
+		swg2_trait_hoth
+		swg2_trait_jakku
+		swg2_trait_juvex
+		swg2_trait_kamino
+		swg2_trait_kashyyyk
+		swg2_trait_kessel
+		swg2_trait_korriban
+		swg2_trait_kuat
+		swg2_trait_malachor_v
+		swg2_trait_mandalore
+		swg2_trait_mon_calamari
+		swg2_trait_mustafar
+		swg2_trait_muunilinst
+		swg2_trait_mygeeto
+		swg2_trait_naboo
+		swg2_trait_nal_hutta
+		swg2_trait_manaan
+		swg2_trait_saleucami
+		swg2_trait_taris
+		swg2_trait_tatooine
+		swg2_trait_tython
+		swg2_trait_varl
+		swg2_trait_yavin_4
+		swg2_trait_zakuul
+	}
+	icon = "gfx/interface/icons/traits/trait_choose_start.dds"
+}
+
+# Saleucami
+swg2_trait_saleucami = {
+	cost = 0
+	initial = yes
+	sapient = yes
+	randomized = yes
+	modification = no
+	allowed_archetypes = { BIOLOGICAL LITHOID MACHINE }
+	sorting_priority = 0
+	opposites = { 
+		swg2_trait_alderaan
+		swg2_trait_bothawui 
+		swg2_trait_cantonica 
+		swg2_trait_cato_neimoidia 
+		swg2_trait_corellia 
+		swg2_trait_coruscant 
+		swg2_trait_csilla 
+		swg2_trait_dagobah 
+		swg2_trait_dathomir
+		swg2_trait_desevro
+		swg2_trait_dromund_kaas
+		swg2_trait_duro
+		swg2_trait_endor
+		swg2_trait_felucia
+		swg2_trait_fondor
+		swg2_trait_geonosis
+		swg2_trait_hapes
+		swg2_trait_hoth
+		swg2_trait_jakku
+		swg2_trait_juvex
+		swg2_trait_kamino
+		swg2_trait_kashyyyk
+		swg2_trait_kessel
+		swg2_trait_korriban
+		swg2_trait_kuat
+		swg2_trait_malachor_v
+		swg2_trait_mandalore
+		swg2_trait_mon_calamari
+		swg2_trait_mustafar
+		swg2_trait_muunilinst
+		swg2_trait_mygeeto
+		swg2_trait_naboo
+		swg2_trait_nal_hutta
+		swg2_trait_manaan
+		swg2_trait_ryloth
+		swg2_trait_taris
+		swg2_trait_tatooine
+		swg2_trait_tython
+		swg2_trait_varl
+		swg2_trait_yavin_4
+		swg2_trait_zakuul
+	}
+	icon = "gfx/interface/icons/traits/trait_choose_start.dds"
+}
+
+# Taris
+swg2_trait_taris = {
+	cost = 0
+	initial = yes
+	sapient = yes
+	randomized = yes
+	modification = no
+	allowed_archetypes = { BIOLOGICAL LITHOID MACHINE }
+	sorting_priority = 0
+	opposites = { 
+		swg2_trait_alderaan
+		swg2_trait_bothawui 
+		swg2_trait_cantonica 
+		swg2_trait_cato_neimoidia 
+		swg2_trait_corellia 
+		swg2_trait_coruscant 
+		swg2_trait_csilla 
+		swg2_trait_dagobah 
+		swg2_trait_dathomir
+		swg2_trait_desevro
+		swg2_trait_dromund_kaas
+		swg2_trait_duro
+		swg2_trait_endor
+		swg2_trait_felucia
+		swg2_trait_fondor
+		swg2_trait_geonosis
+		swg2_trait_hapes
+		swg2_trait_hoth
+		swg2_trait_jakku
+		swg2_trait_juvex
+		swg2_trait_kamino
+		swg2_trait_kashyyyk
+		swg2_trait_kessel
+		swg2_trait_korriban
+		swg2_trait_kuat
+		swg2_trait_malachor_v
+		swg2_trait_mandalore
+		swg2_trait_mon_calamari
+		swg2_trait_mustafar
+		swg2_trait_muunilinst
+		swg2_trait_mygeeto
+		swg2_trait_naboo
+		swg2_trait_nal_hutta
+		swg2_trait_manaan
+		swg2_trait_ryloth
+		swg2_trait_saleucami
+		swg2_trait_tatooine
+		swg2_trait_tython
+		swg2_trait_varl
+		swg2_trait_yavin_4
+		swg2_trait_zakuul
+	}
+	icon = "gfx/interface/icons/traits/trait_choose_start.dds"
+}
+
+# Tatooine
+swg2_trait_tatooine = {
+	cost = 0
+	initial = yes
+	sapient = yes
+	randomized = yes
+	modification = no
+	allowed_archetypes = { BIOLOGICAL LITHOID MACHINE }
+	sorting_priority = 0
+	opposites = { 
+		swg2_trait_alderaan
+		swg2_trait_bothawui 
+		swg2_trait_cantonica 
+		swg2_trait_cato_neimoidia 
+		swg2_trait_corellia 
+		swg2_trait_coruscant 
+		swg2_trait_csilla 
+		swg2_trait_dagobah 
+		swg2_trait_dathomir
+		swg2_trait_desevro
+		swg2_trait_dromund_kaas
+		swg2_trait_duro
+		swg2_trait_endor
+		swg2_trait_felucia
+		swg2_trait_fondor
+		swg2_trait_geonosis
+		swg2_trait_hapes
+		swg2_trait_hoth
+		swg2_trait_jakku
+		swg2_trait_juvex
+		swg2_trait_kamino
+		swg2_trait_kashyyyk
+		swg2_trait_kessel
+		swg2_trait_korriban
+		swg2_trait_kuat
+		swg2_trait_malachor_v
+		swg2_trait_mandalore
+		swg2_trait_mon_calamari
+		swg2_trait_mustafar
+		swg2_trait_muunilinst
+		swg2_trait_mygeeto
+		swg2_trait_naboo
+		swg2_trait_nal_hutta
+		swg2_trait_manaan
+		swg2_trait_ryloth
+		swg2_trait_saleucami
+		swg2_trait_taris
+		swg2_trait_tython
+		swg2_trait_varl
+		swg2_trait_yavin_4
+		swg2_trait_zakuul
+	}
+	icon = "gfx/interface/icons/traits/trait_choose_start.dds"
+}
+
+# Tython
+swg2_trait_tython = {
+	cost = 0
+	initial = yes
+	sapient = yes
+	randomized = yes
+	modification = no
+	allowed_archetypes = { BIOLOGICAL LITHOID MACHINE }
+	sorting_priority = 0
+	opposites = { 
+		swg2_trait_alderaan
+		swg2_trait_bothawui 
+		swg2_trait_cantonica 
+		swg2_trait_cato_neimoidia 
+		swg2_trait_corellia 
+		swg2_trait_coruscant 
+		swg2_trait_csilla 
+		swg2_trait_dagobah 
+		swg2_trait_dathomir
+		swg2_trait_desevro
+		swg2_trait_dromund_kaas
+		swg2_trait_duro
+		swg2_trait_endor
+		swg2_trait_felucia
+		swg2_trait_fondor
+		swg2_trait_geonosis
+		swg2_trait_hapes
+		swg2_trait_hoth
+		swg2_trait_jakku
+		swg2_trait_juvex
+		swg2_trait_kamino
+		swg2_trait_kashyyyk
+		swg2_trait_kessel
+		swg2_trait_korriban
+		swg2_trait_kuat
+		swg2_trait_malachor_v
+		swg2_trait_mandalore
+		swg2_trait_mon_calamari
+		swg2_trait_mustafar
+		swg2_trait_muunilinst
+		swg2_trait_mygeeto
+		swg2_trait_naboo
+		swg2_trait_nal_hutta
+		swg2_trait_manaan
+		swg2_trait_ryloth
+		swg2_trait_saleucami
+		swg2_trait_taris
+		swg2_trait_tatooine
+		swg2_trait_varl
+		swg2_trait_yavin_4
+		swg2_trait_zakuul
+	}
+	icon = "gfx/interface/icons/traits/trait_choose_start.dds"
+}
+
+# Varl
+swg2_trait_varl = {
+	cost = 0
+	initial = yes
+	sapient = yes
+	randomized = yes
+	modification = no
+	allowed_archetypes = { BIOLOGICAL LITHOID MACHINE }
+	sorting_priority = 0
+	opposites = { 
+		swg2_trait_alderaan
+		swg2_trait_bothawui 
+		swg2_trait_cantonica 
+		swg2_trait_cato_neimoidia 
+		swg2_trait_corellia 
+		swg2_trait_coruscant 
+		swg2_trait_csilla 
+		swg2_trait_dagobah 
+		swg2_trait_dathomir
+		swg2_trait_desevro
+		swg2_trait_dromund_kaas
+		swg2_trait_duro
+		swg2_trait_endor
+		swg2_trait_felucia
+		swg2_trait_fondor
+		swg2_trait_geonosis
+		swg2_trait_hapes
+		swg2_trait_hoth
+		swg2_trait_jakku
+		swg2_trait_juvex
+		swg2_trait_kamino
+		swg2_trait_kashyyyk
+		swg2_trait_kessel
+		swg2_trait_korriban
+		swg2_trait_kuat
+		swg2_trait_malachor_v
+		swg2_trait_mandalore
+		swg2_trait_mon_calamari
+		swg2_trait_mustafar
+		swg2_trait_muunilinst
+		swg2_trait_mygeeto
+		swg2_trait_naboo
+		swg2_trait_nal_hutta
+		swg2_trait_manaan
+		swg2_trait_ryloth
+		swg2_trait_saleucami
+		swg2_trait_taris
+		swg2_trait_tatooine
+		swg2_trait_tython
+		swg2_trait_yavin_4
+		swg2_trait_zakuul
+	}
+	icon = "gfx/interface/icons/traits/trait_choose_start.dds"
+}
+
+# Yavin
+swg2_trait_yavin_4 = {
+	cost = 0
+	initial = yes
+	sapient = yes
+	randomized = yes
+	modification = no
+	allowed_archetypes = { BIOLOGICAL LITHOID MACHINE }
+	sorting_priority = 0
+	opposites = { 
+		swg2_trait_alderaan
+		swg2_trait_bothawui 
+		swg2_trait_cantonica 
+		swg2_trait_cato_neimoidia 
+		swg2_trait_corellia 
+		swg2_trait_coruscant 
+		swg2_trait_csilla 
+		swg2_trait_dagobah 
+		swg2_trait_dathomir
+		swg2_trait_desevro
+		swg2_trait_dromund_kaas
+		swg2_trait_duro
+		swg2_trait_endor
+		swg2_trait_felucia
+		swg2_trait_fondor
+		swg2_trait_geonosis
+		swg2_trait_hapes
+		swg2_trait_hoth
+		swg2_trait_jakku
+		swg2_trait_juvex
+		swg2_trait_kamino
+		swg2_trait_kashyyyk
+		swg2_trait_kessel
+		swg2_trait_korriban
+		swg2_trait_kuat
+		swg2_trait_malachor_v
+		swg2_trait_mandalore
+		swg2_trait_mon_calamari
+		swg2_trait_mustafar
+		swg2_trait_muunilinst
+		swg2_trait_mygeeto
+		swg2_trait_naboo
+		swg2_trait_nal_hutta
+		swg2_trait_manaan
+		swg2_trait_ryloth
+		swg2_trait_saleucami
+		swg2_trait_taris
+		swg2_trait_tatooine
+		swg2_trait_tython
+		swg2_trait_varl
+		swg2_trait_zakuul
+	}
+	icon = "gfx/interface/icons/traits/trait_choose_start.dds"
+}
+
+# Zakuul
+swg2_trait_zakuul = {
+	cost = 0
+	initial = yes
+	sapient = yes
+	randomized = yes
+	modification = no
+	allowed_archetypes = { BIOLOGICAL LITHOID MACHINE }
+	sorting_priority = 0
+	opposites = { 
+		swg2_trait_alderaan
+		swg2_trait_bothawui 
+		swg2_trait_cantonica 
+		swg2_trait_cato_neimoidia 
+		swg2_trait_corellia 
+		swg2_trait_coruscant 
+		swg2_trait_csilla 
+		swg2_trait_dagobah 
+		swg2_trait_dathomir
+		swg2_trait_desevro
+		swg2_trait_dromund_kaas
+		swg2_trait_duro
+		swg2_trait_endor
+		swg2_trait_felucia
+		swg2_trait_fondor
+		swg2_trait_geonosis
+		swg2_trait_hapes
+		swg2_trait_hoth
+		swg2_trait_jakku
+		swg2_trait_juvex
+		swg2_trait_kamino
+		swg2_trait_kashyyyk
+		swg2_trait_kessel
+		swg2_trait_korriban
+		swg2_trait_kuat
+		swg2_trait_malachor_v
+		swg2_trait_mandalore
+		swg2_trait_mon_calamari
+		swg2_trait_mustafar
+		swg2_trait_muunilinst
+		swg2_trait_mygeeto
+		swg2_trait_naboo
+		swg2_trait_nal_hutta
+		swg2_trait_manaan
+		swg2_trait_ryloth
+		swg2_trait_saleucami
+		swg2_trait_taris
+		swg2_trait_tatooine
+		swg2_trait_tython
+		swg2_trait_varl
+		swg2_trait_yavin_4
+	}
+	icon = "gfx/interface/icons/traits/trait_choose_start.dds"
+}

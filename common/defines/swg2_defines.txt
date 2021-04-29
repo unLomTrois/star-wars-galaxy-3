@@ -4,7 +4,7 @@ NCamera = {
     ZOOM_STEPS_GALAXY = { 30 60 100 200 400 600 900 1500 3000 } 	# Galaxy zoom steps
     
     GALAXY_SHOW_STARNAME_ZOOM = 700
-    GALAXY_SHOW_FLEETS_ZOOM = 1200
+    GALAXY_SHOW_FLEETS_ZOOM = 1700
 
     BORDER_NAMES_FADEOUT_ZOOM = 700
     BORDER_FLAG_FADEOUT_ZOOM = 700
@@ -16,15 +16,20 @@ NGraphics = {
     GALAXY_STAR_ICON_SCALE = 0.4
     GALAXY_STAR_ICON_MAX_SCALE = 5
 
-    BORDER_SYSTEM_RADIUS = 10.0
-    BORDER_HYPERLANE_THICKNESS = 5.0
+    BORDER_SYSTEM_RADIUS = 35.0
+    BORDER_HYPERLANE_THICKNESS = 20.0
 
-    BORDER_OWNERLESS_SYSTEM_RADIUS = 5.0
-    BORDER_OWNERLESS_HYPERLANE_THICKNESS = 5.0
+    BORDER_OWNERLESS_SYSTEM_RADIUS = 20.0
+    BORDER_OWNERLESS_HYPERLANE_THICKNESS = 15.0
 
     MAPNAME_BORDER_MIN_SIZE	= 100
     MAPNAME_BORDER_SCALE = 0.8
 	MAPNAME_BORDER_OFFSET_MUL = 0.7
+
+    STAR_PIN_CIRCLE_RADIUS = 1.0	# The lines that go from solar systems down to the 0-plane. This is the radius of that circle
+    STAR_PIN_CIRCLE_NUM_POINTS = 6	# how many points in the circle on the 0-plane
+    STAR_PIN_ENABLE_NEUTRAL	= no # Should the game draw pins for stars that are not within any borders?
+    STAR_PIN_NEUTRAL_COLOR = { 0.5 0.5 0.5 0.5 }	# The color for pins that are not inside any borders
 
     RANDOM_HEIGHT_MIN = -1
     RANDOM_HEIGHT_MAX = 1

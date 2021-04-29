@@ -843,17 +843,9 @@ lost_colony_1 = {
 				has_origin = origin_lost_colony
 				NOT = {
 					has_country_flag = parent_system_spawned
-					species_portrait = human
-					# don't spawn if AI-generated and adv start disabled
-					# see game_start.1
-					AND = {
-						is_ai = yes
-						check_galaxy_setup_value = { setting = num_advanced_empires value < 1 }
-					}
 				}
 			}
-			NOT = { has_star_flag = empire_cluster }
-			add = 99999
+			add = 15
 		}
 	}
 
@@ -914,7 +906,6 @@ lost_colony_1 = {
 					has_origin = origin_lost_colony
 					NOT = {
 						has_country_flag = parent_system_spawned
-						species_portrait = human
 					}
 				}
 				set_country_flag = parent_system_spawned
