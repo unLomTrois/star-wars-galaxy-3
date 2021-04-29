@@ -1,0 +1,1779 @@
+static_galaxy_scenario = {
+	name = "swg2_medium_random"
+	priority = 2
+	default = no
+	num_empires = { min = 0 max = 42 }
+	num_empire_default = 0 #16 
+	fallen_empire_default = 0 #4 
+	fallen_empire_max = 5
+	marauder_empire_default = 0 #3
+	marauder_empire_max = 3
+	advanced_empire_default = 0 #4
+	colonizable_planet_odds = 1.0
+	random_hyperlanes = no
+	num_wormhole_pairs_default = 0
+
+	### Galactic Center
+	system = { id = "1" name = "Galactic Center" position = { x = 0 y = 0 } }
+
+
+
+
+	#################################
+	#		Super-Hyperroutes		#
+	#################################
+
+	### Perlemian Trade Route 
+	system = { id = "2" name = "Coruscant" position = { x = 0 y = -56 } initializer = random_coruscant_init spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_coruscant } } }
+	system = { id = "3" name = "Alsakan" position = { x = -6 y = -60 } }
+	system = { id = "4" name = "Grizmallt" position = { x = -10 y = -63 } }
+	system = { id = "5" name = "Anaxes" position = { x = -15 y = -66 } }
+	system = { id = "6" name = "Corulag" position = { x = -18 y = -67 } }
+	system = { id = "7" name = "Chandrila" position = { x = -21 y = -69 } }
+	system = { id = "8" name = "Brentaal" position = { x = -23 y = -70 } }
+	system = { id = "9" name = "Esseles" position = { x = -25 y = -71 } }
+	system = { id = "10" name = "Rhinnal" position = { x = -26 y = -72 } }
+	system = { id = "11" name = "Ralltiir" position = { x = -29 y = -74 } }
+	system = { id = "16" name = "Castell" position = { x = -54 y = -88 } }
+	system = { id = "22" name = "Tirahnn" position = { x = -103 y = -103 } }
+	system = { id = "24" name = "Taanab" position = { x = -140 y = -100 } }
+	system = { id = "29" name = "Lantillies" position = { x = -171 y = -104 } }
+	system = { id = "32" name = "Roche" position = { x = -210 y = -118 } }
+	system = { id = "37" name = "Abhean" position = { x = -246 y = -150 } }
+	system = { id = "38" name = "The Wheel" position = { x = -250 y = -156 } }
+	system = { id = "39" name = "Centares" position = { x = -254 y = -162 } }
+	system = { id = "42" name = "Columex" position = { x = -269 y = -186 } }
+	system = { id = "43" name = "Arcan" position = { x = -278 y = -201 } }
+	system = { id = "44" name = "Lianna" position = { x = -280 y = -203 } }
+	system = { id = "45" name = "Barseg" position = { x = -282 y = -207 } }
+	system = { id = "46" name = "Desev" position = { x = -286 y = -214 } initializer = random_desev_init spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_desevro } } }
+	system = { id = "50" name = "Makem Te" position = { x = -298 y = -234 } }
+	system = { id = "51" name = "Quermia" position = { x = -303 y = -240 } }
+	# Free ids up to 100
+
+	add_hyperlane = { from = "2" to = "3" }
+	add_hyperlane = { from = "3" to = "4" }
+	add_hyperlane = { from = "4" to = "5" }
+	add_hyperlane = { from = "5" to = "6" }
+	add_hyperlane = { from = "6" to = "7" }
+	add_hyperlane = { from = "7" to = "8" }
+	add_hyperlane = { from = "8" to = "9" }
+	add_hyperlane = { from = "9" to = "10" }
+	add_hyperlane = { from = "10" to = "11" }
+	add_hyperlane = { from = "11" to = "1804" }
+	add_hyperlane = { from = "1804" to = "16" }
+	add_hyperlane = { from = "16" to = "1176" }
+	add_hyperlane = { from = "1176" to = "1187" }
+	add_hyperlane = { from = "1187" to = "22" }
+	add_hyperlane = { from = "22" to = "24" }
+	add_hyperlane = { from = "24" to = "29" }
+	add_hyperlane = { from = "29" to = "32" }
+	add_hyperlane = { from = "32" to = "37" }
+	add_hyperlane = { from = "37" to = "38" }
+	add_hyperlane = { from = "38" to = "39" }
+	add_hyperlane = { from = "39" to = "42" }
+	add_hyperlane = { from = "42" to = "43" }
+	add_hyperlane = { from = "43" to = "44" }
+	add_hyperlane = { from = "44" to = "45" }
+	add_hyperlane = { from = "45" to = "46" }
+	add_hyperlane = { from = "46" to = "50" }
+	add_hyperlane = { from = "50" to = "51" }
+	add_hyperlane = { from = "51" to = "2570" }
+
+
+
+
+	### Corellian Run
+	system = { id = "101" name = "Wukkar" position = { x = -22 y = -50 } }
+	system = { id = "111" name = "Corellian" position = { x = -62 y = 18 } initializer = random_corellian_init spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_corellia } } }
+	system = { id = "112" name = "Nubus" position = { x = -64 y = 21 } }
+	system = { id = "114" name = "Loronar" position = { x = -74 y = 43 } }
+	system = { id = "115" name = "Byblos" position = { x = -76 y = 50 } }
+	system = { id = "121" name = "Rhommamool" position = { x = -111 y = 89 } }
+	system = { id = "122" name = "Tlactehon" position = { x = -122 y = 102 } }
+	system = { id = "124" name = "Gamor" position = { x = -139 y = 120 } }
+	system = { id = "125" name = "Milagro" position = { x = -143 y = 124 } }
+	system = { id = "127" name = "New Cov" position = { x = -161 y = 142 } }
+	system = { id = "129" name = "Druckenwell" position = { x = -174 y = 158 } }
+	system = { id = "132" name = "Algara" position = { x = -192 y = 175 } }
+	system = { id = "133" name = "Andosha" position = { x = -197 y = 182 } }
+	system = { id = "134" name = "Mon Gazza" position = { x = -206 y = 190 } }
+	system = { id = "135" name = "Herdessa" position = { x = -215 y = 198 } }
+	system = { id = "136" name = "Radnor" position = { x = -221 y = 205 } }
+	system = { id = "137" name = "Christophsis" position = { x = -230 y = 214 } }
+	system = { id = "138" name = "Savareen" position = { x = -236 y = 219 } }
+	system = { id = "140" name = "Sirpar" position = { x = -248 y = 230 } }
+	system = { id = "143" name = "Ryloth" position = { x = -267 y = 248 } initializer = random_ryloth_init spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_ryloth } } }
+	system = { id = "145" name = "Smuggler's Run" position = { x = -290 y = 265 } }
+	# Free ids up to 200 
+
+	add_hyperlane = { from = "2" to = "776" }
+	add_hyperlane = { from = "776" to = "101" }
+	add_hyperlane = { from = "101" to = "944" }
+	add_hyperlane = { from = "944" to = "402" }
+	add_hyperlane = { from = "402" to = "407" }
+	add_hyperlane = { from = "407" to = "949" }
+	add_hyperlane = { from = "949" to = "950" }
+	add_hyperlane = { from = "950" to = "111" }
+	add_hyperlane = { from = "111" to = "112" }
+	add_hyperlane = { from = "112" to = "114" }
+	add_hyperlane = { from = "112" to = "200" }
+	add_hyperlane = { from = "114" to = "115" }
+	add_hyperlane = { from = "115" to = "421" }
+	add_hyperlane = { from = "421" to = "121" }
+	add_hyperlane = { from = "121" to = "122" }
+	add_hyperlane = { from = "122" to = "124" }
+	add_hyperlane = { from = "124" to = "125" }
+	add_hyperlane = { from = "125" to = "127" }
+	add_hyperlane = { from = "127" to = "129" }
+	add_hyperlane = { from = "129" to = "2303" }
+	add_hyperlane = { from = "2303" to = "132" }
+	add_hyperlane = { from = "132" to = "133" }
+	add_hyperlane = { from = "133" to = "134" }
+	add_hyperlane = { from = "134" to = "135" }
+	add_hyperlane = { from = "135" to = "136" }
+	add_hyperlane = { from = "136" to = "137" }
+	add_hyperlane = { from = "137" to = "138" }
+	add_hyperlane = { from = "138" to = "140" }
+	add_hyperlane = { from = "140" to = "143" }
+	add_hyperlane = { from = "143" to = "145" }
+	add_hyperlane = { from = "145" to = "3457" }
+
+
+
+
+	### Corellian Trade Spine 
+	system = { id = "200" name = "New Plympto" position = { x = -63 y = 23 } }
+	system = { id = "201" name = "Duro" position = { x = -63 y = 26 } initializer = random_duro_init spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_duro } } }
+	system = { id = "206" name = "Belazura" position = { x = -54 y = 67 } }
+	system = { id = "209" name = "Kelada" position = { x = -48 y = 85 } }
+	system = { id = "211" name = "Bestine" position = { x = -42 y = 108 } }
+	system = { id = "212" name = "Mechis" position = { x = -37 y = 130 } }
+	system = { id = "214" name = "Yag'Dhul" position = { x = -34 y = 139 } }
+	system = { id = "215" name = "Harrin" position = { x = -32 y = 144 } }
+	system = { id = "216" name = "Moorja" position = { x = -30 y = 150 } }
+	system = { id = "221" name = "Kinyen" position = { x = -3 y = 181 } }
+	system = { id = "225" name = "Bomis Koori" position = { x = 26 y = 218 } }
+	system = { id = "228" name = "Kaal" position = { x = 30 y = 240 } }
+	system = { id = "234" name = "Javin" position = { x = 31 y = 268 } }
+	system = { id = "235" name = "Aztubek" position = { x = 32 y = 270 } }
+	system = { id = "236" name = "Kumru" position = { x = 31 y = 272 } }
+	system = { id = "237" name = "High Chunah" position = { x = 32 y = 274 } }
+	system = { id = "238" name = "Kirtarkin" position = { x = 34 y = 276 } }
+	system = { id = "239" name = "Mexeluine" position = { x = 34 y = 278 } }
+	system = { id = "241" name = "Indellian" position = { x = 34 y = 282 } }
+	system = { id = "244" name = "Ione" position = { x = 33 y = 287 } }
+	system = { id = "249" name = "Darlyn Boda" position = { x = 34 y = 294 } }
+	# Free ids up to 300 
+
+	add_hyperlane = { from = "111" to = "200" }
+	add_hyperlane = { from = "200" to = "201" }
+	add_hyperlane = { from = "201" to = "206" }
+	add_hyperlane = { from = "206" to = "209" }
+	add_hyperlane = { from = "209" to = "1107" }
+	add_hyperlane = { from = "1107" to = "211" }
+	add_hyperlane = { from = "211" to = "212" }
+	add_hyperlane = { from = "212" to = "214" }
+	add_hyperlane = { from = "214" to = "215" }
+	add_hyperlane = { from = "215" to = "216" }
+	add_hyperlane = { from = "216" to = "221" }
+	add_hyperlane = { from = "221" to = "3775" }
+	add_hyperlane = { from = "3775" to = "225" }
+	add_hyperlane = { from = "225" to = "228" }
+	add_hyperlane = { from = "228" to = "234" }
+	add_hyperlane = { from = "234" to = "235" }
+	add_hyperlane = { from = "235" to = "236" }
+	add_hyperlane = { from = "236" to = "237" }
+	add_hyperlane = { from = "237" to = "238" }
+	add_hyperlane = { from = "238" to = "239" }
+	add_hyperlane = { from = "239" to = "241" }
+	add_hyperlane = { from = "241" to = "244" }
+	add_hyperlane = { from = "244" to = "249" }
+	add_hyperlane = { from = "249" to = "3847" }
+	add_hyperlane = { from = "3847" to = "447" }
+	add_hyperlane = { from = "447" to = "3865" }
+
+
+
+
+	### Northern Hydian Way 
+	system = { id = "301" name = "Uviuy Exen" position = { x = -21 y = -91 } }
+	system = { id = "302" name = "Nierport" position = { x = -25 y = -102 } }
+	system = { id = "303" name = "Champala" position = { x = -27 y = -107 } }
+	system = { id = "307" name = "Bogden" position = { x = -41 y = -126 } }
+	system = { id = "311" name = "Corsin" position = { x = -74 y = -149 } }
+	system = { id = "313" name = "Taris" position = { x = -107 y = -171 } initializer = random_taris_init spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_taris } } }
+	system = { id = "315" name = "Bandomeer" position = { x = -126 y = -184 } }
+	system = { id = "317" name = "Botajef" position = { x = -137 y = -196 } }
+	system = { id = "319" name = "Celanon" position = { x = -146 y = -210 } }
+	system = { id = "320" name = "Feriae" position = { x = -152 y = -218 } }
+	system = { id = "324" name = "Toprawa" position = { x = -162 y = -232 } }
+	system = { id = "325" name = "Pho Ph'eah" position = { x = -170 y = -245 } }
+	system = { id = "327" name = "Telos" position = { x = -202 y = -283 } }
+	system = { id = "328" name = "Doniphon" position = { x = -205 y = -286 } }
+	system = { id = "333" name = "Cadomai" position = { x = -266 y = -300 } }
+	system = { id = "337" name = "D'ian" position = { x = -291 y = -296 } }
+	system = { id = "338" name = "Bonadan" position = { x = -294 y = -295 } }
+	# Free ids up to 400 
+
+	add_hyperlane = { from = "8" to = "301" }
+	add_hyperlane = { from = "301" to = "302" }
+	add_hyperlane = { from = "302" to = "303" }
+	add_hyperlane = { from = "303" to = "307" }
+	add_hyperlane = { from = "307" to = "1181" }
+	add_hyperlane = { from = "1181" to = "311" }
+	add_hyperlane = { from = "311" to = "313" }
+	add_hyperlane = { from = "313" to = "315" }
+	add_hyperlane = { from = "315" to = "317" }
+	add_hyperlane = { from = "317" to = "319" }
+	add_hyperlane = { from = "319" to = "320" }
+	add_hyperlane = { from = "320" to = "324" }
+	add_hyperlane = { from = "324" to = "325" }
+	add_hyperlane = { from = "325" to = "3225" }
+	add_hyperlane = { from = "3225" to = "327" }
+	add_hyperlane = { from = "327" to = "328" }
+	add_hyperlane = { from = "328" to = "1630" }
+	add_hyperlane = { from = "1630" to = "1631" }
+	add_hyperlane = { from = "1631" to = "333" }
+	add_hyperlane = { from = "333" to = "337" }
+	add_hyperlane = { from = "337" to = "338" }
+
+
+
+
+	### Southern Hydian Way 
+	system = { id = "400" name = "Skako" position = { x = -30 y = -60 } }
+	system = { id = "402" name = "Demophon" position = { x = -46 y = -42 } }
+	system = { id = "407" name = "Sarapin" position = { x = -63 y = -20 } }
+	system = { id = "412" name = "Bellassa" position = { x = -72 y = 5 } }
+	system = { id = "414" name = "Voktunma" position = { x = -74 y = 13 } }
+	system = { id = "421" name = "Denon" position = { x = -91 y = 70 } }
+	system = { id = "423" name = "Ronyards" position = { x = -92 y = 84 } }
+	system = { id = "432" name = "Arrgaw" position = { x = -89 y = 186 } }
+	system = { id = "435" name = "Malastare" position = { x = -83 y = 217 } }
+	system = { id = "437" name = "Darkknell" position = { x = -75 y = 245 } }
+	system = { id = "440" name = "Eriadu" position = { x = -62 y = 275 } }
+	system = { id = "445" name = "Rutan" position = { x = -4 y = 350 } }
+	system = { id = "447" name = "Terminus" position = { x = 28 y = 381 } }
+	system = { id = "448" name = "Imynusoph" position = { x = 42 y = 393 } }
+	# Free ids up to 500 
+
+	add_hyperlane = { from = "8" to = "400" }
+	add_hyperlane = { from = "400" to = "402" }
+	add_hyperlane = { from = "402" to = "407" }
+	add_hyperlane = { from = "407" to = "950" }
+	add_hyperlane = { from = "950" to = "412" }
+	add_hyperlane = { from = "412" to = "414" }
+	add_hyperlane = { from = "414" to = "114" }
+	add_hyperlane = { from = "414" to = "1057" }
+	add_hyperlane = { from = "1057" to = "421" }
+	add_hyperlane = { from = "421" to = "423" }
+	add_hyperlane = { from = "423" to = "804" }
+	add_hyperlane = { from = "804" to = "3292" }
+	add_hyperlane = { from = "3292" to = "3300" }
+	add_hyperlane = { from = "3300" to = "432" }
+	add_hyperlane = { from = "432" to = "435" }
+	add_hyperlane = { from = "435" to = "437" }
+	add_hyperlane = { from = "437" to = "440" }
+	add_hyperlane = { from = "445" to = "3860" }
+	add_hyperlane = { from = "3860" to = "447" }
+	add_hyperlane = { from = "447" to = "448" }
+	add_hyperlane = { from = "3849" to = "524" }
+	add_hyperlane = { from = "3849" to = "3850" }
+	add_hyperlane = { from = "3850" to = "3848" }
+	add_hyperlane = { from = "3848" to = "445" }
+
+
+
+
+	### Rimma Trade Route + B-Route 
+	system = { id = "500" name = "Abregado-rae" position = { x = 2 y = 70 } }
+	system = { id = "501" name = "Dentaal" position = { x = 2 y = 74 } }
+	system = { id = "504" name = "Giju" position = { x = -1 y = 86 } }
+	system = { id = "505" name = "Fondor" position = { x = -10 y = 91 } initializer = random_fondor_init spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_fondor } } }
+	system = { id = "506" name = "Mrlsst" position = { x = -11 y = 94 } }
+	system = { id = "507" name = "Ghorman" position = { x = -11 y = 102 } }
+	system = { id = "509" name = "Thyferra" position = { x = -26 y = 121 } }
+	system = { id = "510" name = "Tauber" position = { x = -30 y = 126 } }
+	system = { id = "512" name = "Wroona" position = { x = -38 y = 150 } }
+	system = { id = "515" name = "Woostri" position = { x = -51 y = 190 } }
+	system = { id = "519" name = "Vondarc" position = { x = -58 y = 220 } }
+	system = { id = "522" name = "Sullust" position = { x = -62 y = 255 } }
+	system = { id = "523" name = "Colu" position = { x = -62 y = 294 } }
+	system = { id = "524" name = "Triton" position = { x = -62 y = 298 } }
+	system = { id = "525" name = "Praesitlyn" position = { x = -63 y = 309 } }
+	system = { id = "526" name = "Sluis Van" position = { x = -63 y = 311 } }
+	system = { id = "529" name = "Adarlon" position = { x = -64 y = 366 } }
+	system = { id = "530" name = "Karideph" position = { x = -63 y = 372 } }
+	system = { id = "532" name = "Kal'Shebbol" position = { x = -65 y = 395 } }
+	# Free ids up to 600 
+
+	add_hyperlane = { from = "500" to = "501" }
+	add_hyperlane = { from = "501" to = "504" }
+	add_hyperlane = { from = "504" to = "505" }
+	add_hyperlane = { from = "504" to = "3511" }
+	add_hyperlane = { from = "505" to = "506" }
+	add_hyperlane = { from = "506" to = "507" }
+	add_hyperlane = { from = "3511" to = "507" }
+	add_hyperlane = { from = "507" to = "509" }
+	add_hyperlane = { from = "509" to = "510" }
+	add_hyperlane = { from = "510" to = "214" }
+	add_hyperlane = { from = "214" to = "512" }
+	add_hyperlane = { from = "512" to = "515" }
+	add_hyperlane = { from = "515" to = "519" }
+	add_hyperlane = { from = "519" to = "522" }
+	add_hyperlane = { from = "522" to = "440" }
+	add_hyperlane = { from = "440" to = "523" }
+	add_hyperlane = { from = "523" to = "524" }
+	add_hyperlane = { from = "524" to = "525" }
+	add_hyperlane = { from = "525" to = "526" }
+	add_hyperlane = { from = "526" to = "3417" }
+	add_hyperlane = { from = "3417" to = "529" }
+	add_hyperlane = { from = "529" to = "530" }
+	add_hyperlane = { from = "530" to = "3424" }
+	add_hyperlane = { from = "3424" to = "532" }
+	add_hyperlane = { from = "532" to = "3425" }
+
+
+
+
+	#########################
+	#		Deep Core		# 
+	#########################
+
+	### Koros Trunk Line & Byss Run
+	system = { id = "601" name = "Kaikielius" position = { x = -1 y = -52 } }
+	system = { id = "604" name = "Empress Teta" position = { x = -1 y = -35 } }
+	system = { id = "606" name = "Prakith" position = { x = 18 y = -21 } }
+	system = { id = "608" name = "Beshqek" position = { x = 19 y = 17 } }
+	# Free ids up to 630 
+
+	add_hyperlane = { from = "2" to = "601" }
+	add_hyperlane = { from = "601" to = "630" }
+	add_hyperlane = { from = "630" to = "604" }
+	add_hyperlane = { from = "604" to = "639" }
+	add_hyperlane = { from = "639" to = "606" }
+	add_hyperlane = { from = "606" to = "608" }
+
+
+
+
+	### Deep Core
+	system = { id = "630" name = "Spira" position = { x = -3 y = -49 } }
+	system = { id = "638" name = "Vulpter" position = { x = -23 y = -36 } }
+	system = { id = "639" name = "Tython" position = { x = 0 y = -25 } initializer = random_tython_init spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_tython } } }
+	system = { id = "646" name = "Columus" position = { x = -53 y = -4 } }
+	system = { id = "651" name = "Ojom" position = { x = -42 y = 10 } }
+	system = { id = "653" name = "Kalist" position = { x = 6 y = 25 } }
+	system = { id = "655" name = "Lialic" position = { x = 7 y = 34 } }
+	system = { id = "659" name = "Khomm" position = { x = -5 y = 46 } }
+	# Free ids up to 700 
+
+	add_hyperlane = { from = "638" to = "604" }
+	add_hyperlane = { from = "638" to = "944" }
+	add_hyperlane = { from = "638" to = "776" }
+	add_hyperlane = { from = "646" to = "949" }
+	add_hyperlane = { from = "646" to = "651" }
+	add_hyperlane = { from = "651" to = "958" }
+	add_hyperlane = { from = "653" to = "608" }
+	add_hyperlane = { from = "653" to = "655" }
+	add_hyperlane = { from = "655" to = "659" }
+
+
+
+
+	#####################
+	#		Core		# 
+	#####################
+
+	### Namadii Corridor
+	system = { id = "704" name = "Pantolomin" position = { x = 15 y = -74 } }
+	system = { id = "705" name = "Borleias" position = { x = 17 y = -81 } }
+	system = { id = "707" name = "Palanhi" position = { x = 26 y = -94 } }
+	system = { id = "711" name = "Aphran" position = { x = 39 y = -114 } }
+	system = { id = "713" name = "Bilbringi" position = { x = 49 y = -120 } }
+	system = { id = "715" name = "Dorin" position = { x = 57 y = -133 } }
+	system = { id = "717" name = "Glee Anselm" position = { x = 73 y = -151 } }
+	system = { id = "720" name = "Ansion" position = { x = 83 y = -175 } }
+	# Free ids up to 750
+
+	add_hyperlane = { from = "704" to = "" }
+	add_hyperlane = { from = "704" to = "705" }
+	add_hyperlane = { from = "705" to = "707" }
+	add_hyperlane = { from = "707" to = "711" }
+	add_hyperlane = { from = "711" to = "713" }
+	add_hyperlane = { from = "713" to = "715" }
+	add_hyperlane = { from = "715" to = "717" }
+	add_hyperlane = { from = "717" to = "720" }
+
+
+
+
+	### Metellos Route
+	system = { id = "750" name = "Metellos" position = { x = 6 y = -56 } }
+	system = { id = "754" name = "Galantos" position = { x = 38 y = -34 } }
+	# Free ids up to 770 
+
+	add_hyperlane = { from = "750" to = "2" }
+	add_hyperlane = { from = "750" to = "916" }
+	add_hyperlane = { from = "750" to = "601" }
+	add_hyperlane = { from = "916" to = "770" }
+	add_hyperlane = { from = "770" to = "754" }
+
+
+
+
+	### Cal-Seti - Xorth Connection
+	system = { id = "770" name = "Fresia" position = { x = 23 y = -44 } }
+	system = { id = "776" name = "Aargau" position = { x = -16 y = -49 } }
+	# Free ids up to 800
+
+	add_hyperlane = { from = "770" to = "601" }
+	add_hyperlane = { from = "770" to = "604" }
+	add_hyperlane = { from = "776" to = "630" }
+	add_hyperlane = { from = "630" to = "776" }
+
+
+
+
+	### Shipwrights' Trace
+	system = { id = "801" name = "Surric" position = { x = -34 y = 96 } }
+	system = { id = "804" name = "Atzerri" position = { x = -75 y = 102 } }
+	system = { id = "805" name = "Tynna" position = { x = -114 y = 106 } }
+	# Free ids up to 820 
+
+	add_hyperlane = { from = "801" to = "506" }
+	add_hyperlane = { from = "801" to = "1107" }
+	add_hyperlane = { from = "1107" to = "1088" }
+	add_hyperlane = { from = "1088" to = "804" }
+	add_hyperlane = { from = "804" to = "805" }
+	add_hyperlane = { from = "805" to = "122" }
+
+
+
+
+	### Guu Run
+	system = { id = "824" name = "Atrisia" position = { x = 54 y = 58 } }
+	# Free ids up to 840
+
+	add_hyperlane = { from = "983" to = "3521" }
+	add_hyperlane = { from = "3521" to = "3519" }
+	add_hyperlane = { from = "3519" to = "824" }
+
+
+
+
+	### Commenor Run
+	system = { id = "841" name = "Tepasi" position = { x = -34 y = -63 } }
+	system = { id = "843" name = "Caamas" position = { x = -44 y = -58 } }
+	system = { id = "844" name = "Alderaan" position = { x = -50 y = -54 } initializer = random_alderaan_init spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_alderaan } } }
+	system = { id = "845" name = "Tyed Kant" position = { x = -57 y = -46 } }
+	system = { id = "847" name = "Kattada" position = { x = -75 y = -46 } }
+	system = { id = "849" name = "Commenor" position = { x = -91 y = -17 } }
+	# Free ids up to 870 
+
+	add_hyperlane = { from = "841" to = "8" }
+	add_hyperlane = { from = "841" to = "400" }
+	add_hyperlane = { from = "841" to = "843" }
+	add_hyperlane = { from = "843" to = "844" }
+	add_hyperlane = { from = "844" to = "845" }
+	add_hyperlane = { from = "845" to = "402" }
+	add_hyperlane = { from = "845" to = "847" }
+	add_hyperlane = { from = "847" to = "945" }
+	add_hyperlane = { from = "945" to = "873" }
+	add_hyperlane = { from = "873" to = "849" }
+
+
+
+
+	### Kuat Connection
+	system = { id = "872" name = "Kuat" position = { x = -75 y = -31 } initializer = random_kuat_init spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_kuat } } }
+	system = { id = "873" name = "Foundry" position = { x = -80 y = -26 } }
+	# Free ids up to 910 
+
+	add_hyperlane = { from = "947" to = "407" }
+	add_hyperlane = { from = "947" to = "872" }
+	add_hyperlane = { from = "872" to = "946" }
+	add_hyperlane = { from = "872" to = "945" }
+	add_hyperlane = { from = "872" to = "873" }
+
+
+
+
+	### Core 
+	system = { id = "911" name = "Pollillus" position = { x = 41 y = -30 } }
+	system = { id = "912" name = "N'Zoth" position = { x = 38 y = -31 } }
+	system = { id = "916" name = "Osadia" position = { x = 24 y = -49 } }
+	system = { id = "919" name = "Ragoon" position = { x = 33 y = -62 } }
+	system = { id = "920" name = "Xa Fel" position = { x = 38 y = -69 } }
+	system = { id = "925" name = "Hyabb" position = { x = 19 y = -68 } }
+	system = { id = "926" name = "Voon" position = { x = 15 y = -70 } }
+	system = { id = "927" name = "Aaeton" position = { x = 22 y = -62 } }
+	system = { id = "931" name = "Thorgeld" position = { x = -5 y = -67 } }
+	system = { id = "932" name = "Velusia" position = { x = -2 y = -70 } }
+	system = { id = "941" name = "Basilisk" position = { x = -24 y = -58 } }
+	system = { id = "944" name = "Aaghra" position = { x = -38 y = -43 } }
+	system = { id = "945" name = "Neimoidia" position = { x = -77 y = -33 } }
+	system = { id = "946" name = "Balmorra" position = { x = -75 y = -34 } }
+	system = { id = "947" name = "Pria" position = { x = -68 y = -22 } }
+	system = { id = "949" name = "Recopia" position = { x = -61 y = -6 } }
+	system = { id = "950" name = "Rendili" position = { x = -65 y = 0 } }
+	system = { id = "954" name = "Phemis" position = { x = -66 y = 19 } }
+	system = { id = "956" name = "Aurea" position = { x = -61 y = 22 } }
+	system = { id = "957" name = "Sacorria" position = { x = -59 y = 26 } }
+	system = { id = "958" name = "Karvoss" position = { x = -46 y = 26 } }
+	system = { id = "966" name = "Balosar" position = { x = -26 y = 45 } }
+	system = { id = "971" name = "Andara" position = { x = -38 y = 70 } }
+	system = { id = "977" name = "Gerrard" position = { x = 2 y = 62 } }
+	system = { id = "979" name = "Botor" position = { x = 2 y = 52 } }
+	system = { id = "980" name = "Thomork" position = { x = -7 y = 50 } }
+	system = { id = "982" name = "Belgaroth" position = { x = 5 y = 78 } }
+	system = { id = "983" name = "Steelious" position = { x = 8 y = 74 } }
+	system = { id = "987" name = "Inysh" position = { x = 48 y = 62 } }
+	system = { id = "988" name = "Questal" position = { x = 47 y = 54 } }
+	system = { id = "989" name = "Osssorck Nebulae" position = { x = 41 y = 50 } }
+	# Free ids up to 1050 
+
+	add_hyperlane = { from = "911" to = "912" }
+	add_hyperlane = { from = "911" to = "754" }
+	add_hyperlane = { from = "912" to = "754" }
+	add_hyperlane = { from = "916" to = "919" }
+	add_hyperlane = { from = "916" to = "927" }
+	add_hyperlane = { from = "919" to = "920" }
+	add_hyperlane = { from = "919" to = "927" }
+	add_hyperlane = { from = "920" to = "925" }
+	add_hyperlane = { from = "925" to = "926" }
+	add_hyperlane = { from = "925" to = "927" }
+	add_hyperlane = { from = "925" to = "704" }
+	add_hyperlane = { from = "926" to = "750" }
+	add_hyperlane = { from = "926" to = "704" }
+	add_hyperlane = { from = "931" to = "4" }
+	add_hyperlane = { from = "931" to = "932" }
+	add_hyperlane = { from = "932" to = "2" }
+	add_hyperlane = { from = "932" to = "704" }
+	add_hyperlane = { from = "941" to = "400" }
+	add_hyperlane = { from = "941" to = "101" }
+	add_hyperlane = { from = "941" to = "5" }
+	add_hyperlane = { from = "945" to = "946" }
+	add_hyperlane = { from = "947" to = "1750" }
+	add_hyperlane = { from = "954" to = "111" }
+	add_hyperlane = { from = "954" to = "112" }
+	add_hyperlane = { from = "954" to = "414" }
+	add_hyperlane = { from = "956" to = "111" }
+	add_hyperlane = { from = "956" to = "200" }
+	add_hyperlane = { from = "956" to = "957" }
+	add_hyperlane = { from = "957" to = "201" }
+	add_hyperlane = { from = "957" to = "958" }
+	add_hyperlane = { from = "958" to = "966" }
+	add_hyperlane = { from = "966" to = "980" }
+	add_hyperlane = { from = "966" to = "971" }
+	add_hyperlane = { from = "971" to = "206" }
+	add_hyperlane = { from = "971" to = "209" }
+	add_hyperlane = { from = "977" to = "500" }
+	add_hyperlane = { from = "977" to = "979" }
+	add_hyperlane = { from = "979" to = "655" }
+	add_hyperlane = { from = "979" to = "659" }
+	add_hyperlane = { from = "979" to = "980" }
+	add_hyperlane = { from = "980" to = "659" }
+	add_hyperlane = { from = "982" to = "504" }
+	add_hyperlane = { from = "982" to = "501" }
+	add_hyperlane = { from = "982" to = "983" }
+	add_hyperlane = { from = "983" to = "501" }
+	add_hyperlane = { from = "983" to = "500" }
+	add_hyperlane = { from = "987" to = "3521" }
+	add_hyperlane = { from = "987" to = "3519" }
+	add_hyperlane = { from = "987" to = "824" }
+	add_hyperlane = { from = "987" to = "988" }
+	add_hyperlane = { from = "988" to = "824" }
+	add_hyperlane = { from = "988" to = "989" }
+
+
+
+
+	### Quellor Run
+	system = { id = "1053" name = "Cato Neimoidia" position = { x = -86 y = -2 } initializer = random_cato_neimoidia_init spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_cato_neimoidia } } }
+	system = { id = "1055" name = "Talasea" position = { x = -89 y = 6 } }
+	system = { id = "1057" name = "Quellor" position = { x = -93 y = 28 } }
+	# Free ids up to 1070 
+
+	add_hyperlane = { from = "1053" to = "1750" }
+	add_hyperlane = { from = "1053" to = "849" }
+	add_hyperlane = { from = "1053" to = "412" }
+	add_hyperlane = { from = "1053" to = "1055" }
+	add_hyperlane = { from = "1055" to = "1057" }
+	add_hyperlane = { from = "1055" to = "414" }
+
+
+
+
+	### Shwuy Exchange
+	system = { id = "1070" name = "Dankayo" position = { x = -18 y = -95 } }
+	system = { id = "1071" name = "Ord Antalaha" position = { x = -9 y = -96 } }
+	system = { id = "1072" name = "Noquivzor" position = { x = 18 y = -95 } }
+	# Free ids up to 1080 
+
+	add_hyperlane = { from = "1070" to = "301" }
+	add_hyperlane = { from = "1070" to = "1071" }
+	add_hyperlane = { from = "1071" to = "1072" }
+	add_hyperlane = { from = "1072" to = "707" }
+
+
+
+
+	### Core Colonies
+	system = { id = "1088" name = "Aleen Minor" position = { x = -67 y = 94 } }
+	system = { id = "1094" name = "Avedot" position = { x = -13 y = -100 } }
+	system = { id = "1105" name = "Selvaris" position = { x = 84 y = -82 } }
+	system = { id = "1107" name = "Devaron" position = { x = -48 y = 96 } }
+	# Free ids up to 1150 
+
+	add_hyperlane = { from = "1094" to = "302" }
+	add_hyperlane = { from = "1094" to = "1070" }
+	add_hyperlane = { from = "1094" to = "1071" }
+	add_hyperlane = { from = "1105" to = "920" }
+
+
+
+
+	#################################################################
+	#		Northern Dependencies & Trans-Hydian (Borderlands)		#
+	#################################################################
+
+	### Vaathkree Trade Corridor 
+	system = { id = "1151" name = "Telerath" position = { x = -90 y = -138 } }
+	system = { id = "1154" name = "Obroa-skai" position = { x = -118 y = -125 } }
+	system = { id = "1158" name = "Contruum" position = { x = -161 y = -110 } }
+	# Free ids up to 1170 
+
+	add_hyperlane = { from = "1151" to = "311" }
+	add_hyperlane = { from = "1151" to = "1154" }
+	add_hyperlane = { from = "1154" to = "1192" }
+	add_hyperlane = { from = "1192" to = "1158" }
+	add_hyperlane = { from = "1158" to = "29" }
+
+
+
+
+	### Trans-Hydian - Northern Dependencies
+	system = { id = "1172" name = "Arkania" position = { x = -42 y = -96 } }
+	system = { id = "1176" name = "Poderis" position = { x = -70 y = -102 } }
+	system = { id = "1178" name = "Mindor" position = { x = -52 y = -114 } }
+	system = { id = "1179" name = "Uphrades" position = { x = -67 y = -126 } }
+	system = { id = "1181" name = "Jazbina" position = { x = -61 y = -134 } }
+	system = { id = "1184" name = "Nouane" position = { x = -80 y = -133 } }
+	system = { id = "1187" name = "Berchest" position = { x = -82 y = -106 } }
+	system = { id = "1188" name = "Filordis" position = { x = -94 y = -114 } }
+	system = { id = "1192" name = "Cartao" position = { x = -153 y = -110 } }
+	# Free ids up to 1250 
+
+	add_hyperlane = { from = "1172" to = "16" }
+	add_hyperlane = { from = "1172" to = "302" }
+	add_hyperlane = { from = "1172" to = "1178" }
+	add_hyperlane = { from = "1172" to = "301" }
+	add_hyperlane = { from = "1178" to = "1176" }
+	add_hyperlane = { from = "1178" to = "307" }
+	add_hyperlane = { from = "1178" to = "1179" }
+	add_hyperlane = { from = "1179" to = "1184" }
+	add_hyperlane = { from = "1179" to = "1181" }
+	add_hyperlane = { from = "1184" to = "1181" }
+	add_hyperlane = { from = "1184" to = "311" }
+	add_hyperlane = { from = "1184" to = "1151" }
+	add_hyperlane = { from = "1187" to = "1188" }
+	add_hyperlane = { from = "1188" to = "1154" }
+	add_hyperlane = { from = "1188" to = "1184" }
+	add_hyperlane = { from = "1188" to = "22" }
+	add_hyperlane = { from = "1192" to = "24" }
+
+
+
+
+	### Salin Corridor
+	system = { id = "1251" name = "Alba" position = { x = -154 y = -179 } }
+	system = { id = "1254" name = "Vjun" position = { x = -217 y = -181 } }
+	system = { id = "1256" name = "Vorzyd" position = { x = -244 y = -193 } }
+	# Free ids up to 1270 
+
+	add_hyperlane = { from = "1251" to = "317" }
+	add_hyperlane = { from = "1251" to = "1306" }
+	add_hyperlane = { from = "1306" to = "1321" }
+	add_hyperlane = { from = "1321" to = "1254" }
+	add_hyperlane = { from = "1254" to = "1256" }
+	add_hyperlane = { from = "1256" to = "42" }
+
+
+
+
+	### Mandalore Region
+	system = { id = "1271" name = "Serroco" position = { x = -103 y = -150 } }
+	system = { id = "1273" name = "Wayland" position = { x = -111 y = -152 } }
+	system = { id = "1274" name = "Myrkr" position = { x = -108 y = -146 } }
+	system = { id = "1277" name = "Luire" position = { x = -117 y = -149 } }
+	system = { id = "1278" name = "Aquaris" position = { x = -121 y = -142 } }
+	system = { id = "1279" name = "Thustra" position = { x = -122 y = -146 } }
+	system = { id = "1284" name = "Jendorn" position = { x = -139 y = -130 } }
+	system = { id = "1285" name = "Abron" position = { x = -146 y = -128 } }
+	system = { id = "1286" name = "Thisspias" position = { x = -142 y = -124 } }
+	system = { id = "1293" name = "Concord Dawn" position = { x = -141 y = -154 } }
+	system = { id = "1294" name = "Krownest" position = { x = -132 y = -160 } }
+	system = { id = "1296" name = "Mandalore" position = { x = -146 y = -162 } initializer = random_mandalore_init spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_mandalore } } }
+	system = { id = "1298" name = "Kalevala" position = { x = -142 y = -167 } }
+	system = { id = "1301" name = "Vanquo" position = { x = -130 y = -178 } }
+	system = { id = "1304" name = "Garos" position = { x = -180 y = -152 } }
+	system = { id = "1306" name = "Anteevy" position = { x = -185 y = -160 } }
+	system = { id = "1308" name = "Velmor" position = { x = -187 y = -138 } }
+	system = { id = "1315" name = "Ord Tiddell" position = { x = -222 y = -146 } }
+	system = { id = "1317" name = "Aargonar" position = { x = -228 y = -156 } }
+	system = { id = "1320" name = "Gromas" position = { x = -216 y = -164 } }
+	system = { id = "1321" name = "Indu San" position = { x = -215 y = -166 } }
+	system = { id = "1325" name = "Nam Chorios" position = { x = -253 y = -177 } }
+	system = { id = "1327" name = "Nim Drovis" position = { x = -247 y = -173 } }
+	# Free ids up to 1400 
+
+	add_hyperlane = { from = "1271" to = "313" }
+	add_hyperlane = { from = "1271" to = "1273" }
+	add_hyperlane = { from = "1271" to = "1274" }
+	add_hyperlane = { from = "1271" to = "311" }
+	add_hyperlane = { from = "1271" to = "1151" }
+	add_hyperlane = { from = "1273" to = "1274" }
+	add_hyperlane = { from = "1273" to = "313" }
+	add_hyperlane = { from = "1273" to = "1277" }
+	add_hyperlane = { from = "1274" to = "1277" }
+	add_hyperlane = { from = "1274" to = "1278" }
+	add_hyperlane = { from = "1277" to = "1278" }
+	add_hyperlane = { from = "1277" to = "1279" }
+	add_hyperlane = { from = "1277" to = "1294" }
+	add_hyperlane = { from = "1278" to = "1154" }
+	add_hyperlane = { from = "1278" to = "1284" }
+	add_hyperlane = { from = "1278" to = "1279" }
+	add_hyperlane = { from = "1279" to = "1294" }
+	add_hyperlane = { from = "1279" to = "1293" }
+	add_hyperlane = { from = "1284" to = "1154" }
+	add_hyperlane = { from = "1284" to = "1285" }
+	add_hyperlane = { from = "1284" to = "1293" }
+	add_hyperlane = { from = "1284" to = "1286" }
+	add_hyperlane = { from = "1285" to = "1286" }
+	add_hyperlane = { from = "1285" to = "1308" }
+	add_hyperlane = { from = "1286" to = "1192" }
+	add_hyperlane = { from = "1293" to = "1294" }
+	add_hyperlane = { from = "1293" to = "1296" }
+	add_hyperlane = { from = "1294" to = "1298" }
+	add_hyperlane = { from = "1294" to = "1301" }
+	add_hyperlane = { from = "1296" to = "1298" }
+	add_hyperlane = { from = "1296" to = "1251" }
+	add_hyperlane = { from = "1296" to = "1304" }
+	add_hyperlane = { from = "1298" to = "1301" }
+	add_hyperlane = { from = "1301" to = "315" }
+	add_hyperlane = { from = "1304" to = "1306" }
+	add_hyperlane = { from = "1304" to = "1308" }
+	add_hyperlane = { from = "1308" to = "32" }
+	add_hyperlane = { from = "1315" to = "32" }
+	add_hyperlane = { from = "1315" to = "1308" }
+	add_hyperlane = { from = "1315" to = "1317" }
+	add_hyperlane = { from = "1317" to = "1320" }
+	add_hyperlane = { from = "1317" to = "37" }
+	add_hyperlane = { from = "1320" to = "1321" }
+	add_hyperlane = { from = "1325" to = "1256" }
+	add_hyperlane = { from = "1325" to = "42" }
+	add_hyperlane = { from = "1325" to = "1327" }
+	add_hyperlane = { from = "1327" to = "39" }
+	add_hyperlane = { from = "1327" to = "1317" }
+
+
+
+
+	# Shaltin Tunnels
+	system = { id = "1402" name = "Zygerria" position = { x = -281 y = -274 } }
+	system = { id = "1404" name = "Cantonica" position = { x = -294 y = -289 } initializer = random_cantonica_init spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_cantonica } } }
+	# Free ids up to 1420
+
+	add_hyperlane = { from = "1600" to = "46" }
+	add_hyperlane = { from = "1600" to = "1604" }
+	add_hyperlane = { from = "1604" to = "1608" }
+	add_hyperlane = { from = "1608" to = "1402" }
+	add_hyperlane = { from = "1402" to = "1649" }
+	add_hyperlane = { from = "1649" to = "1404" }
+
+
+
+
+	### Listehol Run
+	system = { id = "1420" name = "Gigor" position = { x = -250 y = -278 } }
+	# Free ids up to 1430 
+
+	add_hyperlane = { from = "1420" to = "1402" }
+	add_hyperlane = { from = "1420" to = "1630" }
+
+
+
+
+	### Yavin / Korriban Region
+	system = { id = "1432" name = "Akiva" position = { x = -162 y = -194 } }
+	system = { id = "1434" name = "Maridun" position = { x = -203 y = -198 } }
+	system = { id = "1452" name = "Yavin" position = { x = -182 y = -214 } initializer = random_yavin_init spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_yavin_4 } } }
+	system = { id = "1455" name = "Vaal" position = { x = -194 y = -215 } }
+	system = { id = "1479" name = "Arda" position = { x = -221 y = -208 } }
+	system = { id = "1487" name = "Lola Sayu" position = { x = -254 y = -198 } }
+	system = { id = "1489" name = "Rhen Var" position = { x = -265 y = -197 } }
+	system = { id = "1493" name = "Felucia" position = { x = -270 y = -207 } initializer = random_felucia_init spawn_weight = { base = 1 modifier = { add = 100 has_trait = swg2_trait_felucia } } }
+	system = { id = "1497" name = "Elom" position = { x = -251 y = -224 } }
+	system = { id = "1498" name = "Florrum" position = { x = -262 y = -231 } }
+	system = { id = "1500" name = "Horuset" position = { x = -245 y = -242 } initializer = random_horuset_init spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_korriban } } }
+	system = { id = "1502" name = "Dromund Kaas" position = { x = -253 y = -248 } initializer = random_dromund_init spawn_weight = { base = 1 modifier = { add = 100 has_trait = swg2_trait_dromund_kaas } } }
+	system = { id = "1504" name = "Khar Delba" position = { x = -262 y = -252 } }
+	system = { id = "1510" name = "Ch'hodos" position = { x = -250 y = -260 } }
+	system = { id = "1511" name = "Krayiss" position = { x = -259 y = -258 } }
+	system = { id = "1515" name = "Athiss" position = { x = -245 y = -266 } }
+	system = { id = "1516" name = "Ziost" position = { x = -246 y = -262 } }
+	system = { id = "1519" name = "Thule" position = { x = -234 y = -252 } }
+	system = { id = "1521" name = "Jagomir" position = { x = -230 y = -241 } }
+	system = { id = "1522" name = "Tandun" position = { x = -171 y = -236 } }
+	system = { id = "1524" name = "Ord Radama" position = { x = -200 y = -251 } }
+	system = { id = "1525" name = "Jelucan" position = { x = -205 y = -278 } }
+	# Free ids up to 1600 
+
+	add_hyperlane = { from = "1432" to = "1251" }
+	add_hyperlane = { from = "1432" to = "319" }
+	add_hyperlane = { from = "1432" to = "1452" }
+	add_hyperlane = { from = "1434" to = "1479" }
+	add_hyperlane = { from = "1434" to = "1254" }
+	add_hyperlane = { from = "1452" to = "1455" }
+	add_hyperlane = { from = "1452" to = "320" }
+	add_hyperlane = { from = "1452" to = "1434" }
+	add_hyperlane = { from = "1452" to = "1522" }
+	add_hyperlane = { from = "1455" to = "1434" }
+	add_hyperlane = { from = "1455" to = "1479" }
+	add_hyperlane = { from = "1479" to = "1497" }
+	add_hyperlane = { from = "1479" to = "1256" }
+	add_hyperlane = { from = "1479" to = "1521" }
+	add_hyperlane = { from = "1487" to = "1256" }
+	add_hyperlane = { from = "1487" to = "1489" }
+	add_hyperlane = { from = "1489" to = "42" }
+	add_hyperlane = { from = "1489" to = "43" }
+	add_hyperlane = { from = "1489" to = "1493" }
+	add_hyperlane = { from = "1493" to = "44" }
+	add_hyperlane = { from = "1493" to = "43" }
+	add_hyperlane = { from = "1493" to = "1497" }
+	add_hyperlane = { from = "1497" to = "1498" }
+	add_hyperlane = { from = "1497" to = "1500" }
+	add_hyperlane = { from = "1498" to = "1600" }
+	add_hyperlane = { from = "1498" to = "1500" }
+	add_hyperlane = { from = "1500" to = "1502" }
+	add_hyperlane = { from = "1500" to = "1519" }
+	add_hyperlane = { from = "1500" to = "1521" }
+	add_hyperlane = { from = "1502" to = "1504" }
+	add_hyperlane = { from = "1502" to = "1510" }
+	add_hyperlane = { from = "1502" to = "1511" }
+	add_hyperlane = { from = "1502" to = "1516" }
+	add_hyperlane = { from = "1504" to = "1511" }
+	add_hyperlane = { from = "1510" to = "1511" }
+	add_hyperlane = { from = "1510" to = "1516" }
+	add_hyperlane = { from = "1515" to = "1516" }
+	add_hyperlane = { from = "1515" to = "1420" }
+	add_hyperlane = { from = "1516" to = "1519" }
+	add_hyperlane = { from = "1519" to = "1521" }
+	add_hyperlane = { from = "1521" to = "1524" }
+	add_hyperlane = { from = "1522" to = "324" }
+	add_hyperlane = { from = "1522" to = "325" }
+	add_hyperlane = { from = "1524" to = "3225" }
+	add_hyperlane = { from = "1524" to = "1525" }
+	add_hyperlane = { from = "1525" to = "327" }
+	add_hyperlane = { from = "1525" to = "328" }
+
+
+
+
+	### Malachor Sector
+	system = { id = "1600" name = "Sembla" position = { x = -285 y = -229 } }
+	system = { id = "1604" name = "Almania" position = { x = -285 y = -253 } }
+	system = { id = "1605" name = "Troiken" position = { x = -303 y = -254 } }
+	system = { id = "1606" name = "Nathema" position = { x = -292 y = -260 } }
+	system = { id = "1607" name = "Vaynai" position = { x = -297 y = -264 } }
+	system = { id = "1608" name = "Malachor" position = { x = -286 y = -265 } initializer = random_malachor_init spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_malachor_v } } }
+	# Free ids up to 1630 
+
+	add_hyperlane = { from = "1600" to = "50" }
+	add_hyperlane = { from = "1605" to = "51" }
+	add_hyperlane = { from = "1605" to = "1607" }
+	add_hyperlane = { from = "1605" to = "1606" }
+	add_hyperlane = { from = "1607" to = "1402" }
+	add_hyperlane = { from = "1607" to = "1606" }
+	add_hyperlane = { from = "1606" to = "1604" }
+	add_hyperlane = { from = "1606" to = "1608" }
+	add_hyperlane = { from = "1608" to = "1607" }
+
+
+
+
+	### Corporate Sector
+	system = { id = "1630" name = "Peragus" position = { x = -231 y = -292 } }
+	system = { id = "1631" name = "Tiss'sharl" position = { x = -246 y = -294 } }
+	system = { id = "1632" name = "Lur" position = { x = -267 y = -293 } }
+	system = { id = "1649" name = "Kumasi" position = { x = -288 y = -284 } }
+	system = { id = "1657" name = "Kadavo" position = { x = -314 y = -277 } }
+	system = { id = "1659" name = "Fether" position = { x = -301 y = -296 } }
+	system = { id = "1662" name = "Faarlsun" position = { x = -330 y = -290 } }
+	system = { id = "1668" name = "Brosi" position = { x = -298 y = -302 } }
+	# Free ids up to 1750 
+
+	add_hyperlane = { from = "1631" to = "1632" }
+	add_hyperlane = { from = "1632" to = "333" }
+	add_hyperlane = { from = "1632" to = "1420" }
+	add_hyperlane = { from = "1632" to = "1649" }
+	add_hyperlane = { from = "1649" to = "337" }
+	add_hyperlane = { from = "1657" to = "1607" }
+	add_hyperlane = { from = "1659" to = "338" }
+	add_hyperlane = { from = "1659" to = "1404" }
+	add_hyperlane = { from = "1659" to = "1668" }
+	add_hyperlane = { from = "1659" to = "1662" }
+	add_hyperlane = { from = "1668" to = "337" }
+	add_hyperlane = { from = "1668" to = "338" }
+
+
+
+
+	#####################################
+	#		The Slice & Hutt Space 		#
+	#####################################
+
+	### Trellen Trade Route 
+	system = { id = "1750" name = "Humbarine" position = { x = -74 y = -16 } }
+	system = { id = "1752" name = "Zeltros" position = { x = -140 y = -28 } }
+	system = { id = "1753" name = "Virujansi" position = { x = -146 y = -35 } }
+	system = { id = "1754" name = "Umbara" position = { x = -162 y = -48 } }
+	system = { id = "1757" name = "Kashyyyk" position = { x = -187 y = -60 } initializer = random_kashyyyk_init spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_kashyyyk } } }
+	system = { id = "1758" name = "Trandosha" position = { x = -190 y = -64 } }
+	# Free ids up to 1770 
+
+	add_hyperlane = { from = "1750" to = "407" }
+	add_hyperlane = { from = "1750" to = "849" }
+	add_hyperlane = { from = "849" to = "1752" }
+	add_hyperlane = { from = "1752" to = "1753" }
+	add_hyperlane = { from = "1753" to = "1754" }
+	add_hyperlane = { from = "1754" to = "1757" }
+	add_hyperlane = { from = "1757" to = "1758" }
+
+
+
+
+	### Lesser Lantillian Route 
+	system = { id = "1771" name = "Aweris" position = { x = -146 y = -46 } }
+	system = { id = "1772" name = "Ambria" position = { x = -147 y = -50 } }
+	system = { id = "1773" name = "Japrael" position = { x = -147 y = -62 } }
+	system = { id = "1778" name = "Uyter" position = { x = -179 y = -84 } }
+	system = { id = "1779" name = "Togoria" position = { x = -188 y = -85 } }
+	# Free ids up to 1790 
+
+	add_hyperlane = { from = "1771" to = "1753" }
+	add_hyperlane = { from = "1771" to = "1772" }
+	add_hyperlane = { from = "1772" to = "1773" }
+	add_hyperlane = { from = "1773" to = "1839" }
+	add_hyperlane = { from = "1839" to = "1778" }
+	add_hyperlane = { from = "1778" to = "1779" }
+
+
+
+
+	### Randon Run
+	# Free ids up to 1800 
+
+	add_hyperlane = { from = "1778" to = "29" }
+	add_hyperlane = { from = "1778" to = "1757" }
+	add_hyperlane = { from = "1757" to = "1928" }
+
+
+
+	### Slice upper-colonies
+	system = { id = "1803" name = "Shelkonwa" position = { x = -46 y = -73 } }
+	system = { id = "1804" name = "Belnar" position = { x = -50 y = -81 } }
+	system = { id = "1806" name = "Carida" position = { x = -59 y = -79 } }
+	system = { id = "1808" name = "Adari" position = { x = -66 y = -87 } }
+	system = { id = "1815" name = "Hok" position = { x = -70 y = -71 } }
+	system = { id = "1830" name = "Telti" position = { x = -114 y = -53 } }
+	system = { id = "1839" name = "Valgauth" position = { x = -161 y = -89 } }
+	# Free ids up to 1900 
+
+	add_hyperlane = { from = "1803" to = "841" }
+	add_hyperlane = { from = "1803" to = "843" }
+	add_hyperlane = { from = "1803" to = "1804" }
+	add_hyperlane = { from = "1804" to = "1806" }
+	add_hyperlane = { from = "1806" to = "1808" }
+	add_hyperlane = { from = "1806" to = "1815" }
+	add_hyperlane = { from = "1808" to = "16" }
+	add_hyperlane = { from = "1808" to = "1176" }
+	add_hyperlane = { from = "1808" to = "1815" }
+	add_hyperlane = { from = "1815" to = "847" }
+	add_hyperlane = { from = "1830" to = "1752" }
+	add_hyperlane = { from = "1830" to = "2047" }
+	add_hyperlane = { from = "1839" to = "24" }
+
+	
+
+
+	### Nanth'ri Route
+	system = { id = "1900" name = "Antar" position = { x = -112 y = 28 } }
+	system = { id = "1901" name = "Gyndine" position = { x = -124 y = 34 } }
+	system = { id = "1903" name = "Mimban" position = { x = -148 y = 25 } }
+	system = { id = "1904" name = "Zaloriis" position = { x = -161 y = 34 } }
+	# Free ids up to 1920 
+
+	add_hyperlane = { from = "1900" to = "1057" }
+	add_hyperlane = { from = "1900" to = "1901" }
+	add_hyperlane = { from = "1900" to = "1920" }
+	add_hyperlane = { from = "1901" to = "1920" }
+	add_hyperlane = { from = "1920" to = "1903" }
+	add_hyperlane = { from = "1903" to = "1904" }
+	add_hyperlane = { from = "1904" to = "2143" }
+	add_hyperlane = { from = "2143" to = "2145" }
+	add_hyperlane = { from = "2145" to = "1954" }
+
+
+
+
+	### Ootmian Pabol
+	system = { id = "1920" name = "Reytha" position = { x = -132 y = 26 } }
+	system = { id = "1923" name = "Belasco" position = { x = -153 y = -2 } }
+	system = { id = "1928" name = "Ota" position = { x = -203 y = -42 } }
+	system = { id = "1936" name = "Y'Toub" position = { x = -280 y = 26 } initializer = random_y'toub_init spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_nal_hutta } } }
+	# Free ids up to 1950 
+
+	add_hyperlane = { from = "1920" to = "1923" }
+	add_hyperlane = { from = "1923" to = "1983" }
+	add_hyperlane = { from = "1983" to = "1985" }
+	add_hyperlane = { from = "1983" to = "1928" }
+	add_hyperlane = { from = "1985" to = "2373" }
+	add_hyperlane = { from = "2373" to = "1936" }
+
+
+
+
+	### Trax Tube
+	system = { id = "1950" name = "Deysum" position = { x = -210 y = -32 } }
+	system = { id = "1954" name = "Daalang" position = { x = -225 y = 53 } }
+	# Free ids up to 1970 
+
+	add_hyperlane = { from = "1950" to = "1928" }
+	add_hyperlane = { from = "1950" to = "1983" }
+	add_hyperlane = { from = "1983" to = "1989" }
+	add_hyperlane = { from = "1989" to = "1903" }
+	add_hyperlane = { from = "1989" to = "2143" }
+
+
+
+
+	### Slice - Northern Expansion Region 
+	system = { id = "1972" name = "Gorse" position = { x = -142 y = -24 } }
+	system = { id = "1974" name = "Cona" position = { x = -130 y = -8 } }
+	system = { id = "1975" name = "Pyrshak" position = { x = -126 y = 2 } initializer = random_pyrshak_init spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_manaan } } }
+	system = { id = "1977" name = "Truuine" position = { x = -121 y = 18 } }
+	system = { id = "1983" name = "Ruusan" position = { x = -195 y = -15 } }
+	system = { id = "1985" name = "Drogheda" position = { x = -204 y = -9 } }
+	system = { id = "1989" name = "Ulda Frav" position = { x = -174 y = 14 } }
+	# Free ids up to 2030 
+
+	add_hyperlane = { from = "1972" to = "1752" }
+	add_hyperlane = { from = "1972" to = "1974" }
+	add_hyperlane = { from = "1972" to = "1923" }
+	add_hyperlane = { from = "1974" to = "1975" }
+	add_hyperlane = { from = "1974" to = "1923" }
+	add_hyperlane = { from = "1975" to = "1977" }
+	add_hyperlane = { from = "1977" to = "1900" }
+	add_hyperlane = { from = "1989" to = "1923" }
+
+
+
+
+	### Hapes Cluster
+	system = { id = "2037" name = "Rainboh" position = { x = -136 y = -82 } }
+	system = { id = "2038" name = "Terephon" position = { x = -136 y = -80 } }
+	system = { id = "2047" name = "Hapes" position = { x = -134 y = -77 } initializer = random_hapes_init spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_hapes } } }
+	# Free ids up to 2100 
+
+	add_hyperlane = { from = "2037" to = "24" }
+	add_hyperlane = { from = "2037" to = "2047" }
+	add_hyperlane = { from = "2038" to = "2037" }
+	add_hyperlane = { from = "2038" to = "2047" }
+
+
+
+
+	### Gamor Run
+	system = { id = "2101" name = "Aridus" position = { x = -146 y = 112 } }
+	system = { id = "2110" name = "Circumtore" position = { x = -282 y = 42 } }
+	# Free ids up to 2120 
+
+	add_hyperlane = { from = "2101" to = "124" }
+	add_hyperlane = { from = "2101" to = "125" }
+	add_hyperlane = { from = "2101" to = "2137" }
+	add_hyperlane = { from = "2137" to = "2145" }
+	add_hyperlane = { from = "2110" to = "1954" }
+
+
+
+
+	### Slice - Southern Expansion Region 
+	system = { id = "2125" name = "Prazhi" position = { x = -150 y = 49 } }
+	system = { id = "2137" name = "Pasaana" position = { x = -158 y = 62 } }
+	system = { id = "2143" name = "T'surr" position = { x = -175 y = 40 } }
+	system = { id = "2145" name = "Chroma Zed" position = { x = -206 y = 58 } }
+	# Free ids up to 2170 
+
+	add_hyperlane = { from = "2125" to = "1901" }
+	add_hyperlane = { from = "2125" to = "1904" }
+	add_hyperlane = { from = "2125" to = "2137" }
+
+
+
+
+	### Botan Run + Manda Merchant Route
+	system = { id = "2170" name = "Lannik" position = { x = -242 y = 76 } }
+	system = { id = "2173" name = "Both" position = { x = -247 y = 118 } initializer = random_both_init spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_bothawui } } }
+	system = { id = "2174" name = "Kothlis" position = { x = -248 y = 127 } }
+	system = { id = "2179" name = "Manda" position = { x = -271 y = 146 } }
+	system = { id = "2180" name = "Leritor" position = { x = -230 y = 158 } }
+	system = { id = "2183" name = "Rishi" position = { x = -286 y = 152 } }
+	system = { id = "2184" name = "Ukio" position = { x = -291 y = 157 } }
+	# Free ids up to 2200 
+
+	add_hyperlane = { from = "2170" to = "1954" }
+	add_hyperlane = { from = "2170" to = "2173" }
+	add_hyperlane = { from = "2173" to = "2174" }
+	add_hyperlane = { from = "2174" to = "2179" }
+	add_hyperlane = { from = "2179" to = "2183" }
+	add_hyperlane = { from = "2179" to = "2180" }
+	add_hyperlane = { from = "2180" to = "2174" }
+	add_hyperlane = { from = "2183" to = "2184" }
+
+
+
+
+	### Triellus Trade Route 
+	system = { id = "2202" name = "Jabiim" position = { x = -300 y = -146 } }
+	system = { id = "2208" name = "Kegan" position = { x = -342 y = -91 } }
+	system = { id = "2211" name = "Kubindi" position = { x = -346 y = -66 } }
+	system = { id = "2214" name = "Eadu" position = { x = -362 y = -38 } }
+	system = { id = "2216" name = "Aduba" position = { x = -371 y = -10 } }
+	system = { id = "2218" name = "Teth" position = { x = -362 y = 28 } }
+	system = { id = "2221" name = "Clantaano" position = { x = -362 y = 53 } }
+	system = { id = "2222" name = "Barab" position = { x = -360 y = 62 } }
+	system = { id = "2226" name = "Gamorr" position = { x = -336 y = 117 } }
+	system = { id = "2236" name = "Tatoo" position = { x = -256 y = 213 } initializer = random_tatoo_init spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_tatooine } } }
+	system = { id = "2243" name = "Zhar" position = { x = -197 y = 231 } }
+	system = { id = "2244" name = "Farstine" position = { x = -162 y = 226 } }
+	system = { id = "2246" name = "Enarc" position = { x = -136 y = 230 } }
+	system = { id = "2248" name = "Sanrafsix" position = { x = -89 y = 240 } }
+	# Free ids up to 2280 
+
+	add_hyperlane = { from = "2538" to = "39" }
+	add_hyperlane = { from = "2538" to = "2202" }
+	add_hyperlane = { from = "2202" to = "2534" }
+	add_hyperlane = { from = "2534" to = "2464" }
+	add_hyperlane = { from = "2464" to = "2208" }
+	add_hyperlane = { from = "2208" to = "2211" }
+	add_hyperlane = { from = "2211" to = "2450" }
+	add_hyperlane = { from = "2450" to = "2214" }
+	add_hyperlane = { from = "2214" to = "2216" }
+	add_hyperlane = { from = "2216" to = "2218" }
+	add_hyperlane = { from = "2218" to = "2221" }
+	add_hyperlane = { from = "2221" to = "2222" }
+	add_hyperlane = { from = "2222" to = "2226" }
+	add_hyperlane = { from = "2226" to = "2328" }
+	add_hyperlane = { from = "2328" to = "2771" }
+	add_hyperlane = { from = "2771" to = "2236" }
+	add_hyperlane = { from = "2236" to = "138" }
+	add_hyperlane = { from = "138" to = "3364" }
+	add_hyperlane = { from = "3364" to = "3453" }
+	add_hyperlane = { from = "3453" to = "2243" }
+	add_hyperlane = { from = "2243" to = "2244" }
+	add_hyperlane = { from = "2244" to = "2246" }
+	add_hyperlane = { from = "2246" to = "3426" }
+	add_hyperlane = { from = "3426" to = "2248" }
+	add_hyperlane = { from = "2248" to = "437" }
+	add_hyperlane = { from = "437" to = "522" }
+
+
+
+
+	### Slice - Southern Mid Rim 
+	system = { id = "2284" name = "Vandor" position = { x = -170 y = 119 } }
+	system = { id = "2289" name = "Makeb" position = { x = -223 y = 73 } }
+	system = { id = "2292" name = "Dressel" position = { x = -230 y = 94 } }
+	system = { id = "2297" name = "Monastery" position = { x = -202 y = 142 } }
+	system = { id = "2300" name = "Ando" position = { x = -210 y = 182 } }
+	system = { id = "2303" name = "Falleen" position = { x = -190 y = 166 } }
+	system = { id = "2312" name = "Ord Pardron" position = { x = -259 y = 185 } }
+	system = { id = "2313" name = "Iskalon" position = { x = -252 y = 196 } }
+	system = { id = "2315" name = "Rodia" position = { x = -238 y = 210 } }
+	system = { id = "2316" name = "Kamino" position = { x = -282 y = 156 } initializer = random_kamino_init spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_kamino } } }
+	system = { id = "2324" name = "Goroth Prime" position = { x = -244 y = 203 } }
+	system = { id = "2328" name = "Scarif" position = { x = -295 y = 163 } }
+	# Free ids up to 2350
+	
+	add_hyperlane = { from = "2284" to = "127" }
+	add_hyperlane = { from = "2284" to = "2101" }
+	add_hyperlane = { from = "2284" to = "2297" }
+	add_hyperlane = { from = "2289" to = "2145" }
+	add_hyperlane = { from = "2289" to = "1954" }
+	add_hyperlane = { from = "2289" to = "2170" }
+	add_hyperlane = { from = "2289" to = "2292" }
+	add_hyperlane = { from = "2292" to = "2173" }
+	add_hyperlane = { from = "2297" to = "2180" }
+	add_hyperlane = { from = "2297" to = "129" }
+	add_hyperlane = { from = "2300" to = "2180" }
+	add_hyperlane = { from = "2300" to = "134" }
+	add_hyperlane = { from = "2312" to = "2771" }
+	add_hyperlane = { from = "2312" to = "2180" }
+	add_hyperlane = { from = "2312" to = "2313" }
+	add_hyperlane = { from = "2313" to = "2236" }
+	add_hyperlane = { from = "2313" to = "2324" }
+	add_hyperlane = { from = "2315" to = "137" }
+	add_hyperlane = { from = "2315" to = "138" }
+	add_hyperlane = { from = "2315" to = "2324" }
+	add_hyperlane = { from = "2316" to = "2179" }
+	add_hyperlane = { from = "2316" to = "2183" }
+	add_hyperlane = { from = "2316" to = "2184" }
+	add_hyperlane = { from = "2316" to = "2771" }
+	add_hyperlane = { from = "2324" to = "2236" }
+	add_hyperlane = { from = "2328" to = "2184" }
+
+
+
+
+	### Hutt Space + surroundings
+	system = { id = "2354" name = "Affavan" position = { x = -292 y = 48 } }
+	system = { id = "2362" name = "Riileb" position = { x = -330 y = 45 } }
+	system = { id = "2365" name = "Ylesia" position = { x = -336 y = 30 } }
+	system = { id = "2368" name = "Outland Transit" position = { x = -356 y = 30 } }
+	system = { id = "2369" name = "Lirra" position = { x = -360 y = 30 } }
+	system = { id = "2373" name = "Toydaria" position = { x = -266 y = 13 } }
+	system = { id = "2380" name = "Varl" position = { x = -306 y = 6 } initializer = random_ardos_init spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_varl } } }
+	system = { id = "2388" name = "Moralan" position = { x = -331 y = -28 } }
+	system = { id = "2391" name = "Cyax" position = { x = -314 y = 1 } }
+	system = { id = "2406" name = "Groth" position = { x = -306 y = -8 } }
+	system = { id = "2417" name = "Quesh" position = { x = -310 y = -34 } }
+	system = { id = "2420" name = "Sleheyron" position = { x = -306 y = -46 } }
+	system = { id = "2422" name = "Nar Kreeta" position = { x = -282 y = -42 } }
+	system = { id = "2425" name = "Chalacta" position = { x = -260 y = -47 } }
+	system = { id = "2427" name = "Durkteel" position = { x = -229 y = -47 } }
+	system = { id = "2430" name = "Balamak" position = { x = -222 y = -73 } }
+	system = { id = "2433" name = "Boz Pity" position = { x = -280 y = -79 } }
+	system = { id = "2435" name = "Danuta" position = { x = -281 y = -88 } }
+	system = { id = "2436" name = "Bimmisaari" position = { x = -270 y = -90 } }
+	system = { id = "2439" name = "Boonta" position = { x = -296 y = -115 } }
+	system = { id = "2444" name = "The Maw" position = { x = -330 y = -52 } }
+	system = { id = "2445" name = "Kessel" position = { x = -333 y = -51 } initializer = random_kessel_init spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_kessel } } }
+	system = { id = "2447" name = "Honoghr" position = { x = -337 y = -44 } }
+	system = { id = "2448" name = "Little Kessel" position = { x = -343 y = -47 } }
+	system = { id = "2450" name = "Oba Diah" position = { x = -352 y = -50 } }
+	system = { id = "2454" name = "Cyborrea" position = { x = -293 y = -63 } }
+	system = { id = "2458" name = "Klatooine" position = { x = -306 y = -94 } }
+	system = { id = "2464" name = "Sriluur" position = { x = -308 y = -101 } }
+	system = { id = "2470" name = "Darvannis" position = { x = -336 y = -80 } }
+	# Free ids up to 2520 
+
+	add_hyperlane = { from = "2354" to = "2110" }
+	add_hyperlane = { from = "2354" to = "2362" }
+	add_hyperlane = { from = "2362" to = "2221" }
+	add_hyperlane = { from = "2110" to = "1936" }
+	add_hyperlane = { from = "2365" to = "2362" }
+	add_hyperlane = { from = "2365" to = "2368" }
+	add_hyperlane = { from = "2368" to = "2369" }
+	add_hyperlane = { from = "2369" to = "2218" }
+	add_hyperlane = { from = "2380" to = "2391" }
+	add_hyperlane = { from = "2380" to = "1936" }
+	add_hyperlane = { from = "2380" to = "2406" }
+	add_hyperlane = { from = "2391" to = "2406" }
+	add_hyperlane = { from = "2391" to = "2365" }
+	add_hyperlane = { from = "2406" to = "2417" }
+	add_hyperlane = { from = "2406" to = "2422" }
+	add_hyperlane = { from = "2417" to = "2388" }
+	add_hyperlane = { from = "2417" to = "2420" }
+	add_hyperlane = { from = "2388" to = "2391" }
+	add_hyperlane = { from = "2388" to = "2447" }
+	add_hyperlane = { from = "2420" to = "2444" }
+	add_hyperlane = { from = "2420" to = "2422" }
+	add_hyperlane = { from = "2420" to = "2454" }
+	add_hyperlane = { from = "2444" to = "2445" }
+	add_hyperlane = { from = "2445" to = "2447" }
+	add_hyperlane = { from = "2445" to = "2448" }
+	add_hyperlane = { from = "2445" to = "2211" }
+	add_hyperlane = { from = "2447" to = "2448" }
+	add_hyperlane = { from = "2448" to = "2450" }
+	add_hyperlane = { from = "2422" to = "2454" }
+	add_hyperlane = { from = "2422" to = "2425" }
+	add_hyperlane = { from = "2425" to = "2427" }
+	add_hyperlane = { from = "2427" to = "1928" }
+	add_hyperlane = { from = "2427" to = "1950" }
+	add_hyperlane = { from = "2427" to = "2430" }
+	add_hyperlane = { from = "2430" to = "1757" }
+	add_hyperlane = { from = "2430" to = "1779" }
+	add_hyperlane = { from = "2430" to = "2436" }
+	add_hyperlane = { from = "2433" to = "2435" }
+	add_hyperlane = { from = "2433" to = "2436" }
+	add_hyperlane = { from = "2433" to = "2454" }
+	add_hyperlane = { from = "2435" to = "2439" }
+	add_hyperlane = { from = "2436" to = "2435" }
+	add_hyperlane = { from = "2439" to = "2533" }
+	add_hyperlane = { from = "2439" to = "2534" }
+	add_hyperlane = { from = "2439" to = "2464" }
+	add_hyperlane = { from = "2439" to = "2458" }
+	add_hyperlane = { from = "2454" to = "2458" }
+	add_hyperlane = { from = "2458" to = "2464" }
+	add_hyperlane = { from = "2458" to = "2470" }
+	add_hyperlane = { from = "2470" to = "2208" }
+	add_hyperlane = { from = "2470" to = "2211" }
+
+
+
+
+	### Slice - Upper Mid Rim 
+	system = { id = "2522" name = "Metalorn" position = { x = -242 y = -126 } }
+	system = { id = "2526" name = "Anzat" position = { x = -270 y = -138 } }
+	system = { id = "2528" name = "Kijimi" position = { x = -258 y = -123 } }
+	system = { id = "2529" name = "Ultaar" position = { x = -257 y = -115 } }
+	system = { id = "2533" name = "Saleucami" position = { x = -291 y = -122 } initializer = random_saleucami_init spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_saleucami } } }
+	system = { id = "2534" name = "Oovo" position = { x = -309 y = -126 } }
+	system = { id = "2538" name = "Chad" position = { x = -266 y = -161 } }
+	system = { id = "2543" name = "Belderone" position = { x = -270 y = -180 } }
+	# Free ids up to 2570 
+
+
+
+
+	### Overic Griplink + Prousley's Rim Run
+	system = { id = "2570" name = "Toola" position = { x = -310 y = -241 } }
+	system = { id = "2576" name = "Munto Codru" position = { x = -356 y = -200 } }
+	system = { id = "2579" name = "Calamari" position = { x = -361 y = -186 } initializer = random_calamari_init spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_mon_calamari } } }
+	system = { id = "2580" name = "Pammant" position = { x = -362 y = -185 } }
+	system = { id = "2583" name = "Sanctuary" position = { x = -366 y = -173 } }
+	system = { id = "2585" name = "Lothal" position = { x = -372 y = -169 } }
+	system = { id = "2587" name = "Baros" position = { x = -375 y = -157 } }
+	# Free ids up to 2610 
+
+
+
+
+	### Slice - Upper Outer Rim 
+	system = { id = "2618" name = "Rafa" position = { x = -346 y = -115 } }
+	system = { id = "2626" name = "Douglas" position = { x = -377 y = -109 } }
+	system = { id = "2631" name = "Tund" position = { x = -380 y = -114 } }
+	system = { id = "2636" name = "Gand" position = { x = -347 y = -126 } }
+	system = { id = "2642" name = "Garel" position = { x = -363 y = -153 } }
+	system = { id = "2645" name = "New Alderaan" position = { x = -346 y = -178 } }
+	system = { id = "2649" name = "Iego" position = { x = -329 y = -155 } }
+	system = { id = "2650" name = "Cophrigin" position = { x = -331 y = -163 } }
+	system = { id = "2652" name = "Abyss" position = { x = -314 y = -169 } }
+	system = { id = "2655" name = "Murkhana" position = { x = -291 y = -186 } }
+	system = { id = "2656" name = "Ossus" position = { x = -278 y = -182 } }
+	system = { id = "2664" name = "Argai" position = { x = -310 y = -203 } }
+	system = { id = "2667" name = "Voss" position = { x = -297 y = -200 } }
+	system = { id = "2679" name = "Dellalt" position = { x = -329 y = -183 } }
+	system = { id = "2682" name = "Taral" position = { x = -362 y = -171 } }
+	system = { id = "2683" name = "Atollon" position = { x = -369 y = -166 } }
+	system = { id = "2694" name = "Brigia" position = { x = -322 y = -192 } }
+	system = { id = "2698" name = "Rudrig" position = { x = -314 y = -211 } }
+	system = { id = "2699" name = "Tion" position = { x = -307 y = -218 } }
+	system = { id = "2700" name = "Raxus Prime" position = { x = -306 y = -219 } }
+	# Free ids up to 2750 
+
+
+
+
+	### Slice - Wild Space, Arkanis sector
+	system = { id = "2752" name = "Kesh" position = { x = -386 y = -42 } }
+	system = { id = "2755" name = "Daluuj" position = { x = -371 y = 70 } }
+	system = { id = "2758" name = "Tammuz-an" position = { x = -348 y = 123 } }
+	system = { id = "2764" name = "Rothana" position = { x = -342 y = 166 } }
+	system = { id = "2765" name = "Pzob" position = { x = -347 y = 178 } }
+	system = { id = "2767" name = "Kowak" position = { x = -314 y = 185 } }
+	system = { id = "2771" name = "Roon" position = { x = -280 y = 177 } }
+	system = { id = "2772" name = "Hypori" position = { x = -288 y = 202 } }
+	system = { id = "2773" name = "Geonosis" position = { x = -258 y = 213 } initializer = random_geonosis_init spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_geonosis } } }
+	system = { id = "2792" name = "Rannon" position = { x = -325 y = 229 } }
+	# Free ids up to 2820 
+
+
+
+
+	#################################
+	#		New Territories			#
+	#################################
+
+	### Celanon Spur
+	system = { id = "2823" name = "Vortex" position = { x = 37 y = -144 } }
+	system = { id = "2824" name = "Nentan" position = { x = 28 y = -148 } }
+	system = { id = "2826" name = "Ord Mantell" position = { x = -2 y = -158 } }
+	system = { id = "2827" name = "Numidian Prime" position = { x = -10 y = -160 } }
+	system = { id = "2829" name = "Ithor" position = { x = -44 y = -184 } }
+	system = { id = "2832" name = "Agamar" position = { x = -58 y = -223 } }
+	system = { id = "2834" name = "Vinsoth" position = { x = -110 y = -219 } }
+	system = { id = "2835" name = "Axxila" position = { x = -125 y = -221 } }
+	system = { id = "2836" name = "Ord Cestus" position = { x = -131 y = -211 } }
+	# Free ids upt o 2850 
+
+
+
+
+	### South of Celanon Spur
+	system = { id = "2853" name = "Kiros" position = { x = -28 y = -127 } }
+	system = { id = "2854" name = "Shili" position = { x = -27 y = -131 } }
+	system = { id = "2856" name = "Yinchorr" position = { x = -12 y = -127 } }
+	system = { id = "2857" name = "Mayvitch" position = { x = -2 y = -122 } }
+	system = { id = "2859" name = "Immalia" position = { x = 4 y = -123 } }
+	system = { id = "2860" name = "Barenth" position = { x = 25 y = -132 } }
+	system = { id = "2864" name = "Anobis" position = { x = -6 y = -152 } }
+	system = { id = "2867" name = "Aleen" position = { x = -14 y = -149 } }
+	system = { id = "2877" name = "Pallaxides" position = { x = -87 y = -170 } }
+	system = { id = "2881" name = "Polus" position = { x = -58 y = -197 } }
+	system = { id = "2888" name = "Dathomir" position = { x = -124 y = -200 } initializer = random_dathomir_init spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_dathomir } } }
+	system = { id = "2891" name = "Cathar" position = { x = -112 y = -205 } }
+	# Free ids up to 2930 
+
+
+
+
+	### Entralla Route + Rest to Xerton
+	system = { id = "2930" name = "Qiilura" position = { x = 0 y = -161 } }
+	system = { id = "2934" name = "Obredaan" position = { x = 6 y = -184 } }
+	system = { id = "2936" name = "Orinda" position = { x = 11 y = -195 } }
+	system = { id = "2944" name = "Yaga Minor" position = { x = 38 y = -247 } }
+	system = { id = "2949" name = "Muunilinst" position = { x = 33 y = -275 } initializer = random_muunilinst_init spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_muunilinst } } }
+	system = { id = "2952" name = "Bastion" position = { x = 36 y = -314 } }
+	# Free ids up to 2980 
+
+
+
+
+	### Veragi Trade Route 
+	system = { id = "2981" name = "Ciutric" position = { x = -100 y = -245 } }
+	system = { id = "2985" name = "Birgis" position = { x = -73 y = -315 } }
+	system = { id = "2987" name = "Sernpidal" position = { x = -28 y = -332 } }
+	system = { id = "2991" name = "Dubrillion" position = { x = 14 y = -305 } }
+	system = { id = "2992" name = "Ahakista" position = { x = 13 y = -301 } }
+	system = { id = "2993" name = "Dantooine" position = { x = 0 y = -278 } }
+	system = { id = "2994" name = "Ord Trasi" position = { x = -6 y = -259 } }
+	# Free ids up to 3010 
+
+
+
+
+	### Western New Territories 
+	system = { id = "3018" name = "Iridonia" position = { x = 46 y = -173 } }
+	system = { id = "3032" name = "Aeten" position = { x = 68 y = -210 } }
+	system = { id = "3035" name = "Adumar" position = { x = 78 y = -196 } }
+	system = { id = "3038" name = "Nirauan" position = { x = 88 y = -217 } }
+	system = { id = "3043" name = "Carlac" position = { x = 37 y = -217 } }
+	# Free ids up to 3070 
+
+
+
+
+	### Pentastar Region + Surroundings
+	system = { id = "3071" name = "Fedje" position = { x = -29 y = -226 } }
+	system = { id = "3072" name = "Vuchelle" position = { x = -22 y = -225 } }
+	system = { id = "3073" name = "New Bakstre" position = { x = 4 y = -228 } }
+	system = { id = "3075" name = "Garqi" position = { x = 16 y = -234 } }
+	system = { id = "3078" name = "Mygeeto" position = { x = 21 y = -253 } initializer = random_mygeeto_init spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_mygeeto } } }
+	system = { id = "3080" name = "Maelstrom Nebula" position = { x = 5 y = -250 } }
+	system = { id = "3083" name = "Horuz" position = { x = -28 y = -243 } }
+	system = { id = "3086" name = "Generis" position = { x = -34 y = -236 } }
+	system = { id = "3087" name = "Devon" position = { x = -33 y = -233 } }
+	system = { id = "3088" name = "Fest" position = { x = -32 y = -231 } }
+	system = { id = "3090" name = "Ebra" position = { x = -27 y = -188 } }
+	system = { id = "3091" name = "Phaeda" position = { x = -22 y = -202 } }
+	system = { id = "3093" name = "Ajan Kloss" position = { x = -30 y = -218 } }
+	system = { id = "3099" name = "Hethar" position = { x = -37 y = -238 } }
+	system = { id = "3101" name = "Gandolo" position = { x = -59 y = -243 } }
+	system = { id = "3104" name = "Gibbela" position = { x = -13 y = -239 } }
+	system = { id = "3105" name = "Kalki Nebula" position = { x = -1 y = -231 } }
+	system = { id = "3106" name = "Moltok" position = { x = -2 y = -238 } }
+	system = { id = "3109" name = "Biitu" position = { x = 18 y = -238 } }
+	system = { id = "3112" name = "Scipio" position = { x = 26 y = -248 } }
+	system = { id = "3113" name = "Bar Neth" position = { x = 28 y = -251 } }
+	system = { id = "3129" name = "Gravlex Med" position = { x = -26 y = -279 } }
+	system = { id = "3131" name = "Shusugaunt" position = { x = -17 y = -288 } }
+	system = { id = "3133" name = "Lah'mu" position = { x = -7 y = -294 } }
+	system = { id = "3134" name = "Artorias" position = { x = 6 y = -299 } }
+	system = { id = "3156" name = "Kalee" position = { x = 66 y = -282 } }
+	system = { id = "3158" name = "Guiteica" position = { x = 71 y = -289 } }
+	# Free ids up to 3200 
+
+
+
+
+	### Wild Space & North-East Part 
+	system = { id = "3205" name = "Gree" position = { x = -2 y = -338 } }
+	system = { id = "3206" name = "Asation" position = { x = 4 y = -333 } }
+	system = { id = "3207" name = "Mortis" position = { x = 22 y = -348 } }
+	system = { id = "3212" name = "Lorrd" position = { x = -109 y = -273 } }
+	system = { id = "3215" name = "Abafar" position = { x = -114 y = -231 } }
+	system = { id = "3219" name = "Tangrene" position = { x = -140 y = -258 } }
+	system = { id = "3220" name = "Altyr" position = { x = -138 y = -250 } }
+	system = { id = "3221" name = "Keeper's World" position = { x = -127 y = -248 } }
+	system = { id = "3224" name = "Serenno" position = { x = -162 y = -240 } }
+	system = { id = "3225" name = "Kirtania" position = { x = -176 y = -262 } }
+	system = { id = "3229" name = "Eol Sha" position = { x = -162 y = -298 } }
+	system = { id = "3230" name = "Maltha Obex" position = { x = -139 y = -300 } }
+	system = { id = "3232" name = "Gorsh" position = { x = -129 y = -322 } }
+	system = { id = "3235" name = "Oricon" position = { x = -177 y = -309 } }
+	# Free ids up to 3260 
+
+
+
+
+	#################################
+	#		 Trailing Sectors		#
+	#################################
+
+	### Harrin Trade Corridor 
+	# Free ids up to 3280 
+
+
+
+
+	### Upper Trailing Sectors 
+	system = { id = "3288" name = "Kooriva" position = { x = -63 y = 114 } }
+	system = { id = "3292" name = "Vaklin" position = { x = -76 y = 133 } }
+	system = { id = "3300" name = "M'haeli" position = { x = -86 y = 174 } }
+	system = { id = "3302" name = "Vendaxa" position = { x = -127 y = 126 } }
+	system = { id = "3316" name = "Lazerian" position = { x = -100 y = 182 } }
+	# Free ids up to 3330 
+
+
+
+
+	### Middle Trailing Sectors 
+	system = { id = "3330" name = "Adner" position = { x = -82 y = 188 } }
+	system = { id = "3335" name = "Haruun Kal" position = { x = -71 y = 226 } }
+	system = { id = "3336" name = "Ropagi" position = { x = -101 y = 185 } }
+	system = { id = "3338" name = "Nigel" position = { x = -108 y = 185 } }
+	system = { id = "3339" name = "Roldalna" position = { x = -110 y = 186 } }
+	system = { id = "3342" name = "Naboo" position = { x = -134 y = 226 } initializer = random_naboo_init spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_naboo } } }
+	system = { id = "3344" name = "Zelos" position = { x = -98 y = 200 } }
+	system = { id = "3353" name = "Trevi" position = { x = -106 y = 232 } }
+	system = { id = "3356" name = "Sedesia" position = { x = -133 y = 186 } }
+	system = { id = "3359" name = "Bannistar (Station)" position = { x = -153 y = 173 } }
+	system = { id = "3361" name = "Kalarba" position = { x = -161 y = 150 } }
+	system = { id = "3364" name = "Nelvaan" position = { x = -234 y = 222 } }
+	system = { id = "3366" name = "Zolan" position = { x = -187 y = 194 } }
+	system = { id = "3370" name = "Apatros" position = { x = -224 y = 218 } }
+	# Free ids up to 3390 
+
+
+
+
+	### Lower Trailing Sectors 
+	system = { id = "3390" name = "Syned" position = { x = -87 y = 249 } }
+	system = { id = "3391" name = "Azzameen (Station)" position = { x = -86 y = 257 } }
+	system = { id = "3393" name = "Kabal" position = { x = -93 y = 284 } }
+	system = { id = "3395" name = "Sevarcos" position = { x = -91 y = 310 } }
+	system = { id = "3396" name = "Kirdo" position = { x = -106 y = 319 } }
+	system = { id = "3400" name = "Trigalis" position = { x = -163 y = 242 } }
+	system = { id = "3401" name = "Stend" position = { x = -162 y = 244 } }
+	system = { id = "3402" name = "Lybeya" position = { x = -174 y = 264 } }
+	system = { id = "3414" name = "Socorro" position = { x = -205 y = 251 } }
+	system = { id = "3415" name = "Xagobah" position = { x = -74 y = 293 } }
+	system = { id = "3417" name = "Dagobah" position = { x = -64 y = 325 } initializer = random_dagobah_init spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_dagobah } } }
+	system = { id = "3418" name = "Utapau" position = { x = -81 y = 338 } }
+	system = { id = "3421" name = "Corva Yag" position = { x = -87 y = 358 } }
+	system = { id = "3424" name = "Aaris" position = { x = -67 y = 387 } }
+	system = { id = "3425" name = "Danoor" position = { x = -72 y = 398 } }
+	system = { id = "3426" name = "Crait" position = { x = -99 y = 241 } }
+	system = { id = "3428" name = "Arbra" position = { x = -111 y = 250 } }
+	system = { id = "3431" name = "Rugosa" position = { x = -149 y = 246 } }
+	system = { id = "3432" name = "Ileenium" position = { x = -134 y = 257 } }
+	system = { id = "3443" name = "Pantora" position = { x = -170 y = 318 } }
+	system = { id = "3444" name = "Alzoc" position = { x = -177 y = 321 } }
+	system = { id = "3445" name = "Orto Plutonia" position = { x = -172 y = 330 } }
+	system = { id = "3447" name = "Lasan" position = { x = -177 y = 354 } }
+	system = { id = "3449" name = "Yanibar" position = { x = -256 y = 310 } }
+	system = { id = "3453" name = "Lok" position = { x = -219 y = 232 } }
+	system = { id = "3457" name = "Lamaro" position = { x = -299 y = 279 } }
+	# Free ids up to 3490 
+
+
+
+
+	#################################
+	#		Western Reaches			#
+	#################################
+
+	### Great Gran Run 
+	system = { id = "3491" name = "Noe'ha'on" position = { x = 34 y = 193 } }
+	system = { id = "3496" name = "Takodana" position = { x = 78 y = 197 } }
+	system = { id = "3499" name = "Cerea" position = { x = 98 y = 210 } }
+	# Free ids up to 3510 
+
+
+
+
+	### Upper Western Reaches 
+	system = { id = "3511" name = "Laakteen Depot" position = { x = -1 y = 95 } }
+	system = { id = "3515" name = "Fennesa" position = { x = 18 y = 110 } }
+	system = { id = "3519" name = "Zardossa Stix" position = { x = 58 y = 70 } }
+	system = { id = "3521" name = "Bardotta" position = { x = 48 y = 82 } }
+	system = { id = "3538" name = "Taloraan" position = { x = 97 y = 147 } }
+	system = { id = "3542" name = "Ring of Kafrene" position = { x = 56 y = 150 } }
+	system = { id = "3553" name = "Kiffu" position = { x = -11 y = 116 } }
+	system = { id = "3559" name = "Trevura" position = { x = 28 y = 132 } }
+	system = { id = "3560" name = "Castilon" position = { x = 90 y = 193 } }
+	# Free ids up to 3590 
+
+
+
+
+	### Nothoiin Corridor & Koda Spur 
+	system = { id = "3591" name = "Bavva" position = { x = 24 y = 280 } }
+	# Free ids up to 3620 
+
+
+
+
+	### Juvex & Senex Sector
+	system = { id = "3634" name = "Malador" position = { x = -4 y = 263 } }
+	system = { id = "3647" name = "Selenius" position = { x = -4 y = 254 } }
+	system = { id = "3651" name = "Manforgon" position = { x = -6 y = 257 } }
+	system = { id = "3653" name = "Cyimarra" position = { x = -10 y = 256 } }
+	system = { id = "3660" name = "Juvex" position = { x = -9 y = 264 } initializer = random_juvex_init spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_juvex } } }
+	system = { id = "3684" name = "Belsavis" position = { x = -16 y = 270 } }
+	system = { id = "3688" name = "Neelanon" position = { x = -18 y = 262 } }
+	system = { id = "3695" name = "Tibrin" position = { x = -28 y = 269 } }
+	system = { id = "3699" name = "Knores" position = { x = -17 y = 260 } }
+	system = { id = "3702" name = "Hutlar" position = { x = -14 y = 263 } }
+	system = { id = "3706" name = "Aquella" position = { x = -11 y = 261 } }
+	system = { id = "3707" name = "Paramatan" position = { x = -10 y = 258 } }
+	# Free ids up to 3730 
+
+
+
+
+	### Middle Western Reaches 
+	system = { id = "3733" name = "Nkllon" position = { x = -22 y = 190 } }
+	system = { id = "3734" name = "Qat Chrystac" position = { x = -36 y = 206 } }
+	system = { id = "3739" name = "Eiattu" position = { x = -35 y = 245 } }
+	system = { id = "3756" name = "Shuldene" position = { x = 44 y = 276 } }
+	system = { id = "3764" name = "Riflor" position = { x = 71 y = 222 } }
+	system = { id = "3775" name = "Sarrish" position = { x = 8 y = 189 } }
+	system = { id = "3779" name = "Lotho Minor" position = { x = 82 y = 261 } }
+	# Free ids up to 3810 
+
+
+
+
+	### Lower Western Reaches 
+	system = { id = "3811" name = "Bespin" position = { x = 36 y = 284 } }
+	system = { id = "3812" name = "Anoat" position = { x = 36 y = 286 } }
+	system = { id = "3813" name = "Hoth" position = { x = 36 y = 287 } initializer = random_hoth_init spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_hoth } } }
+	system = { id = "3815" name = "Burnin Konn" position = { x = 30 y = 288 } }
+	system = { id = "3817" name = "Tokmia" position = { x = 28 y = 289 } }
+	system = { id = "3818" name = "Gutretee" position = { x = 30 y = 290 } }
+	system = { id = "3832" name = "Abridon" position = { x = 52 y = 298 } }
+	system = { id = "3834" name = "Sump" position = { x = 81 y = 301 } }
+	system = { id = "3842" name = "Coveway" position = { x = 88 y = 270 } }
+	system = { id = "3843" name = "Dorvalla" position = { x = -55 y = 279 } }
+	system = { id = "3846" name = "Dalicron" position = { x = 7 y = 315 } }
+	system = { id = "3847" name = "Barkhesh" position = { x = 20 y = 334 } }
+	system = { id = "3848" name = "Mustafar" position = { x = -6 y = 337 } initializer = random_mustafar_init spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_mustafar } } }
+	system = { id = "3849" name = "Orto" position = { x = -57 y = 307 } }
+	system = { id = "3850" name = "Bpfassh" position = { x = -54 y = 314 } }
+	system = { id = "3856" name = "Squab" position = { x = -55 y = 360 } }
+	system = { id = "3860" name = "Polis Massa" position = { x = 13 y = 372 } }
+	system = { id = "3865" name = "Delrakkin" position = { x = 19 y = 393 } }
+	system = { id = "3876" name = "Usean" position = { x = 104 y = 296 } }
+	system = { id = "3880" name = "Bestal" position = { x = 114 y = 338 } }
+	system = { id = "3881" name = "Skye" position = { x = 126 y = 341 } }
+	system = { id = "3882" name = "Baralou" position = { x = 122 y = 351 } }
+	system = { id = "3886" name = "Red Nebula" position = { x = 162 y = 398 } }
+	system = { id = "3888" name = "Needan" position = { x = 90 y = 377 } }
+	system = { id = "3892" name = "Anoth" position = { x = 66 y = 383 } }
+	# Free ids up to 3930 
+
+
+
+
+	#################################
+	#		Unknown Systems			#
+	#################################
+
+	### Shiritoku Way
+	system = { id = "3932" name = "Annaj" position = { x = 130 y = 222 } }
+	system = { id = "3938" name = "Endor" position = { x = 136 y = 217 } initializer = random_endor_init spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_endor } } }
+	system = { id = "3943" name = "Bakura" position = { x = 174 y = 212 } }
+	## Free ids up to 3950 
+
+
+
+
+	### Southern Unknown Systems 
+	system = { id = "3962" name = "Maya Kovel" position = { x = 128 y = 216 } }
+	system = { id = "3974" name = "Vengler" position = { x = 139 y = 233 } }
+	system = { id = "3976" name = "Bursoll" position = { x = 150 y = 248 } }
+	system = { id = "3981" name = "Kammia" position = { x = 188 y = 208 } }
+	system = { id = "3982" name = "Lwhekk" position = { x = 323 y = 198 } }
+	system = { id = "3983" name = "Firrerre" position = { x = 143 y = 206 } }
+	system = { id = "3988" name = "Mokivj" position = { x = 160 y = 194 } }
+	system = { id = "3992" name = "Pam'ba" position = { x = 123 y = 165 } }
+	system = { id = "3993" name = "Batuu" position = { x = 154 y = 166 } }
+	system = { id = "3998" name = "Bormter" position = { x = 155 y = 133 } }
+	system = { id = "3999" name = "Odessen" position = { x = 169 y = 141 } }
+	system = { id = "4000" name = "O'reen" position = { x = 156 y = 86 } }
+	system = { id = "4001" name = "Jakku" position = { x = 109 y = 70 } initializer = random_jakku_init spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_jakku } } }
+	system = { id = "4002" name = "Zonama Sekot" position = { x = 202 y = 69 } }
+	system = { id = "4003" name = "Ahch-To" position = { x = 259 y = 77 } }
+	system = { id = "4004" name = "Zakuul" position = { x = 296 y = 67 } initializer = random_zakuul_init spawn_weight = { base = 1 modifier = { add = 100 has_trait = swg2_trait_zakuul } } }
+	system = { id = "4005" name = "Ponemah" position = { x = 162 y = 92 } }
+	## Free ids up to 4060 
+
+
+
+
+	### Northern Unknown Systems 
+	system = { id = "4066" name = "Mondress" position = { x = 76 y = -139 } }
+	system = { id = "4069" name = "Kril'Dor" position = { x = 96 y = -155 } }
+	system = { id = "4082" name = "Utegetu Nebula" position = { x = 116 y = -125 } }
+	system = { id = "4084" name = "Burska" position = { x = 103 y = -154 } }
+	system = { id = "4087" name = "Acherin" position = { x = 114 y = -164 } }
+	system = { id = "4089" name = "Parnassos" position = { x = 146 y = -193 } }
+	## Free ids up to 4150 
+
+
+
+
+	### Chiss Region + Surroundings
+	system = { id = "4154" name = "Ilum" position = { x = 166 y = -147 } }
+	system = { id = "4162" name = "Exegol" position = { x = 239 y = -144 } }
+	system = { id = "4164" name = "Csilla" position = { x = 237 y = -98 } initializer = random_csilla_init spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_csilla } } }
+	system = { id = "4172" name = "Copero" position = { x = 229 y = -86 } }
+	system = { id = "4174" name = "Rhigar" position = { x = 241 y = -83 } }
+	system = { id = "4176" name = "Klasse Ephemora" position = { x = 224 y = -74 } }
+	system = { id = "4177" name = "Yashuvhu" position = { x = 212 y = -76 } }
+	system = { id = "4180" name = "Jedha" position = { x = 134 y = -46 } }
+	system = { id = "4188" name = "Lehon" position = { x = 184 y = 25 } }
+	system = { id = "4189" name = "244Core" position = { x = 215 y = -39 } }
+	## Free ids up to 4250 
+
+
+
+
+	#########################
+	#		Nebulae			#
+	#########################
+
+	nebula = {name = "Heart of the Galaxy" position = { x = 0 y = 0 } radius = 45 }
+	nebula = {name = "Parthovian Cluster" position = { x = -330 y = -290 } radius = 5 }
+	nebula = {name = "Osssorck Nebulae" position = { x = 41 y = 50 } radius = 3 }
+	nebula = {name = "Transitory Mists" position = { x = -132 y = -76 } radius = 15 }
+	nebula = {name = "Thornhedge Nebula" position = { x = -200 y = -42 } radius = 2 }
+	nebula = {name = "Red Nebula" position = { x = 162 y = 398 } radius = 10 }
+	nebula = {name = "Utegetu Nebula" position = { x = 116 y = -125 } radius = 10 }
+	nebula = {name = "Llon Nebulae" position = { x = 6 y = 166 } radius = 10 }
+	nebula = {name = "StarForge Nebula" position = { x = -42 y = 242 } radius = 5 }
+	nebula = {name = "Maelstrom Nebula" position = { x = 5 y = -250 } radius = 5 }
+	nebula = {name = "Maw Nebulae" position = { x = -333 y = -51 } radius = 20 }
+	nebula = {name = "Rata Nebula" position = { x = 241 y = -83 } radius = 10 }
+	nebula = {name = "Monsua Nebula" position = { x = 133 y = 213 } radius = 2 }
+	nebula = {name = "Kaliida Nebula" position = { x = -152 y = 229 } radius = 7 }
+	nebula = {name = "Ghost Nebula" position = { x = -162 y = -44 } radius = 15 }
+	nebula = {name = "ThonBoka Nebula" position = { x = -366 y = -106 } radius = 5 }
+	nebula = {name = "Kalki Nebula" position = { x = -1 y = -231 } radius = 5 }
+
+}

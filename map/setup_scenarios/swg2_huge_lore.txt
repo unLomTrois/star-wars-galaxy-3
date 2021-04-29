@@ -1,7 +1,7 @@
 static_galaxy_scenario = {
-	name = "Star Wars Huge"
-	priority = 0
-	default = yes
+	name = "swg2_huge_lore"
+	priority = 4
+	default = no
 	num_empires = { min = 0 max = 40 }
 	num_empire_default = 0 #16
 	fallen_empire_default = 0 #4
@@ -1997,7 +1997,7 @@ static_galaxy_scenario = {
 	system = { id = "1755" name = "Quas Killam" position = { x = -222 y = -69 } }
 	system = { id = "1756" name = "Torn (Station)" position = { x = -227 y = -69 } }
 	system = { id = "1757" name = "Kashyyyk" position = { x = -234 y = -75 } }
-	system = { id = "1758" name = "Trandosha" position = { x = -235 y = -76 } }
+	system = { id = "1758" name = "Trandosha" position = { x = -237 y = -77 } }
 	# Free ids up to 1770
 
 	add_hyperlane = { from = "408" to = "1750" }
@@ -5048,7 +5048,7 @@ static_galaxy_scenario = {
 	system = { id = "3767" name = "Kalok" position = { x = 38 y = 319 } }
 	system = { id = "3768" name = "Rrulinn" position = { x = 35 y = 314 } }
 	system = { id = "3769" name = "Radix" position = { x = 39 y = 294 } }
-	system = { id = "3770" name = "D'rinba" position = { x = 28 y = 282 } }
+	system = { id = "3770" name = "D'rinba" position = { x = 38 y = 282 } }
 	system = { id = "3771" name = "Ichtor" position = { x = 49 y = 274 } }
 	system = { id = "3772" name = "Balis-Baurgh" position = { x = 43 y = 268 } }
 	system = { id = "3773" name = "Barcaria" position = { x = 44 y = 264 } }
@@ -5529,7 +5529,7 @@ static_galaxy_scenario = {
 	add_hyperlane = { from = "3995" to = "3997" }
 	add_hyperlane = { from = "3997" to = "3998" }
 	add_hyperlane = { from = "3997" to = "3999" }
-	add_hyperlane = { from = "3998" to = "4000" }
+	add_hyperlane = { from = "3998" to = "4005" }
 	add_hyperlane = { from = "4000" to = "4001" }
 	add_hyperlane = { from = "4000" to = "4005" }
 	add_hyperlane = { from = "4005" to = "4002" }
@@ -5736,8 +5736,6 @@ static_galaxy_scenario = {
 	nebula = { name = "Maelstrom Nebula" position = { x = 6 y = -313 } radius = 5 }
 	nebula = { name = "Maw Nebulae" position = { x = -416 y = -64 } radius = 25 }
 	nebula = { name = "Rata Nebula" position = { x = 301 y = -104 } radius = 10 }
-	nebula = { name = "Monsua Nebula" position = { x = 166 y = 266 } radius = 2 }
-	nebula = { name = "Kaliida Nebula" position = { x = -190 y = 286 } radius = 7 }
 	nebula = { name = "Ghost Nebula" position = { x = -202 y = -55 } radius = 15 }
 	nebula = { name = "ThonBoka Nebula" position = { x = -457 y = -133 } radius = 5 }
 	nebula = { name = "Kalki Nebula" position = { x = -1 y = -289 } radius = 5 } 
