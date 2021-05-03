@@ -1,6 +1,6 @@
 # Star Wars Galaxy 2
 
-Star Wars Galaxy 2 is a stellaris mod that brings the star wars galaxy in your vanilla game.
+Star Wars Galaxy 2 is a Stellaris mod that brings the star wars galaxy to your vanilla game. With the help of Planetary Diversity, a giant galaxy full of different planets can be created inside your Stellaris game.
 
 # Contributing
 
@@ -8,7 +8,7 @@ See the [Contributing doc](https://gitlab.com/renegades-modding-group/star-wars-
 
 # Discord
 
-The [Renegades Modding Group Community Discord](https://discord.gg/4xfQ78sPpm) is the best place for you to interact with the community and contributers. Select the Star Wars Galaxy 2 role in the role channel and join us.
+The [Renegades Modding Group Community Discord](https://discord.gg/4xfQ78sPpm) is the best place for you to interact with the community and contributors. Select the Star Wars Galaxy 2 role in the role channel and join us.
 
 # FAQ
 
@@ -18,16 +18,16 @@ While in the current version of star wars galaxy 2 (v0.1) Planetary Diversity is
 
 - Why are the origins "Syncretic Evolution" and "Necroids" disabled
 
-The simple answer to this is because they doesnt work in combination with a static galaxy. The second species will not be what you selected in the empire creator.
-The more complex answer is that because the galaxy is static some of the game_start events that normaly run while the galaxy is generated arent firing. These two origins rely on an effect called "generate_start_pops" in the game_start.12 event. This effect will spawn all the pops for the empire. For an empire with any other origin this effect can be run at any time but for these two origins it needs to run right after the game created/loaded the empire because it uses the last_created_species scope to access the secondary species that comes with these origin. But since the event with this effect isnt called and there being no other way for me to access the secondary species through other means, your secondary species is lost.
+The simple answer to this is because they don't work in combination with a static galaxy. The second species will not be what you selected in the empire creator.
+The more complex answer is that because the galaxy is static some of the game_start events that normally run while the galaxy is generated arent firing. These two origins rely on an effect called "generate_start_pops" in the game_start.12 event. This effect will spawn all the pops for the empire. For an empire with any other origin, this effect can be run at any time but for these two origins, it needs to run right after the game created/loaded the empire because it uses the last_created_species scope to access the secondary species that comes with these origins. But since the event with this effect isn't called and there being no other way for me to access the secondary species through other means, your secondary species is lost.
 
 - Why is my starting system not called correctly with the "Shattered Ring" and "Void Dwellers" origin?
 
-These origins use their own system initializers which means the system gets a random name. For a singleplayer game there may be a way to figure out to what this system should be renamed since only one empire can have the origin, but for multiplayer this would be impossible.
+These origins use their own system initializers which means the system gets a random name. For a single-player game, there may be a way to figure out to what this system should be renamed since only one empire can have the origin, but for multiplayer this would be impossible.
 
 - Why do Fallen Empires and Marauders only have one system?
 
-The way these empires spawn on a normal map doesnt work on a static map. To make them work like in vanilla a lot of work needs to be done which could add conflicts with other mods.
+The way these empires spawn on a normal map doesn't work on a static map. To make them work like in vanilla a lot of work needs to be done which could add conflicts with other mods.
 
 # License
 
