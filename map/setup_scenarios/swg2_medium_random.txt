@@ -2,13 +2,13 @@ static_galaxy_scenario = {
 	name = "swg2_medium_random"
 	priority = 2
 	default = no
-	num_empires = { min = 0 max = 42 }
-	num_empire_default = 0 #16 
-	fallen_empire_default = 0 #4 
-	fallen_empire_max = 5
-	marauder_empire_default = 0 #3
-	marauder_empire_max = 3
-	advanced_empire_default = 0 #4
+	num_empires = { min = 0 max = 28 }
+	num_empire_default = 9
+	fallen_empire_default = 2
+	fallen_empire_max = 3
+	marauder_empire_default = 2
+	marauder_empire_max = 2
+	advanced_empire_default = 0
 	colonizable_planet_odds = 1.0
 	random_hyperlanes = no
 	num_wormhole_pairs_default = 0
@@ -155,11 +155,11 @@ static_galaxy_scenario = {
 	system = { id = "221" name = "Kinyen" position = { x = -3 y = 181 } }
 	system = { id = "225" name = "Bomis Koori" position = { x = 26 y = 218 } }
 	system = { id = "228" name = "Kaal" position = { x = 30 y = 240 } }
-	system = { id = "234" name = "Javin" position = { x = 31 y = 268 } }
-	system = { id = "235" name = "Aztubek" position = { x = 32 y = 270 } }
-	system = { id = "236" name = "Kumru" position = { x = 31 y = 272 } }
-	system = { id = "237" name = "High Chunah" position = { x = 32 y = 274 } }
-	system = { id = "238" name = "Kirtarkin" position = { x = 34 y = 276 } }
+	system = { id = "234" name = "Javin" position = { x = 31 y = 262 } }
+	system = { id = "235" name = "Aztubek" position = { x = 32 y = 265 } }
+	system = { id = "236" name = "Kumru" position = { x = 31 y = 268 } }
+	system = { id = "237" name = "High Chunah" position = { x = 32 y = 271 } }
+	system = { id = "238" name = "Kirtarkin" position = { x = 34 y = 274 } }
 	system = { id = "239" name = "Mexeluine" position = { x = 34 y = 278 } }
 	system = { id = "241" name = "Indellian" position = { x = 34 y = 282 } }
 	system = { id = "244" name = "Ione" position = { x = 33 y = 287 } }
@@ -269,6 +269,7 @@ static_galaxy_scenario = {
 	add_hyperlane = { from = "1057" to = "421" }
 	add_hyperlane = { from = "421" to = "423" }
 	add_hyperlane = { from = "423" to = "804" }
+	add_hyperlane = { from = "423" to = "121" }
 	add_hyperlane = { from = "804" to = "3292" }
 	add_hyperlane = { from = "3292" to = "3300" }
 	add_hyperlane = { from = "3300" to = "432" }
@@ -1183,6 +1184,7 @@ static_galaxy_scenario = {
 	add_hyperlane = { from = "138" to = "3364" }
 	add_hyperlane = { from = "3364" to = "3453" }
 	add_hyperlane = { from = "3453" to = "2243" }
+	add_hyperlane = { from = "3453" to = "140" }
 	add_hyperlane = { from = "2243" to = "2244" }
 	add_hyperlane = { from = "2244" to = "2246" }
 	add_hyperlane = { from = "2246" to = "3426" }
@@ -1242,8 +1244,8 @@ static_galaxy_scenario = {
 	system = { id = "2354" name = "Affavan" position = { x = -292 y = 48 } }
 	system = { id = "2362" name = "Riileb" position = { x = -330 y = 45 } }
 	system = { id = "2365" name = "Ylesia" position = { x = -336 y = 30 } }
-	system = { id = "2368" name = "Outland Transit" position = { x = -356 y = 30 } }
-	system = { id = "2369" name = "Lirra" position = { x = -360 y = 30 } }
+	system = { id = "2368" name = "Outland Transit" position = { x = -355 y = 30 } }
+	system = { id = "2369" name = "Lirra" position = { x = -359 y = 30 } }
 	system = { id = "2373" name = "Toydaria" position = { x = -266 y = 13 } }
 	system = { id = "2380" name = "Varl" position = { x = -306 y = 6 } initializer = random_ardos_init spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_varl } } }
 	system = { id = "2388" name = "Moralan" position = { x = -331 y = -28 } }
@@ -1334,7 +1336,19 @@ static_galaxy_scenario = {
 	system = { id = "2534" name = "Oovo" position = { x = -309 y = -126 } }
 	system = { id = "2538" name = "Chad" position = { x = -266 y = -161 } }
 	system = { id = "2543" name = "Belderone" position = { x = -270 y = -180 } }
-	# Free ids up to 2570 
+	# Free ids up to 2570
+
+	add_hyperlane = { from = "2522" to = "32" }
+	add_hyperlane = { from = "2522" to = "37" }
+	add_hyperlane = { from = "2522" to = "2528" }
+	add_hyperlane = { from = "2522" to = "2529" }
+	add_hyperlane = { from = "2528" to = "2529" }
+	add_hyperlane = { from = "2528" to = "2526" }
+	add_hyperlane = { from = "2529" to = "2436" }
+	add_hyperlane = { from = "2533" to = "2526" }
+	add_hyperlane = { from = "2526" to = "37" }
+	add_hyperlane = { from = "2543" to = "2538" }
+	add_hyperlane = { from = "2543" to = "42" }
 
 
 
@@ -1343,11 +1357,17 @@ static_galaxy_scenario = {
 	system = { id = "2570" name = "Toola" position = { x = -310 y = -241 } }
 	system = { id = "2576" name = "Munto Codru" position = { x = -356 y = -200 } }
 	system = { id = "2579" name = "Calamari" position = { x = -361 y = -186 } initializer = random_calamari_init spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_mon_calamari } } }
-	system = { id = "2580" name = "Pammant" position = { x = -362 y = -185 } }
+	system = { id = "2580" name = "Pammant" position = { x = -363 y = -184 } }
 	system = { id = "2583" name = "Sanctuary" position = { x = -366 y = -173 } }
 	system = { id = "2585" name = "Lothal" position = { x = -372 y = -169 } }
 	system = { id = "2587" name = "Baros" position = { x = -375 y = -157 } }
-	# Free ids up to 2610 
+	# Free ids up to 2610
+
+	add_hyperlane = { from = "2576" to = "2579" }
+	add_hyperlane = { from = "2579" to = "2580" }
+	add_hyperlane = { from = "2580" to = "2583" }
+	add_hyperlane = { from = "2583" to = "2585" }
+	add_hyperlane = { from = "2585" to = "2587" }
 
 
 
@@ -1375,6 +1395,44 @@ static_galaxy_scenario = {
 	system = { id = "2700" name = "Raxus Prime" position = { x = -306 y = -219 } }
 	# Free ids up to 2750 
 
+	add_hyperlane = { from = "2618" to = "2208" }
+	add_hyperlane = { from = "2618" to = "2626" }
+	add_hyperlane = { from = "2618" to = "2636" }
+	add_hyperlane = { from = "2626" to = "2631" }
+	add_hyperlane = { from = "2631" to = "2636" }
+	add_hyperlane = { from = "2636" to = "2534" }
+	add_hyperlane = { from = "2636" to = "2642" }
+	add_hyperlane = { from = "2636" to = "2649" }
+	add_hyperlane = { from = "2642" to = "2587" }
+	add_hyperlane = { from = "2642" to = "2683" }
+	add_hyperlane = { from = "2645" to = "2579" }
+	add_hyperlane = { from = "2645" to = "2679" }
+	add_hyperlane = { from = "2645" to = "2650" }
+	add_hyperlane = { from = "2645" to = "2682" }
+	add_hyperlane = { from = "2649" to = "2202" }
+	add_hyperlane = { from = "2649" to = "2650" }
+	add_hyperlane = { from = "2650" to = "2652" }
+	add_hyperlane = { from = "2650" to = "2679" }
+	add_hyperlane = { from = "2652" to = "2202" }
+	add_hyperlane = { from = "2652" to = "2655" }
+	add_hyperlane = { from = "2652" to = "2679" }
+	add_hyperlane = { from = "2655" to = "2656" }
+	add_hyperlane = { from = "2655" to = "2667" }
+	add_hyperlane = { from = "2656" to = "42" }
+	add_hyperlane = { from = "2656" to = "2543" }
+	add_hyperlane = { from = "2664" to = "2667" }
+	add_hyperlane = { from = "2664" to = "2694" }
+	add_hyperlane = { from = "2664" to = "2698" }
+	add_hyperlane = { from = "2667" to = "44" }
+	add_hyperlane = { from = "2679" to = "2694" }
+	add_hyperlane = { from = "2682" to = "2583" }
+	add_hyperlane = { from = "2682" to = "2683" }
+	add_hyperlane = { from = "2683" to = "2585" }
+	add_hyperlane = { from = "2698" to = "2699" }
+	add_hyperlane = { from = "2699" to = "2700" }
+	add_hyperlane = { from = "2699" to = "2667" }
+	add_hyperlane = { from = "2700" to = "50" }
+
 
 
 
@@ -1387,10 +1445,27 @@ static_galaxy_scenario = {
 	system = { id = "2767" name = "Kowak" position = { x = -314 y = 185 } }
 	system = { id = "2771" name = "Roon" position = { x = -280 y = 177 } }
 	system = { id = "2772" name = "Hypori" position = { x = -288 y = 202 } }
-	system = { id = "2773" name = "Geonosis" position = { x = -258 y = 213 } initializer = random_geonosis_init spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_geonosis } } }
+	system = { id = "2773" name = "Geonosis" position = { x = -259 y = 213 } initializer = random_geonosis_init spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_geonosis } } }
 	system = { id = "2792" name = "Rannon" position = { x = -325 y = 229 } }
 	# Free ids up to 2820 
 
+	add_hyperlane = { from = "2752" to = "2214" }
+	add_hyperlane = { from = "2755" to = "2222" }
+	add_hyperlane = { from = "2758" to = "2226" }
+	add_hyperlane = { from = "2764" to = "2765" }
+	add_hyperlane = { from = "2764" to = "2758" }
+	add_hyperlane = { from = "2765" to = "2767" }
+	add_hyperlane = { from = "2765" to = "2792" }
+	add_hyperlane = { from = "2767" to = "2328" }
+	add_hyperlane = { from = "2767" to = "2764" }
+	add_hyperlane = { from = "2767" to = "2771" }
+	add_hyperlane = { from = "2767" to = "2772" }
+	add_hyperlane = { from = "2772" to = "2773" }
+	add_hyperlane = { from = "2773" to = "2236" }
+	add_hyperlane = { from = "2772" to = "2792" }
+	add_hyperlane = { from = "2792" to = "2767" }
+	add_hyperlane = { from = "2792" to = "145" }
+	
 
 
 
@@ -1408,7 +1483,26 @@ static_galaxy_scenario = {
 	system = { id = "2834" name = "Vinsoth" position = { x = -110 y = -219 } }
 	system = { id = "2835" name = "Axxila" position = { x = -125 y = -221 } }
 	system = { id = "2836" name = "Ord Cestus" position = { x = -131 y = -211 } }
-	# Free ids upt o 2850 
+	# Free ids up to 2850 
+
+	add_hyperlane = { from = "2823" to = "715" }
+	add_hyperlane = { from = "2823" to = "2824" }
+	add_hyperlane = { from = "2824" to = "2826" }
+	add_hyperlane = { from = "2826" to = "2827" }
+	add_hyperlane = { from = "2827" to = "2829" }
+	add_hyperlane = { from = "2829" to = "2881" }
+	add_hyperlane = { from = "2881" to = "2832" }
+	add_hyperlane = { from = "2832" to = "3101" }
+	add_hyperlane = { from = "3101" to = "2981" }
+	add_hyperlane = { from = "2981" to = "3215" }
+	add_hyperlane = { from = "2981" to = "2834" }
+	add_hyperlane = { from = "3215" to = "2835" }
+	add_hyperlane = { from = "3215" to = "2834" }
+	add_hyperlane = { from = "2835" to = "2836" }
+	add_hyperlane = { from = "2834" to = "2836" }
+	add_hyperlane = { from = "2835" to = "319" }
+	add_hyperlane = { from = "2836" to = "319" }
+	add_hyperlane = { from = "2836" to = "317" }
 
 
 
@@ -1428,17 +1522,52 @@ static_galaxy_scenario = {
 	system = { id = "2891" name = "Cathar" position = { x = -112 y = -205 } }
 	# Free ids up to 2930 
 
+	add_hyperlane = { from = "2853" to = "307" }
+	add_hyperlane = { from = "2853" to = "2854" }
+	add_hyperlane = { from = "2853" to = "2856" }
+	add_hyperlane = { from = "2854" to = "2856" }
+	add_hyperlane = { from = "2854" to = "2867" }
+	add_hyperlane = { from = "2856" to = "2857" }
+	add_hyperlane = { from = "2856" to = "2867" }
+	add_hyperlane = { from = "2857" to = "2859" }
+	add_hyperlane = { from = "2857" to = "1094" }
+	add_hyperlane = { from = "2859" to = "2860" }
+	add_hyperlane = { from = "2860" to = "711" }
+	add_hyperlane = { from = "2860" to = "2823" }
+	add_hyperlane = { from = "2860" to = "2824" }
+	add_hyperlane = { from = "2867" to = "2864" }
+	add_hyperlane = { from = "2867" to = "2827" }
+	add_hyperlane = { from = "2864" to = "2827" }
+	add_hyperlane = { from = "2864" to = "2826" }
+	add_hyperlane = { from = "2877" to = "311" }
+	add_hyperlane = { from = "2877" to = "313" }
+	add_hyperlane = { from = "2877" to = "2881" }
+	add_hyperlane = { from = "2888" to = "2836" }
+	add_hyperlane = { from = "2888" to = "315" }
+	add_hyperlane = { from = "2888" to = "317" }
+	add_hyperlane = { from = "2888" to = "2891" }
+	add_hyperlane = { from = "2891" to = "2834" }
+
 
 
 
 	### Entralla Route + Rest to Xerton
-	system = { id = "2930" name = "Qiilura" position = { x = 0 y = -161 } }
+	system = { id = "2930" name = "Qiilura" position = { x = 0 y = -162 } }
 	system = { id = "2934" name = "Obredaan" position = { x = 6 y = -184 } }
 	system = { id = "2936" name = "Orinda" position = { x = 11 y = -195 } }
 	system = { id = "2944" name = "Yaga Minor" position = { x = 38 y = -247 } }
 	system = { id = "2949" name = "Muunilinst" position = { x = 33 y = -275 } initializer = random_muunilinst_init spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_muunilinst } } }
 	system = { id = "2952" name = "Bastion" position = { x = 36 y = -314 } }
 	# Free ids up to 2980 
+
+	add_hyperlane = { from = "2930" to = "2826" }
+	add_hyperlane = { from = "2930" to = "2934" }
+	add_hyperlane = { from = "2934" to = "2936" }
+	add_hyperlane = { from = "2936" to = "3043" }
+	add_hyperlane = { from = "3043" to = "2944" }
+	add_hyperlane = { from = "2944" to = "2949" }
+	add_hyperlane = { from = "2949" to = "2952" }
+	add_hyperlane = { from = "2952" to = "3207" }
 
 
 
@@ -1453,6 +1582,20 @@ static_galaxy_scenario = {
 	system = { id = "2994" name = "Ord Trasi" position = { x = -6 y = -259 } }
 	# Free ids up to 3010 
 
+	add_hyperlane = { from = "2981" to = "3212" }
+	add_hyperlane = { from = "3212" to = "2985" }
+	add_hyperlane = { from = "2985" to = "2987" }
+	add_hyperlane = { from = "2987" to = "3205" }
+	add_hyperlane = { from = "3205" to = "3206" }
+	add_hyperlane = { from = "3206" to = "2991" }
+	add_hyperlane = { from = "3206" to = "3207" }
+	add_hyperlane = { from = "2991" to = "2992" }
+	add_hyperlane = { from = "2991" to = "2952" }
+	add_hyperlane = { from = "2992" to = "2993" }
+	add_hyperlane = { from = "2993" to = "2994" }
+	add_hyperlane = { from = "2993" to = "3078" }
+	add_hyperlane = { from = "2993" to = "2949" }
+
 
 
 
@@ -1464,6 +1607,15 @@ static_galaxy_scenario = {
 	system = { id = "3043" name = "Carlac" position = { x = 37 y = -217 } }
 	# Free ids up to 3070 
 
+	add_hyperlane = { from = "3035" to = "720" }
+	add_hyperlane = { from = "3035" to = "3032" }
+	add_hyperlane = { from = "3032" to = "3043" }
+	add_hyperlane = { from = "3038" to = "3032" }
+	add_hyperlane = { from = "3038" to = "3035" }
+	add_hyperlane = { from = "3018" to = "717" }
+	add_hyperlane = { from = "3018" to = "3035" }
+	add_hyperlane = { from = "3018" to = "2824" }
+	add_hyperlane = { from = "3018" to = "2936" }
 
 
 
@@ -1497,6 +1649,50 @@ static_galaxy_scenario = {
 	system = { id = "3158" name = "Guiteica" position = { x = 71 y = -289 } }
 	# Free ids up to 3200 
 
+	add_hyperlane = { from = "3071" to = "2832" }
+	add_hyperlane = { from = "3071" to = "3072" }
+	add_hyperlane = { from = "3072" to = "3105" }
+	add_hyperlane = { from = "3105" to = "3073" }
+	add_hyperlane = { from = "3105" to = "3106" }
+	add_hyperlane = { from = "3073" to = "3075" }
+	add_hyperlane = { from = "3075" to = "3109" }
+	add_hyperlane = { from = "3075" to = "3043" }
+	add_hyperlane = { from = "3109" to = "3112" }
+	add_hyperlane = { from = "3112" to = "3078" }
+	add_hyperlane = { from = "3112" to = "2944" }
+	add_hyperlane = { from = "3078" to = "3080" }
+	add_hyperlane = { from = "3078" to = "2949" }
+	add_hyperlane = { from = "3080" to = "3106" }
+	add_hyperlane = { from = "3080" to = "2994" }
+	add_hyperlane = { from = "3106" to = "3104" }
+	add_hyperlane = { from = "3104" to = "3072" }
+	add_hyperlane = { from = "3104" to = "2994" }
+	add_hyperlane = { from = "3083" to = "3099" }
+	add_hyperlane = { from = "3083" to = "3086" }
+	add_hyperlane = { from = "3099" to = "3086" }
+	add_hyperlane = { from = "3099" to = "3101" }
+	add_hyperlane = { from = "3086" to = "3087" }
+	add_hyperlane = { from = "3087" to = "3088" }
+	add_hyperlane = { from = "3088" to = "3071" }
+	add_hyperlane = { from = "3090" to = "2829" }
+	add_hyperlane = { from = "3090" to = "3091" }
+	add_hyperlane = { from = "3091" to = "2934" }
+	add_hyperlane = { from = "3091" to = "3093" }
+	add_hyperlane = { from = "3093" to = "3071" }
+	add_hyperlane = { from = "3113" to = "3112" }
+	add_hyperlane = { from = "3113" to = "3078" }
+	add_hyperlane = { from = "3113" to = "2944" }
+	add_hyperlane = { from = "3129" to = "2994" }
+	add_hyperlane = { from = "3129" to = "3131" }
+	add_hyperlane = { from = "3131" to = "2993" }
+	add_hyperlane = { from = "3131" to = "3133" }
+	add_hyperlane = { from = "3133" to = "2993" }
+	add_hyperlane = { from = "3133" to = "3134" }
+	add_hyperlane = { from = "3134" to = "2992" }
+	add_hyperlane = { from = "3134" to = "2991" }
+	add_hyperlane = { from = "3156" to = "2949" }
+	add_hyperlane = { from = "3156" to = "3158" }
+
 
 
 
@@ -1517,6 +1713,24 @@ static_galaxy_scenario = {
 	system = { id = "3235" name = "Oricon" position = { x = -177 y = -309 } }
 	# Free ids up to 3260 
 
+	add_hyperlane = { from = "3221" to = "3215" }
+	add_hyperlane = { from = "3221" to = "2981" }
+	add_hyperlane = { from = "3221" to = "3220" }
+	add_hyperlane = { from = "3221" to = "3219" }
+	add_hyperlane = { from = "3220" to = "3224" }
+	add_hyperlane = { from = "3220" to = "3219" }
+	add_hyperlane = { from = "3219" to = "3212" }
+	add_hyperlane = { from = "3224" to = "324" }
+	add_hyperlane = { from = "3224" to = "325" }
+	add_hyperlane = { from = "3229" to = "3230" }
+	add_hyperlane = { from = "3229" to = "3235" }
+	add_hyperlane = { from = "3229" to = "3225" }
+	add_hyperlane = { from = "3230" to = "3212" }
+	add_hyperlane = { from = "3230" to = "3232" }
+	add_hyperlane = { from = "3232" to = "2985" }
+	add_hyperlane = { from = "3232" to = "3235" }
+	add_hyperlane = { from = "3235" to = "327" }
+
 
 
 
@@ -1526,6 +1740,10 @@ static_galaxy_scenario = {
 
 	### Harrin Trade Corridor 
 	# Free ids up to 3280 
+
+	add_hyperlane = { from = "215" to = "512" }
+	add_hyperlane = { from = "515" to = "3330" }
+	add_hyperlane = { from = "3330" to = "432" }
 
 
 
@@ -1538,6 +1756,14 @@ static_galaxy_scenario = {
 	system = { id = "3316" name = "Lazerian" position = { x = -100 y = 182 } }
 	# Free ids up to 3330 
 
+	add_hyperlane = { from = "3288" to = "3292" }
+	add_hyperlane = { from = "3288" to = "1107" }
+	add_hyperlane = { from = "3288" to = "804" }
+	add_hyperlane = { from = "3302" to = "805" }
+	add_hyperlane = { from = "3302" to = "124" }
+	add_hyperlane = { from = "3302" to = "125" }
+	add_hyperlane = { from = "3316" to = "432" }
+
 
 
 
@@ -1546,8 +1772,8 @@ static_galaxy_scenario = {
 	system = { id = "3335" name = "Haruun Kal" position = { x = -71 y = 226 } }
 	system = { id = "3336" name = "Ropagi" position = { x = -101 y = 185 } }
 	system = { id = "3338" name = "Nigel" position = { x = -108 y = 185 } }
-	system = { id = "3339" name = "Roldalna" position = { x = -110 y = 186 } }
-	system = { id = "3342" name = "Naboo" position = { x = -134 y = 226 } initializer = random_naboo_init spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_naboo } } }
+	system = { id = "3339" name = "Roldalna" position = { x = -112 y = 186 } }
+	system = { id = "3342" name = "Naboo" position = { x = -134 y = 225 } initializer = random_naboo_init spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_naboo } } }
 	system = { id = "3344" name = "Zelos" position = { x = -98 y = 200 } }
 	system = { id = "3353" name = "Trevi" position = { x = -106 y = 232 } }
 	system = { id = "3356" name = "Sedesia" position = { x = -133 y = 186 } }
@@ -1557,6 +1783,32 @@ static_galaxy_scenario = {
 	system = { id = "3366" name = "Zolan" position = { x = -187 y = 194 } }
 	system = { id = "3370" name = "Apatros" position = { x = -224 y = 218 } }
 	# Free ids up to 3390 
+
+	add_hyperlane = { from = "3330" to = "3300" }
+	add_hyperlane = { from = "3335" to = "435" }
+	add_hyperlane = { from = "3335" to = "519" }
+	add_hyperlane = { from = "3335" to = "437" }
+	add_hyperlane = { from = "3336" to = "432" }
+	add_hyperlane = { from = "3336" to = "3316" }
+	add_hyperlane = { from = "3336" to = "3338" }
+	add_hyperlane = { from = "3336" to = "3344" }
+	add_hyperlane = { from = "3338" to = "3339" }
+	add_hyperlane = { from = "3339" to = "3356" }
+	add_hyperlane = { from = "3342" to = "3356" }
+	add_hyperlane = { from = "3342" to = "2246" }
+	add_hyperlane = { from = "3356" to = "3359" }
+	add_hyperlane = { from = "3359" to = "3361" }
+	add_hyperlane = { from = "3361" to = "127" }
+	add_hyperlane = { from = "3344" to = "435" }
+	add_hyperlane = { from = "3353" to = "3426" }
+	add_hyperlane = { from = "3353" to = "2248" }
+	add_hyperlane = { from = "3353" to = "3342" }
+	add_hyperlane = { from = "3353" to = "3344" }
+	add_hyperlane = { from = "3366" to = "133" }
+	add_hyperlane = { from = "3366" to = "134" }
+	add_hyperlane = { from = "3370" to = "136" }
+	add_hyperlane = { from = "3370" to = "137" }
+	add_hyperlane = { from = "3370" to = "3453" }
 
 
 
@@ -1568,7 +1820,7 @@ static_galaxy_scenario = {
 	system = { id = "3395" name = "Sevarcos" position = { x = -91 y = 310 } }
 	system = { id = "3396" name = "Kirdo" position = { x = -106 y = 319 } }
 	system = { id = "3400" name = "Trigalis" position = { x = -163 y = 242 } }
-	system = { id = "3401" name = "Stend" position = { x = -162 y = 244 } }
+	system = { id = "3401" name = "Stend" position = { x = -162 y = 247 } }
 	system = { id = "3402" name = "Lybeya" position = { x = -174 y = 264 } }
 	system = { id = "3414" name = "Socorro" position = { x = -205 y = 251 } }
 	system = { id = "3415" name = "Xagobah" position = { x = -74 y = 293 } }
@@ -1590,6 +1842,42 @@ static_galaxy_scenario = {
 	system = { id = "3457" name = "Lamaro" position = { x = -299 y = 279 } }
 	# Free ids up to 3490 
 
+	add_hyperlane = { from = "3390" to = "2248" }
+	add_hyperlane = { from = "3390" to = "3391" }
+	add_hyperlane = { from = "3390" to = "437" }
+	add_hyperlane = { from = "3391" to = "3393" }
+	add_hyperlane = { from = "3391" to = "437" }
+	add_hyperlane = { from = "3393" to = "3395" }
+	add_hyperlane = { from = "3393" to = "3415" }
+	add_hyperlane = { from = "3395" to = "3396" }
+	add_hyperlane = { from = "3395" to = "3418" }
+	add_hyperlane = { from = "3396" to = "3418" }
+	add_hyperlane = { from = "3396" to = "3443" }
+	add_hyperlane = { from = "3400" to = "2244" }
+	add_hyperlane = { from = "3400" to = "3401" }
+	add_hyperlane = { from = "3401" to = "3402" }
+	add_hyperlane = { from = "3402" to = "3443" }
+	add_hyperlane = { from = "3402" to = "3414" }
+	add_hyperlane = { from = "3414" to = "3453" }
+	add_hyperlane = { from = "3414" to = "2243" }
+	add_hyperlane = { from = "3415" to = "524" }
+	add_hyperlane = { from = "3418" to = "3421" }
+	add_hyperlane = { from = "3418" to = "3417" }
+	add_hyperlane = { from = "3421" to = "529" }
+	add_hyperlane = { from = "3426" to = "3390" }
+	add_hyperlane = { from = "3426" to = "3428" }
+	add_hyperlane = { from = "3428" to = "3432" }
+	add_hyperlane = { from = "3432" to = "3431" }
+	add_hyperlane = { from = "3431" to = "3400" }
+	add_hyperlane = { from = "3431" to = "3401" }
+	add_hyperlane = { from = "3431" to = "2246" }
+	add_hyperlane = { from = "3443" to = "3444" }
+	add_hyperlane = { from = "3443" to = "3445" }
+	add_hyperlane = { from = "3444" to = "3445" }
+	add_hyperlane = { from = "3444" to = "3449" }
+	add_hyperlane = { from = "3445" to = "3447" }
+	add_hyperlane = { from = "3449" to = "3457" }
+
 
 
 
@@ -1602,6 +1890,10 @@ static_galaxy_scenario = {
 	system = { id = "3496" name = "Takodana" position = { x = 78 y = 197 } }
 	system = { id = "3499" name = "Cerea" position = { x = 98 y = 210 } }
 	# Free ids up to 3510 
+
+	add_hyperlane = { from = "3491" to = "3775" }
+	add_hyperlane = { from = "3491" to = "3496" }
+	add_hyperlane = { from = "3496" to = "3499" }
 
 
 
@@ -1618,6 +1910,18 @@ static_galaxy_scenario = {
 	system = { id = "3560" name = "Castilon" position = { x = 90 y = 193 } }
 	# Free ids up to 3590 
 
+	add_hyperlane = { from = "3511" to = "3515" }
+	add_hyperlane = { from = "3515" to = "3553" }
+	add_hyperlane = { from = "3515" to = "3559" }
+	add_hyperlane = { from = "3538" to = "3542" }
+	add_hyperlane = { from = "3542" to = "3559" }
+	add_hyperlane = { from = "3542" to = "3491" }
+	add_hyperlane = { from = "3542" to = "3496" }
+	add_hyperlane = { from = "3553" to = "507" }
+	add_hyperlane = { from = "3553" to = "509" }
+	add_hyperlane = { from = "3560" to = "3496" }
+	add_hyperlane = { from = "3560" to = "3499" }
+
 
 
 
@@ -1625,23 +1929,55 @@ static_galaxy_scenario = {
 	system = { id = "3591" name = "Bavva" position = { x = 24 y = 280 } }
 	# Free ids up to 3620 
 
+	add_hyperlane = { from = "3591" to = "239" }
+	add_hyperlane = { from = "3591" to = "3634" }
+	add_hyperlane = { from = "3843" to = "440" }
+	add_hyperlane = { from = "3843" to = "3695" }
+	add_hyperlane = { from = "3695" to = "440" }
+	add_hyperlane = { from = "3695" to = "3684" }
+	add_hyperlane = { from = "3684" to = "3660" }
+	add_hyperlane = { from = "3660" to = "3634" }
+	add_hyperlane = { from = "3634" to = "234" }
+	add_hyperlane = { from = "3756" to = "239" }
+	add_hyperlane = { from = "3756" to = "3779" }
+	add_hyperlane = { from = "3756" to = "3842" }
+	add_hyperlane = { from = "3779" to = "3842" }
+
 
 
 
 	### Juvex & Senex Sector
-	system = { id = "3634" name = "Malador" position = { x = -4 y = 263 } }
-	system = { id = "3647" name = "Selenius" position = { x = -4 y = 254 } }
-	system = { id = "3651" name = "Manforgon" position = { x = -6 y = 257 } }
-	system = { id = "3653" name = "Cyimarra" position = { x = -10 y = 256 } }
+	system = { id = "3634" name = "Malador" position = { x = -1 y = 263 } }
+	system = { id = "3647" name = "Selenius" position = { x = -1 y = 247 } }
+	system = { id = "3651" name = "Manforgon" position = { x = -4 y = 253 } }
+	system = { id = "3653" name = "Cyimarra" position = { x = -11 y = 250 } }
 	system = { id = "3660" name = "Juvex" position = { x = -9 y = 264 } initializer = random_juvex_init spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_juvex } } }
 	system = { id = "3684" name = "Belsavis" position = { x = -16 y = 270 } }
-	system = { id = "3688" name = "Neelanon" position = { x = -18 y = 262 } }
+	system = { id = "3688" name = "Neelanon" position = { x = -22 y = 259 } }
 	system = { id = "3695" name = "Tibrin" position = { x = -28 y = 269 } }
-	system = { id = "3699" name = "Knores" position = { x = -17 y = 260 } }
-	system = { id = "3702" name = "Hutlar" position = { x = -14 y = 263 } }
-	system = { id = "3706" name = "Aquella" position = { x = -11 y = 261 } }
-	system = { id = "3707" name = "Paramatan" position = { x = -10 y = 258 } }
+	system = { id = "3699" name = "Knores" position = { x = -20 y = 256 } }
+	system = { id = "3702" name = "Hutlar" position = { x = -17 y = 261 } }
+	system = { id = "3706" name = "Aquella" position = { x = -13 y = 257 } }
+	system = { id = "3707" name = "Paramatan" position = { x = -11 y = 254 } }
 	# Free ids up to 3730 
+
+	add_hyperlane = { from = "3634" to = "3651" }
+	add_hyperlane = { from = "3647" to = "3651" }
+	add_hyperlane = { from = "3647" to = "3653" }
+	add_hyperlane = { from = "3647" to = "228" }
+	add_hyperlane = { from = "3651" to = "3653" }
+	add_hyperlane = { from = "3651" to = "3660" }
+	add_hyperlane = { from = "3653" to = "3707" }
+	add_hyperlane = { from = "3660" to = "3702" }
+	add_hyperlane = { from = "3660" to = "3706" }
+	add_hyperlane = { from = "3684" to = "3695" }
+	add_hyperlane = { from = "3684" to = "3702" }
+	add_hyperlane = { from = "3688" to = "3695" }
+	add_hyperlane = { from = "3688" to = "3699" }
+	add_hyperlane = { from = "3688" to = "3702" }
+	add_hyperlane = { from = "3699" to = "3707" }
+	add_hyperlane = { from = "3702" to = "3706" }
+	add_hyperlane = { from = "3706" to = "3707" }
 
 
 
@@ -1656,16 +1992,27 @@ static_galaxy_scenario = {
 	system = { id = "3779" name = "Lotho Minor" position = { x = 82 y = 261 } }
 	# Free ids up to 3810 
 
+	add_hyperlane = { from = "3733" to = "221" }
+	add_hyperlane = { from = "3733" to = "515" }
+	add_hyperlane = { from = "3733" to = "3734" }
+	add_hyperlane = { from = "3734" to = "519" }
+	add_hyperlane = { from = "3739" to = "519" }
+	add_hyperlane = { from = "3739" to = "522" }
+	add_hyperlane = { from = "3739" to = "3699" }
+	add_hyperlane = { from = "3764" to = "3499" }
+	add_hyperlane = { from = "3764" to = "228" }
+	add_hyperlane = { from = "3764" to = "3779" }
+
 
 
 
 	### Lower Western Reaches 
-	system = { id = "3811" name = "Bespin" position = { x = 36 y = 284 } }
-	system = { id = "3812" name = "Anoat" position = { x = 36 y = 286 } }
-	system = { id = "3813" name = "Hoth" position = { x = 36 y = 287 } initializer = random_hoth_init spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_hoth } } }
-	system = { id = "3815" name = "Burnin Konn" position = { x = 30 y = 288 } }
-	system = { id = "3817" name = "Tokmia" position = { x = 28 y = 289 } }
-	system = { id = "3818" name = "Gutretee" position = { x = 30 y = 290 } }
+	system = { id = "3811" name = "Bespin" position = { x = 37 y = 284 } }
+	system = { id = "3812" name = "Anoat" position = { x = 37 y = 287 } }
+	system = { id = "3813" name = "Hoth" position = { x = 37 y = 290 } initializer = random_hoth_init spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_hoth } } }
+	system = { id = "3815" name = "Burnin Konn" position = { x = 30 y = 287 } }
+	system = { id = "3817" name = "Tokmia" position = { x = 27 y = 289 } }
+	system = { id = "3818" name = "Gutretee" position = { x = 30 y = 291 } }
 	system = { id = "3832" name = "Abridon" position = { x = 52 y = 298 } }
 	system = { id = "3834" name = "Sump" position = { x = 81 y = 301 } }
 	system = { id = "3842" name = "Coveway" position = { x = 88 y = 270 } }
@@ -1687,6 +2034,38 @@ static_galaxy_scenario = {
 	system = { id = "3892" name = "Anoth" position = { x = 66 y = 383 } }
 	# Free ids up to 3930 
 
+	add_hyperlane = { from = "3811" to = "241" }
+	add_hyperlane = { from = "3811" to = "3812" }
+	add_hyperlane = { from = "3812" to = "3813" }
+	add_hyperlane = { from = "3813" to = "249" }
+	add_hyperlane = { from = "3815" to = "3817" }
+	add_hyperlane = { from = "3815" to = "3818" }
+	add_hyperlane = { from = "3815" to = "244" }
+	add_hyperlane = { from = "3817" to = "3591" }
+	add_hyperlane = { from = "3817" to = "3818" }
+	add_hyperlane = { from = "3818" to = "249" }
+	add_hyperlane = { from = "3832" to = "249" }
+	add_hyperlane = { from = "3832" to = "3834" }
+	add_hyperlane = { from = "3832" to = "3756" }
+	add_hyperlane = { from = "3834" to = "3876" }
+	add_hyperlane = { from = "3846" to = "3847" }
+	add_hyperlane = { from = "3846" to = "3848" }
+	add_hyperlane = { from = "3847" to = "3848" }
+	add_hyperlane = { from = "3847" to = "445" }
+	add_hyperlane = { from = "3849" to = "525" }
+	add_hyperlane = { from = "3850" to = "526" }
+	add_hyperlane = { from = "3850" to = "3417" }
+	add_hyperlane = { from = "3856" to = "529" }
+	add_hyperlane = { from = "3876" to = "3842" }
+	add_hyperlane = { from = "3876" to = "3880" }
+	add_hyperlane = { from = "3880" to = "3881" }
+	add_hyperlane = { from = "3880" to = "3882" }
+	add_hyperlane = { from = "3881" to = "3882" }
+	add_hyperlane = { from = "3882" to = "3886" }
+	add_hyperlane = { from = "3882" to = "3888" }
+	add_hyperlane = { from = "3888" to = "3892" }
+	add_hyperlane = { from = "3892" to = "448" }
+
 
 
 
@@ -1700,6 +2079,12 @@ static_galaxy_scenario = {
 	system = { id = "3943" name = "Bakura" position = { x = 174 y = 212 } }
 	## Free ids up to 3950 
 
+	add_hyperlane = { from = "3932" to = "3499" }
+	add_hyperlane = { from = "3932" to = "3938" }
+	add_hyperlane = { from = "3938" to = "3983" }
+	add_hyperlane = { from = "3983" to = "3943" }
+	add_hyperlane = { from = "3943" to = "3981" }
+	add_hyperlane = { from = "3981" to = "3982" }
 
 
 
@@ -1723,6 +2108,30 @@ static_galaxy_scenario = {
 	system = { id = "4005" name = "Ponemah" position = { x = 162 y = 92 } }
 	## Free ids up to 4060 
 
+	add_hyperlane = { from = "3962" to = "3932" }
+	add_hyperlane = { from = "3962" to = "3938" }
+	add_hyperlane = { from = "3974" to = "3932" }
+	add_hyperlane = { from = "3974" to = "3976" }
+	add_hyperlane = { from = "3974" to = "3938" }
+	add_hyperlane = { from = "3983" to = "3992" }
+	add_hyperlane = { from = "3988" to = "3981" }
+	add_hyperlane = { from = "3988" to = "3983" }
+	add_hyperlane = { from = "3988" to = "3943" }
+	add_hyperlane = { from = "3988" to = "3993" }
+	add_hyperlane = { from = "3992" to = "3538" }
+	add_hyperlane = { from = "3992" to = "3993" }
+	add_hyperlane = { from = "3993" to = "3999" }
+	add_hyperlane = { from = "3993" to = "3998" }
+	add_hyperlane = { from = "3998" to = "3999" }
+	add_hyperlane = { from = "3998" to = "4005" }
+	add_hyperlane = { from = "4005" to = "4000" }
+	add_hyperlane = { from = "4005" to = "4002" }
+	add_hyperlane = { from = "4000" to = "4002" }
+	add_hyperlane = { from = "4000" to = "4001" }
+	add_hyperlane = { from = "4001" to = "3519" }
+	add_hyperlane = { from = "4002" to = "4003" }
+	add_hyperlane = { from = "4003" to = "4004" }
+
 
 
 
@@ -1734,6 +2143,16 @@ static_galaxy_scenario = {
 	system = { id = "4087" name = "Acherin" position = { x = 114 y = -164 } }
 	system = { id = "4089" name = "Parnassos" position = { x = 146 y = -193 } }
 	## Free ids up to 4150 
+
+	add_hyperlane = { from = "4066" to = "715" }
+	add_hyperlane = { from = "4066" to = "717" }
+	add_hyperlane = { from = "4066" to = "4069" }
+	add_hyperlane = { from = "4069" to = "720" }
+	add_hyperlane = { from = "4069" to = "4084" }
+	add_hyperlane = { from = "4084" to = "4082" }
+	add_hyperlane = { from = "4084" to = "4087" }
+	add_hyperlane = { from = "4087" to = "4089" }
+	add_hyperlane = { from = "4089" to = "3038" }
 
 
 
@@ -1751,6 +2170,24 @@ static_galaxy_scenario = {
 	system = { id = "4189" name = "244Core" position = { x = 215 y = -39 } }
 	## Free ids up to 4250 
 
+	add_hyperlane = { from = "4154" to = "4082" }
+	add_hyperlane = { from = "4154" to = "4087" }
+	add_hyperlane = { from = "4154" to = "4162" }
+	add_hyperlane = { from = "4162" to = "4164" }
+	add_hyperlane = { from = "4164" to = "4172" }
+	add_hyperlane = { from = "4164" to = "4174" }
+	add_hyperlane = { from = "4172" to = "4176" }
+	add_hyperlane = { from = "4172" to = "4174" }
+	add_hyperlane = { from = "4172" to = "4177" }
+	add_hyperlane = { from = "4174" to = "4176" }
+	add_hyperlane = { from = "4176" to = "4177" }
+	add_hyperlane = { from = "4176" to = "4189" }
+	add_hyperlane = { from = "4177" to = "4189" }
+	add_hyperlane = { from = "4188" to = "4189" }
+	add_hyperlane = { from = "4188" to = "4002" }
+	add_hyperlane = { from = "4180" to = "1105" }
+	add_hyperlane = { from = "4180" to = "4189" }
+
 
 
 
@@ -1765,15 +2202,10 @@ static_galaxy_scenario = {
 	nebula = {name = "Thornhedge Nebula" position = { x = -200 y = -42 } radius = 2 }
 	nebula = {name = "Red Nebula" position = { x = 162 y = 398 } radius = 10 }
 	nebula = {name = "Utegetu Nebula" position = { x = 116 y = -125 } radius = 10 }
-	nebula = {name = "Llon Nebulae" position = { x = 6 y = 166 } radius = 10 }
-	nebula = {name = "StarForge Nebula" position = { x = -42 y = 242 } radius = 5 }
 	nebula = {name = "Maelstrom Nebula" position = { x = 5 y = -250 } radius = 5 }
 	nebula = {name = "Maw Nebulae" position = { x = -333 y = -51 } radius = 20 }
 	nebula = {name = "Rata Nebula" position = { x = 241 y = -83 } radius = 10 }
-	nebula = {name = "Monsua Nebula" position = { x = 133 y = 213 } radius = 2 }
-	nebula = {name = "Kaliida Nebula" position = { x = -152 y = 229 } radius = 7 }
 	nebula = {name = "Ghost Nebula" position = { x = -162 y = -44 } radius = 15 }
-	nebula = {name = "ThonBoka Nebula" position = { x = -366 y = -106 } radius = 5 }
 	nebula = {name = "Kalki Nebula" position = { x = -1 y = -231 } radius = 5 }
 
 }

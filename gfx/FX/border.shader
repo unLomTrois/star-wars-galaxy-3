@@ -231,7 +231,7 @@ PixelShader =
 		float4 main( VS_OUTPUT_STAR_PIN v ) : PDX_COLOR
 		{
 			float4 vColor = vStarPinColor;
-			vColor.a *= 0.3f;
+			vColor.a *= 0.5f;
 			
 			vColor = ApplyTerraIncognita( vColor, v.vPos.xz, 4.f, TerraIncognitaTexture );
 			

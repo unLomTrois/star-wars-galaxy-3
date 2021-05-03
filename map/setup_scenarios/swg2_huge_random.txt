@@ -2,14 +2,14 @@ static_galaxy_scenario = {
 	name = "swg2_huge_random"
 	priority = 0
 	default = yes
-	num_empires = { min = 0 max = 42 }
-	num_empire_default = 0 #16
-	fallen_empire_default = 0 #4
+	num_empires = { min = 0 max = 38 }
+	num_empire_default = 24
+	fallen_empire_default = 4
 	fallen_empire_max = 5
-	marauder_empire_default = 0 #3
+	marauder_empire_default = 3
 	marauder_empire_max = 3
-	advanced_empire_default = 0 #4
-	colonizable_planet_odds = 1.0
+	advanced_empire_default = 0
+	colonizable_planet_odds = 1.5
 	random_hyperlanes = no
 	num_wormhole_pairs_default = 0
 
@@ -3513,7 +3513,7 @@ static_galaxy_scenario = {
 	system = { id = "2835" name = "Axxila" position = { x = -156 y = -276 } }
 	system = { id = "2836" name = "Ord Cestus" position = { x = -164 y = -264 } }
 	system = { id = "2837" name = "T'olan" position = { x = 26 y = -190 } }
-	# Free ids upt o 2850
+	# Free ids up to 2850
 
 	add_hyperlane = { from = "2820" to = "715" }
 	add_hyperlane = { from = "2820" to = "2821" }
