@@ -1,6 +1,8 @@
 # Star Wars Galaxy 2
 
-Star Wars Galaxy 2 is a Stellaris mod that brings the star wars galaxy to your vanilla game. With the help of Planetary Diversity, a giant galaxy full of different planets can be created inside your Stellaris game.
+Star Wars Galaxy 2 is a mod for the game Stellaris created by Paradox Interactive, which aims to bring an accurate representation of the
+Star Wars galaxy into your game.
+With the help of Planetary Diversity, a giant galaxy full of different planets can be created inside your game.
 
 # Contributing
 
