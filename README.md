@@ -6,6 +6,10 @@ Star Wars Galaxy 2 is a stellaris mod that brings the star wars galaxy in your v
 
 See the [Contributing doc](https://gitlab.com/renegades-modding-group/star-wars-galaxy-2/-/blob/master/CONTRIBUTING.md) for information on how you can help.
 
+# Discord
+
+The [Renegades Modding Group Community Discord](https://discord.gg/4xfQ78sPpm) is the best place for you to interact with the community and contributers. Select the Star Wars Galaxy 2 role in the role channel and join us.
+
 # FAQ
 
 - Why do I need Planetary Diversity for this mod?
