@@ -21,9 +21,13 @@ While in the current version of star wars galaxy 2 (v0.1) Planetary Diversity is
 The simple answer to this is because they doesnt work in combination with a static galaxy. The second species will not be what you selected in the empire creator.
 The more complex answer is that because the galaxy is static some of the game_start events that normaly run while the galaxy is generated arent firing. These two origins rely on an effect called "generate_start_pops" in the game_start.12 event. This effect will spawn all the pops for the empire. For an empire with any other origin this effect can be run at any time but for these two origins it needs to run right after the game created/loaded the empire because it uses the last_created_species scope to access the secondary species that comes with these origin. But since the event with this effect isnt called and there being no other way for me to access the secondary species through other means, your secondary species is lost.
 
-- Why is the system not called correctly with the "Shattered Ring" and "Void Dwellers" origin?
+- Why is my starting system not called correctly with the "Shattered Ring" and "Void Dwellers" origin?
 
-These origins use their own system initializers which prevents me from manually renaming them because there is no way to know to which they should be renamed.
+These origins use their own system initializers which means the system gets a random name. For a singleplayer game there may be a way to figure out to what this system should be renamed since only one empire can have the origin, but for multiplayer this would be impossible.
+
+- Why do Fallen Empires and Marauders only have one system?
+
+The way these empires spawn on a normal map doesnt work on a static map. To make them work like in vanilla a lot of work needs to be done which could add conflicts with other mods.
 
 # License
 
