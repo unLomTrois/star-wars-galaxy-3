@@ -16,7 +16,7 @@ The [Renegades Modding Group Community Discord](https://discord.gg/4xfQ78sPpm) i
 
 - Why do I need Planetary Diversity for this mod?
 
-While in the current version of star wars galaxy 2 (v0.1) Planetary Diversity is not used for custom systems, the upcoming v0.2 update with the addition of the lore-accurate type maps will require it. With the many different planet classes from Planetary Diversity the systems will become even more lore-accurate than with only the vanilla type planets.
+While in the current version of Star Wars Galaxy 2 (v0.1) Planetary Diversity is not used for custom systems, the upcoming v0.2 update with the addition of the lore-accurate type maps will require it. With the many different planet classes from Planetary Diversity the systems will become even more lore-accurate than with only the vanilla type planets.
 
 - Why are the origins "Syncretic Evolution" and "Necroids" disabled
 
