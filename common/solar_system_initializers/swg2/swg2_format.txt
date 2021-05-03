@@ -1,0 +1,64 @@
+@base_planet_dist = 30
+@base_moon_dist = 15
+
+@capital_size = 20
+
+# Formating Guideline for swg2
+
+# System name
+system_name_system_initializer = {
+	# System Settings
+	name = "system name"
+	class = "sc_g" # Star class
+	init_effect = {
+		save_global_event_target_as = system_name_system # Global event target for easy access through events
+	}
+	usage_odds = 0
+
+	# Star
+	planet = {
+		name = "name"
+		class = star
+		orbit_distance = 0
+		size = { min = 30 max = 35 }
+		init_effect = {
+			set_planet_flag = name_star
+		}
+	}
+
+	# Minimum distance to first planet
+	change_orbit = @base_planet_dist
+
+	planet = {
+		name = "name"
+		class = pc_desertislands # Prefer to use planetary diversity planet classes!
+		orbit_distance = 30 # orbit_distance always 30 except in special cases
+		orbit_angle = { min = 90 max = 270 } #orbit_angle always 90 to 270 except in special cases
+		size = { min = 10 max = 15 } #uninhabitable planets < 10, habitable planets larger > 19, gas giants 25-30
+		has_ring = no # Always has_ring = no if we dont know
+		init_effect = {
+			set_planet_flag = systemname_name
+		}
+		change_orbit = @base_moon_dist #Minimum distance to first moon
+		moon = {
+			name = "name I"
+			class = random_non_colonizable # use random_non_colonizable for planets with unknown class
+			orbit_distance = 2 # For moons always 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 } # uninhabitable moon 2-4, habitable moons a bit larger
+			init_effect = {
+				set_planet_flag = systemname_name_1
+			}
+		}
+		moon = {
+			name = "name XXVI" # If a planet has a lot of moons only do a few and give the last one the highest number
+			class = pc_molten
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+			init_effect = {
+				set_planet_flag = systemname_name_26
+			}
+		}
+	}
+}
