@@ -32,5 +32,5 @@ These origins use their own system initializers which means the system gets a ra
 The way these empires spawn on a normal map doesn't work on a static map. To make them work like in vanilla a lot of work needs to be done which could add conflicts with other mods.
 
 # License
-
-You are free to use this mod for everything you want, even your own mod. The only premise is to credit this mod on the steam page.
+This is entirely a community-driven, non-profit project.
+Please contact me (chriskar) if you want to use this for your own mod.
