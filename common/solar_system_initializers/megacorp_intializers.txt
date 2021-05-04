@@ -8,14 +8,13 @@
 megacorp_caravaneer_init = {
 	class = "rl_standard_stars"
 	usage = misc_system_init
-	name = "NAME_Chors_Compass"
 
 	usage_odds = {
 		base = 0
 		modifier = {
 			has_megacorp = yes
 			caravaneers_enabled = yes
-			add = 2
+			add = 100
 		}
 		modifier = {
 			factor = 0
@@ -28,7 +27,7 @@ megacorp_caravaneer_init = {
 	}
 
 	max_instances = 1
-	# spawn_chance = 9999
+	spawn_chance = 9999
 
 	flags = { caravaneer_home }
 
@@ -690,12 +689,12 @@ megacorp_matter_decompressor_init_01 = {
 		base = 0
 		modifier = {
 			host_has_dlc = "Megacorp"
-			add = 2
+			add = 100
 		}
 	}
 
 	max_instances = 1
-	# scaled_spawn_chance = 4
+	scaled_spawn_chance = 4
 
 	planet = {
 		class = star
@@ -779,12 +778,12 @@ megacorp_strategic_coordination_center_init_01 = {
 		base = 0
 		modifier = {
 			host_has_dlc = "Megacorp"
-			add = 2
+			add = 100
 		}
 	}
 
 	max_instances = 1
-	# scaled_spawn_chance = 4
+	scaled_spawn_chance = 4
 
 	planet = {
 		class = star
@@ -1145,12 +1144,12 @@ megacorp_mega_art_installation_init_01 = {
 		base = 0
 		modifier = {
 			host_has_dlc = "Megacorp"
-			add = 2
+			add = 100
 		}
 	}
 
 	max_instances = 1
-	# scaled_spawn_chance = 4
+	scaled_spawn_chance = 4
 
 	planet = {
 		count = 1
@@ -1254,12 +1253,12 @@ megacorp_interstellar_assembly_init_01 = {
 		base = 0
 		modifier = {
 			host_has_dlc = "Megacorp"
-			add = 2
+			add = 100
 		}
 	}
 
 	max_instances = 1
-	# scaled_spawn_chance = 4
+	scaled_spawn_chance = 4
 
 	flags = { ruined_interstellar_assembly_system }
 

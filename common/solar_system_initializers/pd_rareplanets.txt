@@ -7,8 +7,8 @@
 pd_coral_event_init = {
 	class = "rl_standard_stars"
 	usage = misc_system_init
-	usage_odds = 5
-	spawn_chance = 5
+	usage_odds = 1000
+	spawn_chance = 1000
 	max_instances = 1
 
 	planet = {
@@ -82,8 +82,8 @@ pd_init_mushroom = {
 		type = rocky_asteroid_belt
 		radius = 160
 	}
-	usage_odds = 5
-	spawn_chance = 5
+	usage_odds = 1000
+	spawn_chance = 1000
 	max_instances = 1
 	flags = { mushroom_system }
 		
@@ -224,8 +224,8 @@ pd_init_mushroom = {
 pd_init_biolumen = {
 	class = "rl_trinary_stars"
 	usage = misc_system_init
-	usage_odds = 5
-	spawn_chance = 5
+	usage_odds = 1000
+	spawn_chance = 1000
 	max_instances = 1
 	
 	flags = { biolumen_system }

@@ -7,7 +7,7 @@ star_lifting_system = {
 	prevent_anomalies = yes
 	usage = misc_system_init
 	usage_odds = {
-	    base = 2
+	    base = 4000
 	    modifier = {
 	       factor = 0
 	       has_distar = no
@@ -22,7 +22,7 @@ star_lifting_system = {
 	    }
 	}
 	max_instances = 1
-	# scaled_spawn_chance = 8
+	scaled_spawn_chance = 8
 
 	flags = { star_lifting_system }
 	
@@ -142,7 +142,7 @@ big_rip_system = {
 	class = sc_f
 	usage = misc_system_init
 	usage_odds = {
-	    base = 2
+	    base = 4000
 	    modifier = {
 	        factor = 0
 	        has_distar = no
@@ -157,7 +157,7 @@ big_rip_system = {
 	    }
 	}
 	max_instances = 1
-	# scaled_spawn_chance = 8
+	scaled_spawn_chance = 8
 	flags = { big_rip_system }
 	
 	planet = {
@@ -210,7 +210,7 @@ time_loop_world_system = {
 
 	usage = misc_system_init
 	usage_odds = {
-	    base = 2
+	    base = 4000
 	    modifier = {
 	        factor = 0
 	        has_distar = no
@@ -225,7 +225,7 @@ time_loop_world_system = {
 	    }
 	}
 	max_instances = 1
-	# scaled_spawn_chance = 8
+	scaled_spawn_chance = 8
 	flags = { time_loop_world_system }
 	
 	planet = {
@@ -306,7 +306,7 @@ toxic_planet_toxic_moon = {
 
 	usage = misc_system_init
 	usage_odds = {
-		base = 2
+		base = 4000
 		modifier = {
 			factor = 0
 			has_distar = no
@@ -318,7 +318,7 @@ toxic_planet_toxic_moon = {
 	}
 
 	max_instances = 1
-	# scaled_spawn_chance = 8
+	scaled_spawn_chance = 8
 
 	flags = { toxic_moon_system }
 
@@ -385,7 +385,7 @@ shattered_world_system = {
 	}
 
 	max_instances = 1
-	# scaled_spawn_chance = 8
+	scaled_spawn_chance = 8
 
 	flags = { shattered_world_system }
 
@@ -454,7 +454,7 @@ asteroid_system = {
 	}
 
 	max_instances = 1
-	# scaled_spawn_chance = 8
+	scaled_spawn_chance = 8
 
 	flags = { asteroid_system }
 
@@ -561,7 +561,7 @@ hostile_init_mining_drones = {
 	
 	usage = misc_system_init
 	usage_odds = {
-		base = 2
+		base = 4
 		modifier = {
             factor = 0
             has_star_flag = empire_cluster
@@ -704,7 +704,7 @@ hostile_init_amoeba = {
 	
 	usage = misc_system_init
 	usage_odds = {
-		base = 2
+		base = 4
 		modifier = {
 			factor = 0
 			has_distar = no
@@ -799,7 +799,7 @@ hostile_init_void_cloud = {
 	
 	usage = misc_system_init
 	usage_odds = {
-		base = 0.5
+		base = 4
 		modifier = {
 			factor = 0
 			has_distar = no
@@ -1026,7 +1026,7 @@ ice_system = {
 
 	usage = misc_system_init
 	usage_odds = {
-		base = 4
+		base = 4000
 		modifier = {
 			factor = 0
 			has_distar = no
@@ -1038,7 +1038,7 @@ ice_system = {
 	}
 
 	max_instances = 1
-	# scaled_spawn_chance = 8	# scales by galaxy size (1000 stars = 10x base)
+	scaled_spawn_chance = 8	# scales by galaxy size (1000 stars = 10x base)
 
 	flags = { ice_system }
 
@@ -1137,7 +1137,7 @@ high_energy_system = {
 
 	usage = misc_system_init
 	usage_odds = {
-		base = 0.5
+		base = 4000
 		modifier = {
 			factor = 0
 			has_distar = no
@@ -1149,7 +1149,7 @@ high_energy_system = {
 	}
 
 	max_instances = 1
-	# scaled_spawn_chance = 8	# scales by galaxy size (1000 stars = 10x base)
+	scaled_spawn_chance = 8	# scales by galaxy size (1000 stars = 10x base)
 
 	flags = { high_energy_system }
 
@@ -1201,7 +1201,7 @@ guardians_init_hatchling = {
 
 	usage = misc_system_init
 	usage_odds = {
-		base = 0.5
+		base = 4000
 		modifier = {
 			factor = 0
 			has_distar = no
@@ -1220,7 +1220,7 @@ guardians_init_hatchling = {
 	}
 
 	max_instances = 1
-	# scaled_spawn_chance = 8	# scales by galaxy size (1000 stars = 10x base)
+	scaled_spawn_chance = 8	# scales by galaxy size (1000 stars = 10x base)
 
 	flags = { guardians_hatchling_system guardian hostile_system }
 
@@ -1276,11 +1276,10 @@ guardians_init_hatchling = {
 # Great Wound - Void Cloud Home System
 great_wound_system = {
 	class = sc_black_hole
-	#name = "NAME_Great_Wound"
 	
 	usage = misc_system_init
 	usage_odds = {
-		base = 0.5
+		base = 4000
 		modifier = {
             factor = 0
             has_star_flag = empire_cluster
@@ -1292,7 +1291,7 @@ great_wound_system = {
 	}
 
 	max_instances = 1
-	# scaled_spawn_chance = 8	# scales by galaxy size (1000 stars = 10x base)
+	scaled_spawn_chance = 8	# scales by galaxy size (1000 stars = 10x base)
 	
 	planet = {
 		class = star
@@ -1673,7 +1672,7 @@ primitive_robot_system = {
 
 	usage = misc_system_init
 	usage_odds = {
-		base = 1
+		base = 4000
 		modifier = {
 			factor = 0
 			has_distar = no
@@ -1687,7 +1686,7 @@ primitive_robot_system = {
             has_star_flag = empire_cluster
         }
 	}
-	# scaled_spawn_chance = 8	# scales by galaxy size (1000 stars = 10x base)
+	scaled_spawn_chance = 8	# scales by galaxy size (1000 stars = 10x base)
 	max_instances = 1
 
 	primitive_system = yes	# usage odds modified by primitives setup slider
@@ -1766,7 +1765,7 @@ superflare_system = {
 
 	usage = misc_system_init
 	usage_odds = {
-		base = 0.5
+		base = 4000
 		modifier = {
 			factor = 0
 			has_distar = no
@@ -1780,7 +1779,7 @@ superflare_system = {
             has_star_flag = empire_cluster
         }
 	}
-	# scaled_spawn_chance = 8
+	scaled_spawn_chance = 8
 	max_instances = 1
 
 	flags = { superflare_system }
@@ -1855,7 +1854,7 @@ collapse_system = {
 
 	usage = misc_system_init
 	usage_odds = {
-		base = 0.5
+		base = 4000
 		modifier = {
 			factor = 0
 			has_distar = no
@@ -1870,7 +1869,7 @@ collapse_system = {
         }
 	}
 	primitive_system = yes
-	# scaled_spawn_chance = 8
+	scaled_spawn_chance = 8
 	max_instances = 1
 
 	flags = { collapse_system }
@@ -2014,7 +2013,7 @@ old_foes_system = {
 
 	usage = misc_system_init
 	usage_odds = {
-		base = 0.5
+		base = 4000
 		modifier = {
 			factor = 0
 			has_distar = no
@@ -2029,7 +2028,7 @@ old_foes_system = {
         }
 	}
 	primitive_system = yes
-	# scaled_spawn_chance = 8
+	scaled_spawn_chance = 8
 	max_instances = 1
 
 	flags = { old_foes_system }
@@ -2225,7 +2224,7 @@ scavenger_system = {
 
 	usage = misc_system_init
 	usage_odds = {
-		base = 0.5
+		base = 4000
 		modifier = {
 			factor = 0
 			has_distar = no
@@ -2243,7 +2242,7 @@ scavenger_system = {
 			is_bottleneck_system = yes
 		}
 	}
-	# scaled_spawn_chance = 8
+	scaled_spawn_chance = 8
 	max_instances = 1
 
 	flags = { scavenger_bot_system guardian hostile_system }
@@ -2768,7 +2767,7 @@ living_planet_system = {
 
 	usage = misc_system_init
 	usage_odds = {
-		base = 0.5
+		base = 4000
 		modifier = {
 			factor = 0
 			has_distar = no
@@ -2782,7 +2781,7 @@ living_planet_system = {
             has_star_flag = empire_cluster
         }
 	}
-	# scaled_spawn_chance = 8
+	scaled_spawn_chance = 8
 	max_instances = 1
 
 	flags = { living_planet_system }
@@ -2857,7 +2856,7 @@ elderly_tiyanki_system = {
 
 	usage = misc_system_init
 	usage_odds = {
-		base = 2
+		base = 4000
 		modifier = {
 			factor = 0
 			has_distar = no
@@ -2875,7 +2874,7 @@ elderly_tiyanki_system = {
 			is_bottleneck_system = yes
 		}
 	}
-	# scaled_spawn_chance = 8
+	scaled_spawn_chance = 8
 	max_instances = 1
 
 	flags = { elderly_tiyanki_system guardian hostile_system }
@@ -3097,7 +3096,7 @@ ratling_1_1 = {
 
 	usage = misc_system_init
 	usage_odds = {
-		base = 2
+		base = 4000
 		modifier = {
 			factor = 0
 			has_distar = no
@@ -3118,7 +3117,7 @@ ratling_1_1 = {
             has_star_flag = empire_cluster
         }
 	}
-	# scaled_spawn_chance = 8
+	scaled_spawn_chance = 8
 	max_instances = 1
 
 	flags = { ruined_empire ratling_home_system ratling_system }
@@ -3743,7 +3742,7 @@ distar_crystal_system = {
 	
 	usage = misc_system_init
 	usage_odds = {
-		base = 5
+		base = 10
 		modifier = {
 			factor = 0
 			has_distar = no
@@ -3960,7 +3959,7 @@ distar_pod_system = {
 	
 	usage = misc_system_init
 	usage_odds = {
-		base = 4
+		base = 4000
 		modifier = {
 			factor = 0
 			has_distar = no
@@ -3974,7 +3973,7 @@ distar_pod_system = {
             has_star_flag = empire_cluster
         }
 	}
-	# scaled_spawn_chance = 8
+	scaled_spawn_chance = 8
 	max_instances = 1
 
 	flags = { escape_pod_system }
@@ -4107,7 +4106,7 @@ distar_phaseshift_system = {
 	
 	usage = misc_system_init
 	usage_odds = {
-		base = 4
+		base = 4000
 		modifier = {
 			factor = 0
 			has_distar = no
@@ -4121,7 +4120,7 @@ distar_phaseshift_system = {
             has_star_flag = empire_cluster
         }
 	}
-	# scaled_spawn_chance = 8
+	scaled_spawn_chance = 8
 	max_instances = 1
 
 	flags = { phaseshift_system }

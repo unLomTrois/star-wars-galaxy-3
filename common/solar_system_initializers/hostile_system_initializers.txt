@@ -7,7 +7,7 @@ hostile_init_01 = {
 	usage = misc_system_init
 	#usage_odds = 2
 	usage_odds = {
-		base = 0.5
+		base = 4
 		modifier = {
 			factor = 0.1
 			NOT = { is_in_cluster = resource_cluster_1 }
@@ -110,7 +110,7 @@ hostile_init_02 = {
 	
 	usage = misc_system_init
 	usage_odds = {
-		base = 0.5
+		base = 4
 		modifier = {
 			factor = 0
 			NOT = { is_in_cluster = resource_cluster_1 }
@@ -411,7 +411,7 @@ hostile_init_04 = {
 	
 	usage = misc_system_init
 	usage_odds = {
-		base = 0.5
+		base = 2
 		modifier = {
 			factor = 0
 			NOT = { is_in_cluster = resource_cluster_1 }
@@ -663,7 +663,7 @@ hostile_init_05 = {
 	
 	usage = misc_system_init
 	usage_odds = {
-		base = 0.5
+		base = 2
 		modifier = {
 			factor = 0
 			NOT = { is_in_cluster = resource_cluster_1 }
@@ -862,7 +862,7 @@ hostile_init_06 = {
 	
 	usage = misc_system_init
 	usage_odds = {
-		base = 0.5
+		base = 2
 		modifier = {
 			factor = 0
 			NOT = { is_in_cluster = resource_cluster_1 }
@@ -1100,7 +1100,7 @@ hostile_init_07 = {
 	
 	usage = misc_system_init
 	usage_odds = {
-		base = 0.5
+		base = 10
 		modifier = {
 			factor = 0
 			NOT = { is_in_cluster = resource_cluster_1 }
@@ -1116,7 +1116,7 @@ hostile_init_07 = {
 	}
 
 	max_instances = 1
-	# spawn_chance = 100
+	spawn_chance = 100
 	
 	flags = { hostile_system elite_system crystal_home_system }
 	
@@ -1330,7 +1330,7 @@ hostile_init_08 = {
 	
 	usage = misc_system_init
 	usage_odds = {
-		base = 0.5
+		base = 4
 		modifier = {
 			factor = 0.1
 			NOT = { is_in_cluster = resource_cluster_2 }
@@ -1423,7 +1423,7 @@ hostile_init_10 = {
 	
 	usage = misc_system_init
 	usage_odds = {
-		base = 0.5
+		base = 4
 		modifier = {
 			factor = 0
 			NOT = { is_in_cluster = resource_cluster_3 }
@@ -1509,7 +1509,7 @@ hostile_init_10_small_amoeba_pack = {
 	
 	usage = misc_system_init
 	usage_odds = {
-		base = 0.5
+		base = 4
 		modifier = {
 			factor = 0.1
 			NOT = { is_in_cluster = resource_cluster_3 }
@@ -1590,7 +1590,7 @@ hostile_init_11 = {
 	
 	usage = misc_system_init
 	usage_odds = {
-		base = 0.5
+		base = 4
 		modifier = {
 			factor = 0
 			NOT = { is_in_cluster = resource_cluster_3 }
@@ -1700,7 +1700,7 @@ hostile_init_12 = {
 	
 	usage = misc_system_init
 	usage_odds = {
-		base = 0.5
+		base = 4
 		modifier = {
 			factor = 0.1
 			NOT = { is_in_cluster = resource_cluster_4 }
@@ -1818,7 +1818,7 @@ hostile_init_12_mining_drones = {
 	
 	usage = misc_system_init
 	usage_odds = {
-		base = 0.5
+		base = 4
 		modifier = {
 			factor = 0
 			NOT = { is_in_cluster = resource_cluster_4 }
@@ -1943,7 +1943,7 @@ hostile_init_12_drone_destroyer = {
 	
 	usage = misc_system_init
 	usage_odds = {
-		base = 0.5
+		base = 1
 		modifier = {
 			factor = 0
 			NOT = { is_in_cluster = resource_cluster_4 }
@@ -2265,7 +2265,7 @@ hostile_init_14 = {
 	
 	usage = misc_system_init
 	usage_odds = {
-		base = 0.5
+		base = 10
 		modifier = {
 			factor = 0
 			NOT = { is_in_cluster = resource_cluster_4 }
@@ -2281,7 +2281,7 @@ hostile_init_14 = {
 	}
 
 	max_instances = 1
-	# spawn_chance = 100
+	spawn_chance = 100
 	
 	flags = { hostile_system drone_home_system }
 	
@@ -2423,7 +2423,7 @@ hostile_init_15 = {
 	
 	usage = misc_system_init
 	usage_odds = {
-		base = 0.5
+		base = 4
 		modifier = {
 			factor = 0.1
 			NOT = { is_in_cluster = resource_cluster_5 }
@@ -2500,10 +2500,9 @@ hostile_init_15 = {
 # Tiyanki Spawn System
 hostile_init_16 = {
 	class = "rl_standard_stars"
-	#name = "NAME_Tiyana_Vek"
 	
 	usage = misc_system_init
-	usage_odds = 1
+	usage_odds = 90000
 	max_instances = 1
 
 	flags = { tiyanki_spawn_system }
@@ -2671,7 +2670,7 @@ hostile_init_18 = {
 	
 	usage = misc_system_init
 	usage_odds = {
-		base = 0.5
+		base = 100
 		modifier = {
 			factor = 0
 			NOT = { is_in_cluster = resource_cluster_0 }
@@ -2690,7 +2689,7 @@ hostile_init_18 = {
 	}
 
 	max_instances = 1
-	# spawn_chance = 100
+	spawn_chance = 100
 
 	flags = { hostile_system pirate_home_system pirate_system }
 
@@ -2856,11 +2855,10 @@ hostile_init_18 = {
 # Amoeba Home System
 hostile_init_20 = {
 	class = "rl_trinary_stars"
-	#name = "NAME_Amor_Alveo"
 	
 	usage = misc_system_init
 	usage_odds = {
-		base = 0.5
+		base = 5000
 		modifier = {
             factor = 0
             OR = {

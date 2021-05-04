@@ -11,8 +11,6 @@
 
 ### Hauer System
 hauer_system_initializer = {
-	#name = "NAME_Hauer"
-
 	class = "sc_g"
 
 	usage = misc_system_init
@@ -845,7 +843,8 @@ lost_colony_1 = {
 					has_country_flag = parent_system_spawned
 				}
 			}
-			add = 15
+			NOT = { has_star_flag = empire_cluster }
+			add = 9999
 		}
 	}
 
@@ -1940,12 +1939,12 @@ mega_shipyard_init_01 = {
 		base = 0
 		modifier = {
 			host_has_dlc = "Federations"
-			add = 2
+			add = 100
 		}
 	}
 
 	max_instances = 1
-	# scaled_spawn_chance = 2
+	scaled_spawn_chance = 2
 
 	# Star
 	planet = {
@@ -2023,7 +2022,7 @@ planet_with_too_many_moons_system = {
 	}
 
 	max_instances = 1
-	# scaled_spawn_chance = 3
+	scaled_spawn_chance = 3
 
 	flags = { planet_with_too_many_moons_system }
 
@@ -2400,7 +2399,6 @@ planet_with_too_many_moons_system = {
 }
 
 wenkwort_initializer = {
-	#name = "NAME_Wenkwort"
 	class = "rl_starting_stars"
 	asteroid_belt = {
 		type = rocky_asteroid_belt

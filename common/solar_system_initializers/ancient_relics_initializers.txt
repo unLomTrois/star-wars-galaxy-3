@@ -12,7 +12,7 @@ relic_system_1 = {
 	usage = misc_system_init
 
 	usage_odds = {
-		base = 2
+		base = 4
 		modifier = {
             factor = 0
             has_star_flag = empire_cluster
@@ -176,7 +176,6 @@ relic_system_1 = {
 
 ### Zrocursor Home System
 Zrocursor_system = {
-	#name = "NAME_Zron"
 	class = "sc_f"
 	asteroid_belt = {
 		type = rocky_asteroid_belt
@@ -523,7 +522,7 @@ relic_system_4 = {
 	usage = misc_system_init
 
 	usage_odds = {
-		base = 2
+		base = 4
 		modifier = {
             factor = 0
             has_star_flag = empire_cluster
@@ -683,7 +682,6 @@ relic_system_4 = {
 
 ####### The Last Baol System #######
 last_baol_system = {
-	#name = "NAME_Grunur"
 	class = "sc_a"
 	asteroid_belt = {
 		type = icy_asteroid_belt
@@ -818,7 +816,7 @@ mechanocalibrator_system = {
 	
 	usage = misc_system_init
 	usage_odds = {
-		base = 2
+		base = 4000
 		modifier = {
 			factor = 0
 			has_ancrel = no
@@ -832,6 +830,7 @@ mechanocalibrator_system = {
             has_star_flag = empire_cluster
         }
 	}
+	scaled_spawn_chance = 8
 	max_instances = 1
 
 	flags = { mechanocalibrator_system }

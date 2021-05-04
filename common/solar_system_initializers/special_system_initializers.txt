@@ -6,7 +6,7 @@ special_init_01 = {
 	class = sc_black_hole
 
 	usage = misc_system_init
-	usage_odds = 0
+	usage_odds = 2
 
 	planet = {
 		class = star
@@ -867,14 +867,14 @@ special_init_06 = {
 	}
 	usage = misc_system_init
 	usage_odds = {
-		base = 5
+		base = 2000000
 		modifier = {
 			factor = 0
 			is_bottleneck_system = yes
 		}
 	}
 	max_instances = 1
-	# scaled_spawn_chance = 3	# scales by galaxy size (1000 stars = 10x base)
+	scaled_spawn_chance = 3	# scales by galaxy size (1000 stars = 10x base)
 
 	flags = { guardians_of_zanaam hostile_system }
 
@@ -1333,7 +1333,7 @@ sanctuary_system = {
 	}
 	usage = misc_system_init
 	usage_odds = {
-        base = 5
+        base = 2000000
         modifier = {
             factor = 0
             is_fe_cluster = yes
@@ -1345,9 +1345,9 @@ sanctuary_system = {
     }
 	max_instances = 1
 	flags = { sanctuary_system }
-	# scaled_spawn_chance = 2	# scales by galaxy size (1000 stars = 10x base)
+	scaled_spawn_chance = 2	# scales by galaxy size (1000 stars = 10x base)
 
-	#name = "NAME_Sanctuary"
+	name = "NAME_Sanctuary"
 
 	class = "sc_g"
 
@@ -1961,7 +1961,7 @@ crystal_manufactory_system = {
 	usage = misc_system_init
 	usage_odds = 5
 	max_instances = 1
-	# spawn_chance = 25
+	spawn_chance = 25
 
 	planet = {
 		count = 1
@@ -2020,12 +2020,12 @@ crystal_manufactory_system = {
 
 # Trappist System
 trappist_initializer = {
-	#name = "NAME_Trappist"
+	name = "NAME_Trappist"
 	class = "sc_m"
 	usage = misc_system_init
-	usage_odds = 4
+	usage_odds = 2000000
 	max_instances = 1
-	# scaled_spawn_chance = 10
+	scaled_spawn_chance = 10
 
 	planet = {
 		class = "pc_m_star"

@@ -610,7 +610,7 @@ static_galaxy_scenario = {
 	# Free ids up to 800
 
 	add_hyperlane = { from = "770" to = "753" }
-	add_hyperlane = { from = "753" to = "773" }
+	add_hyperlane = { from = "770" to = "773" }
 	add_hyperlane = { from = "773" to = "602" }
 	add_hyperlane = { from = "776" to = "602" }
 	add_hyperlane = { from = "776" to = "101" }
