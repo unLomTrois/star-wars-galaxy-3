@@ -12,6 +12,7 @@ static_galaxy_scenario = {
 	colonizable_planet_odds = 1.5
 	random_hyperlanes = no
 	num_wormhole_pairs_default = 0
+	crisis_strength = 1.0
 
 
 
