@@ -24,9 +24,9 @@ Let's say you want to add the system_initializer for your favourite system: Juve
 3. Fork the repo and create your branch from master or the upcoming version.
 4. Add the Juvex system in all its glory!
 5. Issue your merge request into the upcoming version branch and wait for it to be approved
-6. If approved enjoy the Juvex system in the next update!
+6. Thank you so much for contributing to Star Wars Galaxy 2 and when approved enjoy the Juvex system in the next update!
 
-If you have any questions regarding more complex additions you can always ask on our discord.
+If you have any questions you can always dm me or ping me on discord.
 
 # GIT Access
 
