@@ -3,12 +3,12 @@ guiTypes = {
 	@spinnerOverlayPosY = -4
 	@spinnerOverlaySizeX = 311
 	@spinnerOverlaySizeY = 34
-	
+
 	positionType = {
 		name = "setup_field_offset"
 		position = { x = 0 y = -40 }
 	}
-						
+
 	containerWindowType = {
 		name = "gamesetup_setupview"
 		position = { x=-635 y = -355 }
@@ -90,7 +90,7 @@ guiTypes = {
 			actionShortcut = "start"
 			clicksound = "confirm_click"
 		}
-		
+
 		buttonType = {
 			name = "reset_button"
 			quadTextureSprite = "GFX_standard_button_200_34_button"
@@ -102,7 +102,7 @@ guiTypes = {
 			clicksound = back_click
 			oversound = mouse_over
 		}
-		
+
 		instantTextBoxType = {
 			name = "randomize_label"
 			position = { x = 1157 y = 65 }
@@ -303,7 +303,7 @@ guiTypes = {
 					spriteType = "GFX_tiles_dark_area_cut_8"
 				}
 			}
-			
+
 			containerWindowType = {
 				name = "game_setup_bar16_box"
 				size = { width = 1103 height = 36 }
@@ -325,7 +325,7 @@ guiTypes = {
 					spriteType = "GFX_tiles_dark_area_cut_8"
 				}
 			}
-			
+
 			containerWindowType = {
 				name = "game_setup_bar18_box"
 				size = { width = 1103 height = 36 }
@@ -336,7 +336,7 @@ guiTypes = {
 					spriteType = "GFX_tiles_dark_area_cut_8"
 				}
 			}
-			
+
 			containerWindowType = {
 				name = "game_setup_bar19_box"
 				size = { width = 1103 height = 36 }
@@ -357,7 +357,7 @@ guiTypes = {
 					name = "game_setup_bar3"
 					spriteType = "GFX_tiles_dark_area_cut_8"
 				}
-			}	
+			}
 
 			containerWindowType = {
 				name = "game_setup_bar21_box"
@@ -396,6 +396,28 @@ guiTypes = {
 				name = "game_setup_bar24_box"
 				size = { width = 1103 height = 36 }
 				position = { x = 42 y = 920 }
+
+				background = {
+					name = "game_setup_bar3"
+					spriteType = "GFX_tiles_dark_area_cut_8"
+				}
+			}
+			
+			containerWindowType = {
+				name = "game_setup_bar25_box"
+				size = { width = 1103 height = 36 }
+				position = { x = 42 y = 960 }
+
+				background = {
+					name = "game_setup_bar3"
+					spriteType = "GFX_tiles_dark_area_cut_8"
+				}
+			}
+			
+			containerWindowType = {
+				name = "game_setup_bar26_box"
+				size = { width = 1103 height = 36 }
+				position = { x = 42 y = 1000 }
 
 				background = {
 					name = "game_setup_bar3"
@@ -457,7 +479,7 @@ guiTypes = {
 						quadTextureSprite = "scrollbar_rightbutton"
 						position = { x=30 y =120}
 					}
-					
+
 					overlay = {
 						name = "selected_overlay"
 						spriteType = "GFX_glow_tile_orange_no_padding"
@@ -465,7 +487,7 @@ guiTypes = {
 						position = { x = @spinnerOverlayPosX y = @spinnerOverlayPosY }
 						size = { x = @spinnerOverlaySizeX y = @spinnerOverlaySizeY }
 					}
-					
+
 					navDown = "galaxy_shape_spinner"
 				}
 			}
@@ -523,7 +545,7 @@ guiTypes = {
 						quadTextureSprite = "scrollbar_rightbutton"
 						position = { x=-9999 y =120}
 					}
-					
+
 					overlay = {
 						name = "selected_overlay"
 						spriteType = "GFX_glow_tile_orange_no_padding"
@@ -564,7 +586,7 @@ guiTypes = {
 					orientation = "UPPER_LEFT"
 					text = "5"
 				}
-				
+
 				checkboxType = {
 					name = "randomize_checkbox"
 					spriteType = "GFX_checkbox_20_20_01"
@@ -618,11 +640,11 @@ guiTypes = {
 					overlay = {
 						name = "selected_overlay"
 						spriteType = "GFX_glow_tile_orange_no_padding"
-						overSprite = "GFX_glow_tile_line"					
+						overSprite = "GFX_glow_tile_line"
 						position = { x = @spinnerOverlayPosX y = @spinnerOverlayPosY }
 						size = { x = @spinnerOverlaySizeX y = @spinnerOverlaySizeY }
 					}
-					
+
 					navUp = "galaxy_shape_spinner"
 					navDown = "num_advanced_ai_slider"
 				}
@@ -709,11 +731,11 @@ guiTypes = {
 					overlay = {
 						name = "selected_overlay"
 						spriteType = "GFX_glow_tile_orange_no_padding"
-						overSprite = "GFX_glow_tile_line"					
+						overSprite = "GFX_glow_tile_line"
 						position = { x = @spinnerOverlayPosX y = @spinnerOverlayPosY }
 						size = { x = @spinnerOverlaySizeX y = @spinnerOverlaySizeY }
 					}
-					
+
 					navUp = "num_ai_slider"
 					navDown = "num_fallen_empires_slider"
 				}
@@ -800,16 +822,16 @@ guiTypes = {
 					overlay = {
 						name = "selected_overlay"
 						spriteType = "GFX_glow_tile_orange_no_padding"
-						overSprite = "GFX_glow_tile_line"					
+						overSprite = "GFX_glow_tile_line"
 						position = { x = @spinnerOverlayPosX y = @spinnerOverlayPosY }
 						size = { x = @spinnerOverlaySizeX y = @spinnerOverlaySizeY }
 					}
-					
+
 					navUp = "num_advanced_ai_slider"
 					navDown = "num_habitable_worlds_slider"
 				}
 			}
-			
+
 			### Marauder Empires
 			containerWindowType = {
 				name = "num_marauder_empires"
@@ -891,17 +913,16 @@ guiTypes = {
 					overlay = {
 						name = "selected_overlay"
 						spriteType = "GFX_glow_tile_orange_no_padding"
-						overSprite = "GFX_glow_tile_line"					
+						overSprite = "GFX_glow_tile_line"
 						position = { x = @spinnerOverlayPosX y = @spinnerOverlayPosY }
 						size = { x = @spinnerOverlaySizeX y = @spinnerOverlaySizeY }
 					}
-					
+
 					navUp = "num_advanced_ai_slider"
 					navDown = "num_habitable_worlds_slider"
 				}
 			}
-				
-			
+
 			### Tech Speed
 			containerWindowType = {
 				name = "tech_cost"
@@ -977,16 +998,16 @@ guiTypes = {
 					overlay = {
 						name = "selected_overlay"
 						spriteType = "GFX_glow_tile_orange_no_padding"
-						overSprite = "GFX_glow_tile_line"                   
+						overSprite = "GFX_glow_tile_line"
 						position = { x = @spinnerOverlayPosX y = @spinnerOverlayPosY }
 						size = { x = @spinnerOverlaySizeX y = @spinnerOverlaySizeY }
 					}
-					
+
 					navUp = "num_fallen_empires_slider"
 					navDown = "aggressiveness_spinner"
 				}
-			}	
-			
+			}
+
 			### Habitable Worlds
 			containerWindowType = {
 				name = "num_habitable_worlds"
@@ -1062,11 +1083,11 @@ guiTypes = {
 					overlay = {
 						name = "selected_overlay"
 						spriteType = "GFX_glow_tile_orange_no_padding"
-						overSprite = "GFX_glow_tile_line"					
+						overSprite = "GFX_glow_tile_line"
 						position = { x = @spinnerOverlayPosX y = @spinnerOverlayPosY }
 						size = { x = @spinnerOverlaySizeX y = @spinnerOverlaySizeY }
 					}
-					
+
 					navUp = "num_fallen_empires_slider"
 					navDown = "aggressiveness_spinner"
 				}
@@ -1147,16 +1168,16 @@ guiTypes = {
 					overlay = {
 						name = "selected_overlay"
 						spriteType = "GFX_glow_tile_orange_no_padding"
-						overSprite = "GFX_glow_tile_line"                   
+						overSprite = "GFX_glow_tile_line"
 						position = { x = @spinnerOverlayPosX y = @spinnerOverlayPosY }
 						size = { x = @spinnerOverlaySizeX y = @spinnerOverlaySizeY }
 					}
-					
+
 					navUp = "num_fallen_empires_slider"
 					navDown = "aggressiveness_spinner"
 				}
 			}
-			
+
 			### Crises
 			containerWindowType = {
 				name = "crises"
@@ -1232,11 +1253,11 @@ guiTypes = {
 					overlay = {
 						name = "selected_overlay"
 						spriteType = "GFX_glow_tile_orange_no_padding"
-						overSprite = "GFX_glow_tile_line"                   
+						overSprite = "GFX_glow_tile_line"
 						position = { x = @spinnerOverlayPosX y = @spinnerOverlayPosY }
 						size = { x = @spinnerOverlaySizeX y = @spinnerOverlaySizeY }
 					}
-					
+
 					navUp = "num_fallen_empires_slider"
 					navDown = "crisis_type_spinner"
 				}
@@ -1293,11 +1314,11 @@ guiTypes = {
 						quadTextureSprite = "scrollbar_rightbutton"
 						position = { x=30 y =0}
 					}
-					
+
 					overlay = {
 						name = "selected_overlay"
 						spriteType = "GFX_glow_tile_orange_no_padding"
-						overSprite = "GFX_glow_tile_line"					
+						overSprite = "GFX_glow_tile_line"
 						position = { x = @spinnerOverlayPosX y = @spinnerOverlayPosY }
 						size = { x = @spinnerOverlaySizeX y = @spinnerOverlaySizeY }
 					}
@@ -1382,11 +1403,11 @@ guiTypes = {
 					overlay = {
 						name = "selected_overlay"
 						spriteType = "GFX_glow_tile_orange_no_padding"
-						overSprite = "GFX_glow_tile_line"                   
+						overSprite = "GFX_glow_tile_line"
 						position = { x = @spinnerOverlayPosX y = @spinnerOverlayPosY }
 						size = { x = @spinnerOverlaySizeX y = @spinnerOverlaySizeY }
 					}
-					
+
 					navUp = "num_fallen_empires_slider"
 					navDown = "aggressiveness_spinner"
 				}
@@ -1467,15 +1488,15 @@ guiTypes = {
 					overlay = {
 						name = "selected_overlay"
 						spriteType = "GFX_glow_tile_orange_no_padding"
-						overSprite = "GFX_glow_tile_line"                   
+						overSprite = "GFX_glow_tile_line"
 						position = { x = @spinnerOverlayPosX y = @spinnerOverlayPosY }
 						size = { x = @spinnerOverlaySizeX y = @spinnerOverlaySizeY }
 					}
-					
+
 					navUp = "num_fallen_empires_slider"
 					navDown = "aggressiveness_spinner"
 				}
-			}	
+			}
 
 			### Victory Year
 			containerWindowType = {
@@ -1552,15 +1573,15 @@ guiTypes = {
 					overlay = {
 						name = "selected_overlay"
 						spriteType = "GFX_glow_tile_orange_no_padding"
-						overSprite = "GFX_glow_tile_line"                   
+						overSprite = "GFX_glow_tile_line"
 						position = { x = @spinnerOverlayPosX y = @spinnerOverlayPosY }
 						size = { x = @spinnerOverlaySizeX y = @spinnerOverlaySizeY }
 					}
-					
+
 					navUp = "num_fallen_empires_slider"
 					navDown = "aggressiveness_spinner"
 				}
-			}				
+			}
 
 			# Difficulty
 			containerWindowType = {
@@ -1614,11 +1635,11 @@ guiTypes = {
 						quadTextureSprite = "scrollbar_rightbutton"
 						position = { x=30 y =0}
 					}
-					
+
 					overlay = {
 						name = "selected_overlay"
 						spriteType = "GFX_glow_tile_orange_no_padding"
-						overSprite = "GFX_glow_tile_line"					
+						overSprite = "GFX_glow_tile_line"
 						position = { x = @spinnerOverlayPosX y = @spinnerOverlayPosY }
 						size = { x = @spinnerOverlaySizeX y = @spinnerOverlaySizeY }
 					}
@@ -1626,7 +1647,7 @@ guiTypes = {
 					navUp = "aggressiveness_spinner"
 					navDown = "galaxy_ftl_spinner"
 				}
-			}	
+			}
 
 			# Scaling Difficulty
 			containerWindowType = {
@@ -1679,11 +1700,11 @@ guiTypes = {
 						quadTextureSprite = "scrollbar_rightbutton"
 						position = { x=30 y =120}
 					}
-					
+
 					overlay = {
 						name = "selected_overlay"
 						spriteType = "GFX_glow_tile_orange_no_padding"
-						overSprite = "GFX_glow_tile_line"					
+						overSprite = "GFX_glow_tile_line"
 						position = { x = @spinnerOverlayPosX y = @spinnerOverlayPosY }
 						size = { x = @spinnerOverlaySizeX y = @spinnerOverlaySizeY }
 					}
@@ -1691,8 +1712,8 @@ guiTypes = {
 					navUp = "galaxy_clustered_starts_spinner"
 					navDown = "galaxy_crises_spinner"
 				}
-			}				
-			
+			}
+
 			# Aggressiveness
 			containerWindowType = {
 				name = "aggressiveness"
@@ -1744,11 +1765,11 @@ guiTypes = {
 						quadTextureSprite = "scrollbar_rightbutton"
 						position = { x=30 y =0}
 					}
-					
+
 					overlay = {
 						name = "selected_overlay"
 						spriteType = "GFX_glow_tile_orange_no_padding"
-						overSprite = "GFX_glow_tile_line"					
+						overSprite = "GFX_glow_tile_line"
 						position = { x = @spinnerOverlayPosX y = @spinnerOverlayPosY }
 						size = { x = @spinnerOverlaySizeX y = @spinnerOverlaySizeY }
 					}
@@ -1809,11 +1830,11 @@ guiTypes = {
 						quadTextureSprite = "scrollbar_rightbutton"
 						position = { x=30 y =0}
 					}
-					
+
 					overlay = {
 						name = "selected_overlay"
 						spriteType = "GFX_glow_tile_orange_no_padding"
-						overSprite = "GFX_glow_tile_line"					
+						overSprite = "GFX_glow_tile_line"
 						position = { x = @spinnerOverlayPosX y = @spinnerOverlayPosY }
 						size = { x = @spinnerOverlaySizeX y = @spinnerOverlaySizeY }
 					}
@@ -1821,7 +1842,7 @@ guiTypes = {
 					navUp = "galaxy_ftl_spinner"
 					navDown = "galaxy_advanced_empires_near_player_spinner"
 				}
-			}		
+			}
 
 			# Advanced Empires Near Player
 			containerWindowType = {
@@ -1874,11 +1895,11 @@ guiTypes = {
 						quadTextureSprite = "scrollbar_rightbutton"
 						position = { x=30 y =120}
 					}
-					
+
 					overlay = {
 						name = "selected_overlay"
 						spriteType = "GFX_glow_tile_orange_no_padding"
-						overSprite = "GFX_glow_tile_line"					
+						overSprite = "GFX_glow_tile_line"
 						position = { x = @spinnerOverlayPosX y = @spinnerOverlayPosY }
 						size = { x = @spinnerOverlaySizeX y = @spinnerOverlaySizeY }
 					}
@@ -1962,17 +1983,17 @@ guiTypes = {
 					overlay = {
 						name = "selected_overlay"
 						spriteType = "GFX_glow_tile_orange_no_padding"
-						overSprite = "GFX_glow_tile_line"					
+						overSprite = "GFX_glow_tile_line"
 						position = { x = @spinnerOverlayPosX y = @spinnerOverlayPosY }
 						size = { x = @spinnerOverlaySizeX y = @spinnerOverlaySizeY }
 					}
-					
+
 					navUp = "gateways_slider"
 					navDown = "ironman_spinner"
 				}
 			}
-			
-			
+
+
 			### Pregenerated Gateways
 			containerWindowType = {
 				name = "gateways"
@@ -2047,11 +2068,11 @@ guiTypes = {
 					overlay = {
 						name = "selected_overlay"
 						spriteType = "GFX_glow_tile_orange_no_padding"
-						overSprite = "GFX_glow_tile_line"					
+						overSprite = "GFX_glow_tile_line"
 						position = { x = @spinnerOverlayPosX y = @spinnerOverlayPosY }
 						size = { x = @spinnerOverlaySizeX y = @spinnerOverlaySizeY }
 					}
-					
+
 					navUp = "galaxy_crises_spinner"
 					navDown = "wormholes_slider"
 				}
@@ -2131,11 +2152,11 @@ guiTypes = {
 					overlay = {
 						name = "selected_overlay"
 						spriteType = "GFX_glow_tile_orange_no_padding"
-						overSprite = "GFX_glow_tile_line"					
+						overSprite = "GFX_glow_tile_line"
 						position = { x = @spinnerOverlayPosX y = @spinnerOverlayPosY }
 						size = { x = @spinnerOverlaySizeX y = @spinnerOverlaySizeY }
 					}
-					
+
 					navUp = "gateways_slider"
 					navDown = "ironman_spinner"
 				}
@@ -2215,11 +2236,11 @@ guiTypes = {
 					overlay = {
 						name = "selected_overlay"
 						spriteType = "GFX_glow_tile_orange_no_padding"
-						overSprite = "GFX_glow_tile_line"                   
+						overSprite = "GFX_glow_tile_line"
 						position = { x = @spinnerOverlayPosX y = @spinnerOverlayPosY }
 						size = { x = @spinnerOverlaySizeX y = @spinnerOverlaySizeY }
 					}
-					
+
 					navUp = "num_fallen_empires_slider"
 					navDown = "aggressiveness_spinner"
 				}
@@ -2275,11 +2296,11 @@ guiTypes = {
 						quadTextureSprite = "scrollbar_rightbutton"
 						position = { x=30 y =120}
 					}
-					
+
 					overlay = {
 						name = "selected_overlay"
 						spriteType = "GFX_glow_tile_orange_no_padding"
-						overSprite = "GFX_glow_tile_line"					
+						overSprite = "GFX_glow_tile_line"
 						position = { x = @spinnerOverlayPosX y = @spinnerOverlayPosY }
 						size = { x = @spinnerOverlaySizeX y = @spinnerOverlaySizeY }
 					}
@@ -2339,11 +2360,11 @@ guiTypes = {
 						quadTextureSprite = "scrollbar_rightbutton"
 						position = { x=30 y =120}
 					}
-					
+
 					overlay = {
 						name = "selected_overlay"
 						spriteType = "GFX_glow_tile_orange_no_padding"
-						overSprite = "GFX_glow_tile_line"					
+						overSprite = "GFX_glow_tile_line"
 						position = { x = @spinnerOverlayPosX y = @spinnerOverlayPosY }
 						size = { x = @spinnerOverlaySizeX y = @spinnerOverlaySizeY }
 					}
@@ -2352,12 +2373,182 @@ guiTypes = {
 					navDown = "galaxy_caravaneers_down_button"
 				}
 			}
-			
+
+			### Logistic Ceiling
+			containerWindowType = {
+				name = "logistic_ceiling"
+				position = { x = 72 y = 925 }
+
+				instantTextBoxType = {
+					name = "logistic_ceiling_label"
+					position = { x = -20 y = 0 }
+					font = "malgun_goth_24"
+					maxWidth = 404
+					maxHeight = 52
+					orientation = "UPPER_LEFT"
+					text = "FE_LOGISTIC_CEILING"
+					pdx_tooltip = "FE_LOGISTIC_CEILING_TOOLTIP"
+					tooltip_mode_enabled = yes
+				}
+
+				instantTextBoxType = {
+					name = "pick_amount_value"
+					position = { x = 690 y = 0 }
+					font = "malgun_goth_24"
+					maxWidth = 50
+					maxHeight = 52
+					format = right
+					#alwaystransparent = yes
+					orientation = "UPPER_LEFT"
+					text = "150%"
+				}
+
+				scrollbarType = {
+					id = "logistic_ceiling_slider"
+					name = "amount_slider"
+					slider = "scrollbar_SliderButton"
+					track= "scrollbar_TrackButton"
+					leftbutton = "scrollbar_upButton"
+					rightbutton = "scrollbar_downButton"
+					size = {x = 307 y = 30 }
+					position = {x= 747 y =0}
+					priority = 100
+					borderSize = {x =16 y = 16}
+					maxValue = 100
+					minValue = 0
+					stepSize =1
+					startValue = 20
+					horizontal = 1
+
+					guiButtonType = {
+						name = "scrollbar_SliderButton"
+						quadTextureSprite = "GFX_settings_scroll_drager"
+						tooltip = ""
+						tooltipText =""
+						delayedTooltipText = ""
+						position = { x=30 y =0}
+					}
+					guiButtonType = {
+						name = "scrollbar_TrackButton"
+						quadTextureSprite = "scrollbar_background"
+						position = { x=30 y =20}
+						tooltip = ""
+						tooltipText =""
+						delayedTooltipText = ""
+					}
+					guiButtonType = {
+						name = "scrollbar_upButton"
+						quadTextureSprite = "scrollbar_leftbutton"
+						position = { x=30 y =0}
+					}
+					guiButtonType = {
+						name = "scrollbar_downButton"
+						quadTextureSprite = "scrollbar_rightbutton"
+						position = { x=30 y =0}
+					}
+					overlay = {
+						name = "selected_overlay"
+						spriteType = "GFX_glow_tile_orange_no_padding"
+						overSprite = "GFX_glow_tile_line"
+						position = { x = @spinnerOverlayPosX y = @spinnerOverlayPosY }
+						size = { x = @spinnerOverlaySizeX y = @spinnerOverlaySizeY }
+					}
+
+					navUp = "galaxy_xeno_compatibility_spinner"
+					navDown = "growth_scale_slider"
+				}
+			}
+
+			### Growth Scale
+			containerWindowType = {
+				name = "growth_scale"
+				position = { x = 72 y = 965 }
+
+				instantTextBoxType = {
+					name = "growth_scale_label"
+					position = { x = -20 y = 0 }
+					font = "malgun_goth_24"
+					maxWidth = 404
+					maxHeight = 52
+					orientation = "UPPER_LEFT"
+					text = "FE_GROWTH_SCALE"
+					pdx_tooltip = "FE_GROWTH_SCALE_TOOLTIP"
+					tooltip_mode_enabled = yes
+				}
+
+				instantTextBoxType = {
+					name = "pick_amount_value"
+					position = { x = 690 y = 0 }
+					font = "malgun_goth_24"
+					maxWidth = 50
+					maxHeight = 52
+					format = right
+					#alwaystransparent = yes
+					orientation = "UPPER_LEFT"
+					text = "0.25"
+				}
+
+				scrollbarType = {
+					id = "growth_scale_slider"
+					name = "amount_slider"
+					slider = "scrollbar_SliderButton"
+					track= "scrollbar_TrackButton"
+					leftbutton = "scrollbar_upButton"
+					rightbutton = "scrollbar_downButton"
+					size = {x = 307 y = 30 }
+					position = {x= 747 y =0}
+					priority = 100
+					borderSize = {x =16 y = 16}
+					maxValue = 100
+					minValue = 0
+					stepSize =1
+					startValue = 20
+					horizontal = 1
+
+					guiButtonType = {
+						name = "scrollbar_SliderButton"
+						quadTextureSprite = "GFX_settings_scroll_drager"
+						tooltip = ""
+						tooltipText =""
+						delayedTooltipText = ""
+						position = { x=30 y =0}
+					}
+					guiButtonType = {
+						name = "scrollbar_TrackButton"
+						quadTextureSprite = "scrollbar_background"
+						position = { x=30 y =20}
+						tooltip = ""
+						tooltipText =""
+						delayedTooltipText = ""
+					}
+					guiButtonType = {
+						name = "scrollbar_upButton"
+						quadTextureSprite = "scrollbar_leftbutton"
+						position = { x=30 y =0}
+					}
+					guiButtonType = {
+						name = "scrollbar_downButton"
+						quadTextureSprite = "scrollbar_rightbutton"
+						position = { x=30 y =0}
+					}
+					overlay = {
+						name = "selected_overlay"
+						spriteType = "GFX_glow_tile_orange_no_padding"
+						overSprite = "GFX_glow_tile_line"
+						position = { x = @spinnerOverlayPosX y = @spinnerOverlayPosY }
+						size = { x = @spinnerOverlaySizeX y = @spinnerOverlaySizeY }
+					}
+
+					navUp = "logistic_ceiling_slider"
+					navDown = "ironman_spinner"
+				}
+			}
+
 			# Ironman
 			containerWindowType = {
 				id = "ironman"
 				name = "ironman"
-				position = { x = 72 y = 955 }
+				position = { x = 72 y = 1035 }
 
 				iconType = {
 					name = "ironman_icon"
@@ -2411,11 +2602,11 @@ guiTypes = {
 						quadTextureSprite = "scrollbar_rightbutton"
 						position = { x=30 y =120}
 					}
-					
+
 					overlay = {
 						name = "selected_overlay"
 						spriteType = "GFX_glow_tile_orange_no_padding"
-						overSprite = "GFX_glow_tile_line"					
+						overSprite = "GFX_glow_tile_line"
 						position = { x = @spinnerOverlayPosX y = @spinnerOverlayPosY }
 						size = { x = @spinnerOverlaySizeX y = @spinnerOverlaySizeY }
 					}
@@ -2426,4 +2617,3 @@ guiTypes = {
 		}
 	}
 }
-

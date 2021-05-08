@@ -98,3 +98,6 @@
  swg2_trait_zakuul_desc:0 "§LAn empires with this trait will spawn on Zakuul in the Zakuul system as long as there isnt a player empire with the same trait.§!"
 
  swg2_custom_tooltip:0 "Test"
+
+ FE_GROWTH_SCALE:0 "Growth Required Scaling (Beta 3.0.3 only)"
+ FE_LOGISTIC_CEILING:0 "Logistic Growth Ceiling (Beta 3.0.3 only)"
