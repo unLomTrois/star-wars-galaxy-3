@@ -1,0 +1,14 @@
+# Yellow-Yellow Binary
+sc_binary_g_g = {
+	class = g_star
+	icon = swg2_g_binary_star
+	planet = {
+		key = pc_g_star
+		class = g_star
+	}
+	planet = {
+		key = pc_g_star
+		class = g_star
+	}
+	spawn_odds = 0
+}

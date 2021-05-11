@@ -1,0 +1,284 @@
+@base_planet_dist = 30
+@base_moon_dist = 15
+
+@capital_size = 20
+
+# Tython
+tython_system_initializer = {
+    name = "Tython"
+    class = "sc_k"
+	flags = { empire_cluster tython_system }
+	init_effect = {
+		generate_home_system_resources = yes
+	}
+	usage_odds = 0
+
+    planet = {
+        name = "Tythos"
+        class = star
+        orbit_distance = 0
+		size = { min = 30 max = 35 }
+		flags = { tython_star_tythos }
+    }
+    change_orbit = @base_planet_dist
+    planet = {
+        name = "Sunspot"
+        class = pc_ash
+        orbit_distance = 30
+        orbit_angle = { min = 90 max = 270 }
+		size = { min = 12 max = 17 }
+		has_ring = no
+		modifiers = none
+		flags = { tython_sunspot }
+		init_effect = {
+			set_planet_entity = {
+				entity = hothouse_planet_01_entity
+				picture = pc_hothouse
+			}
+		}
+		change_orbit = @base_moon_dist
+    }
+    planet = {
+        name = "Malterra"
+        class = pc_molten
+        orbit_distance = 30
+        orbit_angle = { min = 90 max = 270 }
+		size = { min = 10 max = 15 }
+		has_ring = no
+		flags = { tython_malterra }
+		change_orbit = @base_moon_dist
+    }
+    planet = {
+        name = "Nox"
+        class = pc_tundra
+        orbit_distance = 30
+        orbit_angle = { min = 90 max = 270 }
+		size = { min = 12 max = 17 }
+		has_ring = no
+		modifiers = none
+		flags = { tython_nox }
+		change_orbit = @base_moon_dist
+    }
+    planet = {
+        name = "Krev Coeur"
+        class = pc_karst
+        orbit_distance = 30
+        orbit_angle = { min = 90 max = 270 }
+		size = { min = 12 max = 17 }
+		has_ring = no
+		modifiers = none
+		flags = { tython_krev_coeur }
+		entity = arid_planet_01_entity
+		change_orbit = @base_moon_dist
+    }
+    planet = {
+        name = "Tython"
+        class = pc_continental
+        orbit_distance = 30
+        orbit_angle = { min = 90 max = 270 }
+        size = @capital_size
+		has_ring = no
+		home_planet = yes
+		modifiers = none
+		flags = { tython_planet }
+		change_orbit = @base_moon_dist
+        moon = {
+            name = "Ashla"
+            class = pc_barren_cold
+            orbit_distance = 2
+            orbit_angle = { min = 90 max = 270 }
+            size = { min = 2 max = 4 }
+			flags = { tython_ashla }
+        }
+        moon = {
+            name = "Bogan"
+            class = pc_barren
+            orbit_distance = 2
+            orbit_angle = { min = 90 max = 270 }
+            size = { min = 2 max = 4 }
+			flags = { tython_bogan }
+        }
+    }
+    planet = {
+        name = "Kalimahr"
+        class = pc_continental
+        orbit_distance = 30
+        orbit_angle = { min = 90 max = 270 }
+		size = { min = 12 max = 17 }
+		has_ring = no
+		modifiers = none
+		flags = { tython_kalimahr }
+		entity = forest_planet_01_entity
+		change_orbit = @base_moon_dist
+        moon = {
+            name = "Kalimahr I"
+            class = random_non_colonizable
+            orbit_distance = 2
+            orbit_angle = { min = 90 max = 270 }
+            size = { min = 2 max = 4 }
+			flags = { tython_kalimahr_1 }
+        }
+        moon = {
+            name = "Kalimahr II"
+            class = random_non_colonizable
+            orbit_distance = 2
+            orbit_angle = { min = 90 max = 270 }
+            size = { min = 2 max = 4 }
+			flags = { tython_kalimahr_2 }
+        }
+        moon = {
+            name = "Kalimahr III"
+            class = random_non_colonizable
+            orbit_distance = 2
+            orbit_angle = { min = 90 max = 270 }
+            size = { min = 2 max = 4 }
+			flags = { tython_kalimahr_3 }
+        }
+    }
+    planet = {
+        name = "Skikaakwa"
+        class = pc_cascadian
+        orbit_distance = 30
+		orbit_angle = { min = 90 max = 270 }
+        size = { min = 12 max = 17 }
+		has_ring = no
+		modifiers = none
+		flags = { tython_skikaakwa }
+		change_orbit = @base_moon_dist
+        moon = {
+            name = "Skikaakwa Minor"
+            class = pc_barren_cold
+            orbit_distance = 2
+            orbit_angle = { min = 90 max = 270 }
+            size = { min = 2 max = 4 }
+			flags = { tython_skikaakwa_minor }
+        }
+    }
+    planet = {
+        name = "Ska Gora"
+        class = pc_wetswamp
+        orbit_distance = 30
+		orbit_angle = { min = 90 max = 270 }
+        size = { min = 12 max = 17 }
+		has_ring = no
+		modifiers = none
+		flags = { tython_ska_gora }
+		change_orbit = @base_moon_dist
+        moon = {
+            name = "Ska Gora Minor"
+            class = random_non_colonizable
+            orbit_distance = 2
+            orbit_angle = { min = 90 max = 270 }
+            size = { min = 2 max = 4 }
+			flags = { tython_ska_gora_minor }
+        }
+    }
+    planet = {
+        name = "Obri"
+        class = pc_gas_giant
+        orbit_distance = 60
+        orbit_angle = { min = 90 max = 270 }
+        size = { min = 25 max = 30 }
+		flags = { tython_obri }
+		change_orbit = @base_moon_dist
+        moon = {
+            name = "Givbin"
+            class = pc_barren
+            orbit_distance = 2
+            orbit_angle = { min = 90 max = 270 }
+            size = { min = 2 max = 4 }
+			flags = { tython_givbin }
+        }
+        moon = {
+            name = "Zerist"
+            class = pc_karst
+            orbit_distance = 2
+            orbit_angle = { min = 90 max = 270 }
+			size = { min = 7 max = 10 }
+			flags = { tython_zerist }
+        }
+        moon = {
+	        name = "Alakor"
+            class = pc_barren_cold
+            orbit_distance = 2
+            orbit_angle = { min = 90 max = 270 }
+            size = { min = 2 max = 4 }
+			flags = { tython_alakor }
+        }
+    }
+    planet = {
+        name = "Mawr"
+        class = pc_gas_giant
+        orbit_distance = 60
+        orbit_angle = { min = 90 max = 270 }
+        size = { min = 25 max = 30 }
+		flags = { tython_mawr }
+		change_orbit = @base_moon_dist
+        moon = {
+            name = "Mawr I"
+            class = random_non_colonizable
+            orbit_distance = 2
+            orbit_angle = { min = 90 max = 270 }
+            size = { min = 2 max = 4 }
+			flags = { tython_mawr_1 }
+        }
+        moon = {
+            name = "Mawr II"
+            class = random_non_colonizable
+            orbit_distance = 2
+            orbit_angle = { min = 90 max = 270 }
+            size = { min = 2 max = 4 }
+			flags = { tython_mawr_2 }
+        }
+        moon = {
+            name = "Mawr III"
+            class = random_non_colonizable
+            orbit_distance = 2
+            orbit_angle = { min = 90 max = 270 }
+            size = { min = 2 max = 4 }
+			flags = { tython_mawr_3 }
+        }
+        moon = {
+            name = "Mawr IV"
+            class = random_non_colonizable
+            orbit_distance = 2
+            orbit_angle = { min = 90 max = 270 }
+            size = { min = 2 max = 4 }
+			flags = { tython_mawr_4 }
+        }
+        moon = {
+            name = "Mawr V"
+            class = random_non_colonizable
+            orbit_distance = 2
+            orbit_angle = { min = 90 max = 270 }
+            size = { min = 2 max = 4 }
+			flags = { tython_mawr_5 }
+        }
+        moon = {
+            name = "Mawr VI"
+            class = random_non_colonizable
+            orbit_distance = 2
+            orbit_angle = { min = 90 max = 270 }
+            size = { min = 2 max = 4 }
+			flags = { tython_mawr_6 }
+        }
+        moon = {
+            name = "Mawr VII"
+            class = random_non_colonizable
+            orbit_distance = 2
+            orbit_angle = { min = 90 max = 270 }
+            size = { min = 2 max = 4 }
+			flags = { tython_mawr_7 }
+        }
+    }
+    planet = {
+        name = "Furies Gate"
+        class = pc_barren_cold
+        orbit_distance = 60
+        orbit_angle = { min = 90 max = 270 }
+		size = { min = 10 max = 15 }
+		has_ring = no
+		flags = { tython_furies_gate }
+		change_orbit = @base_moon_dist
+    }
+}

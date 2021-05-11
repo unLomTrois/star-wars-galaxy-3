@@ -1,6 +1,6 @@
 static_galaxy_scenario = {
-	name = "swg2_large_random"
-	priority = 1
+	name = "swg2_large_lore"
+	priority = 5
 	default = no
 	num_empires = { min = 0 max = 38 }
 	num_empire_default = 16
@@ -29,7 +29,7 @@ static_galaxy_scenario = {
 	#################################
 
 	### Perlemian Trade Route
-	system = { id = "2" name = "Coruscant" position = { x = 0 y = -70 } initializer = random_coruscant_init spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_coruscant } } }
+	system = { id = "2" name = "Coruscant" position = { x = 0 y = -70 } initializer = coruscant_system_initializer spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_coruscant } } }
 	system = { id = "3" name = "Alsakan" position = { x = -7 y = -75 } }
 	system = { id = "4" name = "Grizmallt" position = { x = -13 y = -79 } }
 	system = { id = "5" name = "Anaxes" position = { x = -19 y = -82 } }
@@ -59,7 +59,7 @@ static_galaxy_scenario = {
 	system = { id = "43" name = "Arcan" position = { x = -348 y = -251 } }
 	system = { id = "44" name = "Lianna" position = { x = -350 y = -254 } }
 	system = { id = "45" name = "Barseg" position = { x = -353 y = -259 } }
-	system = { id = "46" name = "Desev" position = { x = -357 y = -268 } initializer = random_desev_init spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_desevro } } }
+	system = { id = "46" name = "Desev" position = { x = -357 y = -268 } initializer = desev_system_initializer spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_desevro } } }
 	system = { id = "47" name = "Livien" position = { x = -357 y = -270 } }
 	system = { id = "48" name = "Kanaver" position = { x = -360 y = -272 } }
 	system = { id = "49" name = "Janodral Mizar" position = { x = -366 y = -282 } }
@@ -113,7 +113,7 @@ static_galaxy_scenario = {
 	system = { id = "105" name = "Leria Kerlsil" position = { x = -62 y = -28 } }
 	system = { id = "108" name = "Rehemsa" position = { x = -74 y = 5 } }
 	system = { id = "110" name = "Rydonni Prime" position = { x = -77 y = 17 } }
-	system = { id = "111" name = "Corellian" position = { x = -78 y = 23 } initializer = random_corellian_init spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_corellia } } }
+	system = { id = "111" name = "Corellian" position = { x = -78 y = 23 } initializer = corellian_system_initializer spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_corellia } } }
 	system = { id = "112" name = "Nubus" position = { x = -80 y = 26 } }
 	system = { id = "113" name = "Tinnel" position = { x = -85 y = 37 } }
 	system = { id = "114" name = "Loronar" position = { x = -92 y = 54 } }
@@ -141,7 +141,7 @@ static_galaxy_scenario = {
 	system = { id = "138" name = "Savareen" position = { x = -295 y = 274 } }
 	system = { id = "139" name = "Arkanis" position = { x = -306 y = 284 } }
 	system = { id = "140" name = "Sirpar" position = { x = -310 y = 288 } }
-	system = { id = "143" name = "Ryloth" position = { x = -334 y = 310 } initializer = random_ryloth_init spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_ryloth } } }
+	system = { id = "143" name = "Ryloth" position = { x = -334 y = 310 } initializer = ryloth_system_initializer spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_ryloth } } }
 	system = { id = "145" name = "Smuggler's Run" position = { x = -363 y = 331 } }
 	# Free ids up to 200
 
@@ -188,7 +188,7 @@ static_galaxy_scenario = {
 
 	### Corellian Trade Spine
 	system = { id = "200" name = "New Plympto" position = { x = -79 y = 29 } }
-	system = { id = "201" name = "Duro" position = { x = -79 y = 33 } initializer = random_duro_init spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_duro } } }
+	system = { id = "201" name = "Duro" position = { x = -79 y = 33 } initializer = duro_system_initializer spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_duro } } }
 	system = { id = "202" name = "Chasin" position = { x = -78 y = 55 } }
 	system = { id = "205" name = "Gandeal" position = { x = -73 y = 71 } }
 	system = { id = "206" name = "Belazura" position = { x = -68 y = 84 } }
@@ -288,7 +288,7 @@ static_galaxy_scenario = {
 	system = { id = "309" name = "Kidriff" position = { x = -59 y = -165 } }
 	system = { id = "311" name = "Corsin" position = { x = -93 y = -186 } }
 	system = { id = "312" name = "Skorrupon" position = { x = -111 y = -195 } }
-	system = { id = "313" name = "Taris" position = { x = -134 y = -214 } initializer = random_taris_init spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_taris } } }
+	system = { id = "313" name = "Taris" position = { x = -134 y = -214 } initializer = taris_system_initializer spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_taris } } }
 	system = { id = "314" name = "Marcellus" position = { x = -143 y = -221 } }
 	system = { id = "315" name = "Bandomeer" position = { x = -158 y = -230 } }
 	system = { id = "316" name = "Harloen" position = { x = -162 y = -234 } }
@@ -425,7 +425,7 @@ static_galaxy_scenario = {
 	system = { id = "500" name = "Abregado-rae" position = { x = 3 y = 88 } }
 	system = { id = "501" name = "Dentaal" position = { x = 2 y = 93 } }
 	system = { id = "504" name = "Giju" position = { x = -1 y = 107 } }
-	system = { id = "505" name = "Fondor" position = { x = -12 y = 114 } initializer = random_fondor_init spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_fondor } } }
+	system = { id = "505" name = "Fondor" position = { x = -12 y = 114 } initializer = fondor_system_initializer spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_fondor } } }
 	system = { id = "506" name = "Mrlsst" position = { x = -14 y = 118 } }
 	system = { id = "507" name = "Ghorman" position = { x = -14 y = 128 } }
 	system = { id = "509" name = "Thyferra" position = { x = -33 y = 151 } }
@@ -510,7 +510,7 @@ static_galaxy_scenario = {
 	system = { id = "633" name = "Kuar" position = { x = 1 y = -47 } }
 	system = { id = "635" name = "Primus Goluud" position = { x = -18 y = -52 } }
 	system = { id = "638" name = "Vulpter" position = { x = -29 y = -45 } }
-	system = { id = "639" name = "Tython" position = { x = 0 y = -31 } initializer = random_tython_init spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_tython } } }
+	system = { id = "639" name = "Tython" position = { x = 0 y = -31 } initializer = tython_system_initializer spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_tython } } }
 	system = { id = "640" name = "Tsoss Beacon" position = { x = -5 y = -17 } }
 	system = { id = "642" name = "Dremulae" position = { x = -50 y = -33 } }
 	system = { id = "643" name = "Ator" position = { x = -53 y = -33 } }
@@ -614,7 +614,7 @@ static_galaxy_scenario = {
 	# Free ids up to 800
 
 	add_hyperlane = { from = "770" to = "753" }
-	add_hyperlane = { from = "770" to = "773" }
+	add_hyperlane = { from = "753" to = "773" }
 	add_hyperlane = { from = "773" to = "602" }
 	add_hyperlane = { from = "776" to = "602" }
 	add_hyperlane = { from = "776" to = "101" }
@@ -659,7 +659,7 @@ static_galaxy_scenario = {
 	system = { id = "840" name = "Ganthel" position = { x = -36 y = -84 } }
 	system = { id = "841" name = "Tepasi" position = { x = -43 y = -79 } }
 	system = { id = "843" name = "Caamas" position = { x = -55 y = -73 } }
-	system = { id = "844" name = "Alderaan" position = { x = -63 y = -67 } initializer = random_alderaan_init spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_alderaan } } }
+	system = { id = "844" name = "Alderaan" position = { x = -63 y = -67 } initializer = alderaan_system_initializer spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_alderaan } } }
 	system = { id = "845" name = "Tyed Kant" position = { x = -71 y = -58 } }
 	system = { id = "847" name = "Kattada" position = { x = -94 y = -57 } }
 	system = { id = "848" name = "Uquine" position = { x = -102 y = -53 } }
@@ -680,7 +680,7 @@ static_galaxy_scenario = {
 
 
 	### Kuat Connection
-	system = { id = "872" name = "Kuat" position = { x = -94 y = -39 } initializer = random_kuat_init spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_kuat } } }
+	system = { id = "872" name = "Kuat" position = { x = -94 y = -39 } initializer = kuat_system_initializer spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_kuat } } }
 	system = { id = "873" name = "Foundry" position = { x = -100 y = -32 } }
 	# Free ids up to 910
 
@@ -827,7 +827,7 @@ static_galaxy_scenario = {
 
 	### Quellor Run
 	system = { id = "1051" name = "Chorax" position = { x = -106 y = -12 } }
-	system = { id = "1053" name = "Cato Neimoidia" position = { x = -107 y = -2 } initializer = random_cato_neimoidia_init spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_cato_neimoidia } } }
+	system = { id = "1053" name = "Cato Neimoidia" position = { x = -107 y = -2 } initializer = cato_neimoidia_system_initializer spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_cato_neimoidia } } }
 	system = { id = "1055" name = "Talasea" position = { x = -111 y = 8 } }
 	system = { id = "1057" name = "Quellor" position = { x = -116 y = 35 } }
 	# Free ids up to 1070
@@ -1031,7 +1031,7 @@ static_galaxy_scenario = {
 	system = { id = "1290" name = "Bedlam" position = { x = -179 y = -181 } }
 	system = { id = "1293" name = "Concord Dawn" position = { x = -176 y = -193 } }
 	system = { id = "1294" name = "Krownest" position = { x = -165 y = -200 } }
-	system = { id = "1296" name = "Mandalore" position = { x = -183 y = -203 } initializer = random_mandalore_init spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_mandalore } } }
+	system = { id = "1296" name = "Mandalore" position = { x = -183 y = -203 } initializer = mandalore_system_initializer spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_mandalore } } }
 	system = { id = "1297" name = "Zanbar" position = { x = -188 y = -211 } }
 	system = { id = "1298" name = "Kalevala" position = { x = -177 y = -209 } }
 	system = { id = "1299" name = "Jakelia" position = { x = -180 y = -216 } }
@@ -1137,7 +1137,7 @@ static_galaxy_scenario = {
 	system = { id = "1401" name = "Ranroon" position = { x = -340 y = -311 } }
 	system = { id = "1402" name = "Zygerria" position = { x = -351 y = -342 } }
 	system = { id = "1403" name = "Oslumpex" position = { x = -367 y = -359 } }
-	system = { id = "1404" name = "Cantonica" position = { x = -367 y = -361 } initializer = random_cantonica_init spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_cantonica } } }
+	system = { id = "1404" name = "Cantonica" position = { x = -367 y = -361 } initializer = cantonica_system_initializer spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_cantonica } } }
 	system = { id = "1405" name = "Kalla" position = { x = -365 y = -363 } }
 	system = { id = "1406" name = "Lucaya" position = { x = -363 y = -365 } }
 	system = { id = "1407" name = "Etti" position = { x = -363 y = -367 } }
@@ -1177,7 +1177,7 @@ static_galaxy_scenario = {
 	system = { id = "1448" name = "Feswe Corridor" position = { x = -212 y = -275 } }
 	system = { id = "1449" name = "Feswe Prime" position = { x = -204 y = -277 } }
 	system = { id = "1451" name = "Ladarra" position = { x = -225 y = -276 } }
-	system = { id = "1452" name = "Yavin" position = { x = -227 y = -268 } initializer = random_yavin_init spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_yavin_4 } } }
+	system = { id = "1452" name = "Yavin" position = { x = -227 y = -268 } initializer = yavin_system_initializer spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_yavin_4 } } }
 	system = { id = "1453" name = "Torque" position = { x = -229 y = -259 } }
 	system = { id = "1454" name = "Jovan" position = { x = -239 y = -258 } }
 	system = { id = "1455" name = "Vaal" position = { x = -242 y = -269 } }
@@ -1198,15 +1198,15 @@ static_galaxy_scenario = {
 	system = { id = "1489" name = "Rhen Var" position = { x = -331 y = -246 } }
 	system = { id = "1490" name = "Draukyze" position = { x = -333 y = -244 } }
 	system = { id = "1491" name = "Galidraan" position = { x = -339 y = -248 } }
-	system = { id = "1493" name = "Felucia" position = { x = -338 y = -259 } initializer = random_felucia_init spawn_weight = { base = 1 modifier = { add = 100 has_trait = swg2_trait_felucia } } }
+	system = { id = "1493" name = "Felucia" position = { x = -338 y = -259 } initializer = felucia_system_initializer spawn_weight = { base = 1 modifier = { add = 100 has_trait = swg2_trait_felucia } } }
 	system = { id = "1495" name = "Tandankin" position = { x = -334 y = -267 } }
 	system = { id = "1496" name = "Stenos" position = { x = -310 y = -273 } }
 	system = { id = "1497" name = "Elom" position = { x = -314 y = -280 } }
 	system = { id = "1498" name = "Florrum" position = { x = -328 y = -289 } }
 	system = { id = "1499" name = "Corbos" position = { x = -300 y = -295 } }
-	system = { id = "1500" name = "Horuset" position = { x = -306 y = -302 } initializer = random_horuset_init spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_korriban } } }
+	system = { id = "1500" name = "Horuset" position = { x = -306 y = -302 } initializer = horuset_system_initializer spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_korriban } } }
 	system = { id = "1501" name = "Bosthirda" position = { x = -310 y = -307 } }
-	system = { id = "1502" name = "Dromund Kaas" position = { x = -316 y = -310 } initializer = random_dromund_init spawn_weight = { base = 1 modifier = { add = 100 has_trait = swg2_trait_dromund_kaas } } }
+	system = { id = "1502" name = "Dromund Kaas" position = { x = -316 y = -310 } initializer = dromund_system_initializer spawn_weight = { base = 1 modifier = { add = 100 has_trait = swg2_trait_dromund_kaas } } }
 	system = { id = "1504" name = "Khar Delba" position = { x = -328 y = -315 } }
 	system = { id = "1505" name = "Jaguada" position = { x = -318 y = -314 } }
 	system = { id = "1506" name = "Ashas Ree" position = { x = -309 y = -315 } }
@@ -1330,7 +1330,7 @@ static_galaxy_scenario = {
 	system = { id = "1605" name = "Troiken" position = { x = -379 y = -318 } }
 	system = { id = "1606" name = "Nathema" position = { x = -365 y = -325 } }
 	system = { id = "1607" name = "Vaynai" position = { x = -371 y = -330 } }
-	system = { id = "1608" name = "Malachor" position = { x = -358 y = -331 } initializer = random_malachor_init spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_malachor_v } } }
+	system = { id = "1608" name = "Malachor" position = { x = -358 y = -331 } initializer = malachor_system_initializer spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_malachor_v } } }
 	system = { id = "1609" name = "Rekkiad" position = { x = -366 y = -339 } }
 	# Free ids up to 1630
 
@@ -1432,7 +1432,7 @@ static_galaxy_scenario = {
 	system = { id = "1752" name = "Zeltros" position = { x = -175 y = -35 } }
 	system = { id = "1753" name = "Virujansi" position = { x = -183 y = -44 } }
 	system = { id = "1754" name = "Umbara" position = { x = -202 y = -60 } }
-	system = { id = "1757" name = "Kashyyyk" position = { x = -234 y = -75 } initializer = random_kashyyyk_init spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_kashyyyk } } }
+	system = { id = "1757" name = "Kashyyyk" position = { x = -234 y = -75 } initializer = kashyyyk_system_initializer spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_kashyyyk } } }
 	system = { id = "1758" name = "Trandosha" position = { x = -237 y = -77 } }
 	# Free ids up to 1770
 
@@ -1560,7 +1560,7 @@ static_galaxy_scenario = {
 	system = { id = "1930" name = "Ubrikkia" position = { x = -296 y = -37 } }
 	system = { id = "1931" name = "Kwenn" position = { x = -324 y = -28 } }
 	system = { id = "1933" name = "Nar Bo Sholla" position = { x = -341 y = -23 } }
-	system = { id = "1936" name = "Y'Toub" position = { x = -350 y = 33 } initializer = random_y'toub_init spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_nal_hutta } } }
+	system = { id = "1936" name = "Y'Toub" position = { x = -350 y = 33 } initializer = y'toub_system_initializer spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_nal_hutta } } }
 	# Free ids up to 1950
 
 	add_hyperlane = { from = "1901" to = "1920" }
@@ -1596,7 +1596,7 @@ static_galaxy_scenario = {
 	### Slice - Northern Expansion Region
 	system = { id = "1972" name = "Gorse" position = { x = -177 y = -30 } }
 	system = { id = "1974" name = "Cona" position = { x = -162 y = -10 } }
-	system = { id = "1975" name = "Pyrshak" position = { x = -157 y = 2 } initializer = random_pyrshak_init spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_manaan } } }
+	system = { id = "1975" name = "Pyrshak" position = { x = -157 y = 2 } initializer = pyrshak_system_initializer spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_manaan } } }
 	system = { id = "1977" name = "Truuine" position = { x = -151 y = 23 } }
 	system = { id = "1978" name = "Mytaranor" position = { x = -237 y = -65 } }
 	system = { id = "1981" name = "Bissillirus" position = { x = -249 y = -44 } }
@@ -1647,7 +1647,7 @@ static_galaxy_scenario = {
 	system = { id = "2044" name = "Jodaka" position = { x = -163 y = -94 } }
 	system = { id = "2045" name = "Gallinore" position = { x = -164 y = -98 } }
 	system = { id = "2046" name = "Millinar" position = { x = -165 y = -96 } }
-	system = { id = "2047" name = "Hapes" position = { x = -167 y = -96 } initializer = random_hapes_init spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_hapes } } }
+	system = { id = "2047" name = "Hapes" position = { x = -167 y = -96 } initializer = hapes_system_initializer spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_hapes } } }
 	# Free ids up to 2100
 
 	add_hyperlane = { from = "2034" to = "2035" }
@@ -1736,7 +1736,7 @@ static_galaxy_scenario = {
 
 	### Botan Run + Manda Merchant Route
 	system = { id = "2170" name = "Lannik" position = { x = -303 y = 95 } }
-	system = { id = "2173" name = "Both" position = { x = -309 y = 147 } initializer = random_both_init spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_bothawui } } }
+	system = { id = "2173" name = "Both" position = { x = -309 y = 147 } initializer = both_system_initializer spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_bothawui } } }
 	system = { id = "2174" name = "Kothlis" position = { x = -310 y = 159 } }
 	system = { id = "2179" name = "Manda" position = { x = -339 y = 182 } }
 	system = { id = "2180" name = "Leritor" position = { x = -287 y = 197 } }
@@ -1778,7 +1778,7 @@ static_galaxy_scenario = {
 	system = { id = "2226" name = "Gamorr" position = { x = -420 y = 146 } }
 	system = { id = "2233" name = "B-Foroon" position = { x = -327 y = 255 } }
 	system = { id = "2234" name = "C-Foroon" position = { x = -327 y = 257 } }
-	system = { id = "2236" name = "Tatoo" position = { x = -320 y = 266 } initializer = random_tatoo_init spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_tatooine } } }
+	system = { id = "2236" name = "Tatoo" position = { x = -320 y = 266 } initializer = tatoo_system_initializer spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_tatooine } } }
 	system = { id = "2237" name = "Andooweel" position = { x = -316 y = 269 } }
 	system = { id = "2240" name = "Trulalis" position = { x = -309 y = 280 } }
 	system = { id = "2241" name = "Tythe" position = { x = -289 y = 279 } }
@@ -1852,7 +1852,7 @@ static_galaxy_scenario = {
 	system = { id = "2313" name = "Iskalon" position = { x = -315 y = 245 } }
 	system = { id = "2314" name = "Ragna" position = { x = -288 y = 262 } }
 	system = { id = "2315" name = "Rodia" position = { x = -297 y = 262 } }
-	system = { id = "2316" name = "Kamino" position = { x = -353 y = 195 } initializer = random_kamino_init spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_kamino } } }
+	system = { id = "2316" name = "Kamino" position = { x = -353 y = 195 } initializer = kamino_system_initializer spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_kamino } } }
 	system = { id = "2318" name = "Abrion Major" position = { x = -354 y = 206 } }
 	system = { id = "2322" name = "Pii" position = { x = -308 y = 254 } }
 	system = { id = "2324" name = "Goroth Prime" position = { x = -305 y = 254 } }
@@ -1927,7 +1927,7 @@ static_galaxy_scenario = {
 	system = { id = "2373" name = "Toydaria" position = { x = -333 y = 16 } }
 	system = { id = "2374" name = "Tol Amn" position = { x = -316 y = 10 } }
 	system = { id = "2376" name = "Runaway Prince" position = { x = -322 y = 0 } }
-	system = { id = "2380" name = "Varl" position = { x = -383 y = 8 } initializer = random_ardos_init spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_varl } } }
+	system = { id = "2380" name = "Varl" position = { x = -383 y = 8 } initializer = ardos_system_initializer spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_varl } } }
 	system = { id = "2383" name = "Saqqar" position = { x = -423 y = -2 } }
 	system = { id = "2384" name = "Nar Haaska" position = { x = -438 y = 5 } }
 	system = { id = "2386" name = "The Godsheart" position = { x = -413 y = -3 } }
@@ -1965,7 +1965,7 @@ static_galaxy_scenario = {
 	system = { id = "2442" name = "Randa" position = { x = -405 y = -62 } }
 	system = { id = "2443" name = "Zerm" position = { x = -411 y = -59 } }
 	system = { id = "2444" name = "The Maw" position = { x = -412 y = -65 } }
-	system = { id = "2445" name = "Kessel" position = { x = -416 y = -64 } initializer = random_kessel_init spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_kessel } } }
+	system = { id = "2445" name = "Kessel" position = { x = -416 y = -64 } initializer = kessel_system_initializer spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_kessel } } }
 	system = { id = "2446" name = "Aeneid" position = { x = -420 y = -60 } }
 	system = { id = "2447" name = "Honoghr" position = { x = -421 y = -55 } }
 	system = { id = "2448" name = "Little Kessel" position = { x = -429 y = -59 } }
@@ -2086,7 +2086,7 @@ static_galaxy_scenario = {
 	system = { id = "2528" name = "Kijimi" position = { x = -323 y = -154 } }
 	system = { id = "2529" name = "Ultaar" position = { x = -321 y = -144 } }
 	system = { id = "2531" name = "Ingo" position = { x = -338 y = -154 } }
-	system = { id = "2533" name = "Saleucami" position = { x = -364 y = -153 } initializer = random_saleucami_init spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_saleucami } } }
+	system = { id = "2533" name = "Saleucami" position = { x = -364 y = -153 } initializer = saleucami_system_initializer spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_saleucami } } }
 	system = { id = "2534" name = "Oovo" position = { x = -386 y = -157 } }
 	system = { id = "2536" name = "Kile" position = { x = -352 y = -186 } }
 	system = { id = "2537" name = "Dar'Or" position = { x = -339 y = -197 } }
@@ -2136,7 +2136,7 @@ static_galaxy_scenario = {
 	system = { id = "2576" name = "Munto Codru" position = { x = -445 y = -250 } }
 	system = { id = "2577" name = "Reginard" position = { x = -446 y = -247 } }
 	system = { id = "2578" name = "Ruisto" position = { x = -448 y = -236 } }
-	system = { id = "2579" name = "Calamari" position = { x = -451 y = -233 } initializer = random_calamari_init spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_mon_calamari } } }
+	system = { id = "2579" name = "Calamari" position = { x = -451 y = -233 } initializer = calamari_system_initializer spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_mon_calamari } } }
 	system = { id = "2580" name = "Pammant" position = { x = -453 y = -231 } }
 	system = { id = "2583" name = "Sanctuary" position = { x = -457 y = -216 } }
 	system = { id = "2585" name = "Lothal" position = { x = -465 y = -211 } }
@@ -2316,7 +2316,7 @@ static_galaxy_scenario = {
 	system = { id = "2770" name = "Hefi" position = { x = -358 y = 217 } }
 	system = { id = "2771" name = "Roon" position = { x = -350 y = 221 } }
 	system = { id = "2772" name = "Hypori" position = { x = -360 y = 252 } }
-	system = { id = "2773" name = "Geonosis" position = { x = -322 y = 266 } initializer = random_geonosis_init spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_geonosis } } }
+	system = { id = "2773" name = "Geonosis" position = { x = -322 y = 266 } initializer = geonosis_system_initializer spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_geonosis } } }
 	system = { id = "2776" name = "Najiba" position = { x = -313 y = 282 } }
 	system = { id = "2780" name = "Khubeaie" position = { x = -327 y = 287 } }
 	system = { id = "2784" name = "Cranan" position = { x = -330 y = 271 } }
@@ -2431,7 +2431,7 @@ static_galaxy_scenario = {
 	system = { id = "2884" name = "Ord Sigatt" position = { x = -106 y = -227 } }
 	system = { id = "2886" name = "Halmad" position = { x = -145 y = -236 } }
 	system = { id = "2887" name = "Amorris" position = { x = -163 y = -246 } }
-	system = { id = "2888" name = "Dathomir" position = { x = -155 y = -250 } initializer = random_dathomir_init spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_dathomir } } }
+	system = { id = "2888" name = "Dathomir" position = { x = -155 y = -250 } initializer = dathomir_system_initializer spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_dathomir } } }
 	system = { id = "2889" name = "Quelii" position = { x = -157 y = -255 } }
 	system = { id = "2891" name = "Cathar" position = { x = -140 y = -256 } }
 	system = { id = "2892" name = "Aefao" position = { x = -120 y = -273 } }
@@ -2499,7 +2499,7 @@ static_galaxy_scenario = {
 	system = { id = "2942" name = "Prefsbelt" position = { x = 48 y = -301 } }
 	system = { id = "2944" name = "Yaga Minor" position = { x = 48 y = -309 } }
 	system = { id = "2946" name = "Entralla" position = { x = 46 y = -329 } }
-	system = { id = "2949" name = "Muunilinst" position = { x = 41 y = -344 } initializer = random_muunilinst_init spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_muunilinst } } }
+	system = { id = "2949" name = "Muunilinst" position = { x = 41 y = -344 } initializer = muunilinst_system_initializer spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_muunilinst } } }
 	system = { id = "2950" name = "Jaemus" position = { x = 43 y = -363 } }
 	system = { id = "2951" name = "Bescane" position = { x = 44 y = -374 } }
 	system = { id = "2952" name = "Bastion" position = { x = 45 y = -392 } }
@@ -2614,7 +2614,7 @@ static_galaxy_scenario = {
 	system = { id = "3072" name = "Vuchelle" position = { x = -28 y = -281 } }
 	system = { id = "3073" name = "New Bakstre" position = { x = 5 y = -285 } }
 	system = { id = "3075" name = "Garqi" position = { x = 20 y = -292 } }
-	system = { id = "3078" name = "Mygeeto" position = { x = 26 y = -316 } initializer = random_mygeeto_init spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_mygeeto } } }
+	system = { id = "3078" name = "Mygeeto" position = { x = 26 y = -316 } initializer = mygeeto_system_initializer spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_mygeeto } } }
 	system = { id = "3080" name = "Maelstrom Nebula" position = { x = 6 y = -313 } }
 	system = { id = "3082" name = "Mantooine" position = { x = -27 y = -305 } }
 	system = { id = "3083" name = "Horuz" position = { x = -35 y = -304 } }
@@ -2879,7 +2879,7 @@ static_galaxy_scenario = {
 	system = { id = "3339" name = "Roldalna" position = { x = -137 y = 232 } }
 	system = { id = "3340" name = "Kalinda" position = { x = -162 y = 240 } }
 	system = { id = "3341" name = "Alassa Major" position = { x = -168 y = 253 } }
-	system = { id = "3342" name = "Naboo" position = { x = -167 y = 282 } initializer = random_naboo_init spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_naboo } } }
+	system = { id = "3342" name = "Naboo" position = { x = -167 y = 282 } initializer = naboo_system_initializer spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_naboo } } }
 	system = { id = "3344" name = "Zelos" position = { x = -123 y = 250 } }
 	system = { id = "3346" name = "Seltos" position = { x = -140 y = 248 } }
 	system = { id = "3348" name = "Umgul" position = { x = -129 y = 265 } }
@@ -2956,7 +2956,7 @@ static_galaxy_scenario = {
 	system = { id = "3412" name = "Andasala" position = { x = -234 y = 345 } }
 	system = { id = "3414" name = "Socorro" position = { x = -256 y = 314 } }
 	system = { id = "3415" name = "Xagobah" position = { x = -93 y = 366 } }
-	system = { id = "3417" name = "Dagobah" position = { x = -80 y = 406 } initializer = random_dagobah_init spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_dagobah } } }
+	system = { id = "3417" name = "Dagobah" position = { x = -80 y = 406 } initializer = dagobah_system_initializer spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_dagobah } } }
 	system = { id = "3418" name = "Utapau" position = { x = -101 y = 422 } }
 	system = { id = "3421" name = "Corva Yag" position = { x = -109 y = 448 } }
 	system = { id = "3422" name = "Eliad" position = { x = -92 y = 467 } }
@@ -3155,7 +3155,7 @@ static_galaxy_scenario = {
 	system = { id = "3653" name = "Cyimarra" position = { x = -12 y = 320 } }
 	system = { id = "3655" name = "Loovria" position = { x = -7 y = 334 } }
 	system = { id = "3656" name = "Tinallis" position = { x = -9 y = 332 } }
-	system = { id = "3660" name = "Juvex" position = { x = -11 y = 330 } initializer = random_juvex_init spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_juvex } } }
+	system = { id = "3660" name = "Juvex" position = { x = -11 y = 330 } initializer = juvex_system_initializer spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_juvex } } }
 	system = { id = "3665" name = "Atron" position = { x = -18 y = 333 } }
 	system = { id = "3668" name = "Doreen" position = { x = -12 y = 332 } }
 	system = { id = "3670" name = "Varadan" position = { x = -12 y = 335 } }
@@ -3298,7 +3298,7 @@ static_galaxy_scenario = {
 	system = { id = "3810" name = "Varonat" position = { x = 44 y = 354 } }
 	system = { id = "3811" name = "Bespin" position = { x = 45 y = 355 } }
 	system = { id = "3812" name = "Anoat" position = { x = 45 y = 357 } }
-	system = { id = "3813" name = "Hoth" position = { x = 45 y = 359 } initializer = random_hoth_init spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_hoth } } }
+	system = { id = "3813" name = "Hoth" position = { x = 45 y = 359 } initializer = hoth_system_initializer spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_hoth } } }
 	system = { id = "3814" name = "Ison" position = { x = 43 y = 361 } }
 	system = { id = "3815" name = "Burnin Konn" position = { x = 38 y = 360 } }
 	system = { id = "3816" name = "Allyuen" position = { x = 36 y = 359 } }
@@ -3313,7 +3313,7 @@ static_galaxy_scenario = {
 	system = { id = "3843" name = "Dorvalla" position = { x = -69 y = 349 } }
 	system = { id = "3846" name = "Dalicron" position = { x = 9 y = 394 } }
 	system = { id = "3847" name = "Barkhesh" position = { x = 25 y = 417 } }
-	system = { id = "3848" name = "Mustafar" position = { x = -8 y = 421 } initializer = random_mustafar_init spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_mustafar } } }
+	system = { id = "3848" name = "Mustafar" position = { x = -8 y = 421 } initializer = mustafar_system_initializer spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_mustafar } } }
 	system = { id = "3849" name = "Orto" position = { x = -71 y = 384 } }
 	system = { id = "3850" name = "Bpfassh" position = { x = -67 y = 392 } }
 	system = { id = "3852" name = "Derilyn" position = { x = -74 y = 427 } }
@@ -3424,7 +3424,7 @@ static_galaxy_scenario = {
 	system = { id = "3931" name = "Abbaji" position = { x = 156 y = 271 } }
 	system = { id = "3932" name = "Annaj" position = { x = 163 y = 278 } }
 	system = { id = "3933" name = "Ovise" position = { x = 162 y = 276 } }
-	system = { id = "3938" name = "Endor" position = { x = 170 y = 271 } initializer = random_endor_init spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_endor } } }
+	system = { id = "3938" name = "Endor" position = { x = 170 y = 271 } initializer = endor_system_initializer spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_endor } } }
 	system = { id = "3940" name = "Ast Kikorie" position = { x = 173 y = 270 } }
 	system = { id = "3943" name = "Bakura" position = { x = 217 y = 265 } }
 	## Free ids up to 3950
@@ -3465,10 +3465,10 @@ static_galaxy_scenario = {
 	system = { id = "3998" name = "Bormter" position = { x = 194 y = 166 } }
 	system = { id = "3999" name = "Odessen" position = { x = 211 y = 176 } }
 	system = { id = "4000" name = "O'reen" position = { x = 195 y = 107 } }
-	system = { id = "4001" name = "Jakku" position = { x = 136 y = 88 } initializer = random_jakku_init spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_jakku } } }
+	system = { id = "4001" name = "Jakku" position = { x = 136 y = 88 } initializer = jakku_system_initializer spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_jakku } } }
 	system = { id = "4002" name = "Zonama Sekot" position = { x = 253 y = 86 } }
 	system = { id = "4003" name = "Ahch-To" position = { x = 324 y = 96 } }
-	system = { id = "4004" name = "Zakuul" position = { x = 370 y = 84 } initializer = random_zakuul_init spawn_weight = { base = 1 modifier = { add = 100 has_trait = swg2_trait_zakuul } } }
+	system = { id = "4004" name = "Zakuul" position = { x = 370 y = 84 } initializer = zakuul_system_initializer spawn_weight = { base = 1 modifier = { add = 100 has_trait = swg2_trait_zakuul } } }
 	system = { id = "4005" name = "Ponemah" position = { x = 202 y = 115 } }
 	## Free ids up to 4060
 
@@ -3565,7 +3565,7 @@ static_galaxy_scenario = {
 	system = { id = "4155" name = "Crustai" position = { x = 194 y = -124 } }
 	system = { id = "4160" name = "Naporar" position = { x = 291 y = -137 } }
 	system = { id = "4162" name = "Exegol" position = { x = 299 y = -180 } }
-	system = { id = "4164" name = "Csilla" position = { x = 296 y = -122 } initializer = random_csilla_init spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_csilla } } }
+	system = { id = "4164" name = "Csilla" position = { x = 296 y = -122 } initializer = csilla_system_initializer spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_csilla } } }
 	system = { id = "4172" name = "Copero" position = { x = 286 y = -108 } }
 	system = { id = "4174" name = "Rhigar" position = { x = 301 y = -104 } }
 	system = { id = "4176" name = "Klasse Ephemora" position = { x = 280 y = -93 } }

@@ -1,0 +1,339 @@
+namespace = swg2_start_fix
+
+country_event = {
+	id = swg2_start_fix.1
+	hide_window = yes
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	trigger = {
+		OR = { 
+			galaxy_size = swg2_huge_lore
+			galaxy_size = swg2_large_lore
+			galaxy_size = swg2_medium_lore
+			galaxy_size = swg2_small_lore
+		}
+	}
+
+	immediate = {
+		every_system = {
+			switch = {
+				trigger = has_star_flag
+				coruscant_system = { coruscant_fix = yes }
+				desev_system = { desev_fix = yes }
+				corellian_system = { corellian_fix = yes }
+				ryloth_system = { ryloth_fix = yes }
+				duro_system = { duro_fix = yes }
+				taris_system = { taris_fix = yes }
+				fondor_system = { fondor_fix = yes }
+				tython_system = { tython_fix = yes }
+				alderaan_system = { alderaan_fix = yes }
+				kuat_system = { kuat_fix = yes }
+				cato_neimoidia_system = { cato_neimoidia_fix = yes }
+				mandalore_system = { mandalore_fix = yes }
+				cantonica_system = { cantonica_fix = yes }
+				yavin_system = { yavin_fix = yes }
+				felucia_system = { felucia_fix = yes }
+				horuset_system = { horuset_fix = yes }
+				dromund_system = { dromund_fix = yes }
+				malachor_system = { malachor_fix = yes }
+				kashyyyk_system = { kashyyyk_fix = yes }
+				y'toub_system = { y'toub_fix = yes }
+				pyrshak_system = { pyrshak_fix = yes }
+				hapes_system = { hapes_fix = yes }
+				both_system = { both_fix = yes }
+				tatoo_system = { tatoo_fix = yes }
+				kamino_system = { kamino_fix = yes }
+				ardos_system = { ardos_fix = yes }
+				kessel_system = { kessel_fix = yes }
+				saleucami_system = { saleucami_fix = yes }
+				calamari_system = { calamari_fix = yes }
+				geonosis_system = { geonosis_fix = yes }
+				dathomir_system = { dathomir_fix = yes }
+				muunilinst_system = { muunilinst_fix = yes }
+				mygeeto_system = { mygeeto_fix = yes }
+				naboo_system = { naboo_fix = yes }
+				dagobah_system = { dagobah_fix = yes }
+				juvex_system = { juvex_fix = yes }
+				hoth_system = { hoth_fix = yes }
+				mustafar_system = { mustafar_fix = yes }
+				endor_system = { endor_fix = yes }
+				jakku_system = { jakku_fix = yes }
+				zakuul_system = { zakuul_fix = yes }
+				csilla_system = { csilla_fix = yes }
+			}
+		}
+	}
+}
+
+# Fix Random System Names
+country_event = {
+	id = swg2_start_fix.2
+	hide_window = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	trigger = {
+		OR = { 
+			galaxy_size = swg2_huge_random
+			galaxy_size = swg2_large_random
+			galaxy_size = swg2_medium_random
+			galaxy_size = swg2_small_random
+		}
+	}
+
+	immediate = {
+		event_target:random_planet_alderaan = {
+			set_name = "Alderaan"
+			solar_system = {
+				set_name = "Alderaan"
+			}
+		}
+		event_target:random_planet_bothawui = {
+			set_name = "Bothawui"
+			solar_system = {
+				set_name = "Both"
+			}
+		}
+		event_target:random_planet_cantonica = {
+			set_name = "Cantonica"
+			solar_system = {
+				set_name = "Cantonica"
+			}
+		}
+		event_target:random_planet_cato_neimoidia = {
+			set_name = "Cato Neimoidia"
+			solar_system = {
+				set_name = "Cato Neimoidia"
+			}
+		}
+		event_target:random_planet_corellia = {
+			set_name = "Corellia"
+			solar_system = {
+				set_name = "Corellian"
+			}
+		}
+		event_target:random_planet_coruscant = {
+			set_name = "Coruscant"
+			solar_system = {
+				set_name = "Coruscant"
+			}
+		}
+		event_target:random_planet_csilla = {
+			set_name = "Csilla"
+			solar_system = {
+				set_name = "Csilla"
+			}
+		}
+		event_target:random_planet_dagobah = {
+			set_name = "Dagobah"
+			solar_system = {
+				set_name = "Dagobah"
+			}
+		}
+		event_target:random_planet_dathomir = {
+			set_name = "Dathomir"
+			solar_system = {
+				set_name = "Dathomir"
+			}
+		}
+		event_target:random_planet_desevro = {
+			set_name = "Desevro"
+			solar_system = {
+				set_name = "Desev"
+			}
+		}
+		event_target:random_planet_dromund_kaas = {
+			set_name = "Dromund Kaas"
+			solar_system = {
+				set_name = "Dromund"
+			}
+		}
+		event_target:random_planet_duro = {
+			set_name = "Duro"
+			solar_system = {
+				set_name = "Duro"
+			}
+		}
+		event_target:random_planet_endor = {
+			set_name = "Endor"
+			solar_system = {
+				set_name = "Endor"
+			}
+		}
+		event_target:random_planet_felucia = {
+			set_name = "Felucia"
+			solar_system = {
+				set_name = "Felucia"
+			}
+		}
+		event_target:random_planet_fondor = {
+			set_name = "Fondor"
+			solar_system = {
+				set_name = "Fondor"
+			}
+		}
+		event_target:random_planet_geonosis = {
+			set_name = "Geonosis"
+			solar_system = {
+				set_name = "Geonosis"
+			}
+		}
+		event_target:random_planet_hapes = {
+			set_name = "Hapes"
+			solar_system = {
+				set_name = "Hapes"
+			}
+		}
+		event_target:random_planet_hoth = {
+			set_name = "Hoth"
+			solar_system = {
+				set_name = "Hoth"
+			}
+		}
+		event_target:random_planet_jakku = {
+			set_name = "Jakku"
+			solar_system = {
+				set_name = "Jakku"
+			}
+		}
+		event_target:random_planet_juvex = {
+			set_name = "Juvex"
+			solar_system = {
+				set_name = "Juvex"
+			}
+		}
+		event_target:random_planet_kamino = {
+			set_name = "Kamino"
+			solar_system = {
+				set_name = "Kamino"
+			}
+		}
+		event_target:random_planet_kashyyyk = {
+			set_name = "Kashyyyk"
+			solar_system = {
+				set_name = "Kashyyyk"
+			}
+		}
+		event_target:random_planet_kessel = {
+			set_name = "Kessel"
+			solar_system = {
+				set_name = "Kessel"
+			}
+		}
+		event_target:random_planet_korriban = {
+			set_name = "Korriban"
+			solar_system = {
+				set_name = "Horuset"
+			}
+		}
+		event_target:random_planet_kuat = {
+			set_name = "Kuat"
+			solar_system = {
+				set_name = "Kuat"
+			}
+		}
+		event_target:random_planet_malachor_v = {
+			set_name = "Malachor V"
+			solar_system = {
+				set_name = "Malachor"
+			}
+		}
+		event_target:random_planet_manaan = {
+			set_name = "Manaan"
+			solar_system = {
+				set_name = "Pyrshak"
+			}
+		}
+		event_target:random_planet_mandalore = {
+			set_name = "Mandalore"
+			solar_system = {
+				set_name = "Mandalore"
+			}
+		}
+		event_target:random_planet_dac = {
+			set_name = "Dac"
+			solar_system = {
+				set_name = "Calamari"
+			}
+		}
+		event_target:random_planet_mustafar = {
+			set_name = "Mustafar"
+			solar_system = {
+				set_name = "Mustafar"
+			}
+		}
+		event_target:random_planet_muunilinst = {
+			set_name = "Muunilinst"
+			solar_system = {
+				set_name = "Muunilinst"
+			}
+		}
+		event_target:random_planet_mygeeto = {
+			set_name = "Mygeeto"
+			solar_system = {
+				set_name = "Mygeeto"
+			}
+		}
+		event_target:random_planet_naboo = {
+			set_name = "Naboo"
+			solar_system = {
+				set_name = "Naboo"
+			}
+		}
+		event_target:random_planet_nal_hutta = {
+			set_name = "Nal Hutta"
+			solar_system = {
+				set_name = "Y'Toub"
+			}
+		}
+		event_target:random_planet_ryloth = {
+			set_name = "Ryloth"
+			solar_system = {
+				set_name = "Ryloth"
+			}
+		}
+		event_target:random_planet_saleucami = {
+			set_name = "Saleucami"
+			solar_system = {
+				set_name = "Saleucami"
+			}
+		}
+		event_target:random_planet_taris = {
+			set_name = "Taris"
+			solar_system = {
+				set_name = "Taris"
+			}
+		}
+		event_target:random_planet_tatooine = {
+			set_name = "Tatooine"
+			solar_system = {
+				set_name = "Tatoo"
+			}
+		}
+		event_target:random_planet_tython = {
+			set_name = "Tython"
+			solar_system = {
+				set_name = "Tython"
+			}
+		}
+		event_target:random_planet_varl = {
+			set_name = "Varl"
+			solar_system = {
+				set_name = "Ardos"
+			}
+		}
+		event_target:random_planet_yavin_4 = {
+			set_name = "Yavin 4"
+			solar_system = {
+				set_name = "Yavin"
+			}
+		}
+		event_target:random_planet_zakuul = {
+			set_name = "Zakuul"
+			solar_system = {
+				set_name = "Zakuul"
+			}
+		}
+	}
+}

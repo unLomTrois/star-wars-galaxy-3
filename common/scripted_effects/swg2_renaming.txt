@@ -1,0 +1,1208 @@
+
+coruscant_fix = {
+	set_name = "Coruscant"
+	every_system_planet = {
+		switch = {
+			trigger = has_planet_flag
+			coruscant_star = { set_name = "Coruscant Prime" }
+			coruscant_revisse = { set_name = "Revisse" }
+			coruscant_platoril = { set_name = "Platoril" }
+			coruscant_vandor_1 = { set_name = "Vandor-1" }
+			coruscant_vandor_2 = { set_name = "Vandor-2" }
+			coruscant_vandor_3 = { set_name = "Vandor-3" }
+			coruscant_planet = { set_name = "Coruscant" }
+			coruscant_centax_1 = { set_name = "Centax-1" }
+			coruscant_centax_2 = { set_name = "Centax-2" }
+			coruscant_centax_3 = { set_name = "Centax-3" }
+			coruscant_hesperidium = { set_name = "Hesperidium" }
+			coruscant_muscave = { set_name = "Muscave" }
+			coruscant_muscave_1 = { set_name = "Muscave I" }
+			coruscant_muscave_2 = { set_name = "Muscave II" }
+			coruscant_muscave_3 = { set_name = "Muscave III" }
+			coruscant_muscave_4 = { set_name = "Muscave IV" }
+			coruscant_muscave_21 = { set_name = "Muscave XXI" }
+			coruscant_stentat = { set_name = "Stentat" }
+			coruscant_stentat_1 = { set_name = "Stentat I" }
+			coruscant_stentat_2 = { set_name = "Stentat II" }
+			coruscant_stentat_3 = { set_name = "Stentat III" }
+			coruscant_stentat_4 = { set_name = "Stentat IV" }
+			coruscant_stentat_23 = { set_name = "Stentat XXIII" }
+			coruscant_improcco = { set_name = "Improcco" }
+			coruscant_improcco_moon = { set_name = "Frozen Moon of Improcco" }
+			coruscant_nabatu = { set_name = "Nabatu" }
+			coruscant_ulabos = { set_name = "Ulabos" }
+		}
+	}
+}
+
+desev_fix = {
+	set_name = "Desev"
+	every_system_planet = {
+		switch = {
+			trigger = has_planet_flag
+			desev_desev = { set_name = "Desev" }
+			desev_maugina = { set_name = "Maugina" }
+			desev_arjus = { set_name = "Arjus" }
+			desev_arjus_1 = { set_name = "Arjus I" }
+			desev_arjus_2 = { set_name = "Arjus II" }
+			desev_arjus_3 = { set_name = "Arjus III" }
+			desev_arjus_4 = { set_name = "Arjus IV" }
+			desev_arjus_5 = { set_name = "Arjus V" }
+			desev_arjus_6 = { set_name = "Arjus VI" }
+			desev_arjus_7 = { set_name = "Arjus VII" }
+			desev_arjus_38 = { set_name = "Arjus XXXVIII" }
+			desevro_planet = { set_name = "Desevro" }
+			desev_mun = { set_name = "Mun" }
+			desev_gauther = { set_name = "Gauther" }
+		}
+	}
+}
+
+corellian_fix = {
+	set_name = "Corellian"
+	every_system_planet = {
+		switch = {
+			trigger = has_planet_flag
+			corellian_corell = { set_name = "Corell" }
+			corellia_planet = { set_name = "Corellia" }
+			corellian_gus_talen = { set_name = "Gus Talen" }
+			corellian_corellia_minor = { set_name = "Corellia Minor" }
+			corellian_gus_treta = { set_name = "Gus Treta" }
+			corellian_drall = { set_name = "Drall" }
+			corellian_talus = { set_name = "Talus" }
+			corellian_tralus = { set_name = "Tralus" }
+			corellian_selonia = { set_name = "Selonia" }
+			corellian_crollia = { set_name = "Crollia" }
+			corellian_soronia = { set_name = "Soronia" }
+			corellian_kiris_3 = { set_name = "Kiris 3" }
+			corellian_kiris_17 = { set_name = "Kiris 17" }
+			corellian_kiris_6 = { set_name = "Kiris 6" }
+		}
+	}
+}
+
+ryloth_fix = {
+	set_name = "Ryloth"
+	every_system_planet = {
+		switch = {
+			trigger = has_planet_flag
+			ryloth_star = { set_name = "Ryloth" }
+			ryloth_mon_bala = { set_name = "Mon Bala" }
+			ryloth_planet = { set_name = "Ryloth" }
+			ryloth_ryloth_a = { set_name = "Ryloth A" }
+			ryloth_ryloth_b = { set_name = "Ryloth B" }
+			ryloth_ryloth_c = { set_name = "Ryloth C" }
+			ryloth_ryloth_d = { set_name = "Ryloth D" }
+			ryloth_ryloth_e = { set_name = "Ryloth E" }
+			ryloth_or_tuma = { set_name = "Or Tuma" }
+		}
+	}
+}
+
+duro_fix = {
+	set_name = "Duro"
+	every_system_planet = {
+		switch = {
+			trigger = has_planet_flag
+			duro_star = { set_name = "Duro" }
+			duro_lors = { set_name = "Lors" }
+			duro_lors_minor = { set_name = "Lors Minor" }
+			duro_planet = { set_name = "Duro" }
+			duro_koli = { set_name = "Koli" }
+			duro_koli_major = { set_name = "Koli Major" }
+			duro_koli_minor = { set_name = "Koli Minor" }
+			duro_4 = { set_name = "Duro IV" }
+		}
+	}
+}
+
+taris_fix = {
+	set_name = "Taris"
+	every_system_planet = {
+		switch = {
+			trigger = has_planet_flag
+			taris_star = { set_name = "Taris" }
+			taris_1 = { set_name = "Taris I" }
+			taris_2 = { set_name = "Taris II" }
+			taris_2a = { set_name = "Taris IIa" }
+			taris_3 = { set_name = "Taris III" }
+			taris_4 = { set_name = "Taris IV" }
+			taris_4a = { set_name = "Taris IVa" }
+			taris_planet = { set_name = "Taris" }
+			taris_taris_a = { set_name = "Taris A" }
+			taris_taris_b = { set_name = "Taris B" }
+			taris_taris_c = { set_name = "Taris C" }
+			taris_taris_d = { set_name = "Taris D" }
+			taris_4 = { set_name = "Taris VI" }
+			taris_4a = { set_name = "Taris VIa" }
+			taris_4b = { set_name = "Taris VIb" }
+			taris_4c = { set_name = "Taris VIc" }
+			taris_4d = { set_name = "Taris VId" }
+			taris_4e = { set_name = "Taris VIe" }
+			taris_rouge_moon = { set_name = "Rogue Moon" }
+		}
+	}
+}
+
+fondor_fix = {
+	set_name = "Fondor"
+	every_system_planet = {
+		switch = {
+			trigger = has_planet_flag
+			fondor_star = { set_name = "Fondor" }
+			fondor_faliar = { set_name = "Faliar" }
+			fondor_planet = { set_name = "Fondor" }
+			fondor_fondor_1 = { set_name = "Fondor I" }
+			fondor_fondor_2 = { set_name = "Fondor II" }
+			fondor_nallastia = { set_name = "Nallastia" }
+			fondor_fondor_4 = { set_name = "Fondor IV" }
+			fondor_fondor_5 = { set_name = "Fondor V" }
+			fondor_fondor_6 = { set_name = "Fondor VI" }
+			fondor_mzeh = { set_name = "Mzeh" }
+			fondor_mzeh_1 = { set_name = "Mzeh I" }
+			fondor_mzeh_2 = { set_name = "Mzeh II" }
+			fondor_mzeh_3 = { set_name = "Mzeh III" }
+			fondor_mzeh_4 = { set_name = "Mzeh IV" }
+			fondor_mzeh_11 = { set_name = "Mzeh XI" }
+			fondor_7a = { set_name = "Fondor VIIa" }
+			fondor_7b = { set_name = "Fondor VIIb" }
+			fondor_7c = { set_name = "Fondor VIIc" }
+			fondor_7d = { set_name = "Fondor VIId" }
+			fondor_7e = { set_name = "Fondor VIIe" }
+			fondor_7f = { set_name = "Fondor VIIf" }
+		}
+	}
+}
+
+tython_fix = {
+	set_name = "Tython"
+	every_system_planet = {
+		switch = {
+			trigger = has_planet_flag
+			tython_star_tythos = { set_name = "Tythos" }
+			tython_sunspot = { set_name = "Sunspot" }
+			tython_malterra = { set_name = "Malterra" }
+			tython_nox = { set_name = "Nox" }
+			tython_krev_coeur = { set_name = "Krev Coeur" }
+			tython_planet = { set_name = "Tython" }
+			tython_ashla = { set_name = "Ashla" }
+			tython_bogan = { set_name = "Bogan" }
+			tython_kalimahr = { set_name = "Kalimahr" }
+			tython_kalimahr_1 = { set_name = "Kalimahr I" }
+			tython_kalimahr_2 = { set_name = "Kalimahr II" }
+			tython_kalimahr_3 = { set_name = "Kalimahr III" }
+			tython_skikaakwa = { set_name = "Skikaakwa" }
+			tython_skikaakwa_minor = { set_name = "Skikaakwa Minor" }
+			tython_ska_gora = { set_name = "Ska Gora" }
+			tython_ska_gora_minor = { set_name = "Ska Gora Minor" }
+			tython_obri = { set_name = "Obri" }
+			tython_givbin = { set_name = "Givbin" }
+			tython_zerist = { set_name = "Zerist" }
+			tython_alakor = { set_name = "Alakor" }
+			tython_mawr = { set_name = "Mawr" }
+			tython_mawr_1 = { set_name = "Mawr I" }
+			tython_mawr_2 = { set_name = "Mawr II" }
+			tython_mawr_3 = { set_name = "Mawr III" }
+			tython_mawr_4 = { set_name = "Mawr IV" }
+			tython_mawr_5 = { set_name = "Mawr V" }
+			tython_mawr_6 = { set_name = "Mawr VI" }
+			tython_mawr_7 = { set_name = "Mawr VII" }
+			tython_furies_gate = { set_name = "Furies Gate" }
+		}
+	}
+}
+
+alderaan_fix = {
+	set_name = "Alderaan"
+	every_system_planet = {
+		switch = {
+			trigger = has_planet_flag
+			alderaan_star = { set_name = "Alderaan" }
+			alderaan_raisa = { set_name = "Raisa" }
+			alderaan_planet = { set_name = "Alderaan" }
+			alderaan_moon_of_alderaan = { set_name = "Moon of Alderaan" }
+			alderaan_delaya = { set_name = "Delaya" }
+			alderaan_avirandel = { set_name = "Avirandel" }
+			alderaan_avirandel_minor = { set_name = "Avirandel Minor" }
+			alderaan_avishan = { set_name = "Avishan" }
+			alderaan_6 = { set_name = "Alderaan VI" }
+		}
+	}
+}
+
+kuat_fix = {
+	set_name = "Kuat"
+	every_system_planet = {
+		switch = {
+			trigger = has_planet_flag
+			kuat_star = { set_name = "Kuat" }
+			kuat_ristel = { set_name = "Ristel" }
+			kuat_goravas = { set_name = "Goravas" }
+			kuat_goravas_minor = { set_name = "Goravas Minor" }
+			kuat_daver_kuat = { set_name = "Daver Kuat" }
+			kuat_daver_kuat_1 = { set_name = "Daver Kuat I" }
+			kuat_daver_kuat_2 = { set_name = "Daver Kuat II" }
+			kuat_planet = { set_name = "Kuat" }
+			kuat_kuat_1 = { set_name = "Bador" }
+			kuat_kuat_2 = { set_name = "Ronay" }
+			kuat_gortis = { set_name = "Gortis" }
+			kuat_gortis_1 = { set_name = "Gortis I" }
+			kuat_gortis_2 = { set_name = "Gortis II" }
+			kuat_gortis_3 = { set_name = "Gortis III" }
+			kuat_rasapan = { set_name = "Rasapan" }
+			kuat_rasapan_1 = { set_name = "Rasapan I" }
+			kuat_rasapan_2 = { set_name = "Rasapan II" }
+			kuat_rasapan_3 = { set_name = "Rasapan III" }
+			kuat_rasapan_4 = { set_name = "Rasapan IV" }
+			kuat_rasapan_5 = { set_name = "Rasapan V" }
+			kuat_rasapan_6 = { set_name = "Rasapan VI" }
+			kuat_rasapan_22 = { set_name = "Rasapan XXII" }
+		}
+	}
+}
+
+cato_neimoidia_fix = {
+	set_name = "Cato Neimoidia"
+	every_system_planet = {
+		switch = {
+			trigger = has_planet_flag
+			cato_neimoidia_star = { set_name = "Cato Neimoidia" }
+			cato_neimoidia_1 = { set_name = "Cato Neimoidia I" }
+			cato_neimoidia_2 = { set_name = "Cato Neimoidia II" }
+			cato_neimoidia_planet = { set_name = "Cato Neimoidia" }
+			cato_neimoidia_cato_neimoidia_1 = { set_name = "Cato Neimoidia Major" }
+			cato_neimoidia_cato_neimoidia_2 = { set_name = "Cato Neimoidia Minor" }
+			cato_neimoidia_4 = { set_name = "Cato Neimoidia IV" }
+			cato_neimoidia_4a = { set_name = "Cato Neimoidia IVa" }
+			cato_neimoidia_5 = { set_name = "Cato Neimoidia V" }
+			cato_neimoidia_5a = { set_name = "Cato Neimoidia Va" }
+			cato_neimoidia_5b = { set_name = "Cato Neimoidia Vb" }
+			cato_neimoidia_5c = { set_name = "Cato Neimoidia Vc" }
+			cato_neimoidia_5d = { set_name = "Cato Neimoidia Vd" }
+			cato_neimoidia_5e = { set_name = "Cato Neimoidia Ve" }
+		}
+	}
+}
+
+mandalore_fix = {
+	set_name = "Mandalore"
+	every_system_planet = {
+		switch = {
+			trigger = has_planet_flag
+			mandalore_star = { set_name = "Mandalore" }
+			mandalore_nog = { set_name = "Nog" }
+			mandalore_akaan = { set_name = "Akaan" }
+			mandalore_akaan_major = { set_name = "Akaan Major" }
+			mandalore_akaan_minor = { set_name = "Akaan Minor" }
+			mandalore_tracyn = { set_name = "Tracyn" }
+			mandalore_tracyn_1 = { set_name = "Tracyn I" }
+			mandalore_tracyn_2 = { set_name = "Tracyn II" }
+			mandalore_tracyn_3 = { set_name = "Tracyn III" }
+			mandalore_tracyn_4 = { set_name = "Tracyn IV" }
+			mandalore_kalevala = { set_name = "Kalevala" }
+			mandalore_planet = { set_name = "Mandalore" }
+			mandalore_concordia = { set_name = "Concordia" }
+			mandalore_mandalore_minor = { set_name = "Mandalore Minor" }
+			mandalore_mandallia = { set_name = "Mandallia" }
+			mandalore_mandallia_minor = { set_name = "Mandallia Minor" }
+			mandalore_bonagal = { set_name = "Bonagal" }
+			mandalore_bonagal_1 = { set_name = "Bonagal I" }
+			mandalore_bonagal_2 = { set_name = "Bonagal II" }
+			mandalore_bonagal_3 = { set_name = "Bonagal III" }
+			mandalore_bonagal_4 = { set_name = "Bonagal IV" }
+			mandalore_bonagal_5 = { set_name = "Bonagal V" }
+			mandalore_bonagal_34 = { set_name = "Bonagal XXXIV" }
+			mandalore_shukut = { set_name = "Shukut" }
+			mandalore_shukut_1 = { set_name = "Shukut I" }
+			mandalore_shukut_2 = { set_name = "Shukut II" }
+			mandalore_shukut_3 = { set_name = "Shukut III" }
+			mandalore_shukut_4 = { set_name = "Shukut IV" }
+			mandalore_shukut_30 = { set_name = "Shukut XXX" }
+			mandalore_werda = { set_name = "Werda" }
+		}
+	}
+}
+
+cantonica_fix = {
+	set_name = "Cantonica"
+	every_system_planet = {
+		switch = {
+			trigger = has_planet_flag
+			cantonica_star = { set_name = "Cantonica" }
+			cantonica_1 = { set_name = "Cantonica I" }
+			cantonica_2 = { set_name = "Cantonica II" }
+			cantonica_planet = { set_name = "Cantonica" }
+			cantonica_cantonica_major = { set_name = "Cantonica Major" }
+			cantonica_cantonica_minor = { set_name = "Cantonica Minor" }
+			cantonica_4 = { set_name = "Cantonica IV" }
+			cantonica_4a = { set_name = "Cantonica IVa" }
+			cantonica_4b = { set_name = "Cantonica IVb" }
+			cantonica_5 = { set_name = "Cantonica V" }
+			cantonica_5a = { set_name = "Cantonica Va" }
+			cantonica_5b = { set_name = "Cantonica Vb" }
+			cantonica_5c = { set_name = "Cantonica Vc" }
+			cantonica_5d = { set_name = "Cantonica Vd" }
+			cantonica_5e = { set_name = "Cantonica Ve" }
+			cantonica_6 = { set_name = "Cantonica VI" }
+		}
+	}
+}
+
+yavin_fix = {
+	set_name = "Yavin"
+	every_system_planet = {
+		switch = {
+			trigger = has_planet_flag
+			yavin_star = { set_name = "Yavin" }
+			yavin_fiddanl = { set_name = "Fiddanl" }
+			yavin_stroiketcy = { set_name = "Stroiketcy" }
+			yavin_yavin_prime = { set_name = "Yavin Prime" }
+			yavin_yavin_1 = { set_name = "Yavin I" }
+			yavin_yavin_2 = { set_name = "Yavin II" }
+			yavin_yavin_3 = { set_name = "Yavin III" }
+			yavin_yavin_4 = { set_name = "Yavin IV" }
+			yavin_yavin_5 = { set_name = "Yavin V" }
+			yavin_yavin_6 = { set_name = "Yavin VI" }
+			yavin_yavin_7 = { set_name = "Yavin VII" }
+			yavin_yavin_8 = { set_name = "Yavin VIII" }
+			yavin_yavin_9 = { set_name = "Yavin IX" }
+			yavin_yavin_10 = { set_name = "Yavin X" }
+			yavin_yavin_11 = { set_name = "Yavin XI" }
+			yavin_yavin_12 = { set_name = "Yavin XII" }
+			yavin_yavin_13 = { set_name = "Yavin XIII" }
+			yavin_yavin_22 = { set_name = "Yavin XXII" }
+			yavin_yavin_26 = { set_name = "Yavin XXVI" }
+		}
+	}
+}
+
+felucia_fix = {
+	set_name = "Felucia"
+	every_system_planet = {
+		switch = {
+			trigger = has_planet_flag
+			felucia_star_felix = { set_name = "Felix" }
+			felucia_coccia = { set_name = "Coccia" }
+			felucia_coccia_1 = { set_name = "Coccia I" }
+			felucia_brembo = { set_name = "Brembo" }
+			felucia_albata_ing = { set_name = "Albata Ing" }
+			felucia_felucia = { set_name = "Felucia" }
+			felucia_felucia_major = { set_name = "Felucia Major" }
+			felucia_felucia_minor = { set_name = "Felucia Minor" }
+			felucia_farasu = { set_name = "Farasu" }
+			felucia_farasu_1 = { set_name = "Farasu I" }
+			felucia_farasu_2 = { set_name = "Farasu II" }
+			felucia_farasu_3 = { set_name = "Farasu III" }
+			felucia_farasu_4 = { set_name = "Farasu IV" }
+			felucia_farasu_9 = { set_name = "Farasu IX" }
+			felucia_yamime = { set_name = "Yamime" }
+			felucia_yamime_1 = { set_name = "Yamime I" }
+			felucia_yamime_2 = { set_name = "Yamime II" }
+			felucia_yamime_3 = { set_name = "Yamime III" }
+			felucia_yamime_4 = { set_name = "Yamime IV" }
+			felucia_yamime_32 = { set_name = "Yamime XXXII" }
+			felucia_tsutai = { set_name = "Tsutai" }
+			felucia_tsutai_1 = { set_name = "Tsutai I" }
+			felucia_tsutai_2 = { set_name = "Tsutai II" }
+			felucia_tsutai_3 = { set_name = "Tsutai III" }
+			felucia_tsutai_4 = { set_name = "Tsutai IV" }
+			felucia_tsutai_5 = { set_name = "Tsutai V" }
+			felucia_tsutai_6 = { set_name = "Tsutai VI" }
+			felucia_tsutai_13 = { set_name = "Tsutai XIII" }
+			felucia_imei = { set_name = "Imei" }
+			felucia_imei_1 = { set_name = "Imei I" }
+			felucia_imei_2 = { set_name = "Imei II" }
+			felucia_imei_3 = { set_name = "Imei III" }
+		}
+	}
+}
+
+horuset_fix = {
+	set_name = "Horuset"
+	every_system_planet = {
+		switch = {
+			trigger = has_planet_flag
+			horuset_star = { set_name = "Horuset" }
+			horuset_korriba_scar_1 = { set_name = "Korriba Scar I" }
+			horuset_korriba_scar_2 = { set_name = "Korriba Scar II" }
+			horuset_korriba_scar_3 = { set_name = "Korriba Scar III" }
+			horuset_korriba_scar_4 = { set_name = "Korriba Scar IV" }
+			horuset_korriba_scar_5 = { set_name = "Korriba Scar V" }
+			horuset_korriba_scar_6 = { set_name = "Korriba Scar VI" }
+			horuset_korriban = { set_name = "Korriban" }
+			horuset_korriban_1 = { set_name = "Korriban I" }
+			horuset_korriban_2 = { set_name = "Korriban II" }
+			horuset_korriban_3 = { set_name = "Korriban III" }
+			horuset_korriban_4 = { set_name = "Korriban IV" }
+			horuset_korriban_5 = { set_name = "Korriban V" }
+			horuset_korriban_6 = { set_name = "Korriban VI" }
+			horuset_korriban_7 = { set_name = "Korriban VII" }
+			horuset_ashes_of_kor_1 = { set_name = "Ashes of Kor I" }
+			horuset_ashes_of_kor_2 = { set_name = "Ashes of Kor II" }
+			horuset_ashes_of_kor_3 = { set_name = "Ashes of Kor III" }
+			horuset_ashes_of_kor_4 = { set_name = "Ashes of Kor IV" }
+			horuset_ashes_of_kor_5 = { set_name = "Ashes of Kor V" }
+			horuset_ashes_of_kor_6 = { set_name = "Ashes of Kor VI" }
+		}
+	}
+}
+
+dromund_fix = {
+	set_name = "Dromund"
+	every_system_planet = {
+		switch = {
+			trigger = has_planet_flag
+			dromund_star = { set_name = "Dromund" }
+			dromund_ixin = { set_name = "Dromund Ixin" }
+			dromund_kalakar = { set_name = "Dromund Kalakar" }
+			dromund_kalakar_1 = { set_name = "Kalakar I" }
+			dromund_kalakar_2 = { set_name = "Kalakar II" }
+			dromund_kalakar_3 = { set_name = "Kalakar III" }
+			dromund_kalakar_4 = { set_name = "Kalakar IV" }
+			dromund_kalakar_5 = { set_name = "Kalakar V" }
+			dromund_kalakar_six = { set_name = "Kalakar Six" }
+			dromund_kaas_planet = { set_name = "Dromund Kaas" }
+			dromund_kaas_1 = { set_name = "Kaas I" }
+			dromund_kaas_2 = { set_name = "Kaas II" }
+			dromund_fels = { set_name = "Dromund Fels" }
+			dromund_fels_minor = { set_name = "Fels Minor" }
+			dromund_tyne = { set_name = "Dromund Tyne" }
+		}
+	}
+}
+
+malachor_fix = {
+	set_name = "Malachor"
+	every_system_planet = {
+		switch = {
+			trigger = has_planet_flag
+			malachor_star = { set_name = "Malachor" }
+			malachor_1 = { set_name = "Malachor I" }
+			malachor_2 = { set_name = "Malachor II" }
+			malachor_3 = { set_name = "Malachor III" }
+			malachor_4 = { set_name = "Malachor IV" }
+			malachor_planet = { set_name = "Malachor V" }
+			malachor_malachor_1 = { set_name = "Malachor Va" }
+			malachor_6 = { set_name = "Malachor VI" }
+			malachor_6a = { set_name = "Malachor VIa" }
+			malachor_6b = { set_name = "Malachor VIb" }
+			malachor_6c = { set_name = "Malachor VIc" }
+			malachor_6d = { set_name = "Malachor VId" }
+			malachor_6e = { set_name = "Malachor VIe" }
+			malachor_6f = { set_name = "Malachor VIf" }
+			malachor_7 = { set_name = "Malachor VII" }
+		}
+	}
+}
+
+kashyyyk_fix = {
+	set_name = "Kashyyyk"
+	every_system_planet = {
+		switch = {
+			trigger = has_planet_flag
+			kashyyyk_star = { set_name = "Kashyyyk" }
+			kashyyyk_taakarro = { set_name = "Taakarro" }
+			kashyyyk_taakarro_minor = { set_name = "Taakarro Minor" }
+			kashyyyk_kallalarra = { set_name = "Kallalarra" }
+			kashyyyk_kallalarra_1 = { set_name = "Kallalarra I" }
+			kashyyyk_kallalarra_2 = { set_name = "Kallalarra II" }
+			kashyyyk_kallalarra_3 = { set_name = "Kallalarra III" }
+			kashyyyk_planet = { set_name = "Kashyyyk" }
+			kashyyyk_kashyyyk_major = { set_name = "Kashyyyk Major" }
+			kashyyyk_kashyyyk_minor = { set_name = "Kashyyyk Minor" }
+			kashyyyk_kashyyyk_3 = { set_name = "Kashyyyk III" }
+			kashyyyk_trandosha = { set_name = "Trandosha" }
+			kashyyyk_akoshissss = { set_name = "Akoshissss" }
+			kashyyyk_wasskah = { set_name = "Wasskah" }
+			kashyyyk_alaris = { set_name = "Alaris" }
+			kashyyyk_alaris_prime = { set_name = "Alaris Prime" }
+			kashyyyk_alaris_2 = { set_name = "Alaris II" }
+			kashyyyk_alaris_8 = { set_name = "Alaris VIII" }
+			kashyyyk_shurr = { set_name = "Shurr" }
+			kashyyyk_shurr_1 = { set_name = "Shurr I" }
+			kashyyyk_shurr_2 = { set_name = "Shurr II" }
+			kashyyyk_shurr_14 = { set_name = "Shurr XIV" }
+			kashyyyk_kuhurrik = { set_name = "Kuhurrik" }
+			kashyyyk_kuhurrik_1 = { set_name = "Kuhurrik I" }
+			kashyyyk_kuhurrik_2 = { set_name = "Kuhurrik II" }
+			kashyyyk_kuhurrik_25 = { set_name = "Kuhurrik XXV" }
+		}
+	}
+}
+
+y'toub_fix = {
+	set_name = "Y'Toub"
+	every_system_planet = {
+		switch = {
+			trigger = has_planet_flag
+			y'toub_star = { set_name = "Y'Toub" }
+			y'toub_esyam = { set_name = "Esyam" }
+			y'toub_nal_koska = { set_name = "Nal Koska" }
+			y'toub_nal_koska_1 = { set_name = "Nal Koska I" }
+			y'toub_nal_koska_2 = { set_name = "Nal Koska II" }
+			y'toub_nal_hutta = { set_name = "Nal Hutta" }
+			y'toub_nal_shaddaa = { set_name = "Nar Shaddaa" }
+			y'toub_nal_hutta_2 = { set_name = "Nal Hutta II" }
+			y'toub_nal_hutta_3 = { set_name = "Nal Hutta III" }
+			y'toub_nal_hutta_4 = { set_name = "Nal Hutta IV" }
+			y'toub_nal_hutta_5 = { set_name = "Nal Hutta V" }
+			y'toub_nal_yeshu = { set_name = "Nal Yeshu" }
+			y'toub_nal_yeshu_1 = { set_name = "Nal Yeshu I" }
+			y'toub_nal_yeshu_2 = { set_name = "Nal Yeshu II" }
+			y'toub_kiskua = { set_name = "Kiskua" }
+			y'toub_kiskua_1 = { set_name = "Kiskua I" }
+			y'toub_kiskua_2 = { set_name = "Kiskua II" }
+			y'toub_kiskua_3 = { set_name = "Kiskua III" }
+			y'toub_kiskua_4 = { set_name = "Kiskua IV" }
+			y'toub_kiskua_5 = { set_name = "Kiskua V" }
+			y'toub_nar_hekka = { set_name = "Nar Hekka" }
+		}
+	}
+}
+
+pyrshak_fix = {
+	set_name = "Pyrshak"
+	every_system_planet = {
+		switch = {
+			trigger = has_planet_flag
+			pyrshak_star = { set_name = "Pyrshak" }
+			pyrshak_pyr = { set_name = "Pyr" }
+			pyrshak_planet = { set_name = "Manaan" }
+			pyrshak_navlaas = { set_name = "Navlaas" }
+			pyrshak_navlaas_1 = { set_name = "Navlaas I" }
+			pyrshak_navlaas_2 = { set_name = "Navlaas II" }
+			pyrshak_navlaas_3 = { set_name = "Navlaas III" }
+			pyrshak_navlaas_4 = { set_name = "Navlaas IV" }
+			pyrshak_navlaas_5 = { set_name = "Navlaas V" }
+			pyrshak_navlaas_6 = { set_name = "Navlaas VI" }
+			pyrshak_navlaas_7 = { set_name = "Navlaas VII" }
+			pyrshak_navlaas_8 = { set_name = "Navlaas VIII" }
+		}
+	}
+}
+
+hapes_fix = {
+	set_name = "Hapes"
+	every_system_planet = {
+		switch = {
+			trigger = has_planet_flag
+			hapes_star = { set_name = "Hapes" }
+			hapes_1 = { set_name = "Hapes I" }
+			hapes_1a = { set_name = "Hapes Ia" }
+			hapes_1b = { set_name = "Hapes Ib" }
+			hapes_planet = { set_name = "Hapes" }
+			hapes_planet_1 = { set_name = "Hapes I" }
+			hapes_planet_2 = { set_name = "Hapes II" }
+			hapes_megos = { set_name = "Hapes III" }
+			hapes_planet_4 = { set_name = "Hapes IV" }
+			hapes_planet_5 = { set_name = "Hapes V" }
+			hapes_planet_6 = { set_name = "Hapes VI" }
+			hapes_planet_7 = { set_name = "Hapes VII" }
+			hapes_kavan = { set_name = "Kavan" }
+		}
+	}
+}
+
+both_fix = {
+	set_name = "Both"
+	every_system_planet = {
+		switch = {
+			trigger = has_planet_flag
+			both_star = { set_name = "Both" }
+			both_yeltha = { set_name = "Yeltha" }
+			both_taboth = { set_name = "Taboth" }
+			both_taboth_1 = { set_name = "Taboth I" }
+			both_taboth_2 = { set_name = "Taboth II" }
+			both_planet = { set_name = "Bothawui" }
+			both_planet_1 = { set_name = "Bothawui I" }
+			both_planet_2 = { set_name = "Bothawui II" }
+			both_planet_3 = { set_name = "Bothawui III" }
+			both_golm = { set_name = "Golm" }
+			both_golm_1 = { set_name = "Golm I" }
+			both_golm_2 = { set_name = "Golm II" }
+			both_golm_3 = { set_name = "Golm III" }
+			both_golm_4 = { set_name = "Golm IV" }
+			both_golm_5 = { set_name = "Golm V" }
+			both_golm_6 = { set_name = "Golm XXIII" }
+			both_ganash = { set_name = "Ganash" }
+			both_ganash_1 = { set_name = "Ganash I" }
+			both_ganash_2 = { set_name = "Ganash II" }
+			both_ganash_3 = { set_name = "Ganash III" }
+			both_ganash_4 = { set_name = "Ganash IV" }
+			both_ganash_5 = { set_name = "Ganash XIV" }
+			both_hoppawui = { set_name = "Hoppawui" }
+			both_hoppawui_1 = { set_name = "Hoppawui I" }
+			both_hoppawui_2 = { set_name = "Hoppawui II" }
+			both_hoppawui_3 = { set_name = "Hoppawui III" }
+			both_hoppawui_4 = { set_name = "Hoppawui IV" }
+			both_hoppawui_5 = { set_name = "Hoppawui VIII" }
+			both_jentawui = { set_name = "Jentawui" }
+		}
+	}
+}
+
+tatoo_fix = {
+	set_name = "Tatoo"
+	every_system_planet = {
+		switch = {
+			trigger = has_planet_flag
+			tatoo_star_1 = { set_name = "Tatoo I" }
+			tatoo_star_2 = { set_name = "Tatoo II" }
+			tatoo_planet = { set_name = "Tatooine" }
+			tatoo_ghomrassen = { set_name = "Ghomrassen" }
+			tatoo_guermessa = { set_name = "Guermessa" }
+			tatoo_chenini = { set_name = "Chenini" }
+			tatoo_iron_asteroid = { set_name = "Iron Asteroid" }
+			tatoo_jabba's_star = { set_name = "Jabba's Star" }
+			tatoo_ohann = { set_name = "Ohann" }
+			tatoo_ohann_1 = { set_name = "Ohann I" }
+			tatoo_ohann_2 = { set_name = "Ohann II" }
+			tatoo_ohann_3 = { set_name = "Ohann III" }
+			tatoo_adriana = { set_name = "Adriana" }
+			tatoo_adriana_1 = { set_name = "Adriana I" }
+			tatoo_adriana_2 = { set_name = "Adriana II" }
+			tatoo_adriana_3 = { set_name = "Adriana III" }
+			tatoo_adriana_4 = { set_name = "Adriana IV" }
+		}
+	}
+}
+
+kamino_fix = {
+	set_name = "Kamino"
+	every_system_planet = {
+		switch = {
+			trigger = has_planet_flag
+			kamino_star = { set_name = "Kamino" }
+			kamino_kas = { set_name = "Kas" }
+			kamino_yuka_major = { set_name = "Yuka Major" }
+			kamino_jomon = { set_name = "Jomon" }
+			kamino_faa = { set_name = "Faa" }
+			kamino_faa_major = { set_name = "Faa Major" }
+			kamino_faa_minor = { set_name = "Faa Minor" }
+			kamino_planet = { set_name = "Kamino" }
+			kamino_korasa = { set_name = "Korasa" }
+			kamino_planet_2 = { set_name = "Kamino II" }
+			kamino_planet_3 = { set_name = "Kamino III" }
+			kamino_mira = { set_name = "Mira" }
+			kamino_miyuu = { set_name = "Miyuu" }
+			kamino_miyuu_1 = { set_name = "Miyuu I" }
+			kamino_miyuu_5 = { set_name = "Miyuu V" }
+			kamino_donoa = { set_name = "Donoa" }
+			kamino_donoa_1 = { set_name = "Donoa I" }
+			kamino_donoa_17 = { set_name = "Donoa XVII" }
+			kamino_casna_aure = { set_name = "Casna Aure" }
+			kamino_casna_aure_1 = { set_name = "Aure I" }
+			kamino_casna_aure_2 = { set_name = "Aure II" }
+			kamino_casna_aure_3 = { set_name = "Aure III" }
+			kamino_casna_aure_4 = { set_name = "Aure IV" }
+			kamino_casna_aure_5 = { set_name = "Aure XXVIII" }
+			kamino_casna_besh = { set_name = "Casna Besh" }
+			kamino_casna_besh_1 = { set_name = "Besh I" }
+			kamino_casna_besh_2 = { set_name = "Besh II" }
+			kamino_casna_besh_3 = { set_name = "Besh III" }
+			kamino_casna_besh_4 = { set_name = "Besh IV" }
+			kamino_casna_besh_43 = { set_name = "Besh XLIII" }
+			kamino_imoco = { set_name = "Imoco" }
+			kamino_imoco_1 = { set_name = "Imoco I" }
+			kamino_imoco_8 = { set_name = "Imoco VIII" }
+			kamino_talita = { set_name = "Talita" }
+			kamino_talita_1 = { set_name = "Talita I" }
+			kamino_talita_6 = { set_name = "Talita VI" }
+			kamino_yuka = { set_name = "Yuka" }
+			kamino_yuka_minor = { set_name = "Yuka Minor" }
+		}
+	}
+}
+
+ardos_fix = {
+	set_name = "Ardos"
+	every_system_planet = {
+		switch = {
+			trigger = has_planet_flag
+			ardos_star = { set_name = "Ardos" }
+			ardos_asteroid_1_1 = { set_name = "Ardos Ia" }
+			ardos_asteroid_1_2 = { set_name = "Ardos Ib" }
+			ardos_asteroid_1_3 = { set_name = "Ardos Ic" }
+			ardos_asteroid_1_4 = { set_name = "Ardos Id" }
+			ardos_planet = { set_name = "Varl" }
+			ardos_planet_1 = { set_name = "Varl I" }
+			ardos_planet_2 = { set_name = "Varl II" }
+			ardos_planet_3 = { set_name = "Varl III" }
+			ardos_asteroid_3_1 = { set_name = "Ardos IIIa" }
+			ardos_asteroid_3_2 = { set_name = "Ardos IIIb" }
+			ardos_asteroid_3_3 = { set_name = "Ardos IIIc" }
+			ardos_asteroid_3_4 = { set_name = "Ardos IIId" }
+		}
+	}
+}
+
+kessel_fix = {
+	set_name = "Kessel"
+	every_system_planet = {
+		switch = {
+			trigger = has_planet_flag
+			kessel_star_kessa = { set_name = "Kessa" }
+			kessel_senna = { set_name = "Senna" }
+			kessel_planet = { set_name = "Kessel" }
+			kessel_garrison_moon = { set_name = "Garrison Moon" }
+			kessel_asteroid_3_1 = { set_name = "Kessel IIIa" }
+			kessel_asteroid_3_2 = { set_name = "Kessel IIIb" }
+			kessel_asteroid_3_3 = { set_name = "Kessel IIIc" }
+			kessel_asteroid_3_4 = { set_name = "Kessel IIId" }
+			kessel_karedda = { set_name = "Karedda" }
+		}
+	}
+}
+
+saleucami_fix = {
+	set_name = "Saleucami"
+	every_system_planet = {
+		switch = {
+			trigger = has_planet_flag
+			saleucami_star_stisste = { set_name = "Saleucami" }
+			saleucami_junken = { set_name = "Junken" }
+			saleucami_casparar = { set_name = "Casparar" }
+			saleucami_casparar_1 = { set_name = "Casparar I" }
+			saleucami_casparar_2 = { set_name = "Casparar II" }
+			saleucami_casparar_3 = { set_name = "Casparar III" }
+			saleucami_olamenco = { set_name = "Olamenco" }
+			saleucami_planet = { set_name = "Saleucami" }
+			saleucami_planet_1 = { set_name = "Saleucami Major" }
+			saleucami_planet_2 = { set_name = "Saleucami Minor" }
+			saleucami_decepino = { set_name = "Decepino" }
+			saleucami_decepino_1 = { set_name = "Decepino I" }
+			saleucami_decepino_2 = { set_name = "Decepino II" }
+			saleucami_decepino_3 = { set_name = "Decepino III" }
+			saleucami_decepino_4 = { set_name = "Decepino IV" }
+			saleucami_decepino_9 = { set_name = "Decepino IX" }
+			saleucami_pismaria = { set_name = "Pismaria" }
+			saleucami_pismaria_1 = { set_name = "Pismaria I" }
+			saleucami_pismaria_2 = { set_name = "Pismaria II" }
+			saleucami_pismaria_3 = { set_name = "Pismaria III" }
+			saleucami_pismaria_4 = { set_name = "Pismaria IV" }
+			saleucami_pismaria_5 = { set_name = "Pismaria V" }
+			saleucami_pismaria_6 = { set_name = "Pismaria VI" }
+			saleucami_pismaria_32 = { set_name = "Pismaria XXXII" }
+			saleucami_tonjumi = { set_name = "Tonjumi" }
+		}
+	}
+}
+
+calamari_fix = {
+	set_name = "Calamari"
+	every_system_planet = {
+		switch = {
+			trigger = has_planet_flag
+			calamari_star_daca = { set_name = "Daca" }
+			calamari_star_b = { set_name = "Calamari B" }
+			calamari_mol_luxu = { set_name = "Mol Luxu" }
+			calamari_dac = { set_name = "Dac" }
+			calamari_mon_calamari = { set_name = "Mon Calamari" }
+			calamari_iceberg1 = { set_name = "Iceberg I" }
+			calamari_iceberg1_minor = { set_name = "Iceberg I Minor" }
+			calamari_iceberg2 = { set_name = "Iceberg II" }
+			calamari_mon_eron = { set_name = "Mon Eron" }
+			calamari_mon_eron_1 = { set_name = "Mon Eron I" }
+			calamari_mon_eron_2 = { set_name = "Mon Eron II" }
+			calamari_sep_elopon = { set_name = "Sep Elopon" }
+			calamari_sep_elopon_1 = { set_name = "Sep Elopon I" }
+			calamari_sep_elopon_2 = { set_name = "Sep Elopon II" }
+			calamari_sep_elopon_3 = { set_name = "Sep Elopon III" }
+			calamari_sep_elopon_4 = { set_name = "Sep Elopon IV" }
+			calamari_sep_elopon_5 = { set_name = "Sep Elopon V" }
+			calamari_sep_elopon_6 = { set_name = "Sep Elopon VI" }
+			calamari_sep_elopon_7 = { set_name = "Sep Elopon VII" }
+			calamari_sep_elopon_8 = { set_name = "Sep Elopon VIII" }
+			calamari_sep_elopon_9 = { set_name = "Sep Elopon IX" }
+			calamari_sep_elopon_32 = { set_name = "Sep Elopon XXXII" }
+			calamari_iceberg3 = { set_name = "Iceberg III" }
+			calamari_iceberg4 = { set_name = "Iceberg IV" }
+		}
+	}
+}
+
+geonosis_fix = {
+	set_name = "Geonosis"
+	every_system_planet = {
+		switch = {
+			trigger = has_planet_flag
+			geonosis_star = { set_name = "Ea" }
+			geonosis_geriss = { set_name = "Geriss" }
+			geonosis_geriss_minor = { set_name = "Geriss Minor" }
+			geonosis_planet = { set_name = "Geonosis" }
+			geonosis_planet_1 = { set_name = "Geonosis I" }
+			geonosis_planet_2 = { set_name = "Geonosis II" }
+			geonosis_planet_3 = { set_name = "Geonosis III" }
+			geonosis_planet_4 = { set_name = "Geonosis IV" }
+			geonosis_planet_15 = { set_name = "Geonosis XV" }
+			geonosis_conus = { set_name = "Conus" }
+			geonosis_conus_1 = { set_name = "Conus I" }
+			geonosis_conus_2 = { set_name = "Conus II" }
+			geonosis_conus_3 = { set_name = "Conus III" }
+			geonosis_conus_4 = { set_name = "Conus IV" }
+			geonosis_mabonte = { set_name = "Mabonte" }
+			geonosis_mabonte_1 = { set_name = "Mabonte I" }
+			geonosis_mabonte_2 = { set_name = "Mabonte II" }
+			geonosis_habon = { set_name = "Habon" }
+			geonosis_habon_1 = { set_name = "Habon I" }
+			geonosis_habon_2 = { set_name = "Habon II" }
+			geonosis_habon_3 = { set_name = "Habon III" }
+			geonosis_habon_4 = { set_name = "Habon IV" }
+			geonosis_habon_5 = { set_name = "Habon V" }
+			geonosis_habon_21 = { set_name = "Habon XXI" }
+			geonosis_abyssissa = { set_name = "Abyssissa" }
+			geonosis_abyssissa_minor = { set_name = "Abyssissa Minor" }
+		}
+	}
+}
+
+dathomir_fix = {
+	set_name = "Dathomir"
+	every_system_planet = {
+		switch = {
+			trigger = has_planet_flag
+			dathomir_star_domir = { set_name = "Domir" }
+			dathomir_arro = { set_name = "Arro" }
+			dathomir_euton = { set_name = "Euton" }
+			dathomir_laseel = { set_name = "Laseel" }
+			dathomir_laseel_1 = { set_name = "Laseel I" }
+			dathomir_laseel_2 = { set_name = "Laseel II" }
+			dathomir_planet = { set_name = "Dathomir" }
+			dathomir_planet_1 = { set_name = "Dathomir I" }
+			dathomir_koratas = { set_name = "Koratas" }
+			dathomir_planet_3 = { set_name = "Dathomir III" }
+			dathomir_planet_4 = { set_name = "Dathomir IV" }
+			dathomir_babygnon = { set_name = "BABYgnon" }
+			dathomir_babygnon_1 = { set_name = "BABYgnon I" }
+			dathomir_babygnon_2 = { set_name = "BABYgnon II" }
+			dathomir_babygnon_3 = { set_name = "BABYgnon III" }
+			dathomir_babygnon_4 = { set_name = "BABYgnon IV" }
+			dathomir_babygnon_8 = { set_name = "BABYgnon VIII" }
+			dathomir_barmasel = { set_name = "Barmasel" }
+			dathomir_barmasel_1 = { set_name = "Barmasel I" }
+			dathomir_barmasel_2 = { set_name = "Barmasel II" }
+			dathomir_barmasel_3 = { set_name = "Barmasel III" }
+			dathomir_barmasel_4 = { set_name = "Barmasel IV" }
+			dathomir_barmasel_12 = { set_name = "Barmasel XII" }
+			dathomir_stindaron = { set_name = "Stindaron" }
+			dathomir_stindaron_1 = { set_name = "Stindaron I" }
+			dathomir_stindaron_2 = { set_name = "Stindaron II" }
+			dathomir_stindaron_3 = { set_name = "Stindaron III" }
+			dathomir_stindaron_4 = { set_name = "Stindaron IV" }
+			dathomir_stindaron_20 = { set_name = "Stindaron XX" }
+			dathomir_arodoni = { set_name = "Arodoni" }
+			dathomir_arodoni_1 = { set_name = "Arodoni I" }
+			dathomir_arodoni_2 = { set_name = "Arodoni II" }
+			dathomir_arodoni_3 = { set_name = "Arodoni III" }
+			dathomir_arodoni_4 = { set_name = "Arodoni IV" }
+			dathomir_arodoni_18 = { set_name = "Arodoni XVIII" }
+			dathomir_chirgay = { set_name = "Chirgay" }
+			dathomir_chirgay_1 = { set_name = "Chirgay I" }
+			dathomir_chav = { set_name = "Chav" }
+			dathomir_chav_1 = { set_name = "Chav I" }
+			dathomir_chav_2 = { set_name = "Chav II" }
+		}
+	}
+}
+
+muunilinst_fix = {
+	set_name = "Muunilinst"
+	every_system_planet = {
+		switch = {
+			trigger = has_planet_flag
+			muunilinst_star = { set_name = "Muunilinst" }
+			muunilinst_varhus = { set_name = "Varhus" }
+			muunilinst_trinciuum = { set_name = "Trinciuum" }
+			muunilinst_trinciuum_minor = { set_name = "Trinciuum Minor" }
+			muunilinst_planet = { set_name = "Muunilinst" }
+			muunilinst_planet_major = { set_name = "Muunilinst Major" }
+			muunilinst_planet_minor = { set_name = "Muunilinst Minor" }
+			muunilinst_havath_prime = { set_name = "Havath Prime" }
+			muunilinst_havath_prime_1 = { set_name = "Havath Prime I" }
+			muunilinst_havath_prime_2 = { set_name = "Havath Prime II" }
+			muunilinst_havath_prime_3 = { set_name = "Havath Prime III" }
+			muunilinst_havath_prime_4 = { set_name = "Havath Prime IV" }
+			muunilinst_havath_prime_5 = { set_name = "Havath Prime V" }
+			muunilinst_havath_prime_6 = { set_name = "Havath Prime VI" }
+			muunilinst_havath_prime_7 = { set_name = "Havath Prime VII" }
+			muunilinst_havath_prime_32 = { set_name = "Havath Prime XXXII" }
+			muunilinst_havath_minor = { set_name = "Havath Minor" }
+			muunilinst_havath_minor_1 = { set_name = "Havath Minor I" }
+			muunilinst_havath_minor_2 = { set_name = "Havath Minor II" }
+			muunilinst_havath_minor_3 = { set_name = "Havath Minor III" }
+			muunilinst_havath_minor_4 = { set_name = "Havath Minor IV" }
+			muunilinst_havath_minor_11 = { set_name = "Havath Minor XI" }
+		}
+	}
+}
+
+mygeeto_fix = {
+	set_name = "Mygeeto"
+	every_system_planet = {
+		switch = {
+			trigger = has_planet_flag
+			mygeeto_star_malola = { set_name = "Malola" }
+			mygeeto_reerez = { set_name = "Reerez" }
+			mygeeto_reerez_1 = { set_name = "Reerez I" }
+			mygeeto_reerez_2 = { set_name = "Reerez II" }
+			mygeeto_reerez_3 = { set_name = "Reerez III" }
+			mygeeto_reerez_4 = { set_name = "Reerez IV" }
+			mygeeto_reerez_5 = { set_name = "Reerez V" }
+			mygeeto_reerez_6 = { set_name = "Reerez VI" }
+			mygeeto_reerez_7 = { set_name = "Reerez VII" }
+			mygeeto_reerez_8 = { set_name = "Reerez VIII" }
+			mygeeto_pergoomi = { set_name = "Pergoomi" }
+			mygeeto_pergoomi_1 = { set_name = "Pergoomi I" }
+			mygeeto_pergoomi_2 = { set_name = "Pergoomi II" }
+			mygeeto_pergoomi_3 = { set_name = "Pergoomi III" }
+			mygeeto_pergoomi_4 = { set_name = "Pergoomi IV" }
+			mygeeto_pergoomi_5 = { set_name = "Pergoomi V" }
+			mygeeto_planet = { set_name = "Mygeeto" }
+			mygeeto_planet_major = { set_name = "Mygeeto Major" }
+			mygeeto_planet_minor = { set_name = "Mygeeto Minor" }
+			mygeeto_asteroid_4_1 = { set_name = "Mygeeto IVa" }
+			mygeeto_asteroid_4_2 = { set_name = "Mygeeto IVb" }
+			mygeeto_asteroid_4_3 = { set_name = "Mygeeto IVc" }
+			mygeeto_itzeho = { set_name = "Itzeho" }
+		}
+	}
+}
+
+naboo_fix = {
+	set_name = "Naboo"
+	every_system_planet = {
+		switch = {
+			trigger = has_planet_flag
+			naboo_star = { set_name = "Naboo" }
+			naboo_moth = { set_name = "Moth" }
+			naboo_erep = { set_name = "Erep" }
+			naboo_erep_minor = { set_name = "Erep Minor" }
+			naboo_planet = { set_name = "Naboo" }
+			naboo_ohma-d'un = { set_name = "Ohma-D'un" }
+			naboo_roro = { set_name = "Roro" }
+			naboo_planet_3 = { set_name = "Naboo III" }
+			naboo_widow = { set_name = "Widow" }
+			naboo_widow_minor = { set_name = "Widow Minor" }
+			naboo_storm = { set_name = "Storm" }
+			naboo_storm_1 = { set_name = "Storm I" }
+			naboo_storm_2 = { set_name = "Storm II" }
+			naboo_storm_3 = { set_name = "Storm III" }
+			naboo_storm_4 = { set_name = "Storm IV" }
+			naboo_storm_5 = { set_name = "Storm V" }
+			naboo_storm_6 = { set_name = "Storm VI" }
+			naboo_storm_7 = { set_name = "Storm VII" }
+			naboo_storm_8 = { set_name = "Storm VIII" }
+			naboo_storm_9 = { set_name = "Storm IX" }
+			naboo_storm_10 = { set_name = "Storm X" }
+			naboo_storm_32 = { set_name = "Storm XXXII" }
+			naboo_behpour = { set_name = "Behpour" }
+		}
+	}
+}
+
+dagobah_fix = {
+	set_name = "Dagobah"
+	every_system_planet = {
+		switch = {
+			trigger = has_planet_flag
+			dagobah_star_darlo = { set_name = "Darlo" }
+			dagobah_ness = { set_name = "Ness" }
+			dagobah_planet = { set_name = "Dagobah" }
+			dagobah_planet_minor = { set_name = "Dagobah Minor" }
+			dagobah_undar = { set_name = "Undar" }
+			dagobah_undar_1 = { set_name = "Undar I" }
+			dagobah_undar_2 = { set_name = "Undar II" }
+			dagobah_behpour = { set_name = "Behpour" }
+			dagobah_sty = { set_name = "Sty" }
+			dagobah_sty_1 = { set_name = "Sty I" }
+			dagobah_sty_2 = { set_name = "Sty II" }
+			dagobah_sty_3 = { set_name = "Sty III" }
+			dagobah_sty_4 = { set_name = "Sty IV" }
+			dagobah_sty_5 = { set_name = "Sty V" }
+			dagobah_sty_6 = { set_name = "Sty VI" }
+			dagobah_sty_7 = { set_name = "Sty VII" }
+			dagobah_sty_8 = { set_name = "Sty VIII" }
+			dagobah_sty_9 = { set_name = "Sty IX" }
+			dagobah_sty_55 = { set_name = "Sty LV" }
+		}
+	}
+}
+
+juvex_fix = {
+	set_name = "Juvex"
+	every_system_planet = {
+		switch = {
+			trigger = has_planet_flag
+			juvex_star = { set_name = "Juvex" }
+			juvex_1 = { set_name = "Juvex I" }
+			juvex_planet = { set_name = "Juvex" }
+			juvex_planet_major = { set_name = "Juvex Major" }
+			juvex_planet_minor = { set_name = "Juvex Minor" }
+			juvex_3 = { set_name = "Juvex III" }
+			juvex_3_a = { set_name = "Juvex IIIa" }
+			juvex_3_b = { set_name = "Juvex IIIb" }
+			juvex_3_c = { set_name = "Juvex IIIc" }
+			juvex_3_d = { set_name = "Juvex IIId" }
+			juvex_3_e = { set_name = "Juvex IIIe" }
+			juvex_3_f = { set_name = "Juvex IIIf" }
+			juvex_4 = { set_name = "Juvex IV" }
+		}
+	}
+}
+
+hoth_fix = {
+	set_name = "Hoth"
+	every_system_planet = {
+		switch = {
+			trigger = has_planet_flag
+			hoth_star = { set_name = "Hoth" }
+			hoth_shron = { set_name = "Shron" }
+			hoth_biosh = { set_name = "Biosh" }
+			hoth_nushk = { set_name = "Nushk" }
+			hoth_nushk_1 = { set_name = "Nushk I" }
+			hoth_nushk_2 = { set_name = "Nushk II" }
+			hoth_nushk_3 = { set_name = "Nushk III" }
+			hoth_nushk_4 = { set_name = "Nushk IV" }
+			hoth_jhas = { set_name = "Jhas" }
+			hoth_jhas_1 = { set_name = "Jhas I" }
+			hoth_jhas_2 = { set_name = "Jhas II" }
+			hoth_jhas_3 = { set_name = "Jhas III" }
+			hoth_jhas_4 = { set_name = "Jhas IV" }
+			hoth_jhas_5 = { set_name = "Jhas V" }
+			hoth_jhas_6 = { set_name = "Jhas VI" }
+			hoth_jhas_7 = { set_name = "Jhas VII" }
+			hoth_jhas_24 = { set_name = "Jhas XXIV" }
+			hoth_ordaj = { set_name = "Ordaj" }
+			hoth_ordaj_1 = { set_name = "Ordaj I" }
+			hoth_ordaj_2 = { set_name = "Ordaj II" }
+			hoth_ordaj_3 = { set_name = "Ordaj III" }
+			hoth_ordaj_4 = { set_name = "Ordaj IV" }
+			hoth_ordaj_5 = { set_name = "Ordaj V" }
+			hoth_ordaj_6 = { set_name = "Ordaj VI" }
+			hoth_ordaj_7 = { set_name = "Ordaj VII" }
+			hoth_ordaj_17 = { set_name = "Ordaj XVII" }
+			hoth_planet = { set_name = "Hoth" }
+			hoth_planet_1 = { set_name = "Hoth I" }
+			hoth_planet_2 = { set_name = "Hoth II" }
+			hoth_planet_3 = { set_name = "Hoth III" }
+		}
+	}
+}
+
+mustafar_fix = {
+	set_name = "Mustafar"
+	every_system_planet = {
+		switch = {
+			trigger = has_planet_flag
+			mustafar_star_priate = { set_name = "Priate" }
+			mustafar_schada = { set_name = "Schada" }
+			mustafar_jestefad = { set_name = "Jestefad" }
+			mustafar_planet = { set_name = "Mustafar" }
+			mustafar_lefrani = { set_name = "Lefrani" }
+			mustafar_nur = { set_name = "Nur" }
+			mustafar_rietta = { set_name = "Rietta" }
+			mustafar_rietta_1 = { set_name = "Rietta I" }
+			mustafar_rietta_2 = { set_name = "Rietta II" }
+			mustafar_6 = { set_name = "Mustafar VI" }
+		}
+	}
+}
+
+endor_fix = {
+	set_name = "Endor"
+	every_system_planet = {
+		switch = {
+			trigger = has_planet_flag
+			endor_star_ibleam = { set_name = "Ibleam" }
+			endor_tana = { set_name = "Endor (Tana)" }
+			endor_tana_1 = { set_name = "Endor I" }
+			endor_tana_2 = { set_name = "Endor II" }
+			endor_tana_3 = { set_name = "Endor III" }
+			endor_tana_4 = { set_name = "Endor IV" }
+			endor_tana_5 = { set_name = "Endor V" }
+			endor_tana_6 = { set_name = "Endor VI" }
+			endor_tana_7 = { set_name = "Endor VII" }
+			endor_tana_8 = { set_name = "Sistermoon" }
+			endor_planet = { set_name = "Endor" }
+			endor_eloggi = { set_name = "Eloggi" }
+			endor_megiddo = { set_name = "Megiddo" }
+			endor_dor = { set_name = "Dor" }
+		}
+	}
+}
+
+jakku_fix = {
+	set_name = "Jakku"
+	every_system_planet = {
+		switch = {
+			trigger = has_planet_flag
+			jakku_star = { set_name = "Jakku" }
+			jakku_1 = { set_name = "Jakku I" }
+			jakku_2 = { set_name = "Jakku II" }
+			jakku_planet = { set_name = "Jakku" }
+			jakku_planet_major = { set_name = "Jakku Major" }
+			jakku_planet_minor = { set_name = "Jakku Minor" }
+			jakku_4 = { set_name = "Jakku IV" }
+			jakku_4a = { set_name = "Jakku IVa" }
+			jakku_4b = { set_name = "Jakku IVb" }
+			jakku_4c = { set_name = "Jakku IVc" }
+			jakku_4d = { set_name = "Jakku IVd" }
+			jakku_4e = { set_name = "Jakku IVe" }
+			jakku_4f = { set_name = "Jakku IVf" }
+			jakku_4g = { set_name = "Jakku IVg" }
+			jakku_5 = { set_name = "Jakku V" }
+		}
+	}
+}
+
+zakuul_fix = {
+	set_name = "Zakuul"
+	every_system_planet = {
+		switch = {
+			trigger = has_planet_flag
+			zakuul_star = { set_name = "Zakuul" }
+			zakuul_1 = { set_name = "Zakuul I" }
+			zakuul_planet = { set_name = "Zakuul" }
+			zakuul_planet_a = { set_name = "Zakuul A" }
+			zakuul_planet_b = { set_name = "Zakuul B" }
+			zakuul_planet_c = { set_name = "Zakuul C" }
+			zakuul_3 = { set_name = "Zakuul III" }
+			zakuul_4 = { set_name = "Zakuul IV" }
+			zukuul_4a = { set_name = "Zakuul IVa" }
+			zukuul_4b = { set_name = "Zakuul IVb" }
+			zukuul_4c = { set_name = "Zakuul IVc" }
+			zukuul_4d = { set_name = "Zakuul IVd" }
+			zukuul_4e = { set_name = "Zakuul IVe" }
+			zukuul_4f = { set_name = "Zakuul IVf" }
+			zakuul_5 = { set_name = "Zakuul V" }
+		}
+	}
+}
+
+csilla_fix = {
+	set_name = "Csilla"
+	every_system_planet = {
+		switch = {
+			trigger = has_planet_flag
+			csilla_star = { set_name = "Csilla" }
+			csilla_cessed = { set_name = "Cessed" }
+			csilla_cessed_minor = { set_name = "Cessed Minor" }
+			csilla_planet = { set_name = "Csilla" }
+			csilla_planet_1 = { set_name = "Csilla I" }
+			csilla_planet_2 = { set_name = "Csilla II" }
+			csilla_planet_3 = { set_name = "Csilla III" }
+			csilla_repplic = { set_name = "Repplic" }
+			csilla_repplic_1 = { set_name = "Repplic I" }
+			csilla_repplic_2 = { set_name = "Repplic II" }
+			csilla_repplic_3 = { set_name = "Repplic III" }
+			csilla_repplic_4 = { set_name = "Repplic IV" }
+			csilla_repplic_5 = { set_name = "Repplic V" }
+			csilla_repplic_6 = { set_name = "Repplic VI" }
+			csilla_repplic_22 = { set_name = "Repplic XXII" }
+			csilla_csorb = { set_name = "Csorb" }
+			csilla_csorb_major = { set_name = "Csorb Major" }
+			csilla_csorb_minor = { set_name = "Csorb Minor" }
+			csilla_formac = { set_name = "Formac" }
+		}
+	}
+}
