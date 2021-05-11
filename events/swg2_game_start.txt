@@ -62,65 +62,6 @@ country_event = {
 		every_country = {
 			limit = { is_country_type = default }
 			if = {
-				limit = { is_machine_empire = yes }
-				capital_scope = {
-					change_pc = rl_habitable_normal
-				}
-			}
-			if = {
-				limit = { has_origin = origin_remnants }
-				capital_scope = {
-					change_pc = pc_relic
-				}
-			}
-			switch = {
-				trigger = has_origin
-				origin_life_seeded = {
-					capital_scope = {
-						change_pc = pc_gaia
-					}
-					modify_species = {
-						species = owner_main_species
-						ideal_planet_class = pc_gaia
-					}
-				}
-				origin_machine = {
-					capital_scope = {
-						change_pc = pc_machine
-					}
-				}
-				origin_post_apocalyptic = {
-					capital_scope = {
-						change_pc = pc_nuked
-					}
-				}
-				origin_tree_of_life = {
-					capital_scope = {
-						remove_modifier = no_lifetree
-					}
-				}
-				# origin_pd_storm = {
-				# 	capital_scope = {
-				# 		change_pc = pc_storm
-				# 	}
-				# }
-				# origin_pd_coral = {
-				# 	capital_scope = {
-				# 		change_pc = pc_coral
-				# 	}
-				# }
-				# origin_pd_tree_of_life = {
-				# 	capital_scope = {
-				# 		change_pc = pc_megaflora
-				# 	}
-				# }
-				origin_pd_hive = {
-					capital_scope = {
-						change_pc = pc_hive
-					}
-				}
-			}
-			if = {
 				limit = { capital_scope = { is_ideal_planet_class = { who = PREV status = no } } }
 				switch = {
 					trigger = ideal_planet_class
@@ -184,6 +125,96 @@ country_event = {
 					pc_lichen = { capital_scope = { change_pc = pc_lichen } }
 					pc_hive = { capital_scope = { change_pc = pc_hive } }
 					pc_machine = { capital_scope = { change_pc = pc_machine } }
+				}
+			}
+			if = {
+				limit = { is_machine_empire = yes }
+				capital_scope = {
+					change_pc = rl_habitable_normal
+				}
+			}
+			if = {
+				limit = { has_origin = origin_remnants }
+				capital_scope = {
+					change_pc = pc_relic
+				}
+				if = {
+					limit = { NOT = { ideal_planet_class = pc_relic } }
+					modify_species = {
+						species = this
+						ideal_planet_class = pc_relic
+					}
+				}
+			}
+			switch = {
+				trigger = has_origin
+				origin_life_seeded = {
+					capital_scope = {
+						change_pc = pc_gaia
+					}
+					modify_species = {
+						species = owner_main_species
+						ideal_planet_class = pc_gaia
+					}
+				}
+				origin_machine = {
+					capital_scope = {
+						change_pc = pc_machine
+						modify_species = {
+							species = this
+							ideal_planet_class = pc_machine
+						}
+					}
+				}
+				origin_post_apocalyptic = {
+					capital_scope = {
+						change_pc = pc_nuked
+						modify_species = {
+							species = this
+							ideal_planet_class = pc_nuked
+						}
+					}
+				}
+				origin_tree_of_life = {
+					capital_scope = {
+						remove_modifier = no_lifetree
+					}
+				}
+				origin_pd_storm = {
+					capital_scope = {
+						change_pc = pc_storm
+						modify_species = {
+							species = this
+							ideal_planet_class = pc_storm
+						}
+					}
+				}
+				origin_pd_coral = {
+					capital_scope = {
+						change_pc = pc_coral
+						modify_species = {
+							species = this
+							ideal_planet_class = pc_coral
+						}
+					}
+				}
+				origin_pd_tree_of_life = {
+					capital_scope = {
+						change_pc = pc_megaflora
+						modify_species = {
+							species = this
+							ideal_planet_class = pc_megaflora
+						}
+					}
+				}
+				origin_pd_hive = {
+					capital_scope = {
+						change_pc = pc_hive
+						modify_species = {
+							species = this
+							ideal_planet_class = pc_hive
+						}
+					}
 				}
 			}
 		}
