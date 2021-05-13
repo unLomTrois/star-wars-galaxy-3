@@ -19,7 +19,7 @@ static_galaxy_scenario = {
 
 
 	### Galactic Center
-	system = { id = "1" name = "Galactic Center" position = { x = 0 y = 0 } }
+	system = { id = "1" name = "Galactic Center" position = { x = 0 y = 0 } initializer = galactic_center_initializer }
 
 
 
@@ -30,8 +30,8 @@ static_galaxy_scenario = {
 
 	### Perlemian Trade Route
 	system = { id = "2" name = "Coruscant" position = { x = 0 y = -42 } initializer = coruscant_system_initializer spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_coruscant } } }
-	system = { id = "3" name = "Alsakan" position = { x = -4 y = -45 } }
-	system = { id = "5" name = "Anaxes" position = { x = -11 y = -49 } }
+	system = { id = "3" name = "Alsakan" position = { x = -4 y = -45 } initializer = alsakan_system_initializer }
+	system = { id = "5" name = "Axum" position = { x = -11 y = -49 } initializer = axum_system_initializer }
 	system = { id = "6" name = "Corulag" position = { x = -14 y = -50 } }
 	system = { id = "7" name = "Chandrila" position = { x = -16 y = -52 } }
 	system = { id = "9" name = "Esseles" position = { x = -19 y = -53 } }
@@ -152,7 +152,7 @@ static_galaxy_scenario = {
 
 
 	### Southern Hydian Way
-	system = { id = "400" name = "Skako" position = { x = -22 y = -45 } }
+	system = { id = "400" name = "Skako" position = { x = -22 y = -45 } initializer = skako_system_initializer }
 	system = { id = "421" name = "Denon" position = { x = -68 y = 53 } }
 	system = { id = "435" name = "Malastare" position = { x = -62 y = 163 } }
 	system = { id = "440" name = "Eriadu" position = { x = -46 y = 206 } }
@@ -203,9 +203,9 @@ static_galaxy_scenario = {
 
 	### Koros Trunk Line & Byss Run
 	system = { id = "601" name = "Kaikielius" position = { x = -1 y = -36 } }
-	system = { id = "604" name = "Empress Teta" position = { x = -1 y = -26 } }
-	system = { id = "606" name = "Prakith" position = { x = 14 y = -16 } }
-	system = { id = "608" name = "Beshqek" position = { x = 14 y = 13 } }
+	system = { id = "604" name = "Empress Teta" position = { x = -1 y = -26 } initializer = empress_teta_system_initializer }
+	system = { id = "606" name = "Prakith" position = { x = 14 y = -16 } initializer = prakith_system_initializer }
+	system = { id = "608" name = "Beshqek" position = { x = 14 y = 13 } initializer = beshqek_system_initializer }
 	# Free ids up to 630 
 
 	add_hyperlane = { from = "601" to = "2" }
@@ -218,7 +218,7 @@ static_galaxy_scenario = {
 
 
 	### Deep Core 
-	system = { id = "638" name = "Vulpter" position = { x = -17 y = -27 } }
+	system = { id = "638" name = "Vulpter" position = { x = -17 y = -27 } initializer = vulpter_system_initializer }
 	system = { id = "639" name = "Tython" position = { x = 0 y = -19 } initializer = tython_system_initializer spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_tython } } }
 	system = { id = "646" name = "Columus" position = { x = -40 y = -3 } }
 	system = { id = "655" name = "Lialic" position = { x = 5 y = 26 } }
@@ -238,7 +238,7 @@ static_galaxy_scenario = {
 	#####################
 
 	### Namadii Corridor 
-	system = { id = "704" name = "Pantolomin" position = { x = 11 y = -55 } }
+	system = { id = "704" name = "Panto" position = { x = 11 y = -55 } initializer = panto_system_initializer }
 	system = { id = "713" name = "Bilbringi" position = { x = 37 y = -90 } }
 	system = { id = "715" name = "Dorin" position = { x = 43 y = -100 } }
 	system = { id = "717" name = "Glee Anselm" position = { x = 55 y = -113 } }
@@ -256,7 +256,7 @@ static_galaxy_scenario = {
 
 
 	### Metellos Route 
-	system = { id = "750" name = "Metellos" position = { x = 8 y = -42 } }
+	system = { id = "750" name = "Metellos" position = { x = 8 y = -42 } initializer = metellos_system_initializer }
 	# Free ids up to 770 
 
 	add_hyperlane = { from = "750" to = "2" }
@@ -327,7 +327,7 @@ static_galaxy_scenario = {
 	### Core
 	system = { id = "926" name = "Voon" position = { x = 11 y = -53 } }
 	system = { id = "944" name = "Aaghra" position = { x = -29 y = -32 } }
-	system = { id = "945" name = "Neimoidia" position = { x = -60 y = -26 } }
+	system = { id = "945" name = "Neimoidia" position = { x = -60 y = -26 } initializer = neimoidia_system_initializer }
 	system = { id = "946" name = "Balmorra" position = { x = -55 y = -28 } }
 	system = { id = "950" name = "Rendili" position = { x = -49 y = 0 } }
 	system = { id = "956" name = "Aurea" position = { x = -44 y = 18 } }
@@ -363,7 +363,7 @@ static_galaxy_scenario = {
 
 
 	### Shwuy Exchange 
-	system = { id = "1071" name = "Ord Antalaha" position = { x = -7 y = -72 } }
+	system = { id = "1071" name = "Ord Antalaha" position = { x = -7 y = -72 } initializer = ord_antalaha_system_initializer }
 	# Free ids up to 1080 
 
 	add_hyperlane = { from = "1071" to = "9" }

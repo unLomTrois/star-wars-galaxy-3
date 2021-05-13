@@ -737,6 +737,7 @@ static_galaxy_scenario = {
 	system = { id = "987" name = "Inysh" position = { x = 60 y = 78 } }
 	system = { id = "988" name = "Questal" position = { x = 59 y = 67 } }
 	system = { id = "989" name = "Osssorck Nebulae" position = { x = 51 y = 63 } }
+	system = { id = "990" name = "Jinata" position = { x = 10 y = -75 } }
 	# Free ids up to 1050
 
 	add_hyperlane = { from = "911" to = "912" }
@@ -821,6 +822,8 @@ static_galaxy_scenario = {
 	add_hyperlane = { from = "988" to = "989" }
 	add_hyperlane = { from = "404" to = "105" }
 	add_hyperlane = { from = "404" to = "845" }
+	add_hyperlane = { from = "990" to = "750" }
+	add_hyperlane = { from = "990" to = "702" }
 
 
 

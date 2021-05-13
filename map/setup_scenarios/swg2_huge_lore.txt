@@ -19,7 +19,7 @@ static_galaxy_scenario = {
 
 
 	### Galactic Center
-	system = { id = "1" name = "Galactic Center" position = { x = 0 y = 0 } }
+	system = { id = "1" name = "Galactic Center" position = { x = 0 y = 0 } initializer = galactic_center_initializer }
 
 
 
@@ -30,17 +30,17 @@ static_galaxy_scenario = {
 
 	### Perlemian Trade Route
 	system = { id = "2" name = "Coruscant" position = { x = 0 y = -70 } initializer = coruscant_system_initializer spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_coruscant } } }
-	system = { id = "3" name = "Alsakan" position = { x = -7 y = -75 } }
+	system = { id = "3" name = "Alsakan" position = { x = -7 y = -75 } initializer = alsakan_system_initializer }
 	system = { id = "4" name = "Grizmallt" position = { x = -13 y = -79 } }
-	system = { id = "5" name = "Anaxes" position = { x = -19 y = -82 } }
+	system = { id = "5" name = "Axum" position = { x = -19 y = -82 } initializer = axum_system_initializer }
 	system = { id = "6" name = "Corulag" position = { x = -23 y = -84 } }
 	system = { id = "7" name = "Chandrila" position = { x = -26 y = -86 } }
-	system = { id = "8" name = "Brentaal" position = { x = -29 y = -88 } }
+	system = { id = "8" name = "Brentaal" position = { x = -29 y = -88 } initializer = brentaal_system_initializer }
 	system = { id = "9" name = "Esseles" position = { x = -31 y = -89 } }
 	system = { id = "10" name = "Rhinnal" position = { x = -33 y = -90 } }
 	system = { id = "11" name = "Ralltiir" position = { x = -36 y = -92 } }
 	system = { id = "12" name = "Delle" position = { x = -43 y = -96 } }
-	system = { id = "13" name = "Yabol Opa" position = { x = -53 y = -102 } }
+	system = { id = "13" name = "Yabol Opa" position = { x = -53 y = -102 } initializer = yabol_opa_system_initializer }
 	system = { id = "14" name = "Ifmix" position = { x = -59 y = -106 } }
 	system = { id = "15" name = "Shulstine" position = { x = -65 y = -108 } }
 	system = { id = "16" name = "Castell" position = { x = -68 y = -110 } }
@@ -357,8 +357,8 @@ static_galaxy_scenario = {
 
 
 	### Northern Hydian Way
-	system = { id = "300" name = "Wakeelmui" position = { x = -25 y = -105 } }
-	system = { id = "301" name = "Uviuy Exen" position = { x = -26 y = -114 } }
+	system = { id = "300" name = "Wakeelmui" position = { x = -25 y = -105 } initializer = wakeelmui_system_initializer }
+	system = { id = "301" name = "Uviuy Exen" position = { x = -26 y = -114 } initializer = uviuy_exen_system_initializer }
 	system = { id = "302" name = "Nierport" position = { x = -31 y = -127 } }
 	system = { id = "303" name = "Champala" position = { x = -34 y = -134 } }
 	system = { id = "304" name = "Drearia" position = { x = -38 y = -141 } }
@@ -442,7 +442,7 @@ static_galaxy_scenario = {
 
 
 	### Southern Hydian Way
-	system = { id = "400" name = "Skako" position = { x = -37 y = -75 } }
+	system = { id = "400" name = "Skako" position = { x = -37 y = -75 } initializer = skako_system_initializer }
 	system = { id = "401" name = "Aldraig" position = { x = -51 y = -60 } }
 	system = { id = "402" name = "Demophon" position = { x = -58 y = -53 } }
 	system = { id = "403" name = "Glithnos" position = { x = -62 y = -49 } }
@@ -628,13 +628,13 @@ static_galaxy_scenario = {
 	### Koros Trunk Line & Byss Run
 	system = { id = "600" name = "Foerost" position = { x = 0 y = -67 } }
 	system = { id = "601" name = "Kaikielius" position = { x = -1 y = -65 } }
-	system = { id = "602" name = "Ruan" position = { x = 0 y = -63 } }
+	system = { id = "602" name = "Ruan" position = { x = 0 y = -63 } initializer = ruan_system_initializer }
 	system = { id = "603" name = "Jerrilek" position = { x = -1 y = -58 } }
-	system = { id = "604" name = "Empress Teta" position = { x = -1 y = -44 } }
+	system = { id = "604" name = "Empress Teta" position = { x = -1 y = -44 } initializer = empress_teta_system_initializer }
 	system = { id = "605" name = "Keeara Major" position = { x = 4 y = -41 } }
-	system = { id = "606" name = "Prakith" position = { x = 23 y = -26 } }
+	system = { id = "606" name = "Prakith" position = { x = 23 y = -26 } initializer = prakith_system_initializer }
 	system = { id = "607" name = "Odik" position = { x = 39 y = -15 } }
-	system = { id = "608" name = "Beshqek" position = { x = 24 y = 21 } }
+	system = { id = "608" name = "Beshqek" position = { x = 24 y = 21 } initializer = beshqek_system_initializer }
 	# Free ids up to 630
 
 	add_hyperlane = { from = "2" to = "600" }
@@ -653,23 +653,23 @@ static_galaxy_scenario = {
 	### Deep Core
 	system = { id = "630" name = "Spira" position = { x = -4 y = -61 } }
 	system = { id = "631" name = "Iope" position = { x = -6 y = -53 } }
-	system = { id = "632" name = "Starswarm Cluster" position = { x = -5 y = -50 } }
+	system = { id = "632" name = "Starswarm Cluster" position = { x = -5 y = -50 } initializer = starswarm_cluster_system_initializer }
 	system = { id = "633" name = "Kuar" position = { x = 1 y = -47 } }
 	system = { id = "634" name = "Symbia" position = { x = 5 y = -44 } }
-	system = { id = "635" name = "Primus Goluud" position = { x = -18 y = -52 } }
+	system = { id = "635" name = "Primus Goluud" position = { x = -18 y = -52 } initializer = primus_goluud_system_initializer }
 	system = { id = "636" name = "Adana" position = { x = -21 y = -47 } }
 	system = { id = "637" name = "Besero" position = { x = -24 y = -51 } }
-	system = { id = "638" name = "Vulpter" position = { x = -29 y = -45 } }
+	system = { id = "638" name = "Vulpter" position = { x = -29 y = -45 } initializer = vulpter_system_initializer }
 	system = { id = "639" name = "Tython" position = { x = 0 y = -31 } initializer = tython_system_initializer spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_tython } } }
 	system = { id = "640" name = "Tsoss Beacon" position = { x = -5 y = -17 } }
 	system = { id = "641" name = "Cambria" position = { x = -46 y = -41 } }
 	system = { id = "642" name = "Dremulae" position = { x = -50 y = -33 } }
 	system = { id = "643" name = "Ator" position = { x = -53 y = -33 } }
-	system = { id = "644" name = "Had Abbadon" position = { x = -37 y = -30 } }
+	system = { id = "644" name = "Had Abbadon" position = { x = -37 y = -30 } initializer = had_abbadon_system_initializer }
 	system = { id = "645" name = "Thoadeye" position = { x = -59 y = -14 } }
 	system = { id = "646" name = "Columus" position = { x = -66 y = -5 } }
 	system = { id = "647" name = "Lettow" position = { x = -63 y = 3 } }
-	system = { id = "648" name = "Ebaq" position = { x = -53 y = 2 } }
+	system = { id = "648" name = "Treskov" position = { x = -53 y = 2 } initializer = treskov_system_initializer }
 	system = { id = "649" name = "Hakassi" position = { x = -56 y = 6 } }
 	system = { id = "650" name = "Ottabesk" position = { x = -56 y = 10 } }
 	system = { id = "651" name = "Ojom" position = { x = -53 y = 12 } }
@@ -735,10 +735,10 @@ static_galaxy_scenario = {
 	system = { id = "701" name = "Weerden" position = { x = 7 y = -79 } }
 	system = { id = "702" name = "Galvoni" position = { x = 8 y = -84 } }
 	system = { id = "703" name = "Twith" position = { x = 15 y = -91 } }
-	system = { id = "704" name = "Pantolomin" position = { x = 19 y = -92 } }
-	system = { id = "705" name = "Borleias" position = { x = 21 y = -101 } }
+	system = { id = "704" name = "Panto" position = { x = 19 y = -92 } initializer = panto_system_initializer }
+	system = { id = "705" name = "Pyria" position = { x = 21 y = -101 } initializer = pyria_system_initializer }
 	system = { id = "706" name = "Ord Mirit" position = { x = 24 y = -107 } }
-	system = { id = "707" name = "Palanhi" position = { x = 33 y = -118 } }
+	system = { id = "707" name = "Palanhi" position = { x = 33 y = -118 } initializer = palanhi_system_initializer }
 	system = { id = "708" name = "O'pahz" position = { x = 45 y = -132 } }
 	system = { id = "709" name = "Voltare" position = { x = 47 y = -137 } }
 	system = { id = "710" name = "Meastrinnar" position = { x = 48 y = -140 } }
@@ -784,7 +784,7 @@ static_galaxy_scenario = {
 
 
 	### Metellos Route
-	system = { id = "750" name = "Metellos" position = { x = 7 y = -70 } }
+	system = { id = "750" name = "Metellos" position = { x = 7 y = -70 } initializer = metellos_system_initializer }
 	system = { id = "751" name = "Norkronia" position = { x = 17 y = -66 } }
 	system = { id = "752" name = "Alland" position = { x = 23 y = -63 } }
 	system = { id = "753" name = "Cal-Seti" position = { x = 37 y = -53 } }
@@ -930,11 +930,11 @@ static_galaxy_scenario = {
 	system = { id = "929" name = "Vardos" position = { x = 5 y = -83 } }
 	system = { id = "930" name = "Thokos" position = { x = -3 y = -78 } }
 	system = { id = "931" name = "Thorgeld" position = { x = -6 y = -84 } }
-	system = { id = "932" name = "Velusia" position = { x = -3 y = -88 } }
+	system = { id = "932" name = "Velus" position = { x = -3 y = -88 } initializer = velus_system_initializer }
 	system = { id = "933" name = "Farrfin" position = { x = 13 y = -96 } }
 	system = { id = "934" name = "Mamendin" position = { x = 5 y = -99 } }
 	system = { id = "935" name = "Kidiet Olgo" position = { x = -2 y = -100 } }
-	system = { id = "936" name = "Shawken" position = { x = -14 y = -92 } }
+	system = { id = "936" name = "Shawken" position = { x = -14 y = -92 } initializer = shawken_system_initializer }
 	system = { id = "937" name = "Challon" position = { x = -14 y = -95 } }
 	system = { id = "938" name = "Albecus" position = { x = -24 y = -90 } }
 	system = { id = "939" name = "Utrost" position = { x = -6 y = -72 }}
@@ -943,7 +943,7 @@ static_galaxy_scenario = {
 	system = { id = "942" name = "Vultar" position = { x = -32 y = -67 } }
 	system = { id = "943" name = "Palawa" position = { x = -46 y = -62 } }
 	system = { id = "944" name = "Aaghra" position = { x = -48 y = -54 } }
-	system = { id = "945" name = "Neimoidia" position = { x = -96 y = -41 } }
+	system = { id = "945" name = "Neimoidia" position = { x = -96 y = -41 } initializer = neimoidia_system_initializer }
 	system = { id = "946" name = "Balmorra" position = { x = -94 y = -43 } }
 	system = { id = "947" name = "Pria" position = { x = -85 y = -28 } }
 	system = { id = "948" name = "Ruul" position = { x = -71 y = -21 } }
@@ -988,6 +988,7 @@ static_galaxy_scenario = {
 	system = { id = "987" name = "Inysh" position = { x = 60 y = 78 } }
 	system = { id = "988" name = "Questal" position = { x = 59 y = 67 } }
 	system = { id = "989" name = "Osssorck Nebulae" position = { x = 51 y = 63 } }
+	system = { id = "990" name = "Jinata" position = { x = 10 y = -75 } initializer = jinata_system_initializer }
 	# Free ids up to 1050
 
 	add_hyperlane = { from = "754" to = "913" }
@@ -1124,6 +1125,9 @@ static_galaxy_scenario = {
 	add_hyperlane = { from = "987" to = "823" }
 	add_hyperlane = { from = "987" to = "824" }
 	add_hyperlane = { from = "988" to = "824" }
+	add_hyperlane = { from = "990" to = "750" }
+	add_hyperlane = { from = "990" to = "701" }
+	add_hyperlane = { from = "990" to = "928" }
 
 
 
@@ -1153,7 +1157,7 @@ static_galaxy_scenario = {
 
 	### Shwuy Exchange
 	system = { id = "1070" name = "Dankayo" position = { x = -22 y = -119 } }
-	system = { id = "1071" name = "Ord Antalaha" position = { x = -11 y = -120 } }
+	system = { id = "1071" name = "Ord Antalaha" position = { x = -11 y = -120 } initializer = ord_antalaha_system_initializer }
 	system = { id = "1072" name = "Noquivzor" position = { x = 23 y = -119 } }
 	system = { id = "1073" name = "Abonshee" position = { x = 40 y = -115 } }
 	system = { id = "1074" name = "Vakkar" position = { x = 48 y = -118 } }
