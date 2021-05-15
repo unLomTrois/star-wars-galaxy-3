@@ -10,6 +10,9 @@
 
  GALAXY_DESCRIPTION:0 "Galaxy Description"
  SWG2_PLANET_CLASS_EDITOR_DESC:0 "§YStar Wars Galaxy:§!\n- Homeworld and Star Name will be overwritten.\n- Starting System selection is disabled.\n- Lore accurate maps will overwrite the Planet Class and your pop preference."
+ UI_SWG2_PLANET_CLASS_EDITOR_DESC:0 "Lore accurate maps will overwrite the Planet Class and your pop preference."
+ SWG2_HOMEWORLD_NAME:0 "Homeworld Name §R(will be overwritten)§!"
+ SWG2_SYSTEM_NAME:0 "Star Name §R(will be overwritten)§!"
 
  swg2_trait_alderaan:0 "Alderaan Start"
  swg2_trait_bothawui:0 "Bothawui Start"

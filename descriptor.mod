@@ -1,6 +1,8 @@
-version="0.2.2"
+version="0.2.3"
 tags={
 	"Galaxy Generation"
+	"Overhaul"
+	"Gameplay"
 }
 name="Star Wars Galaxy 2"
 picture="thumbnail.png"
