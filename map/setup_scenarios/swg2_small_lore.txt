@@ -1221,28 +1221,41 @@ static_galaxy_scenario = {
 	### Northern Unknown Systems
 	system = { id = "4082" name = "Utegetu Nebula" position = { x = 87 y = -94 } }
 	system = { id = "4089" name = "Parnassos" position = { x = 110 y = -145 } }
+	
+	system = { id = "4096" name = "Volik" position = { x = 111 y = -105 } }
+	system = { id = "4100" name = "Veroleem" position = { x = 77 y = -133 } }
+	system = { id = "4108" name = "Weik" position = { x = 166 y = -116 } }
+	system = { id = "4120" name = "Iokath" position = { x = 240 y = -189 } }
 	## Free ids up to 4150 
 
 	add_hyperlane = { from = "4082" to = "717" }
 	add_hyperlane = { from = "4089" to = "3035" }
+	
+	add_hyperlane = { from = "4096" to = "4082" }
+	add_hyperlane = { from = "4096" to = "4154" }
+	add_hyperlane = { from = "4100" to = "4089" }
+	add_hyperlane = { from = "4100" to = "720" }
+	add_hyperlane = { from = "4108" to = "4154" }
+	add_hyperlane = { from = "4108" to = "4162" }
+	add_hyperlane = { from = "4120" to = "4162" }
 
 
 
 
 	### Chiss Region + Surroundings
-	system = { id = "4154" name = "Ilum" position = { x = 124 y = -110 } }
-	system = { id = "4162" name = "Exegol" position = { x = 179 y = -108 } }
+	system = { id = "4154" name = "Ilum" position = { x = 124 y = -110 } initializer = ilum_system_initializer }
+	system = { id = "4162" name = "Exegol" position = { x = 179 y = -108 } initializer = exegol_system_initializer }
 	system = { id = "4164" name = "Csilla" position = { x = 178 y = -73 } initializer = csilla_system_initializer spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_csilla } } }
-	system = { id = "4172" name = "Copero" position = { x = 172 y = -65 } }
-	system = { id = "4177" name = "Yashuvhu" position = { x = 159 y = -57 } }
-	system = { id = "4180" name = "Jedha" position = { x = 101 y = -35 } }
-	system = { id = "4188" name = "Lehon" position = { x = 138 y = 19 } }
-	system = { id = "4189" name = "244Core" position = { x = 161 y = -29 } }
+	system = { id = "4172" name = "Copero" position = { x = 172 y = -65 } initializer = copero_system_initializer }
+	system = { id = "4177" name = "Yashuvhu" position = { x = 159 y = -57 } initializer = yashuvhu_system_initializer }
+	system = { id = "4180" name = "Jedha" position = { x = 101 y = -35 } initializer = jedha_system_initializer }
+	system = { id = "4188" name = "Lehon" position = { x = 138 y = 19 } initializer = lehon_system_initializer spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_lehon } } }
+	system = { id = "4189" name = "244Core" position = { x = 161 y = -29 } initializer = 244core_system_initializer }
+	
+	system = { id = "4225" name = "Tulpaa" position = { x = 121 y = 29 } initializer = tulpaa_system_initializer }
 	## Free ids up to 4250 
 
-	add_hyperlane = { from = "4154" to = "4082" }
 	add_hyperlane = { from = "4154" to = "4089" }
-	add_hyperlane = { from = "4154" to = "4162" }
 	add_hyperlane = { from = "4162" to = "4164" }
 	add_hyperlane = { from = "4164" to = "4172" }
 	add_hyperlane = { from = "4172" to = "4177" }
@@ -1251,6 +1264,8 @@ static_galaxy_scenario = {
 	add_hyperlane = { from = "4189" to = "4188" }
 	add_hyperlane = { from = "4189" to = "4180" }
 	add_hyperlane = { from = "4188" to = "4002" }
+
+	add_hyperlane = { from = "4225" to = "4188" }
 
 
 

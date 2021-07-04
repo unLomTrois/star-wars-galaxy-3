@@ -32,6 +32,7 @@ swg2_trait_alderaan = {
 		swg2_trait_kessel
 		swg2_trait_korriban
 		swg2_trait_kuat
+		swg2_trait_lehon
 		swg2_trait_malachor_v
 		swg2_trait_mandalore
 		swg2_trait_mon_calamari
@@ -87,6 +88,7 @@ swg2_trait_bothawui = {
 		swg2_trait_kessel
 		swg2_trait_korriban
 		swg2_trait_kuat
+		swg2_trait_lehon
 		swg2_trait_malachor_v
 		swg2_trait_mandalore
 		swg2_trait_mon_calamari
@@ -142,6 +144,7 @@ swg2_trait_cantonica = {
 		swg2_trait_kessel
 		swg2_trait_korriban
 		swg2_trait_kuat
+		swg2_trait_lehon
 		swg2_trait_malachor_v
 		swg2_trait_mandalore
 		swg2_trait_mon_calamari
@@ -197,6 +200,7 @@ swg2_trait_cato_neimoidia = {
 		swg2_trait_kessel
 		swg2_trait_korriban
 		swg2_trait_kuat
+		swg2_trait_lehon
 		swg2_trait_malachor_v
 		swg2_trait_mandalore
 		swg2_trait_mon_calamari
@@ -252,6 +256,7 @@ swg2_trait_corellia = {
 		swg2_trait_kessel
 		swg2_trait_korriban
 		swg2_trait_kuat
+		swg2_trait_lehon
 		swg2_trait_malachor_v
 		swg2_trait_mandalore
 		swg2_trait_mon_calamari
@@ -307,6 +312,7 @@ swg2_trait_coruscant = {
 		swg2_trait_kessel
 		swg2_trait_korriban
 		swg2_trait_kuat
+		swg2_trait_lehon
 		swg2_trait_malachor_v
 		swg2_trait_mandalore
 		swg2_trait_mon_calamari
@@ -362,6 +368,7 @@ swg2_trait_csilla = {
 		swg2_trait_kessel
 		swg2_trait_korriban
 		swg2_trait_kuat
+		swg2_trait_lehon
 		swg2_trait_malachor_v
 		swg2_trait_mandalore
 		swg2_trait_mon_calamari
@@ -417,6 +424,7 @@ swg2_trait_dagobah = {
 		swg2_trait_kessel
 		swg2_trait_korriban
 		swg2_trait_kuat
+		swg2_trait_lehon
 		swg2_trait_malachor_v
 		swg2_trait_mandalore
 		swg2_trait_mon_calamari
@@ -472,6 +480,7 @@ swg2_trait_dathomir = {
 		swg2_trait_kessel
 		swg2_trait_korriban
 		swg2_trait_kuat
+		swg2_trait_lehon
 		swg2_trait_malachor_v
 		swg2_trait_mandalore
 		swg2_trait_mon_calamari
@@ -527,6 +536,7 @@ swg2_trait_desevro = {
 		swg2_trait_kessel
 		swg2_trait_korriban
 		swg2_trait_kuat
+		swg2_trait_lehon
 		swg2_trait_malachor_v
 		swg2_trait_mandalore
 		swg2_trait_mon_calamari
@@ -582,6 +592,7 @@ swg2_trait_dromund_kaas = {
 		swg2_trait_kessel
 		swg2_trait_korriban
 		swg2_trait_kuat
+		swg2_trait_lehon
 		swg2_trait_malachor_v
 		swg2_trait_mandalore
 		swg2_trait_mon_calamari
@@ -637,6 +648,7 @@ swg2_trait_duro = {
 		swg2_trait_kessel
 		swg2_trait_korriban
 		swg2_trait_kuat
+		swg2_trait_lehon
 		swg2_trait_malachor_v
 		swg2_trait_mandalore
 		swg2_trait_mon_calamari
@@ -692,6 +704,7 @@ swg2_trait_endor = {
 		swg2_trait_kessel
 		swg2_trait_korriban
 		swg2_trait_kuat
+		swg2_trait_lehon
 		swg2_trait_malachor_v
 		swg2_trait_mandalore
 		swg2_trait_mon_calamari
@@ -747,6 +760,7 @@ swg2_trait_felucia = {
 		swg2_trait_kessel
 		swg2_trait_korriban
 		swg2_trait_kuat
+		swg2_trait_lehon
 		swg2_trait_malachor_v
 		swg2_trait_mandalore
 		swg2_trait_mon_calamari
@@ -802,6 +816,7 @@ swg2_trait_fondor = {
 		swg2_trait_kessel
 		swg2_trait_korriban
 		swg2_trait_kuat
+		swg2_trait_lehon
 		swg2_trait_malachor_v
 		swg2_trait_mandalore
 		swg2_trait_mon_calamari
@@ -858,6 +873,7 @@ swg2_trait_geonosis = {
 		swg2_trait_kessel
 		swg2_trait_korriban
 		swg2_trait_kuat
+		swg2_trait_lehon
 		swg2_trait_malachor_v
 		swg2_trait_mandalore
 		swg2_trait_mon_calamari
@@ -913,6 +929,7 @@ swg2_trait_hapes = {
 		swg2_trait_kessel
 		swg2_trait_korriban
 		swg2_trait_kuat
+		swg2_trait_lehon
 		swg2_trait_malachor_v
 		swg2_trait_mandalore
 		swg2_trait_mon_calamari
@@ -968,6 +985,7 @@ swg2_trait_hoth = {
 		swg2_trait_kessel
 		swg2_trait_korriban
 		swg2_trait_kuat
+		swg2_trait_lehon
 		swg2_trait_malachor_v
 		swg2_trait_mandalore
 		swg2_trait_mon_calamari
@@ -1023,6 +1041,7 @@ swg2_trait_jakku = {
 		swg2_trait_kessel
 		swg2_trait_korriban
 		swg2_trait_kuat
+		swg2_trait_lehon
 		swg2_trait_malachor_v
 		swg2_trait_mandalore
 		swg2_trait_mon_calamari
@@ -1078,6 +1097,7 @@ swg2_trait_juvex = {
 		swg2_trait_kessel
 		swg2_trait_korriban
 		swg2_trait_kuat
+		swg2_trait_lehon
 		swg2_trait_malachor_v
 		swg2_trait_mandalore
 		swg2_trait_mon_calamari
@@ -1133,6 +1153,7 @@ swg2_trait_kamino = {
 		swg2_trait_kessel
 		swg2_trait_korriban
 		swg2_trait_kuat
+		swg2_trait_lehon
 		swg2_trait_malachor_v
 		swg2_trait_mandalore
 		swg2_trait_mon_calamari
@@ -1188,6 +1209,7 @@ swg2_trait_kashyyyk = {
 		swg2_trait_kessel
 		swg2_trait_korriban
 		swg2_trait_kuat
+		swg2_trait_lehon
 		swg2_trait_malachor_v
 		swg2_trait_mandalore
 		swg2_trait_mon_calamari
@@ -1243,6 +1265,7 @@ swg2_trait_kessel = {
 		swg2_trait_kashyyyk
 		swg2_trait_korriban
 		swg2_trait_kuat
+		swg2_trait_lehon
 		swg2_trait_malachor_v
 		swg2_trait_mandalore
 		swg2_trait_mon_calamari
@@ -1298,6 +1321,7 @@ swg2_trait_korriban = {
 		swg2_trait_kashyyyk
 		swg2_trait_kessel
 		swg2_trait_kuat
+		swg2_trait_lehon
 		swg2_trait_malachor_v
 		swg2_trait_mandalore
 		swg2_trait_mon_calamari
@@ -1374,6 +1398,61 @@ swg2_trait_kuat = {
 	icon = "gfx/interface/icons/traits/trait_choose_start.dds"
 }
 
+# Lehon
+swg2_trait_lehon = {
+	cost = 0
+	initial = yes
+	sapient = yes
+	randomized = yes
+	modification = no
+	allowed_archetypes = { BIOLOGICAL LITHOID MACHINE }
+	sorting_priority = 0
+	opposites = { 
+		swg2_trait_alderaan
+		swg2_trait_bothawui 
+		swg2_trait_cantonica 
+		swg2_trait_cato_neimoidia 
+		swg2_trait_corellia 
+		swg2_trait_coruscant 
+		swg2_trait_csilla 
+		swg2_trait_dagobah 
+		swg2_trait_dathomir
+		swg2_trait_desevro
+		swg2_trait_dromund_kaas
+		swg2_trait_duro
+		swg2_trait_endor
+		swg2_trait_felucia
+		swg2_trait_fondor
+		swg2_trait_geonosis
+		swg2_trait_hapes
+		swg2_trait_hoth
+		swg2_trait_jakku
+		swg2_trait_juvex
+		swg2_trait_kamino
+		swg2_trait_kashyyyk
+		swg2_trait_kessel
+		swg2_trait_korriban
+		swg2_trait_kuat
+		swg2_trait_mandalore
+		swg2_trait_mon_calamari
+		swg2_trait_mustafar
+		swg2_trait_muunilinst
+		swg2_trait_mygeeto
+		swg2_trait_naboo
+		swg2_trait_nal_hutta
+		swg2_trait_manaan
+		swg2_trait_ryloth
+		swg2_trait_saleucami
+		swg2_trait_taris
+		swg2_trait_tatooine
+		swg2_trait_tython
+		swg2_trait_varl
+		swg2_trait_yavin_4
+		swg2_trait_zakuul
+	}
+	icon = "gfx/interface/icons/traits/trait_choose_start.dds"
+}
+
 # Malachor
 swg2_trait_malachor_v = {
 	cost = 0
@@ -1409,6 +1488,7 @@ swg2_trait_malachor_v = {
 		swg2_trait_kessel
 		swg2_trait_korriban
 		swg2_trait_kuat
+		swg2_trait_lehon
 		swg2_trait_mandalore
 		swg2_trait_mon_calamari
 		swg2_trait_mustafar
@@ -1464,6 +1544,7 @@ swg2_trait_manaan = {
 		swg2_trait_kessel
 		swg2_trait_korriban
 		swg2_trait_kuat
+		swg2_trait_lehon
 		swg2_trait_malachor_v
 		swg2_trait_mandalore
 		swg2_trait_mon_calamari
@@ -1519,6 +1600,7 @@ swg2_trait_mandalore = {
 		swg2_trait_kessel
 		swg2_trait_korriban
 		swg2_trait_kuat
+		swg2_trait_lehon
 		swg2_trait_malachor_v
 		swg2_trait_mon_calamari
 		swg2_trait_mustafar
@@ -1574,6 +1656,7 @@ swg2_trait_mon_calamari = {
 		swg2_trait_kessel
 		swg2_trait_korriban
 		swg2_trait_kuat
+		swg2_trait_lehon
 		swg2_trait_malachor_v
 		swg2_trait_mandalore
 		swg2_trait_mustafar
@@ -1629,6 +1712,7 @@ swg2_trait_mustafar = {
 		swg2_trait_kessel
 		swg2_trait_korriban
 		swg2_trait_kuat
+		swg2_trait_lehon
 		swg2_trait_malachor_v
 		swg2_trait_mandalore
 		swg2_trait_mon_calamari
@@ -1684,6 +1768,7 @@ swg2_trait_muunilinst = {
 		swg2_trait_kessel
 		swg2_trait_korriban
 		swg2_trait_kuat
+		swg2_trait_lehon
 		swg2_trait_malachor_v
 		swg2_trait_mandalore
 		swg2_trait_mon_calamari
@@ -1739,6 +1824,7 @@ swg2_trait_mygeeto = {
 		swg2_trait_kessel
 		swg2_trait_korriban
 		swg2_trait_kuat
+		swg2_trait_lehon
 		swg2_trait_malachor_v
 		swg2_trait_mandalore
 		swg2_trait_mon_calamari
@@ -1794,6 +1880,7 @@ swg2_trait_naboo = {
 		swg2_trait_kessel
 		swg2_trait_korriban
 		swg2_trait_kuat
+		swg2_trait_lehon
 		swg2_trait_malachor_v
 		swg2_trait_mandalore
 		swg2_trait_mon_calamari
@@ -1849,6 +1936,7 @@ swg2_trait_nal_hutta = {
 		swg2_trait_kessel
 		swg2_trait_korriban
 		swg2_trait_kuat
+		swg2_trait_lehon
 		swg2_trait_malachor_v
 		swg2_trait_mandalore
 		swg2_trait_mon_calamari
@@ -1904,6 +1992,7 @@ swg2_trait_ryloth = {
 		swg2_trait_kessel
 		swg2_trait_korriban
 		swg2_trait_kuat
+		swg2_trait_lehon
 		swg2_trait_malachor_v
 		swg2_trait_mandalore
 		swg2_trait_mon_calamari
@@ -1959,6 +2048,7 @@ swg2_trait_saleucami = {
 		swg2_trait_kessel
 		swg2_trait_korriban
 		swg2_trait_kuat
+		swg2_trait_lehon
 		swg2_trait_malachor_v
 		swg2_trait_mandalore
 		swg2_trait_mon_calamari
@@ -2014,6 +2104,7 @@ swg2_trait_taris = {
 		swg2_trait_kessel
 		swg2_trait_korriban
 		swg2_trait_kuat
+		swg2_trait_lehon
 		swg2_trait_malachor_v
 		swg2_trait_mandalore
 		swg2_trait_mon_calamari
@@ -2069,6 +2160,7 @@ swg2_trait_tatooine = {
 		swg2_trait_kessel
 		swg2_trait_korriban
 		swg2_trait_kuat
+		swg2_trait_lehon
 		swg2_trait_malachor_v
 		swg2_trait_mandalore
 		swg2_trait_mon_calamari
@@ -2124,6 +2216,7 @@ swg2_trait_tython = {
 		swg2_trait_kessel
 		swg2_trait_korriban
 		swg2_trait_kuat
+		swg2_trait_lehon
 		swg2_trait_malachor_v
 		swg2_trait_mandalore
 		swg2_trait_mon_calamari
@@ -2179,6 +2272,7 @@ swg2_trait_varl = {
 		swg2_trait_kessel
 		swg2_trait_korriban
 		swg2_trait_kuat
+		swg2_trait_lehon
 		swg2_trait_malachor_v
 		swg2_trait_mandalore
 		swg2_trait_mon_calamari
@@ -2234,6 +2328,7 @@ swg2_trait_yavin_4 = {
 		swg2_trait_kessel
 		swg2_trait_korriban
 		swg2_trait_kuat
+		swg2_trait_lehon
 		swg2_trait_malachor_v
 		swg2_trait_mandalore
 		swg2_trait_mon_calamari
@@ -2289,6 +2384,7 @@ swg2_trait_zakuul = {
 		swg2_trait_kessel
 		swg2_trait_korriban
 		swg2_trait_kuat
+		swg2_trait_lehon
 		swg2_trait_malachor_v
 		swg2_trait_mandalore
 		swg2_trait_mon_calamari

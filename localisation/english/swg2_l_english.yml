@@ -1,12 +1,12 @@
 ﻿l_english:
- swg2_huge_random:0 "§YStar Wars:§! §BRandomized§!\n2200+ Star Systems\n\n\nLore accurate names and positions\nRandomized planets and resources"
- swg2_huge_lore:0 "§YStar Wars:§! §GLore Accurate§!\n2200+ Star Systems\n\n\nCompletely lore accurate map\n(WIP 68/2258)"
+ swg2_huge_random:0 "§YStar Wars:§! §BRandomized§!\n2300+ Star Systems\n\n\nLore accurate names and positions\nRandomized planets and resources"
+ swg2_huge_lore:0 "§YStar Wars:§! §GLore Accurate§!\n2300+ Star Systems\n\n\nCompletely lore accurate map\n(WIP 76/2337)"
  swg2_large_random:0 "§YStar Wars:§! §BRandomized§!\n1200+ Star Systems\n\n\nLore accurate names and positions\nRandomized planets and resources"
- swg2_large_lore:0 "§YStar Wars:§! §GLore Accurate§!\n1200+ Star Systems\n\n\nCompletely lore accurate map\n(WIP 68/1276)"
+ swg2_large_lore:0 "§YStar Wars:§! §GLore Accurate§!\n1300+ Star Systems\n\n\nCompletely lore accurate map\n(WIP 76/1327)"
  swg2_medium_random:0 "§YStar Wars:§! §BRandomized§!\n600+ Star Systems\n\n\nLore accurate names and positions\nRandomized planets and resources"
- swg2_medium_lore:0 "§YStar Wars:§! §GLore Accurate§!\n600+ Star Systems\n\n\nCompletely lore accurate map\n(WIP 59/641)"
+ swg2_medium_lore:0 "§YStar Wars:§! §GLore Accurate§!\n600+ Star Systems\n\n\nCompletely lore accurate map\n(WIP 67/666)"
  swg2_small_random:0 "§YStar Wars:§! §BRandomized§!\n~300 Star Systems\n\n\nLore accurate names and positions\nRandomized planets and resources"
- swg2_small_lore:0 "§YStar Wars:§! §GLore Accurate§!\n~300 Star Systems\n\n\nCompletely lore accurate map\n(WIP 54/280)"
+ swg2_small_lore:0 "§YStar Wars:§! §GLore Accurate§!\n~300 Star Systems\n\n\nCompletely lore accurate map\n(WIP 62/285)"
 
  GALAXY_DESCRIPTION:0 "Galaxy Description"
  SWG2_PLANET_CLASS_EDITOR_DESC:0 "§YStar Wars Galaxy:§!\n- Homeworld and Star Name will be overwritten.\n- Starting System selection is disabled.\n- Lore accurate maps will overwrite the Planet Class and your pop preference."
@@ -39,6 +39,7 @@
  swg2_trait_kessel:0 "Kessel Start"
  swg2_trait_korriban:0 "Korriban Start"
  swg2_trait_kuat:0 "Kuat Start"
+ swg2_trait_lehon:0 "Lehon Start"
  swg2_trait_malachor_v:0 "Malachor V Start"
  swg2_trait_mandalore:0 "Mandalore Start"
  swg2_trait_mon_calamari:0 "Mon Calamari Start"
@@ -82,6 +83,7 @@
  swg2_trait_kessel_desc:0 "§LAn empires with this trait will spawn on Kessel in the Kessel system as long as there isnt a player empire with the same trait.§!"
  swg2_trait_korriban_desc:0 "§LAn empires with this trait will spawn on Korriban in the Horuset system as long as there isnt a player empire with the same trait.§!"
  swg2_trait_kuat_desc:0 "§LAn empires with this trait will spawn on Kuat in the Kuat system as long as there isnt a player empire with the same trait.§!"
+ swg2_trait_lehon_desc:0 "§LAn empires with this trait will spawn on Lehon in the Lehon system as long as there isnt a player empire with the same trait.§!"
  swg2_trait_malachor_v_desc:0 "§LAn empires with this trait will spawn on Malachor V in the Malachor system as long as there isnt a player empire with the same trait.§!"
  swg2_trait_mandalore_desc:0 "§LAn empires with this trait will spawn on Mandalore in the Mandalore system as long as there isnt a player empire with the same trait.§!"
  swg2_trait_mon_calamari_desc:0 "§LAn empires with this trait will spawn on Dac in the Calamari system as long as there isnt a player empire with the same trait.§!"
@@ -101,6 +103,3 @@
  swg2_trait_zakuul_desc:0 "§LAn empires with this trait will spawn on Zakuul in the Zakuul system as long as there isnt a player empire with the same trait.§!"
 
  swg2_custom_tooltip:0 "Test"
-
- FE_GROWTH_SCALE:0 "Growth Required Scaling (Beta 3.0.3 only)"
- FE_LOGISTIC_CEILING:0 "Logistic Growth Ceiling (Beta 3.0.3 only)"

@@ -1,5 +1,0 @@
-@base_planet_dist = 30
-@base_moon_dist = 15
-
-@capital_size = 20
-@moon_capital_size = 13

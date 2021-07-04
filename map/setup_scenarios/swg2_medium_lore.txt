@@ -2089,7 +2089,6 @@ static_galaxy_scenario = {
 	add_hyperlane = { from = "3938" to = "3983" }
 	add_hyperlane = { from = "3983" to = "3943" }
 	add_hyperlane = { from = "3943" to = "3981" }
-	add_hyperlane = { from = "3981" to = "3982" }
 
 
 
@@ -2111,6 +2110,9 @@ static_galaxy_scenario = {
 	system = { id = "4003" name = "Ahch-To" position = { x = 259 y = 77 } }
 	system = { id = "4004" name = "Zakuul" position = { x = 296 y = 67 } initializer = zakuul_system_initializer spawn_weight = { base = 1 modifier = { add = 100 has_trait = swg2_trait_zakuul } } }
 	system = { id = "4005" name = "Ponemah" position = { x = 162 y = 92 } }
+
+	system = { id = "4006" name = "D'kee" position = { x = 315 y = 190 } }
+	system = { id = "4007" name = "Wurrif" position = { x = 294 y = 201 } }
 	## Free ids up to 4060 
 
 	add_hyperlane = { from = "3962" to = "3932" }
@@ -2137,6 +2139,10 @@ static_galaxy_scenario = {
 	add_hyperlane = { from = "4002" to = "4003" }
 	add_hyperlane = { from = "4003" to = "4004" }
 
+	add_hyperlane = { from = "4007" to = "3982" }
+	add_hyperlane = { from = "4007" to = "4006" }
+	add_hyperlane = { from = "4007" to = "3981" }
+	add_hyperlane = { from = "4006" to = "3982" }
 
 
 
@@ -2147,6 +2153,14 @@ static_galaxy_scenario = {
 	system = { id = "4084" name = "Burska" position = { x = 103 y = -154 } }
 	system = { id = "4087" name = "Acherin" position = { x = 114 y = -164 } }
 	system = { id = "4089" name = "Parnassos" position = { x = 146 y = -193 } }
+
+	system = { id = "4096" name = "Volik" position = { x = 148 y = -140 } }
+	system = { id = "4099" name = "UR-2212-GR" position = { x = 127 y = -176 } }
+	system = { id = "4100" name = "Veroleem" position = { x = 103 y = -178 } }
+	system = { id = "4105" name = "Dassal" position = { x = 178 y = -162 } }
+	system = { id = "4108" name = "Weik" position = { x = 222 y = -155 } }
+	system = { id = "4113" name = "Morcanth" position = { x = 315 y = -180 } }
+	system = { id = "4120" name = "Iokath" position = { x = 320 y = -252 } }
 	## Free ids up to 4150 
 
 	add_hyperlane = { from = "4066" to = "715" }
@@ -2156,28 +2170,72 @@ static_galaxy_scenario = {
 	add_hyperlane = { from = "4069" to = "4084" }
 	add_hyperlane = { from = "4084" to = "4082" }
 	add_hyperlane = { from = "4084" to = "4087" }
-	add_hyperlane = { from = "4087" to = "4089" }
-	add_hyperlane = { from = "4089" to = "3038" }
+
+	add_hyperlane = { from = "4096" to = "4082" }
+	add_hyperlane = { from = "4096" to = "4154" }
+	add_hyperlane = { from = "4096" to = "4087" }
+	add_hyperlane = { from = "4099" to = "4087" }
+	add_hyperlane = { from = "4099" to = "4100" }
+	add_hyperlane = { from = "4099" to = "4089" }
+	add_hyperlane = { from = "4099" to = "3038" }
+	add_hyperlane = { from = "4100" to = "720" }
+	add_hyperlane = { from = "4100" to = "4087" }
+	add_hyperlane = { from = "4105" to = "4154" }
+	add_hyperlane = { from = "4105" to = "4089" }
+	add_hyperlane = { from = "4105" to = "4108" }
+	add_hyperlane = { from = "4108" to = "4162" }
+	add_hyperlane = { from = "4113" to = "4162" }
+	add_hyperlane = { from = "4113" to = "4120" }
+	add_hyperlane = { from = "" to = "" }
+	add_hyperlane = { from = "" to = "" }
+	add_hyperlane = { from = "" to = "" }
+	add_hyperlane = { from = "" to = "" }
+	add_hyperlane = { from = "" to = "" }
+	add_hyperlane = { from = "" to = "" }
+	add_hyperlane = { from = "" to = "" }
+	add_hyperlane = { from = "" to = "" }
+	add_hyperlane = { from = "" to = "" }
+	add_hyperlane = { from = "" to = "" }
+	add_hyperlane = { from = "" to = "" }
+	add_hyperlane = { from = "" to = "" }
+	add_hyperlane = { from = "" to = "" }
+	add_hyperlane = { from = "" to = "" }
+	add_hyperlane = { from = "" to = "" }
+	add_hyperlane = { from = "" to = "" }
 
 
 
 
 	### Chiss Region + Surroundings
-	system = { id = "4154" name = "Ilum" position = { x = 166 y = -147 } }
-	system = { id = "4162" name = "Exegol" position = { x = 239 y = -144 } }
+	system = { id = "4154" name = "Ilum" position = { x = 166 y = -147 } initializer = ilum_system_initializer }
+	system = { id = "4162" name = "Exegol" position = { x = 239 y = -144 } initializer = exegol_system_initializer }
 	system = { id = "4164" name = "Csilla" position = { x = 237 y = -98 } initializer = csilla_system_initializer spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_csilla } } }
-	system = { id = "4172" name = "Copero" position = { x = 229 y = -86 } }
+	system = { id = "4172" name = "Copero" position = { x = 229 y = -86 } initializer = copero_system_initializer }
 	system = { id = "4174" name = "Rhigar" position = { x = 241 y = -83 } }
 	system = { id = "4176" name = "Klasse Ephemora" position = { x = 224 y = -74 } }
-	system = { id = "4177" name = "Yashuvhu" position = { x = 212 y = -76 } }
-	system = { id = "4180" name = "Jedha" position = { x = 134 y = -46 } }
-	system = { id = "4188" name = "Lehon" position = { x = 184 y = 25 } }
-	system = { id = "4189" name = "244Core" position = { x = 215 y = -39 } }
+	system = { id = "4177" name = "Yashuvhu" position = { x = 212 y = -76 } initializer = yashuvhu_system_initializer }
+	system = { id = "4180" name = "Jedha" position = { x = 134 y = -46 } initializer = jedha_system_initializer }
+	system = { id = "4188" name = "Lehon" position = { x = 184 y = 25 } initializer = lehon_system_initializer spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_lehon } } }
+	system = { id = "4189" name = "244Core" position = { x = 203 y = -60 } initializer = 244core_system_initializer }
+
+	system = { id = "4197" name = "Tenupe" position = { x = 114 y = -107 } }
+	system = { id = "4201" name = "Altiria/Anarris" position = { x = 144 y = -78 } }
+	system = { id = "4205" name = "Tarin" position = { x = 249 y = -67 } }
+	system = { id = "4208" name = "Giaca" position = { x = 258 y = -28 } }
+	system = { id = "4211" name = "Mugg Fallow" position = { x = 218 y = -64 } }
+	system = { id = "4212" name = "Benathy" position = { x = 221 y = -48 } }
+	system = { id = "4219" name = "Explume Minor" position = { x = 187 y = -1 } }
+	system = { id = "4222" name = "Persappa" position = { x = 206 y = 21 } }
+	system = { id = "4223" name = "Griwstrick" position = { x = 199 y = 40 } }
+	system = { id = "4224" name = "Fitomp" position = { x = 170 y = 55 } }
+	system = { id = "4225" name = "Tulpaa" position = { x = 161 y = 38 } initializer = tulpaa_system_initializer }
+	system = { id = "4228" name = "Malata" position = { x = 161 y = 8 } }
+	system = { id = "4229" name = "GH-531" position = { x = 149 y = -6 } }
+	system = { id = "4230" name = "Iol" position = { x = 105 y = -24 } }
+	system = { id = "4231" name = "Perann Nebula" position = { x = 297 y = -8 } }
+	system = { id = "4232" name = "Rhand" position = { x = 306 y = -2 } }
 	## Free ids up to 4250 
 
-	add_hyperlane = { from = "4154" to = "4082" }
-	add_hyperlane = { from = "4154" to = "4087" }
-	add_hyperlane = { from = "4154" to = "4162" }
 	add_hyperlane = { from = "4162" to = "4164" }
 	add_hyperlane = { from = "4164" to = "4172" }
 	add_hyperlane = { from = "4164" to = "4174" }
@@ -2186,12 +2244,41 @@ static_galaxy_scenario = {
 	add_hyperlane = { from = "4172" to = "4177" }
 	add_hyperlane = { from = "4174" to = "4176" }
 	add_hyperlane = { from = "4176" to = "4177" }
-	add_hyperlane = { from = "4176" to = "4189" }
 	add_hyperlane = { from = "4177" to = "4189" }
-	add_hyperlane = { from = "4188" to = "4189" }
-	add_hyperlane = { from = "4188" to = "4002" }
 	add_hyperlane = { from = "4180" to = "1105" }
 	add_hyperlane = { from = "4180" to = "4189" }
+	add_hyperlane = { from = "4189" to = "4177" }
+
+	add_hyperlane = { from = "4197" to = "4082" }
+	add_hyperlane = { from = "4197" to = "1105" }
+	add_hyperlane = { from = "4197" to = "4201" }
+	add_hyperlane = { from = "4201" to = "4177" }
+	add_hyperlane = { from = "4201" to = "4180" }
+	add_hyperlane = { from = "4205" to = "4174" }
+	add_hyperlane = { from = "4205" to = "4208" }
+	add_hyperlane = { from = "4208" to = "4212" }
+	add_hyperlane = { from = "4208" to = "4231" }
+	add_hyperlane = { from = "4211" to = "4176" }
+	add_hyperlane = { from = "4211" to = "4189" }
+	add_hyperlane = { from = "4211" to = "4212" }
+	add_hyperlane = { from = "4212" to = "4219" }
+	add_hyperlane = { from = "4219" to = "4228" }
+	add_hyperlane = { from = "4219" to = "4188" }
+	add_hyperlane = { from = "4222" to = "4188" }
+	add_hyperlane = { from = "4222" to = "4223" }
+	add_hyperlane = { from = "4223" to = "4188" }
+	add_hyperlane = { from = "4223" to = "4224" }
+	add_hyperlane = { from = "4223" to = "4002" }
+	add_hyperlane = { from = "4224" to = "4188" }
+	add_hyperlane = { from = "4224" to = "4225" }
+	add_hyperlane = { from = "4225" to = "4228" }
+	add_hyperlane = { from = "4228" to = "4188" }
+	add_hyperlane = { from = "4228" to = "4225" }
+	add_hyperlane = { from = "4228" to = "4229" }
+	add_hyperlane = { from = "4229" to = "4180" }
+	add_hyperlane = { from = "4229" to = "4230" }
+	add_hyperlane = { from = "4230" to = "4180" }
+	add_hyperlane = { from = "4231" to = "4232" }
 
 
 

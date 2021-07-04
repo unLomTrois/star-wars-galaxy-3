@@ -61,6 +61,7 @@ country_event = {
 				jakku_system = { jakku_fix = yes }
 				zakuul_system = { zakuul_fix = yes }
 				csilla_system = { csilla_fix = yes }
+				lehon_system = { lehon_fix = yes }
 			}
 		}
 	}
@@ -231,6 +232,12 @@ country_event = {
 			set_name = "Kuat"
 			solar_system = {
 				set_name = "Kuat"
+			}
+		}
+		event_target:random_planet_lehon = {
+			set_name = "Lehon"
+			solar_system = {
+				set_name = "Lehon"
 			}
 		}
 		event_target:random_planet_malachor_v = {

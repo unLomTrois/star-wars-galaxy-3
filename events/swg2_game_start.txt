@@ -94,7 +94,7 @@ country_event = {
 					pc_mushroom = { capital_scope = { change_pc = pc_mushroom } }
 					pc_forest = { capital_scope = { change_pc = pc_forest } }
 					pc_subarctic = { capital_scope = { change_pc = pc_subarctic } }
-					pc_hajungle = { capital_scope = { change_pc = pc_hajungle } }
+					pc_hajungle = { capital_scope = { change_pc = pc_hajungle } } # Tepui
 					pc_oasis = { capital_scope = { change_pc = pc_oasis } }
 					pc_med = { capital_scope = { change_pc = pc_med } }
 					pc_veld = { capital_scope = { change_pc = pc_veld } }
@@ -402,6 +402,13 @@ country_event = {
 				modify_species = {
 					species = this
 					remove_trait = swg2_trait_kuat
+				}
+			}
+			else_if = {
+				limit = { pop_has_trait = swg2_trait_lehon }
+				modify_species = {
+					species = this
+					remove_trait = swg2_trait_lehon
 				}
 			}
 			else_if = {

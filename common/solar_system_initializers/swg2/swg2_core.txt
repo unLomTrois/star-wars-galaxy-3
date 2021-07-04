@@ -888,7 +888,7 @@ jinata_system_initializer = {
 		name = "Jinata"
 		class = star
 		orbit_distance = 0
-		size = { min = 20 max = 30 }
+		size = { min = 30 max = 35 }
 	}
 	change_orbit = @base_planet_dist
 	planet = {
@@ -946,7 +946,7 @@ panto_system_initializer = {
 		name = "Panto"
 		class = star
 		orbit_distance = 0
-		size = { min = 20 max = 30 }
+		size = { min = 30 max = 35 }
 	}
 	change_orbit = @base_planet_dist
 	planet = {
@@ -1151,7 +1151,7 @@ shawken_system_initializer = {
 		name = "Shawken"
 		class = star
 		orbit_distance = 0
-		size = { min = 20 max = 30 }
+		size = { min = 30 max = 35 }
 	}
 	change_orbit = @base_planet_dist
 	planet = {
@@ -1244,7 +1244,7 @@ pyria_system_initializer = {
 		name = "Pyria"
 		class = star
 		orbit_distance = 0
-		size = { min = 20 max = 30 }
+		size = { min = 30 max = 35 }
 	}
 	change_orbit = @base_planet_dist
 	planet = {
@@ -1356,7 +1356,7 @@ palanhi_system_initializer = {
 		name = "Palanhi"
 		class = star
 		orbit_distance = 0
-		size = { min = 20 max = 30 }
+		size = { min = 30 max = 35 }
 	}
 	change_orbit = @base_planet_dist
 	planet = {
@@ -1448,7 +1448,7 @@ ord_antalaha_system_initializer = {
 		name = "Ord Antalaha"
 		class = star
 		orbit_distance = 0
-		size = { min = 20 max = 30 }
+		size = { min = 30 max = 35 }
 	}
 	change_orbit = @base_planet_dist
 	planet = {
@@ -1533,7 +1533,7 @@ wakeelmui_system_initializer = {
 		name = "Wakeelmui"
 		class = star
 		orbit_distance = 0
-		size = { min = 20 max = 30 }
+		size = { min = 30 max = 35 }
 	}
 	change_orbit = @base_planet_dist
 	planet = {
@@ -1609,7 +1609,7 @@ skako_system_initializer = {
 		name = "Skako"
 		class = star
 		orbit_distance = 0
-		size = { min = 20 max = 30 }
+		size = { min = 30 max = 35 }
 	}
 	change_orbit = @base_planet_dist
 	planet = {
@@ -1722,7 +1722,7 @@ uviuy_exen_system_initializer = {
 		name = "Uviuy Exen"
 		class = star
 		orbit_distance = 0
-		size = { min = 20 max = 30 }
+		size = { min = 30 max = 35 }
 	}
 	change_orbit = @base_planet_dist
 	planet = {

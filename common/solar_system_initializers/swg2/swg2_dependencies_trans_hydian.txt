@@ -14,7 +14,7 @@ yabol_opa_system_initializer = {
 		name = "Yabol Opa"
 		class = star
 		orbit_distance = 0
-		size = { min = 20 max = 30 }
+		size = { min = 30 max = 35 }
 	}
 	change_orbit = @base_planet_dist
 	planet = {

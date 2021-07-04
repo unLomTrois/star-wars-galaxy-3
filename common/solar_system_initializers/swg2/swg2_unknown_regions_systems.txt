@@ -1,0 +1,382 @@
+@base_planet_dist = 30
+@base_moon_dist = 15
+
+@capital_size = 20
+@moon_capital_size = 13
+
+# Ilum
+ilum_system_initializer = {
+	name = "Ilum"
+	class = "sc_g"
+	flags = { ilum_system }
+
+	planet = {
+		name = "Asar"
+		class = star
+		orbit_distance = 0
+		size = { min = 30 max = 35 }
+	}
+	change_orbit = @base_planet_dist
+	planet = {
+		name = "Jike"
+		class = pc_molten
+		orbit_distance = 30
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 10 max = 15 }
+		has_ring = no
+		change_orbit = @base_moon_distance
+	}
+	planet = {
+		name = "Bory"
+		class = pc_barren
+		orbit_distance = 30
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 10 max = 15 }
+		has_ring = no
+		change_orbit = @base_moon_distance
+	}
+	planet = {
+		name = "Cala"
+		class = pc_barren
+		orbit_distance = 30
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 10 max = 15 }
+		has_ring = no
+		change_orbit = @base_moon_distance
+	}
+	planet = {
+		name = "Ilum"
+		class = pc_frozen_desert
+		orbit_distance = 30
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 10 max = 15 }
+		modifiers = none
+		has_ring = no
+		#map-notes kyber crystals
+		flags = { ilum_planet }
+		init_effect = {
+			add_modifier = {
+				modifier = mineral_rich
+			}
+		}
+		change_orbit = @base_moon_dist
+		moon = {
+			name = "Ilum Major"
+			class = pc_barren_cold
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+		moon = {
+			name = "Ilum Minor"
+			class = pc_barren_cold
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+	}
+	planet = {
+		name = "Trop"
+		class = pc_gas_giant
+		orbit_distance = 60
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 25 max = 30 }
+		has_ring = yes
+		change_orbit = @base_moon_dist
+		moon = {
+			name = "Trop I"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+		moon = {
+			name = "Trop II"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+		moon = {
+			name = "Trop III"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+		moon = {
+			name = "Trop XI"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+	}
+	planet = {
+		name = "Eton"
+		class = pc_gas_giant
+		orbit_distance = 60
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 25 max = 30 }
+		has_ring = yes
+		change_orbit = @base_moon_dist
+		moon = {
+			name = "Eton I"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+		moon = {
+			name = "Eton II"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+		moon = {
+			name = "Eton III"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+		moon = {
+			name = "Eton IV"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+		moon = {
+			name = "Eton XLI"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+	}
+	planet = {
+		name = "Fern"
+		class = pc_gas_giant
+		orbit_distance = 60
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 25 max = 30 }
+		has_ring = yes
+		change_orbit = @base_moon_dist
+		moon = {
+			name = "Fern I"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+		moon = {
+			name = "Fern II"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+		moon = {
+			name = "Fern III"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+		moon = {
+			name = "Fern XX"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+	}
+}
+
+# Jedha
+jedha_system_initializer = {
+	name = "Jedha"
+	class = "sc_k"
+	flags = { jedha_system }
+
+	planet = {
+		name = "Jedha"
+		class = star
+		orbit_distance = 0
+		size = { min = 30 max = 35 }
+	}
+	change_orbit = @base_planet_dist
+	planet = {
+		name = "NaJedha"
+		class = pc_diamond
+		orbit_distance = 120
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 15 max = 20 }
+		has_ring = no
+		change_orbit = @base_moon_dist
+		moon = {
+			name = "Jedha"
+			class = pc_desert
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 7 max = 10 }
+			modifiers = none
+			flags = { jedha_planet }
+		}
+	}
+}
+
+# Exegol
+exegol_system_initializer = {
+	name = "Exegol"
+	class = "sc_a"
+	flags = { exegol_system }
+
+	planet = {
+		name = "Ixigul"
+		class = star
+		orbit_distance = 0
+		size = { min = 30 max = 35 }
+	}
+	change_orbit = @base_planet_dist
+	planet = {
+		name = "Exegol"
+		class = pc_storm
+		orbit_distance = 120
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 10 max = 15 }
+		modifiers = none
+		has_ring = no
+		flags = { exegol_planet }
+		change_orbit = @base_moon_dist
+	}
+}
+
+# Copero
+copero_system_initializer = {
+	name = "Copero"
+	class = "sc_f"
+	flags = { copero_system }
+
+	planet = {
+		name = "Copero"
+		class = star
+		orbit_distance = 0
+		size = { min = 30 max = 35 }
+	}
+	change_orbit = @base_planet_dist
+	planet = {
+		name = "Copero"
+		class = pc_cascadian
+		orbit_distance = 120
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 10 max = 15 }
+		modifiers = none
+		has_ring = no
+		flags = { copero_planet }
+		change_orbit = @base_moon_dist
+	}
+}
+
+# Yashuvhu
+yashuvhu_system_initializer = {
+	name = "Yashuvhu"
+	class = "sc_g"
+	flags = { yashuvhu_system }
+
+	planet = {
+		name = "Yashuvhu"
+		class = star
+		orbit_distance = 0
+		size = { min = 30 max = 35 }
+	}
+	change_orbit = @base_planet_dist
+	planet = {
+		name = "Yashuvhu"
+		class = pc_hajungle
+		orbit_distance = 120
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 10 max = 15 }
+		modifiers = none
+		has_ring = no
+		flags = { yashuvhu_planet }
+		change_orbit = @base_moon_dist
+	}
+}
+
+# 244Core
+244core_system_initializer = {
+	name = "244Core"
+	class = "sc_m"
+	flags = { 244core_system }
+
+	planet = {
+		name = "Sraato"
+		class = star
+		orbit_distance = 0
+		size = { min = 30 max = 35 }
+	}
+	change_orbit = @base_planet_dist
+	planet = {
+		name = "244Core"
+		class = pc_hadesert
+		orbit_distance = 80
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 10 max = 15 }
+		modifiers = none
+		has_ring = yes
+		flags = { 244core_planet }
+		#map-notes extremly mineral rich and meteor showers
+		init_effect = {
+			add_modifier = {
+				modifier = high_gravity
+			}
+			add_modifier = {
+				modifier = mineral_rich
+			}
+		}
+		change_orbit = @base_moon_dist
+		moon = {
+			name = "244Core Major"
+			class = pc_barren
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+		moon = {
+			name = "244Core Minor"
+			class = pc_barren
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+	}
+}
+
+# Tulpaa
+tulpaa_system_initializer = {
+	name = "Tulpaa"
+	class = "sc_k"
+	flags = { tulpaa_system }
+
+	planet = {
+		name = "Tulpaa"
+		class = star
+		orbit_distance = 0
+		size = { min = 30 max = 35 }
+	}
+	change_orbit = @base_planet_dist
+	planet = {
+		name = "Tulpaa"
+		class = pc_subarctic
+		orbit_distance = 120
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 10 max = 15 }
+		modifiers = none
+		has_ring = no
+		flags = { tulpaa_planet }
+		change_orbit = @base_moon_dist
+	}
+}

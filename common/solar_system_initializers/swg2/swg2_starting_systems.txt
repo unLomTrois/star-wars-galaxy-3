@@ -7763,3 +7763,238 @@ mustafar_system_initializer = {
 		change_orbit = @base_moon_dist
 	}
 }
+
+# Lehon
+lehon_system_initializer = {
+	name = "Lehon"
+	class = "sc_k"
+	flags = { empire_cluster lehon_system }
+	init_effect = {
+		generate_home_system_resources = yes
+	}
+	usage_odds = 0
+
+	planet = {
+		name = "Abo"
+		class = star
+		orbit_distance = 0
+		size = { min = 30 max = 35 }
+		flags = { lehon_star_abo }
+	}
+	change_orbit = @base_planet_dist
+	planet = {
+		name = "Iwar"
+		class = pc_molten
+		orbit_distance = 30
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 10 max = 15 }
+		has_ring = no
+		flags = { lehon_iwar }
+		change_orbit = @base_moon_dist
+	}
+	planet = {
+		name = "Meldina"
+		class = pc_molten
+		orbit_distance = 30
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 10 max = 15 }
+		has_ring = no
+		flags = { lehon_meldina }
+		change_orbit = @base_moon_dist
+	}
+	planet = {
+		name = "Taxiode"
+		class = pc_toxic
+		orbit_distance = 30
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 10 max = 15 }
+		has_ring = no
+		flags = { lehon_taxiode }
+		change_orbit = @base_moon_dist
+	}
+	planet = {
+		name = "Lehon"
+		class = pc_desertislands
+		orbit_distance = 30
+		orbit_angle = { min = 90 max = 270 }
+		size = @capital_size
+		home_planet = yes
+		modifiers = none
+		has_ring = no
+		flags = { lehon_planet }
+		change_orbit = @base_moon_dist
+		moon = {
+			name = "Lehon Major"
+			class = pc_barren
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 7 max = 10 }
+			flags = { lehon_planet_major }
+		}
+		moon = {
+			name = "Lehon Minor"
+			class = pc_barren
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 7 max = 10 }
+			flags = { lehon_planet_minor }
+		}
+	}
+	planet = {
+		name = "Lefrani"
+		class = pc_barren_cold
+		orbit_distance = 30
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 10 max = 15 }
+		has_ring = no
+		flags = { lehon_lefrani }
+		change_orbit = @base_moon_dist
+		moon = {
+			name = "Lefrani I"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 7 max = 10 }
+			flags = { lehon_lefrani_1 }
+		}
+		moon = {
+			name = "Lefrani II"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 7 max = 10 }
+			flags = { lehon_lefrani_2 }
+		}
+		moon = {
+			name = "Lefrani V"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 7 max = 10 }
+			flags = { lehon_lefrani_5 }
+		}
+	}
+	planet = {
+		name = "Geraps Sule"
+		class = pc_gas_giant
+		orbit_distance = 60
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 25 max = 30 }
+		flags = { lehon_geraps_sule }
+		change_orbit = @base_moon_dist
+		moon = {
+			name = "Geraps Sule I"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+			flags = { lehon_geraps_sule_1 }
+		}
+		moon = {
+			name = "Geraps Sule II"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+			flags = { lehon_geraps_sule_2 }
+		}
+		moon = {
+			name = "Geraps Sule III"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+			flags = { lehon_geraps_sule_3 }
+		}
+		moon = {
+			name = "Geraps Sule IV"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+			flags = { lehon_geraps_sule_4 }
+		}
+		moon = {
+			name = "Geraps Sule XI"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+			flags = { lehon_geraps_sule_11 }
+		}
+	}
+	planet = {
+		name = "Verla Klest"
+		class = pc_gas_giant
+		orbit_distance = 60
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 25 max = 30 }
+		flags = { lehon_verla_klest }
+		change_orbit = @base_moon_dist
+		moon = {
+			name = "Verla Klest I"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+			flags = { lehon_verla_klest_1 }
+		}
+		moon = {
+			name = "Verla Klest II"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+			flags = { lehon_verla_klest_2 }
+		}
+		moon = {
+			name = "Verla Klest IX"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+			flags = { lehon_verla_klest_9 }
+		}
+	}
+	planet = {
+		name = "Ding Briar"
+		class = pc_gas_giant
+		orbit_distance = 60
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 25 max = 30 }
+		flags = { lehon_ding_briar }
+		change_orbit = @base_moon_dist
+		moon = {
+			name = "Ding Briar I"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+			flags = { lehon_ding_briar_1 }
+		}
+		moon = {
+			name = "Ding Briar II"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+			flags = { lehon_ding_briar_2 }
+		}
+		moon = {
+			name = "Ding Briar III"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+			flags = { lehon_ding_briar_3 }
+		}
+		moon = {
+			name = "Ding Briar XVIII"
+			class = random_non_colonizable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+			flags = { lehon_ding_briar_18 }
+		}
+	}
+}

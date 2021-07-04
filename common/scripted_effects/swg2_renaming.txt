@@ -1206,3 +1206,38 @@ csilla_fix = {
 		}
 	}
 }
+
+lehon_fix = {
+	set_name = "Lehon"
+	every_system_planet = {
+		switch = {
+			trigger = has_planet_flag
+			lehon_star_abo = { set_name = "Abo" }
+			lehon_iwar = { set_name = "Iwar" }
+			lehon_meldina = { set_name = "Meldina" }
+			lehon_taxiode = { set_name = "Taxiode" }
+			lehon_planet = { set_name = "Lehon" }
+			lehon_planet_major = { set_name = "Lehon Major" }
+			lehon_planet_minor = { set_name = "Lehon Minor" }
+			lehon_lefrani = { set_name = "Lefrani" }
+			lehon_lefrani_1 = { set_name = "Lefrani I" }
+			lehon_lefrani_2 = { set_name = "Lefrani II" }
+			lehon_lefrani_5 = { set_name = "Lefrani V" }
+			lehon_geraps_sule = { set_name = "Geraps Sule" }
+			lehon_geraps_sule_1 = { set_name = "Geraps Sule I" }
+			lehon_geraps_sule_2 = { set_name = "Geraps Sule II" }
+			lehon_geraps_sule_3 = { set_name = "Geraps Sule III" }
+			lehon_geraps_sule_4 = { set_name = "Geraps Sule IV" }
+			lehon_geraps_sule_11 = { set_name = "Geraps Sule XI" }
+			lehon_verla_klest = { set_name = "Verla Klest" }
+			lehon_verla_klest_1 = { set_name = "Verla Klest I" }
+			lehon_verla_klest_2 = { set_name = "Verla Klest II" }
+			lehon_verla_klest_9 = { set_name = "Verla Klest IX" }
+			lehon_ding_briar = { set_name = "Ding Briar" }
+			lehon_ding_briar_1 = { set_name = "Ding Briar I" }
+			lehon_ding_briar_2 = { set_name = "Ding Briar II" }
+			lehon_ding_briar_3 = { set_name = "Ding Briar III" }
+			lehon_ding_briar_18 = { set_name = "Ding Briar XVIII" }
+		}
+	}
+}
