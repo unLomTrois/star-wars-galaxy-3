@@ -927,7 +927,6 @@ static_galaxy_scenario = {
 	system = { id = "926" name = "Voon" position = { x = 19 y = -88 } }
 	system = { id = "927" name = "Aaeton" position = { x = 27 y = -77 } }
 	system = { id = "928" name = "Darada" position = { x = 13 y = -82 } }
-	system = { id = "929" name = "Jinata" position = { x = 5 y = -83 } }
 	system = { id = "930" name = "Thokos" position = { x = -3 y = -78 } }
 	system = { id = "931" name = "Thorgeld" position = { x = -6 y = -84 } }
 	system = { id = "932" name = "Velus" position = { x = -3 y = -88 } initializer = velus_system_initializer }
@@ -1024,8 +1023,6 @@ static_galaxy_scenario = {
 	add_hyperlane = { from = "934" to = "935" }
 	add_hyperlane = { from = "928" to = "701" }
 	add_hyperlane = { from = "928" to = "702" }
-	add_hyperlane = { from = "929" to = "701" }
-	add_hyperlane = { from = "929" to = "702" }
 	add_hyperlane = { from = "930" to = "932" }
 	add_hyperlane = { from = "930" to = "931" }
 	add_hyperlane = { from = "930" to = "3" }

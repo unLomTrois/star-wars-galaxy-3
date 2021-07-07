@@ -3582,6 +3582,7 @@ static_galaxy_scenario = {
 	add_hyperlane = { from = "4085" to = "4087" }
 	add_hyperlane = { from = "4087" to = "4091" }
 	add_hyperlane = { from = "4089" to = "4092" }
+	add_hyperlane = { from = "4090" to = "4091" }
 	
 	add_hyperlane = { from = "4095" to = "4150" }
 	add_hyperlane = { from = "4095" to = "4153" }
