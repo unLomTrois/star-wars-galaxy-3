@@ -34,7 +34,7 @@ static_galaxy_scenario = {
 	system = { id = "5" name = "Axum" position = { x = -11 y = -49 } initializer = axum_system_initializer }
 	system = { id = "6" name = "Corulag" position = { x = -14 y = -50 } }
 	system = { id = "7" name = "Chandrila" position = { x = -16 y = -52 } }
-	system = { id = "9" name = "Esseles" position = { x = -19 y = -53 } }
+	system = { id = "9" name = "Essesia" position = { x = -19 y = -53 } }
 	system = { id = "10" name = "Rhinnal" position = { x = -22 y = -55 } }
 	system = { id = "11" name = "Ralltiir" position = { x = -25 y = -57 } }
 	system = { id = "16" name = "Castell" position = { x = -41 y = -66 } }
@@ -74,8 +74,8 @@ static_galaxy_scenario = {
 	system = { id = "111" name = "Corellian" position = { x = -47 y = 14 } initializer = corellian_system_initializer spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_corellia } } }
 	system = { id = "112" name = "Nubus" position = { x = -50 y = 19 } }
 	system = { id = "115" name = "Byblos" position = { x = -57 y = 37 } }
-	system = { id = "121" name = "Rhommamool" position = { x = -83 y = 67 } }
-	system = { id = "127" name = "New Cov" position = { x = -121 y = 107 } }
+	system = { id = "121" name = "Osarian" position = { x = -83 y = 67 } }
+	system = { id = "127" name = "Churba" position = { x = -121 y = 107 } }
 	system = { id = "129" name = "Druckenwell" position = { x = -131 y = 118 } }
 	system = { id = "134" name = "Mon Gazza" position = { x = -154 y = 142 } }
 	system = { id = "137" name = "Christophsis" position = { x = -172 y = 160 } }
@@ -430,7 +430,7 @@ static_galaxy_scenario = {
 	system = { id = "1273" name = "Wayland" position = { x = -83 y = -114 } }
 	system = { id = "1274" name = "Myrkr" position = { x = -81 y = -109 } }
 	system = { id = "1277" name = "Luire" position = { x = -88 y = -112 } }
-	system = { id = "1278" name = "Aquaris" position = { x = -91 y = -107 } }
+	system = { id = "1278" name = "Cvetaen" position = { x = -91 y = -107 } }
 	system = { id = "1286" name = "Thisspias" position = { x = -106 y = -93 } }
 	system = { id = "1293" name = "Concord Dawn" position = { x = -106 y = -116 } }
 	system = { id = "1294" name = "Krownest" position = { x = -99 y = -120 } }

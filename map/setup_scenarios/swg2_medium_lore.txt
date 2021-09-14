@@ -714,15 +714,15 @@ static_galaxy_scenario = {
 	system = { id = "1273" name = "Wayland" position = { x = -111 y = -152 } }
 	system = { id = "1274" name = "Myrkr" position = { x = -108 y = -146 } }
 	system = { id = "1277" name = "Luire" position = { x = -117 y = -149 } }
-	system = { id = "1278" name = "Aquaris" position = { x = -121 y = -142 } }
+	system = { id = "1278" name = "Cvetaen" position = { x = -121 y = -142 } }
 	system = { id = "1279" name = "Thustra" position = { x = -122 y = -146 } }
 	system = { id = "1284" name = "Jendorn" position = { x = -139 y = -130 } }
 	system = { id = "1285" name = "Abron" position = { x = -146 y = -128 } }
 	system = { id = "1286" name = "Thisspias" position = { x = -142 y = -124 } }
 	system = { id = "1293" name = "Concord Dawn" position = { x = -141 y = -154 } }
-	system = { id = "1294" name = "Krownest" position = { x = -132 y = -160 } }
+	system = { id = "1294" name = "New Kleyman" position = { x = -132 y = -160 } }
 	system = { id = "1296" name = "Mandalore" position = { x = -146 y = -162 } initializer = mandalore_system_initializer spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_mandalore } } }
-	system = { id = "1298" name = "Kalevala" position = { x = -142 y = -167 } }
+	system = { id = "1298" name = "Draboon" position = { x = -142 y = -167 } }
 	system = { id = "1301" name = "Vanquo" position = { x = -130 y = -178 } }
 	system = { id = "1304" name = "Garos" position = { x = -180 y = -152 } }
 	system = { id = "1306" name = "Anteevy" position = { x = -185 y = -160 } }

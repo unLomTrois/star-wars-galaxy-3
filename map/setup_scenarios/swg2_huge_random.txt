@@ -1419,7 +1419,7 @@ static_galaxy_scenario = {
 	system = { id = "1295" name = "Ordo" position = { x = -180 y = -202 } }
 	system = { id = "1296" name = "Mandalore" position = { x = -183 y = -203 } initializer = random_mandalore_init spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_mandalore } } }
 	system = { id = "1297" name = "Zanbar" position = { x = -188 y = -211 } }
-	system = { id = "1298" name = "Kalevala" position = { x = -177 y = -209 } }
+	system = { id = "1298" name = "Draboon" position = { x = -177 y = -209 } }
 	system = { id = "1299" name = "Jakelia" position = { x = -180 y = -216 } }
 	system = { id = "1300" name = "Gargon" position = { x = -162 y = -211 } }
 	system = { id = "1301" name = "Vanquo" position = { x = -163 y = -223 } }

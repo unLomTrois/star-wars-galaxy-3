@@ -722,7 +722,7 @@ static_galaxy_scenario = {
 	system = { id = "1293" name = "Concord Dawn" position = { x = -141 y = -154 } }
 	system = { id = "1294" name = "Krownest" position = { x = -132 y = -160 } }
 	system = { id = "1296" name = "Mandalore" position = { x = -146 y = -162 } initializer = random_mandalore_init spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_mandalore } } }
-	system = { id = "1298" name = "Kalevala" position = { x = -142 y = -167 } }
+	system = { id = "1298" name = "Draboon" position = { x = -142 y = -167 } }
 	system = { id = "1301" name = "Vanquo" position = { x = -130 y = -178 } }
 	system = { id = "1304" name = "Garos" position = { x = -180 y = -152 } }
 	system = { id = "1306" name = "Anteevy" position = { x = -185 y = -160 } }
