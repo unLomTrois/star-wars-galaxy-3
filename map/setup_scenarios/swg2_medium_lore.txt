@@ -2186,22 +2186,6 @@ static_galaxy_scenario = {
 	add_hyperlane = { from = "4108" to = "4162" }
 	add_hyperlane = { from = "4113" to = "4162" }
 	add_hyperlane = { from = "4113" to = "4120" }
-	add_hyperlane = { from = "" to = "" }
-	add_hyperlane = { from = "" to = "" }
-	add_hyperlane = { from = "" to = "" }
-	add_hyperlane = { from = "" to = "" }
-	add_hyperlane = { from = "" to = "" }
-	add_hyperlane = { from = "" to = "" }
-	add_hyperlane = { from = "" to = "" }
-	add_hyperlane = { from = "" to = "" }
-	add_hyperlane = { from = "" to = "" }
-	add_hyperlane = { from = "" to = "" }
-	add_hyperlane = { from = "" to = "" }
-	add_hyperlane = { from = "" to = "" }
-	add_hyperlane = { from = "" to = "" }
-	add_hyperlane = { from = "" to = "" }
-	add_hyperlane = { from = "" to = "" }
-	add_hyperlane = { from = "" to = "" }
 
 
 

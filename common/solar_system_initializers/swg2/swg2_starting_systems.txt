@@ -849,7 +849,6 @@ kuat_system_initializer = {
 		orbit_distance = 30
 		orbit_angle = { min = 90 max = 270 }
 		size = { min = 10 max = 15 }
-		modifier = none
 		has_ring = no
 		flags = { kuat_daver_kuat }
 		change_orbit = @base_moon_dist
@@ -1956,7 +1955,6 @@ yavin_system_initializer = {
 			orbit_angle = { min = 90 max = 270 }
 			size = @moon_capital_size
 			home_planet = yes
-			modifier = none
 			flags = { yavin_yavin_4 }
 		}
 		moon = {
@@ -1981,7 +1979,6 @@ yavin_system_initializer = {
 			orbit_distance = 2
 			orbit_angle = { min = 90 max = 270 }
 			size = { min = 7 max = 10 }
-			modifier = none
 			flags = { yavin_yavin_7 }
 		}
 		moon = {
@@ -1990,7 +1987,6 @@ yavin_system_initializer = {
 			orbit_distance = 2
 			orbit_angle = { min = 90 max = 270 }
 			size = { min = 7 max = 10 }
-			modifier = none
 			flags = { yavin_yavin_8 }
 		}
 		moon = {
@@ -2031,7 +2027,6 @@ yavin_system_initializer = {
 			orbit_distance = 2
 			orbit_angle = { min = 90 max = 270 }
 			size = { min = 7 max = 10 }
-			modifier = none
 			flags = { yavin_yavin_13 }
 		}
 		moon = {
