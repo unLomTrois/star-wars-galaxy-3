@@ -1262,3 +1262,291 @@ vulpter_system_initializer = {
 		}
 	}
 }
+
+kaikielius_system_initializer = {
+	name = "Kaikielius"
+	class = "sc_k"
+	init_effect = {
+		save_global_event_target_as = kaikielius_system
+	}
+
+	planet = {
+		name = "Kaikielius"
+		class = star
+		orbit_distance = 0
+		size = { min = 30 max = 35 }
+	}
+	change_orbit = @base_planet_dist
+	planet = {
+		name = "Kaikielius I"
+		class = pc_volcanic
+		orbit_distance = 30
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 10 max = 15 }
+		has_ring = no
+		change_orbit = @base_moon_dist
+	}
+	planet = {
+		name = "Kaikielius II"
+		class = lotor_rl_gas_giants
+		orbit_distance = 60
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 25 max = 30 }
+		has_ring = no
+		change_orbit = @base_moon_dist
+		moon = {
+			name = "Kaikielius IIa"
+			class = lotor_rl_uninhabitable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+		moon = {
+			name = "Kaikielius IIb"
+			class = lotor_rl_uninhabitable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+		moon = {
+			name = "Kaikielius IIc"
+			class = lotor_rl_uninhabitable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+	}
+	planet = {
+		name = "Kaikielius"
+		class = pc_subarctic
+		orbit_distance = 60
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 10 max = 15 }
+		has_ring = no
+		change_orbit = @base_moon_dist
+	}
+	asteroid_belt = {
+		type = rocky_asteroid_belt
+		radius = 220
+	}
+	planet = {
+		name = "Kaikielius IV"
+		class = lotor_rl_gas_giants
+		orbit_distance = 100
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 25 max = 30 }
+		has_ring = yes
+		change_orbit = @base_moon_dist
+		moon = {
+			name = "Kaikielius IVa"
+			class = lotor_rl_uninhabitable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+		moon = {
+			name = "Kaikielius IVb"
+			class = lotor_rl_uninhabitable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+		moon = {
+			name = "Kaikielius IVc"
+			class = lotor_rl_uninhabitable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+		moon = {
+			name = "Kaikielius IVd"
+			class = lotor_rl_uninhabitable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+		moon = {
+			name = "Kaikielius IVe"
+			class = lotor_rl_uninhabitable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+	}
+	planet = {
+		name = "Kaikielius V"
+		class = lotor_rl_gas_giants
+		orbit_distance = 60
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 25 max = 30 }
+		change_orbit = @base_moon_dist
+		moon = {
+			name = "Kaikielius Va"
+			class = lotor_rl_uninhabitable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+		moon = {
+			name = "Kaikielius Vb"
+			class = lotor_rl_uninhabitable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+		moon = {
+			name = "Kaikielius Vc"
+			class = lotor_rl_uninhabitable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+		moon = {
+			name = "Kaikielius Vd"
+			class = lotor_rl_uninhabitable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+		moon = {
+			name = "Kaikielius Ve"
+			class = lotor_rl_uninhabitable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+	}
+}
+
+constancia_system_initializer = {
+	name = "Constancia"
+	class = "sc_k"
+
+	planet = {
+		name = "Constancia"
+		class = star
+		orbit_distance = 0
+		size = { min = 30 max = 35 }
+	}
+	change_orbit = @base_planet_dist
+	planet = {
+		name = "Constancia I"
+		class = pc_molten
+		orbit_distance = 30
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 10 max = 15 }
+		has_ring = no
+		change_orbit = @base_moon_dist
+	}
+	planet = {
+		name = "Constancia II"
+		class = pc_barren
+		orbit_distance = 30
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 10 max = 15 }
+		has_ring = no
+		change_orbit = @base_moon_dist
+		moon = {
+			name = "Constancia IIa"
+			class = lotor_rl_uninhabitable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+	}
+	planet = {
+		name = "Constancia"
+		class = pc_forest
+		orbit_distance = 30
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 10 max = 15 }
+		has_ring = yes
+		change_orbit = @base_moon_dist
+	}
+	planet = {
+		name = "Constancia IV"
+		class = lotor_rl_gas_giants
+		orbit_distance = 60
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 25 max = 30 }
+		change_orbit = @base_moon_dist
+		moon = {
+			name = "Constancia IVa"
+			class = lotor_rl_uninhabitable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+		moon = {
+			name = "Constancia IVb"
+			class = lotor_rl_uninhabitable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+		moon = {
+			name = "Constancia IVc"
+			class = lotor_rl_uninhabitable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+		moon = {
+			name = "Constancia IVd"
+			class = lotor_rl_uninhabitable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+		moon = {
+			name = "Constancia IVe"
+			class = lotor_rl_uninhabitable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+	}
+	planet = {
+		name = "Constancia V"
+		class = lotor_rl_gas_giants
+		orbit_distance = 60
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 25 max = 30 }
+		change_orbit = @base_moon_dist
+		moon = {
+			name = "Constancia Va"
+			class = lotor_rl_uninhabitable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+		moon = {
+			name = "Constancia Vb"
+			class = lotor_rl_uninhabitable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+		moon = {
+			name = "Constancia Vc"
+			class = lotor_rl_uninhabitable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+		moon = {
+			name = "Constancia Vd"
+			class = lotor_rl_uninhabitable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+	}
+	planet = {
+		name = "Constancia VI"
+		class = pc_frozen
+		orbit_distance = 60
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 10 max = 15 }
+	}
+}

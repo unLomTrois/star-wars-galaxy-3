@@ -12,3 +12,18 @@ sc_binary_g_g = {
 	}
 	spawn_odds = 0
 }
+
+# Cyan-Cyan Binary
+sc_binary_a_a = {
+	class = a_star
+	icon = a_binary_star
+	planet = {
+		key = pc_a_star
+		class = a_star
+	}
+	planet = {
+		key = pc_a_star
+		class = a_star
+	}
+	spawn_odds = 0
+}

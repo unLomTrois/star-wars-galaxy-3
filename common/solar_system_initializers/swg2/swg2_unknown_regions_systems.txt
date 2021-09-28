@@ -355,11 +355,577 @@ yashuvhu_system_initializer = {
 	}
 }
 
+yoggoy_system_initializer = {
+	name = "Yoggoy"
+	class = "sc_f"
+
+	asteroid_belt = {
+		type = rocky_asteroid_belt
+		radius = 145
+	}
+	planet = {
+		name = "Yoggoy"
+		class = star
+		orbit_distance = 0
+		size = { min = 30 max = 35 }
+	}
+	change_orbit = @base_planet_dist
+	planet = {
+		name = "Yoggoy I"
+		class = lotor_rl_uninhabitable
+		orbit_distance = 30
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 10 max = 15 }
+		has_ring = no
+		change_orbit = @base_moon_dist
+	}
+	planet = {
+		name = "Yoggoy II"
+		class = lotor_rl_uninhabitable
+		orbit_distance = 30
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 10 max = 15 }
+		has_ring = no
+		change_orbit = @base_moon_dist
+		moon = {
+			name = "Yoggoy II Minor"
+			class = lotor_rl_uninhabitable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+	}
+	planet = {
+		name = "Yoggoy"
+		class = pc_wetswamp
+		orbit_distance = 30
+		orbit_angle = { min = 90 max = 270 }
+		size = @capital_size
+		has_ring = no
+		change_orbit = @base_moon_dist
+	}
+	planet = {
+		name = "Yoggoy IV"
+		class = lotor_rl_uninhabitable
+		orbit_distance = 30
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 10 max = 15 }
+		has_ring = no
+		change_orbit = @base_moon_dist
+		moon = {
+			name = "Yoggoy IV Minor"
+			class = lotor_rl_uninhabitable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+	}
+	planet = {
+		name = "Yoggoy V"
+		class = lotor_rl_uninhabitable
+		orbit_distance = 30
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 10 max = 15 }
+		has_ring = no
+		change_orbit = @base_moon_dist
+	}
+	planet = {
+		name = "Yoggoy VI"
+		class = lotor_rl_gas_giants
+		orbit_distance = 60
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 25 max = 30 }
+		change_orbit = @base_moon_dist
+		moon = {
+			name = "Yoggoy VIa"
+			class = lotor_rl_uninhabitable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+		moon = {
+			name = "Yoggoy VIb"
+			class = lotor_rl_uninhabitable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+		moon = {
+			name = "Yoggoy VIc"
+			class = lotor_rl_uninhabitable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+		moon = {
+			name = "Yoggoy VId"
+			class = lotor_rl_uninhabitable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+		moon = {
+			name = "Yoggoy VIe"
+			class = lotor_rl_uninhabitable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+		moon = {
+			name = "Yoggoy VIf"
+			class = lotor_rl_uninhabitable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+	}
+	planet = {
+		name = "Yoggoy VII"
+		class = pc_frozen
+		orbit_distance = 30
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 10 max = 15 }
+		has_ring = no
+		change_orbit = @base_moon_dist
+		moon = {
+			name = "Yoggoy VII Major"
+			class = lotor_rl_uninhabitable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+		moon = {
+			name = "Yoggoy VII Minor"
+			class = lotor_rl_uninhabitable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+	}
+}
+
+nettehi_system_initializer = {
+	name = "Nettehi"
+	class = "sc_g"
+
+	planet = {
+		name = "Nettehi"
+		class = star
+		orbit_distance = 0
+		size = { min = 30 max = 35 }
+	}
+	change_orbit = @base_planet_dist
+	planet = {
+		name = "Nettehi I"
+		class = pc_hothouse
+		orbit_distance = 30
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 10 max = 15 }
+		has_ring = no
+		change_orbit = @base_moon_dist
+	}
+	planet = {
+		name = "Nettehi II"
+		class = pc_barren
+		orbit_distance = 30
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 10 max = 15 }
+		has_ring = no
+		change_orbit = @base_moon_dist
+	}
+	planet = {
+		name = "Nettehi III"
+		class = pc_barren
+		orbit_distance = 30
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 10 max = 15 }
+		has_ring = no
+		change_orbit = @base_moon_dist
+		moon = {
+			name = "Nettehi IIIa"
+			class = lotor_rl_uninhabitable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+		moon = {
+			name = "Nettehi IIIb"
+			class = lotor_rl_uninhabitable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+	}
+	planet = {
+		name = "Nettehi"
+		class = pc_karst
+		orbit_distance = 30
+		orbit_angle = { min = 90 max = 270 }
+		size = @capital_size
+		has_ring = no
+		change_orbit = @base_moon_dist
+	}
+	asteroid_belt = {
+		type = rocky_asteroid_belt
+		radius = 185
+	}
+	planet = {
+		name = "Nettehi V"
+		class = lotor_rl_gas_giants
+		orbit_distance = 120
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 25 max = 30 }
+		change_orbit = @base_moon_dist
+		moon = {
+			name = "Nettehi Va"
+			class = lotor_rl_uninhabitable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+		moon = {
+			name = "Nettehi Vb"
+			class = lotor_rl_uninhabitable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+		moon = {
+			name = "Nettehi Vc"
+			class = lotor_rl_uninhabitable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+		moon = {
+			name = "Nettehi Vd"
+			class = lotor_rl_uninhabitable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+		moon = {
+			name = "Nettehi Ve"
+			class = lotor_rl_uninhabitable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+	}
+	planet = {
+		name = "Nettehi VI"
+		class = lotor_rl_gas_giants
+		orbit_distance = 60
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 25 max = 30 }
+		change_orbit = @base_moon_dist
+		moon = {
+			name = "Nettehi VIa"
+			class = lotor_rl_uninhabitable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+		moon = {
+			name = "Nettehi VIb"
+			class = lotor_rl_uninhabitable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+	}
+	planet = {
+		name = "Nettehi VII"
+		class = pc_frozen
+		orbit_distance = 60
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 10 max = 15 }
+		has_ring = no
+		change_orbit = @base_moon_dist
+	}
+}
+
+rapacc_system_initializer = {
+	name = "Rapacc"
+	class = "sc_k"
+
+	planet = {
+		name = "Rapacc"
+		class = star
+		orbit_distance = 0
+		size = { min = 30 max = 35 }
+	}
+	change_orbit = @base_planet_dist
+	planet = {
+		name = "Rapacc I"
+		class = pc_molten
+		orbit_distance = 30
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 10 max = 15 }
+		has_ring = no
+		change_orbit = @base_moon_dist
+	}
+	planet = {
+		name = "Rapacc II"
+		class = pc_barren
+		orbit_distance = 30
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 10 max = 15 }
+		has_ring = no
+		change_orbit = @base_moon_dist
+	}
+	planet = {
+		name = "Rapacc"
+		class = pc_tropical
+		orbit_distance = 30
+		orbit_angle = { min = 90 max = 270 }
+		size = @capital_size
+		has_ring = no
+		change_orbit = @base_moon_dist
+	}
+	planet = {
+		name = "Rapacc IV"
+		class = pc_barren
+		orbit_distance = 30
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 10 max = 15 }
+		has_ring = no
+		change_orbit = @base_moon_dist
+		moon = {
+			name = "Rapacc IVa"
+			class = lotor_rl_uninhabitable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+	}
+	planet = {
+		name = "Rapacc V"
+		class = lotor_rl_gas_giants
+		orbit_distance = 60
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 25 max = 30 }
+		change_orbit = @base_moon_dist
+		moon = {
+			name = "Rapacc Va"
+			class = lotor_rl_uninhabitable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+		moon = {
+			name = "Rapacc Vb"
+			class = lotor_rl_uninhabitable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+		moon = {
+			name = "Rapacc Vc"
+			class = lotor_rl_uninhabitable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+	}
+	planet = {
+		name = "Rapacc VI"
+		class = lotor_rl_gas_giants
+		orbit_distance = 60
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 25 max = 30 }
+		change_orbit = @base_moon_dist
+		moon = {
+			name = "Rapacc VIa"
+			class = lotor_rl_uninhabitable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+		moon = {
+			name = "Rapacc VIb"
+			class = lotor_rl_uninhabitable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+		moon = {
+			name = "Rapacc VIc"
+			class = lotor_rl_uninhabitable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+		moon = {
+			name = "Rapacc VId"
+			class = lotor_rl_uninhabitable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+		moon = {
+			name = "Rapacc VIe"
+			class = lotor_rl_uninhabitable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+	}
+	planet = {
+		name = "Rapacc VII"
+		class = pc_frozen
+		orbit_distance = 60
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 10 max = 15 }
+		has_ring = no
+		change_orbit = @base_moon_dist
+	}
+}
+
+primea_system_initializer = {
+	name = "Primea"
+	class = "sc_g"
+
+	planet = {
+		name = "Primea"
+		class = star
+		orbit_distance = 0
+		size = { min = 30 max = 35 }
+	}
+	change_orbit = @base_planet_dist
+	planet = {
+		name = "Primea I"
+		class = pc_hothouse
+		orbit_distance = 30
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 10 max = 15 }
+		has_ring = no
+		change_orbit = @base_moon_dist
+		moon = {
+			name = "Primea Ia"
+			class = lotor_rl_uninhabitable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+	}
+	planet = {
+		name = "Primea"
+		class = pc_oasis
+		orbit_distance = 30
+		orbit_angle = { min = 90 max = 270 }
+		size = @capital_size
+		has_ring = no
+		change_orbit = @base_moon_dist
+	}
+	planet = {
+		name = "Primea IV"
+		class = pc_barren
+		orbit_distance = 60
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 10 max = 15 }
+		has_ring = yes
+		change_orbit = @base_moon_dist
+	}
+	planet = {
+		name = "Primea V"
+		class = lotor_rl_gas_giants
+		orbit_distance = 60
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 25 max = 30 }
+		change_orbit = @base_moon_dist
+		moon = {
+			name = "Primea Va"
+			class = lotor_rl_uninhabitable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+		moon = {
+			name = "Primea Vb"
+			class = lotor_rl_uninhabitable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+		moon = {
+			name = "Primea Vc"
+			class = lotor_rl_uninhabitable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+		moon = {
+			name = "Primea Vd"
+			class = lotor_rl_uninhabitable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+		moon = {
+			name = "Primea Ve"
+			class = lotor_rl_uninhabitable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+		moon = {
+			name = "Primea Vf"
+			class = lotor_rl_uninhabitable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+		moon = {
+			name = "Primea Vg"
+			class = lotor_rl_uninhabitable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+		moon = {
+			name = "Primea Vh"
+			class = lotor_rl_uninhabitable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+		moon = {
+			name = "Primea Vi"
+			class = lotor_rl_uninhabitable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+	}
+	planet = {
+		name = "Primea VI"
+		class = pc_barren_cold
+		orbit_distance = 60
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 10 max = 15 }
+		has_ring = no
+		change_orbit = @base_moon_dist
+	}
+	planet = {
+		name = "Primea VII"
+		class = pc_frozen
+		orbit_distance = 30
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 10 max = 15 }
+		has_ring = no
+		change_orbit = @base_moon_dist
+	}
+}
+
 # Tulpaa
 tulpaa_system_initializer = {
 	name = "Tulpaa"
 	class = "sc_k"
-	flags = { tulpaa_system }
+	flags = { unknown_regions_system }
+	init_effect = {
+		save_global_event_target_as = tulpaa_system
+	}
 
 	planet = {
 		name = "Tulpaa"
@@ -369,14 +935,549 @@ tulpaa_system_initializer = {
 	}
 	change_orbit = @base_planet_dist
 	planet = {
-		name = "Tulpaa"
-		class = pc_subarctic
-		orbit_distance = 120
+		name = "Tulpaa I"
+		class = lotor_rl_gas_giants
+		orbit_distance = 60
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 25 max = 30 }
+		change_orbit = @base_moon_dist
+		moon = {
+			name = "Tulpaa Ia"
+			class = lotor_rl_uninhabitable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+		moon = {
+			name = "Tulpaa Ib"
+			class = lotor_rl_uninhabitable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+		moon = {
+			name = "Tulpaa Ic"
+			class = lotor_rl_uninhabitable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+		moon = {
+			name = "Tulpaa Id"
+			class = lotor_rl_uninhabitable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+		moon = {
+			name = "Tulpaa Ie"
+			class = lotor_rl_uninhabitable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+	}
+	planet = {
+		name = "Tulpaa II"
+		class = lotor_rl_uninhabitable
+		orbit_distance = 60
 		orbit_angle = { min = 90 max = 270 }
 		size = { min = 10 max = 15 }
-		modifiers = none
 		has_ring = no
-		flags = { tulpaa_planet }
+		change_orbit = @base_moon_dist
+	}
+	planet = {
+		name = "Tulpaa"
+		class = pc_subarctic
+		orbit_distance = 30
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 10 max = 15 }
+		has_ring = no
+		change_orbit = @base_moon_dist
+	}
+
+	planet = {
+		name = "Tulpaa IV"
+		class = lotor_rl_uninhabitable
+		orbit_distance = 30
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 10 max = 15 }
+		has_ring = no
+		change_orbit = @base_moon_dist
+	}
+}
+
+naporar_system_initializer = {
+	name = "Naporar"
+	class = "sc_f"
+	init_effect = {
+		save_global_event_target_as = naporar_system
+	}
+
+	planet = {
+		name = "Csaus"
+		class = star
+		orbit_distance = 0
+		size = { min = 30 max = 35 }
+	}
+	change_orbit = @base_planet_dist
+	planet = {
+		name = "Naporar I"
+		class = lotor_rl_uninhabitable
+		orbit_distance = 30
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 10 max = 15 }
+		has_ring = no
+		change_orbit = @base_moon_dist
+	}
+	planet = {
+		name = "Naporar II"
+		class = lotor_rl_uninhabitable
+		orbit_distance = 30
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 10 max = 15 }
+		has_ring = no
+		change_orbit = @base_moon_dist
+	}
+	planet = {
+		name = "Naporar"
+		class = pc_subarctic
+		orbit_distance = 30
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 10 max = 15 }
+		has_ring = no
+		change_orbit = @base_moon_dist
+	}
+	planet = {
+		name = "Naporar IV"
+		class = lotor_rl_gas_giants
+		orbit_distance = 60
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 25 max = 30 }
+		change_orbit = @base_moon_dist
+		moon = {
+			name = "Naporar IVa"
+			class = lotor_rl_uninhabitable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+		moon = {
+			name = "Naporar IVb"
+			class = lotor_rl_uninhabitable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+		moon = {
+			name = "Naporar IVc"
+			class = lotor_rl_uninhabitable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+		moon = {
+			name = "Naporar IVd"
+			class = lotor_rl_uninhabitable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+		moon = {
+			name = "Naporar IVg"
+			class = lotor_rl_uninhabitable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+	}
+	planet = {
+		name = "Naporar V"
+		class = pc_frozen
+		orbit_distance = 60
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 10 max = 15 }
+		has_ring = no
+		change_orbit = @base_moon_dist
+	}
+}
+
+plunder_moon_system_initializer = {
+	name = "Plunder Moon"
+	class = "sc_black_hole"
+	init_effect = {
+		save_global_event_target_as = plunder_moon_system
+	}
+
+	asteroid_belt = {
+		type = rocky_asteroid_belt
+		radius = 180
+	}
+	planet = {
+		name = "Plunder Abyss"
+		class = star
+		orbit_distance = 0
+		size = { min = 30 max = 35 }
+	}
+	change_orbit = @base_planet_dist
+	planet = {
+		name = "Plunder"
+		class = pc_barren_cold
+		orbit_distance = 100
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 10 max = 15 }
+		has_ring = no
+		change_orbit = @base_moon_dist
+		moon = {
+			name = "Plunder Moon"
+			class = pc_geothermal
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 7 max = 10 }
+		}
+	}
+}
+
+rhigar_system_initializer = {
+	name = "Rhigar"
+	class = "sc_f"
+	init_effect = {
+		save_global_event_target_as = rhigar_system
+	}
+
+	planet = {
+		name = "Rhigar"
+		class = star
+		orbit_distance = 0
+		size = { min = 30 max = 35 }
+	}
+	change_orbit = @base_planet_dist
+	planet = {
+		name = "Rhigar I"
+		class = lotor_rl_uninhabitable
+		orbit_distance = 30
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 10 max = 15 }
+		has_ring = no
+		change_orbit = @base_moon_dist
+	}
+	planet = {
+		name = "Rhigar II"
+		class = lotor_rl_uninhabitable
+		orbit_distance = 30
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 10 max = 15 }
+		has_ring = no
+		change_orbit = @base_moon_dist
+	}
+	planet = {
+		name = "Rhigar"
+		class = pc_frozen_desert
+		orbit_distance = 30
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 10 max = 15 }
+		has_ring = no
+		change_orbit = @base_moon_dist
+		moon = {
+			name = "Rhigar 1"
+			class = pc_forest
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+		moon = {
+			name = "Asdroni"
+			class = pc_barren_cold
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+		moon = {
+			name = "Rhigar 3"
+			class = pc_ocean
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+	}
+	planet = {
+		name = "Rhigar IV"
+		class = lotor_rl_gas_giants
+		orbit_distance = 60
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 25 max = 30 }
+		change_orbit = @base_moon_dist
+		moon = {
+			name = "Rhigar IVa"
+			class = lotor_rl_uninhabitable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+		moon = {
+			name = "Rhigar IVb"
+			class = lotor_rl_uninhabitable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+		moon = {
+			name = "Rhigar IVc"
+			class = lotor_rl_uninhabitable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+		moon = {
+			name = "Rhigar IVd"
+			class = lotor_rl_uninhabitable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+		moon = {
+			name = "Rhigar IVg"
+			class = lotor_rl_uninhabitable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+	}
+	planet = {
+		name = "Rhigar V"
+		class = pc_frozen
+		orbit_distance = 60
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 10 max = 15 }
+		has_ring = no
+		change_orbit = @base_moon_dist
+	}
+}
+
+crustai_system_initializer = {
+	name = "Crustai"
+	class = "sc_f"
+
+	planet = {
+		name = "Crustai"
+		class = star
+		orbit_distance = 0
+		size = { min = 30 max = 35 }
+		change_orbit = @base_planet_dist
+	}
+	
+	planet = {
+		name = "Crustai I"
+		class = lotor_rl_uninhabitable
+		orbit_distance = 40
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 10 max = 15 }
+		has_ring = no
+		change_orbit = @base_moon_dist
+		moon = {
+			name = "Crustai Ia"
+			class = lotor_rl_uninhabitable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+	}
+	planet = {
+		name = "Crustai II"
+		class = lotor_rl_uninhabitable
+		orbit_distance = 40
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 10 max = 15 }
+		has_ring = no
+		change_orbit = @base_moon_dist
+		moon = {
+			name = "Crustai IIa"
+			class = lotor_rl_uninhabitable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+		moon = {
+			name = "Crustai IIb"
+			class = lotor_rl_uninhabitable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+		moon = {
+			name = "Crustai IIc"
+			class = lotor_rl_uninhabitable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+	}
+	planet = {
+		name = "Crustai"
+		class = pc_glacial
+		orbit_distance = 40
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 10 max = 15 }
+		has_ring = no
+		change_orbit = @base_moon_dist
+	}
+	planet = {
+		name = "Crustai IV"
+		class = lotor_rl_uninhabitable
+		orbit_distance = 40
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 10 max = 15 }
+		has_ring = yes
+		change_orbit = @base_moon_dist
+		moon = {
+			name = "Crustai IVa"
+			class = lotor_rl_uninhabitable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+		moon = {
+			name = "Crustai IVb"
+			class = lotor_rl_uninhabitable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+		moon = {
+			name = "Crustai IVc"
+			class = lotor_rl_uninhabitable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+		moon = {
+			name = "Crustai IVd"
+			class = lotor_rl_uninhabitable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+		moon = {
+			name = "Crustai IVe"
+			class = lotor_rl_uninhabitable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+	}
+}
+
+crakull_system_initializer = {
+	name = "Crakull"
+	class = "sc_g"
+
+	planet = {
+		name = "Crakull"
+		class = star
+		orbit_distance = 0
+		size = { min = 30 max = 35 }
+	}
+	change_orbit = @base_planet_dist
+	planet = {
+		name = "Crakull I"
+		class = lotor_rl_uninhabitable
+		orbit_distance = 30
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 10 max = 15 }
+		has_ring = no
+		change_orbit = @base_moon_dist
+	}
+	planet = {
+		name = "Crakull II"
+		class = lotor_rl_uninhabitable
+		orbit_distance = 30
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 10 max = 15 }
+		has_ring = no
+		change_orbit = @base_moon_dist
+		moon = {
+			name = "Crakull II Minor"
+			class = lotor_rl_uninhabitable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+	}
+	planet = {
+		name = "Crakull III"
+		class = lotor_rl_uninhabitable
+		orbit_distance = 30
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 10 max = 15 }
+		has_ring = no
+		change_orbit = @base_moon_dist
+		moon = {
+			name = "Crakull III Minor"
+			class = lotor_rl_uninhabitable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+	}
+	planet = {
+		name = "Crakull"
+		class = pc_glacial
+		orbit_distance = 30
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 10 max = 15 }
+		has_ring = no
+		change_orbit = @base_moon_dist
+	}
+	planet = {
+		name = "Crakull V"
+		class = lotor_rl_gas_giants
+		orbit_distance = 60
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 25 max = 30 }
+		change_orbit = @base_moon_dist
+		moon = {
+			name = "Crakull Va"
+			class = lotor_rl_uninhabitable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+		moon = {
+			name = "Crakull Vb"
+			class = lotor_rl_uninhabitable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+		moon = {
+			name = "Crakull Vc"
+			class = lotor_rl_uninhabitable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+		moon = {
+			name = "Crakull Vd"
+			class = lotor_rl_uninhabitable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+		moon = {
+			name = "Crakull Ve"
+			class = lotor_rl_uninhabitable
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = { min = 2 max = 4 }
+		}
+	}
+	planet = {
+		name = "Crakull VI"
+		class = lotor_rl_uninhabitable
+		orbit_distance = 60
+		orbit_angle = { min = 90 max = 270 }
+		size = { min = 10 max = 15 }
+		has_ring = no
 		change_orbit = @base_moon_dist
 	}
 }

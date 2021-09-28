@@ -1,0 +1,39 @@
+random_list = {
+	name = "rl_unhabitable_normal_planets"
+	planets = {
+		"pc_molten"
+		"pc_barren"
+		"pc_barren_cold"
+		"pc_toxic"
+		"pc_frozen"
+		"pc_hothouse"
+	}
+}
+
+random_list = {
+	name = "lotor_rl_uninhabitable"
+	planets = {
+		"pc_molten"
+		"pc_barren"
+		"pc_barren_cold"
+		"pc_toxic"
+		"pc_frozen"
+		"pc_hothouse"
+		"pc_iron"
+		"pc_carbon"
+		"pc_subglacial"
+		"pc_hydrocarbon"
+		"pc_ethane_ocean"
+		"pc_diamond"
+		"pc_volcanic"
+	}
+}
+
+random_list = {
+	name = "lotor_rl_gas_giants"
+	planets = {
+		"pc_gas_giant"
+		"pc_hot_gas_giant"
+		"pc_cold_gas_giant"
+	}
+}

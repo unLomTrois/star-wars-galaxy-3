@@ -15,7 +15,7 @@ fallen_1 = {
 	usage_odds = {
 		base = 0
 		modifier = {
-			add = 500
+			add = 300
 			num_fallen_empires_setting > 0
 			NOT = { has_star_flag = empire_cluster }
 		}
@@ -305,7 +305,7 @@ fallen_2 = {
 	usage_odds = {
 		base = 0
 		modifier = {
-			add = 500
+			add = 300
 			num_fallen_empires_setting > 1
 			NOT = { has_star_flag = empire_cluster }
 		}
@@ -559,7 +559,7 @@ fallen_3 = {
 	usage_odds = {
 		base = 0
 		modifier = {
-			add = 500
+			add = 300
 			num_fallen_empires_setting > 4
 			NOT = { has_star_flag = empire_cluster }
 		}
@@ -801,7 +801,7 @@ fallen_4 = {
 	usage_odds = {
 		base = 0
 		modifier = {
-			add = 500
+			add = 300
 			num_fallen_empires_setting > 3
 			NOT = { has_star_flag = empire_cluster }
 		}
@@ -2097,7 +2097,7 @@ fallen_machine = {
 	usage_odds = {
 		base = 0
 		modifier = {
-			add = 500
+			add = 300
 			num_fallen_empires_setting > 2
 			NOT = { has_star_flag = empire_cluster }
 		}
