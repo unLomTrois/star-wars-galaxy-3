@@ -825,7 +825,7 @@ static_galaxy_scenario = {
 	system = { id = "2656" name = "Ossus" position = { x = -209 y = -137 } }
 	system = { id = "2667" name = "Voss" position = { x = -223 y = -150 } initializer = voss_system_initializer }
 	system = { id = "2683" name = "Atollon" position = { x = -277 y = -125 } initializer = atollon_system_initializer }
-	system = { id = "2700" name = "Raxus" position = { x = -229 y = -164 } initializer = raxus_system_initializer }
+	system = { id = "2700" name = "Raxus" position = { x = -229 y = -164 } initializer = raxus_system_initializer spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_raxus_prime } } }
 	# Free ids up to 2750 
 
 	add_hyperlane = { from = "2631" to = "2464" }

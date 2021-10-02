@@ -475,6 +475,13 @@ country_event = {
 				}
 			}
 			else_if = {
+				limit = { pop_has_trait = swg2_trait_raxus_prime }
+				modify_species = {
+					species = this
+					remove_trait = swg2_trait_raxus_prime
+				}
+			}
+			else_if = {
 				limit = { pop_has_trait = swg2_trait_ryloth }
 				modify_species = {
 					species = this

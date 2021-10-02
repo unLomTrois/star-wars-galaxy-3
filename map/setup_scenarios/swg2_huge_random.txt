@@ -3242,7 +3242,7 @@ static_galaxy_scenario = {
 	system = { id = "2697" name = "Eredenn Prime" position = { x = -398 y = -250 } }
 	system = { id = "2698" name = "Rudrig" position = { x = -393 y = -264 } }
 	system = { id = "2699" name = "Tion" position = { x = -384 y = -273 } }
-	system = { id = "2700" name = "Raxus Prime" position = { x = -382 y = -274 } }
+	system = { id = "2700" name = "Raxus" position = { x = -382 y = -274 } initializer = random_ryloth_init spawn_weight = { base = 2 modifier = { add = 100 has_trait = swg2_trait_raxus_prime } } }
 	system = { id = "2701" name = "Endregaad" position = { x = -376 y = -276 } }
 	system = { id = "2702" name = "Dalos" position = { x = -393 y = -293 } }
 	# Free ids up to 2750

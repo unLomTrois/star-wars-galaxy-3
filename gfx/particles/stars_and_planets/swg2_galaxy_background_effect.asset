@@ -1,0 +1,71 @@
+particle = {
+	name = "swg2_galaxy_particle"
+	subsystem = {
+		name = "swg2_galaxy_background"
+		max_amount = 1
+		slave_particles = 0
+		sort = "depth"
+		emitter_type = "point"
+		invert = no
+		trail = no
+		local_space = yes
+		billboard = no
+		hide = no
+		texture = {
+			file = "gfx/particles/swg2_galaxy_background.dds"
+			x = 1
+			y = 1
+			shader = "ParticleAdditive"
+		}
+		color = {
+			alpha = 30.000
+		}
+		position = {
+			x = 0.000
+			y = -1.000
+			z = 0.000
+		}
+		start = 0.000
+		duration = -1.000
+		life = 999.000
+		emission = 1.000
+		size = 350.000
+		particle_pitch = 90.000
+	}
+}
+
+particle = {
+	name = "swg2_galaxy_regions_particle"
+	subsystem = {
+		name = "swg2_galaxy_regions_background"
+		max_amount = 1
+		slave_particles = 0
+		sort = "depth"
+		emitter_type = "point"
+		invert = no
+		trail = no
+		local_space = yes
+		billboard = no
+		hide = no
+		texture = {
+			file = "gfx/particles/swg2_galaxy_regions.dds"
+			x = 1
+			y = 1
+			shader = "ParticleAdditive"
+		}
+		color = {
+			alpha = 30.000
+		}
+		position = {
+			x = 15.000
+			y = -1.000
+			z = 0.000
+		}
+		start = 0.000
+		duration = -1.000
+		life = 999.000
+		emission = 1.000
+		size = 350.000
+		particle_pitch = 90.000
+	}
+}

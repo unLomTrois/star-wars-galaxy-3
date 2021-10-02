@@ -62,6 +62,7 @@ country_event = {
 				zakuul_system = { zakuul_fix = yes }
 				csilla_system = { csilla_fix = yes }
 				lehon_system = { lehon_fix = yes }
+				raxus_system = { raxus_fix = yes }
 			}
 		}
 	}
@@ -292,6 +293,12 @@ country_event = {
 			set_name = "Nal Hutta"
 			solar_system = {
 				set_name = "Y'Toub"
+			}
+		}
+		event_target:random_planet_raxus = {
+			set_name = "Raxus Prime"
+			solar_system = {
+				set_name = "Raxus"
 			}
 		}
 		event_target:random_planet_ryloth = {

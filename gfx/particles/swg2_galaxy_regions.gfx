@@ -1,0 +1,7 @@
+objectTypes = {
+	pdxparticle = {
+		name = "swg2_galaxy_regions_particle"
+		type = "swg2_galaxy_regions_particle"
+		scale = 10
+	}
+}

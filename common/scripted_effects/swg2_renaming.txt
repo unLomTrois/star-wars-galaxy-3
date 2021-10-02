@@ -1241,3 +1241,16 @@ lehon_fix = {
 		}
 	}
 }
+
+raxus_fix = {
+	set_name = "Raxus"
+	every_system_planet = {
+		switch = {
+			trigger = has_planet_flag
+			raxus_star = { set_name = "Raxus" }
+			raxus_raxus_prime = { set_name = "Raxus Prime" }
+			raxus_raxus_2 = { set_name = "Raxus II" }
+			raxus_raxus = { set_name = "Raxus Secundus" }
+		}
+	}
+}
